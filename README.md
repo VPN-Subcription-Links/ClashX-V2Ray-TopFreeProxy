@@ -11,7 +11,7 @@ Feel free to submit an [Issue](https://github.com/WilliamStar007/clash-vpn/issue
 # Table of Contents
 * [Installation](#installation)
 * [Subscription Links](#subscription-links)
-* [Node Pool](#node-pool)
+* [Setup (for macOS)](#setup-for-macos)
 * [Credit](#credit)
 * [Disclaimer](#disclaimer)
 
@@ -36,9 +36,16 @@ Feel free to submit an [Issue](https://github.com/WilliamStar007/clash-vpn/issue
 * Ermaozi: https://raw.githubusercontent.com/ermaozi/get_subscribe/main/subscribe/clash.yml ★
 * Xrayfree: https://tt.vg/freeclash
 
-## Node Pool
+**Free Node Pool**
 * BiHai: https://proxies.bihai.cf ★
 * LonXin: https://fq.lonxin.net
+
+## Setup (for macOS)
+1. Click **ClashX icon** in the status bar (macOS)
+2. Click **Config** and then **Remote Config**
+3. Click **Manage** and then **Add**
+4. Paste a [Subscription Link](#subscription-links) to the **url** field
+
 
 ## Credit
 NodeFree (https://nodefree.org)  

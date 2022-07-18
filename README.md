@@ -5,10 +5,10 @@
   <br>
 </h1>
 
-Tutorial for setting up a [ClashX](https://github.com/yichengchen/clashX) proxy with free subscription links.
+Tutorial for setting up a [ClashX](https://github.com/yichengchen/clashX) proxy with free subscription links.  
+Feel free to submit an [Issue](https://github.com/WilliamStar007/clash-vpn/issues) or make a [Pull Request](https://github.com/WilliamStar007/clash-vpn/pulls)!
 
 # Table of Contents
-
 * [Installation](#installation)
 * [Subscription Links](#subscription-links)
 * [Node Pool](#node-pool)
@@ -16,23 +16,28 @@ Tutorial for setting up a [ClashX](https://github.com/yichengchen/clashX) proxy 
 * [Disclaimer](#disclaimer)
 
 ## Installation
-* Download **ClashX** from the [Release](https://github.com/yichengchen/clashX/releases) page.
+**Clash**
+* Download **Clash** from [Clash Release](https://github.com/Dreamacro/clash/releases) page.
 * Download **Clash for Windows** from [CFW Release](https://github.com/Fndroid/clash_for_windows_pkg/releases) page.
+
+**ClashX ★**
+* Download **ClashX** from [ClashX Release](https://github.com/yichengchen/clashX/releases) page.
 * Download **ClashX Pro** with enhanced mode and native Apple Silicon support at [AppCenter](https://install.appcenter.ms/users/clashx/apps/clashx-pro/distribution_groups/public).
 
-## Subscription Links
-**Modify the date in the links (if any) to the current date!!**
 
-* NodeFree: https://nodefree.org/dy/202207/20220718.yaml ★(recommended)
+## Subscription Links
+**Modify the date (if any) in the links to the current date!!**
+
+* NodeFree: https://nodefree.org/dy/202207/20220718.yaml ★
 * Anaer: https://raw.githubusercontent.com/anaer/Sub/main/clash.yaml
 * Pojiezhiyuanjun: https://raw.githubusercontent.com/pojiezhiyuanjun/freev2/master/0718clash.yml
 * Oslook: https://raw.githubusercontent.com/oslook/clash-freenode/main/clash.yaml
 * Gooooooooooooogle: https://raw.githubusercontent.com/gooooooooooooogle/Clash-Config/main/Clash.yaml
-* Ermaozi: https://raw.githubusercontent.com/ermaozi/get_subscribe/main/subscribe/clash.yml ★(recommended)
+* Ermaozi: https://raw.githubusercontent.com/ermaozi/get_subscribe/main/subscribe/clash.yml ★
 * Xrayfree: https://tt.vg/freeclash
 
 ## Node Pool
-* BiHai: https://proxies.bihai.cf ★(recommended)
+* BiHai: https://proxies.bihai.cf ★
 * LonXin: https://fq.lonxin.net
 
 ## Credit

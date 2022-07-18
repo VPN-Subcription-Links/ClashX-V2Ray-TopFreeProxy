@@ -15,6 +15,7 @@ Feel free to submit an [Issue](https://github.com/WilliamStar007/clash-vpn/issue
 * [Credit](#credit)
 * [Disclaimer](#disclaimer)
 
+
 ## Installation
 **Clash**
 * Download **Clash** from [Clash Release](https://github.com/Dreamacro/clash/releases) page.
@@ -24,12 +25,11 @@ Feel free to submit an [Issue](https://github.com/WilliamStar007/clash-vpn/issue
 * Download **ClashX** from [ClashX Release](https://github.com/yichengchen/clashX/releases) page.
 * Download **ClashX Pro** with enhanced mode and native Apple Silicon support at [AppCenter](https://install.appcenter.ms/users/clashx/apps/clashx-pro/distribution_groups/public).
 
-
 ## Subscription Links
 **Modify the date (if any) in the links to the current date!!**
 
 * NodeFree: https://nodefree.org/dy/202207/20220718.yaml ★
-* Anaer: https://raw.githubusercontent.com/anaer/Sub/main/clash.yaml
+* Anaer: https://raw.githubusercontent.com/anaer/Sub/main/clash.yaml ★
 * Pojiezhiyuanjun: https://raw.githubusercontent.com/pojiezhiyuanjun/freev2/master/0718clash.yml
 * Oslook: https://raw.githubusercontent.com/oslook/clash-freenode/main/clash.yaml
 * Gooooooooooooogle: https://raw.githubusercontent.com/gooooooooooooogle/Clash-Config/main/Clash.yaml
@@ -45,7 +45,7 @@ Feel free to submit an [Issue](https://github.com/WilliamStar007/clash-vpn/issue
 2. Click **Config** and then **Remote Config**
 3. Click **Manage** and then **Add**
 4. Paste a [Subscription Link](#subscription-links) to the **url** field
-
+5. Click "OK"
 
 ## Credit
 NodeFree (https://nodefree.org)  

@@ -5,7 +5,7 @@
   <br>
 </h1>
 
-Tutorial for setting up a [ClashX](https://github.com/yichengchen/clashX) proxy with free nodes.
+Tutorial for setting up a [ClashX](https://github.com/yichengchen/clashX) proxy with free subscription links.
 
 # Table of Contents
 

@@ -6,7 +6,7 @@
 </h1>
 
 Tutorial for setting up a [ClashX](https://github.com/yichengchen/clashX) proxy with free subscription links.  
-Feel free to submit an [Issue](https://github.com/WilliamStar007/clash-vpn/issues) or make a [Pull Request](https://github.com/WilliamStar007/clash-vpn/pulls)!
+Feel free to submit an [Issue](https://github.com/WilliamStar007/ClashX-TopFreeProxy/issues) or make a [Pull Request](https://github.com/WilliamStar007/ClashX-TopFreeProxy/pulls)!
 
 # Table of Contents
 * [Installation](#installation)

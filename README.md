@@ -15,7 +15,6 @@ Feel free to submit an [Issue](https://github.com/WilliamStar007/clash-vpn/issue
 * [Credit](#credit)
 * [Disclaimer](#disclaimer)
 
-
 ## Installation
 **Clash**
 * Download **Clash** from [Clash Release](https://github.com/Dreamacro/clash/releases) page.
@@ -41,11 +40,14 @@ Feel free to submit an [Issue](https://github.com/WilliamStar007/clash-vpn/issue
 * LonXin: https://fq.lonxin.net
 
 ## Setup (for macOS)
-1. Click **ClashX icon** in the status bar (macOS)
-2. Click **Config** and then **Remote Config**
-3. Click **Manage** and then **Add**
-4. Paste a [Subscription Link](#subscription-links) to the **url** field
-5. Click "OK"
+1. Open **ClashX**
+2. Click **ClashX icon** in the status bar
+3. Click **Config** and then **Remote Config**
+4. Click **Manage** and then **Add**
+5. Paste a **[Subscription Link](#subscription-links)** to the **url** field
+6. **OK!!** (manually select a node if necessary)
+
+https://user-images.githubusercontent.com/89805831/179545223-69177f8e-5f2d-4bd3-ba27-b68018418e5a.mp4
 
 ## Credit
 NodeFree (https://nodefree.org)  

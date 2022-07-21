@@ -13,7 +13,7 @@ For a tutorial in Chinese see [中文版教程](https://github.com/WilliamStar00
 * [Installation](#installation)
 * [Subscription Links](#subscription-links)
 * [Setup (for macOS)](#setup-for-macos)
-* [Credit](#credit)
+* [Credits](#credits)
 * [Disclaimer](#disclaimer)
 
 ## Installation
@@ -50,7 +50,7 @@ For a tutorial in Chinese see [中文版教程](https://github.com/WilliamStar00
 
 https://user-images.githubusercontent.com/89805831/179545223-69177f8e-5f2d-4bd3-ba27-b68018418e5a.mp4
 
-## Credit
+## Credits
 NodeFree (https://nodefree.org)  
 Anaer/Sub (https://github.com/anaer/Sub)  
 Pojiezhiyuanjun (https://github.com/pojiezhiyuanjun/freev2)  

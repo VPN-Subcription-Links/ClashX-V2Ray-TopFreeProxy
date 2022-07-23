@@ -52,7 +52,7 @@ https://user-images.githubusercontent.com/89805831/179545223-69177f8e-5f2d-4bd3-
 
 ## Credits
 NodeFree (https://nodefree.org)  
-Anaer/Sub (https://github.com/anaer/Sub)  
+Anaer (https://github.com/anaer/Sub)  
 Pojiezhiyuanjun (https://github.com/pojiezhiyuanjun/freev2)  
 Oslook (https://github.com/oslook/clash-freenode)  
 Gooooooooooooogle (https://github.com/gooooooooooooogle/Clash-Config)  

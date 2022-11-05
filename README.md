@@ -62,7 +62,7 @@ Xrayfree (https://github.com/xrayfree/free-ssr-ss-v2ray-vpn-clash)
 ## Disclaimer
 * This project is meant for personal and educational uses only.
 * Please follow relevant laws and regulations when using this project.
-* Project owner is not responsible or liable in any manner for any content posted.  
+* Project owner is not responsible or liable in any manner for the use of the content.  
 
 <!--
 [![Star History Chart](https://api.star-history.com/svg?repos=WilliamStar007/ClashX-TopFreeProxy&type=Date)](https://star-history.com/#WilliamStar007/ClashX-TopFreeProxy&Date)

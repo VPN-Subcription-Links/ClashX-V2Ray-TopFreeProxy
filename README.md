@@ -12,7 +12,7 @@ For a tutorial in Chinese see [中文版教程](https://github.com/WilliamStar00
 # Table of Contents
 * [Installation](#installation)
 * [Subscription Links](#subscription-links)
-* [Setup (for macOS)](#setup-for-macos)
+* [Setup (macOS)](#setup-macos)
 * [Credits](#credits)
 * [Disclaimer](#disclaimer)
 
@@ -40,7 +40,7 @@ For a tutorial in Chinese see [中文版教程](https://github.com/WilliamStar00
 * BiHai: https://proxies.bihai.cf ★
 * LonXin: https://fq.lonxin.net
 
-## Setup (for macOS)
+## Setup (macOS)
 1. Open **ClashX**
 2. Click **ClashX icon** in the status bar
 3. Click **Config** and then **Remote Config**

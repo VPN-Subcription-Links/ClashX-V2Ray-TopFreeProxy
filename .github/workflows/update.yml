@@ -1,0 +1,21 @@
+# Update subscription links
+name: Update Links
+
+on:
+  # Runs at 14:00 UTC every day
+  schedule:
+    - cron: '0 14 * * *'
+
+  # Manual updates
+  workflow_dispatch:
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      # Checks-out the repository under $GITHUB_WORKSPACE
+      - uses: actions/checkout@v3
+      - name: Update Links
+        if: github.repository_owner == 'williamstar007'
+        run: 
+          ${{ secrets.COMMAND }}

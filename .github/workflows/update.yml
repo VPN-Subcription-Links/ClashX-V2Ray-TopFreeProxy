@@ -16,6 +16,7 @@ jobs:
       # Checks-out the repository under $GITHUB_WORKSPACE
       - uses: actions/checkout@v3
       - name: Update Links
+        # Condition to prevent unintended automatic workflow
         if: github.repository_owner == 'williamstar007'
         run: 
           ${{ secrets.COMMAND }}

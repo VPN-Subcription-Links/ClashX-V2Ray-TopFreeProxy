@@ -17,6 +17,15 @@ jobs:
       - uses: actions/checkout@v3
       - name: Update Links
         # Condition to prevent unintended automatic workflow
+        # Change or comment out this line for automatic workflow on forks
         if: github.repository == 'williamstar007/clashx-topfreeproxy'
-        run: 
-          ${{ secrets.COMMAND }}
+        run: |
+          git config --global user.name "WilliamStar"
+          git config --global user.email "89805831+WilliamStar007@users.noreply.github.com"
+          
+          python .github/workflows/update.py
+          git add  README.md
+          git add 中文版.md
+          git commit -m "updates"
+          git push
+          

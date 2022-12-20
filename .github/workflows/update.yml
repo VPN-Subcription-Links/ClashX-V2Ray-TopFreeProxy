@@ -20,8 +20,8 @@ jobs:
         # Change or comment out this line for automatic workflow on forks
         if: github.repository == 'williamstar007/clashx-topfreeproxy'
         run: |
-          git config --global user.name "WilliamStar"
-          git config --global user.email "89805831+WilliamStar007@users.noreply.github.com"
+          git config --global user.name "GitHub Action"
+          git config --global user.email "action@github.com"
           
           python .github/workflows/update.py
           git add  README.md

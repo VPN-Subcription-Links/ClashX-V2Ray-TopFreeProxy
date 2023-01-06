@@ -52,13 +52,13 @@ For a tutorial in Chinese, see [中文版教程](https://github.com/WilliamStar0
 https://user-images.githubusercontent.com/89805831/179545223-69177f8e-5f2d-4bd3-ba27-b68018418e5a.mp4
 
 ## Credits
-NodeFree (https://nodefree.org)  
-Anaer (https://github.com/anaer/Sub)  
-Pojiezhiyuanjun (https://github.com/pojiezhiyuanjun/freev2)  
-Oslook (https://github.com/oslook/clash-freenode)  
-Gooooooooooooogle (https://github.com/gooooooooooooogle/Clash-Config)  
-Ermaozi (https://github.com/ermaozi/get_subscribe)  
-Xrayfree (https://github.com/xrayfree/free-ssr-ss-v2ray-vpn-clash)
+* NodeFree (https://nodefree.org)  
+* Anaer (https://github.com/anaer/Sub)  
+* Pojiezhiyuanjun (https://github.com/pojiezhiyuanjun/freev2)  
+* Oslook (https://github.com/oslook/clash-freenode)  
+* Gooooooooooooogle (https://github.com/gooooooooooooogle/Clash-Config)  
+* Ermaozi (https://github.com/ermaozi/get_subscribe)  
+* Xrayfree (https://github.com/xrayfree/free-ssr-ss-v2ray-vpn-clash)
 
 ## Disclaimer
 * This project is meant for personal and educational uses only.

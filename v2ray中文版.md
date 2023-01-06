@@ -17,10 +17,12 @@
 * [免责声明](#免责声明)
 
 ## 安装
-| 应用程序 | 下载链接 | 备注 |
+| 应用程序 | 下载链接 | 兼容性 |
 | ------------- | ------------- | ------------- |
-| V2Ray | [发布网页](https://github.com/v2ray/v2ray-core/releases) | MacOS, Windows, & Android 系统 |
-| Shadowrocket | [App Store](https://apps.apple.com/us/app/shadowrocket/id932747118) | IOS 系统 |
+| V2RayX | [发布网页](https://github.com/Cenmrev/V2RayX/releases) | MacOS |
+| V2RayN | [发布网页](https://github.com/2dust/v2rayN/releases) | Windows |
+| V2RayNG | [发布网页](https://github.com/2dust/v2rayNG/releases) | Android |
+| Shadowrocket | [App Store](https://apps.apple.com/us/app/shadowrocket/id932747118) | IOS |
 
 ## 订阅链接
 **使用前请修改链接中的日期（如果有的话）至目前日期**

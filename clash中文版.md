@@ -31,7 +31,6 @@
 * Anaer: https://raw.githubusercontent.com/anaer/Sub/main/clash.yaml ★
 * Pojiezhiyuanjun: https://raw.githubusercontent.com/pojiezhiyuanjun/freev2/master/0105clash.yml
 * Oslook: https://raw.githubusercontent.com/oslook/clash-freenode/main/clash.yaml
-* Gooooooooooooogle: https://raw.githubusercontent.com/gooooooooooooogle/Clash-Config/main/Clash.yaml
 * Ermaozi: https://raw.githubusercontent.com/ermaozi/get_subscribe/main/subscribe/clash.yml ★
 * Xrayfree: https://tt.vg/freeclash
 
@@ -50,12 +49,11 @@
 https://user-images.githubusercontent.com/89805831/179545223-69177f8e-5f2d-4bd3-ba27-b68018418e5a.mp4
 
 ## 致谢
-* NodeFree (https://nodefree.org)  
-* Anaer (https://github.com/anaer/Sub)  
-* Pojiezhiyuanjun (https://github.com/pojiezhiyuanjun/freev2)  
-* Oslook (https://github.com/oslook/clash-freenode)  
-* Gooooooooooooogle (https://github.com/gooooooooooooogle/Clash-Config)  
-* Ermaozi (https://github.com/ermaozi/get_subscribe)  
+* NodeFree (https://nodefree.org)
+* Anaer (https://github.com/anaer/Sub)
+* Pojiezhiyuanjun (https://github.com/pojiezhiyuanjun/freev2)
+* Oslook (https://github.com/oslook/clash-freenode)
+* Ermaozi (https://github.com/ermaozi/get_subscribe)
 * Xrayfree (https://github.com/xrayfree/free-ssr-ss-v2ray-vpn-clash)
 
 ## 免责声明

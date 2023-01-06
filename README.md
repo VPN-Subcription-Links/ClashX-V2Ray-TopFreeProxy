@@ -37,8 +37,9 @@ For a tutorial in Chinese see [中文版教程](https://github.com/WilliamStar00
 * Xrayfree: https://tt.vg/freeclash
 
 **Free Node Pool**
-* BiHai: https://proxies.bihai.cf ★
+* BiHai: https://proxies.bihai.cf
 * LonXin: https://fq.lonxin.net
+* Aiirobyte: https://github.com/aiirobyte/TopFreeProxies ★
 
 ## Setup (macOS)
 1. Open **ClashX**

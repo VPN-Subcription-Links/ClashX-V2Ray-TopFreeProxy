@@ -24,8 +24,7 @@ jobs:
           git config --global user.email "action@github.com"
           
           python .github/workflows/update.py
-          git add  README.md
-          git add 中文版.md
+          git add  README.md v2ray.md clash中文版.md v2ray中文版.md
           git commit -m "updates"
           git push
           

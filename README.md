@@ -28,7 +28,7 @@ For a tutorial in Chinese see [中文版教程](https://github.com/WilliamStar00
 ## Subscription Links
 **Modify the date (if any) in the links to the current date!!**
 
-* NodeFree: https://nodefree.org/dy/202301/20230105.yaml ★
+* NodeFree: https://nodefree.org/dy/2023/01/20230105.yaml ★
 * Anaer: https://raw.githubusercontent.com/anaer/Sub/main/clash.yaml ★
 * Pojiezhiyuanjun: https://raw.githubusercontent.com/pojiezhiyuanjun/freev2/master/0105clash.yml
 * Oslook: https://raw.githubusercontent.com/oslook/clash-freenode/main/clash.yaml

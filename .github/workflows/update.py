@@ -14,7 +14,7 @@ def update(filename):
         # convert file to string
         content = file.read()
         # update NodeFree link
-        new_content = re.sub("[0-9]{6}/[0-9]{8}\.yaml", f"{year}{month}/{year}{month}{day}.yaml", content)
+        new_content = re.sub("[0-9]{4}/[0-9]{2}/[0-9]{8}\.yaml", f"{year}/{month}/{year}{month}{day}.yaml", content)
         # update Pojiezhiyuanjun link
         new_content = re.sub("[0-9]{4}clash\.yml", f"{month}{day}clash.yml", new_content)
 

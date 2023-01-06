@@ -26,4 +26,4 @@ def update(filename):
 
 if __name__ == "__main__":
     update("README.md")
-    update("中文版.md")
+    update("clash中文版.md")

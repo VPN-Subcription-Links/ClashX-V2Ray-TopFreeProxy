@@ -6,7 +6,8 @@
 </h1>
 
 [ClashX](https://github.com/yichengchen/clashX) 代理安装教程与免费订阅链接获取方式  
-欢迎大家对这个项目提出 [Issues](https://github.com/WilliamStar007/ClashX-TopFreeProxy/issues) 或 [Pull Requests](https://github.com/WilliamStar007/ClashX-TopFreeProxy/pulls)
+欢迎大家对这个项目提出 [Issues](https://github.com/WilliamStar007/ClashX-TopFreeProxy/issues) 或 [Pull Requests](https://github.com/WilliamStar007/ClashX-TopFreeProxy/pulls)  
+如使用V2Ray，可见 [V2Ray教程](https://github.com/WilliamStar007/ClashX-TopFreeProxy/blob/main/v2ray%E4%B8%AD%E6%96%87%E7%89%88.md)
 
 # 目录
 * [安装](#安装)
@@ -49,13 +50,13 @@
 https://user-images.githubusercontent.com/89805831/179545223-69177f8e-5f2d-4bd3-ba27-b68018418e5a.mp4
 
 ## 致谢
-NodeFree (https://nodefree.org)  
-Anaer (https://github.com/anaer/Sub)  
-Pojiezhiyuanjun (https://github.com/pojiezhiyuanjun/freev2)  
-Oslook (https://github.com/oslook/clash-freenode)  
-Gooooooooooooogle (https://github.com/gooooooooooooogle/Clash-Config)  
-Ermaozi (https://github.com/ermaozi/get_subscribe)  
-Xrayfree (https://github.com/xrayfree/free-ssr-ss-v2ray-vpn-clash)
+* NodeFree (https://nodefree.org)  
+* Anaer (https://github.com/anaer/Sub)  
+* Pojiezhiyuanjun (https://github.com/pojiezhiyuanjun/freev2)  
+* Oslook (https://github.com/oslook/clash-freenode)  
+* Gooooooooooooogle (https://github.com/gooooooooooooogle/Clash-Config)  
+* Ermaozi (https://github.com/ermaozi/get_subscribe)  
+* Xrayfree (https://github.com/xrayfree/free-ssr-ss-v2ray-vpn-clash)
 
 ## 免责声明
 * 本项目全部链接来自网络，仅供个人或学习交流使用，严禁用于商业用途

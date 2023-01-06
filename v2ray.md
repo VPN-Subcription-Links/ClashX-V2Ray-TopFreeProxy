@@ -5,9 +5,10 @@
   <br>
 </h1>
 
-Subscription links for setting up a [V2Ray](https://www.v2ray.com/en) proxy.  
+Tutorial for setting up a [V2Ray](https://www.v2ray.com/en) proxy with free subscription links.  
 Feel free to submit an [Issue](https://github.com/WilliamStar007/ClashX-TopFreeProxy/issues) or make a [Pull Request](https://github.com/WilliamStar007/ClashX-TopFreeProxy/pulls)!  
-For Chinese verion, see [中文版教程](https://github.com/WilliamStar007/ClashX-TopFreeProxy/blob/main/v2ray%E4%B8%AD%E6%96%87%E7%89%88.md).
+For ClashX users, see [ClashX Setup Tutorial](https://github.com/WilliamStar007/ClashX-TopFreeProxy/blob/main/README.md).  
+For a tutorial in Chinese, see [中文版教程](https://github.com/WilliamStar007/ClashX-TopFreeProxy/blob/main/v2ray%E4%B8%AD%E6%96%87%E7%89%88.md).
 
 # Table of Contents
 * [Installation](#installation)

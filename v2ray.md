@@ -1,13 +1,13 @@
 <h1 align="center">
   <img src="https://upload.wikimedia.org/wikipedia/commons/8/8c/V2Ray_logo.png" alt="V2Ray" width="200">
   <br>
-  V2Ray Subscription Links
+  V2Ray Setup Tutorial
   <br>
 </h1>
 
 Subscription links for setting up a [V2Ray](https://www.v2ray.com/en) proxy.  
 Feel free to submit an [Issue](https://github.com/WilliamStar007/ClashX-TopFreeProxy/issues) or make a [Pull Request](https://github.com/WilliamStar007/ClashX-TopFreeProxy/pulls)!  
-For Chinese verion, see [中文版 V2Ray](https://github.com/WilliamStar007/ClashX-TopFreeProxy/blob/main/%E4%B8%AD%E6%96%87%E7%89%88.md).
+For Chinese verion, see [中文版教程](https://github.com/WilliamStar007/ClashX-TopFreeProxy/blob/main/v2ray%E4%B8%AD%E6%96%87%E7%89%88.md).
 
 # Table of Contents
 * [Installation](#installation)

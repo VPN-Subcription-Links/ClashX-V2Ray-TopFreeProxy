@@ -25,6 +25,8 @@ For a tutorial in Chinese, see [中文版教程](https://github.com/WilliamStar0
 * Download **Shadowrocket** from [App Store](https://apps.apple.com/us/app/shadowrocket/id932747118).
 
 ## Subscription Links
+**Modify the date (if any) in the links to the current date!!**
+
 * NodeFree: https://nodefree.org/dy/2023/01/20230106.txt ★
 * ClashNode: https://clashnode.com/wp-content/uploads/2023/01/20230106.txt ★
 * Mfuu: https://raw.githubusercontent.com/mfuu/v2ray/master/v2ray

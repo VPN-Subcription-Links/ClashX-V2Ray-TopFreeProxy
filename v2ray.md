@@ -13,7 +13,7 @@ For a tutorial in Chinese, see [中文版教程](https://github.com/WilliamStar0
 # Table of Contents
 * [Installation](#installation)
 * [Subscription Links](#subscription-links)
-* [Setup (macOS)](#setup-macos)
+* [Setup](#setup)
 * [Credits](#credits)
 * [Disclaimer](#disclaimer)
 
@@ -36,23 +36,19 @@ For a tutorial in Chinese, see [中文版教程](https://github.com/WilliamStar0
 * Learnhard-cn: https://raw.githubusercontent.com/learnhard-cn/free_proxy_ss/main/free ★
 * Xrayfree: https://tt.vg/freev2 ★
 
-
 ## Credits
-NodeFree (https://nodefree.org)  
-ClashNode (https://clashnode.com/)  
-Mfuu (https://github.com/mfuu/v2ray)  
-Freefq (https://github.com/freefq/free)  
-Pojiezhiyuanjun (https://github.com/pojiezhiyuanjun/freev2)  
-Ermaozi (https://github.com/ermaozi/get_subscribe)  
-Aiboboxx (https://github.com/aiboboxx/v2rayfree)  
-Xiyaowong (https://github.com/xiyaowong/freeFQ)  
-Learnhard-cn (https://github.com/learnhard-cn/free_proxy_ss)  
-Xrayfree (https://github.com/xrayfree/free-ssr-ss-v2ray-vpn-clash)  
+* NodeFree (https://nodefree.org)  
+* ClashNode (https://clashnode.com/)  
+* Mfuu (https://github.com/mfuu/v2ray)  
+* Freefq (https://github.com/freefq/free)  
+* Pojiezhiyuanjun (https://github.com/pojiezhiyuanjun/freev2)  
+* Ermaozi (https://github.com/ermaozi/get_subscribe)  
+* Aiboboxx (https://github.com/aiboboxx/v2rayfree)  
+* Xiyaowong (https://github.com/xiyaowong/freeFQ)  
+* Learnhard-cn (https://github.com/learnhard-cn/free_proxy_ss)  
+* Xrayfree (https://github.com/xrayfree/free-ssr-ss-v2ray-vpn-clash)  
 
-<!-- 
-Archived Reference: 
-Aiirobyte (https://github.com/aiirobyte/TopFreeProxies)
--->
+<!-- Archived Reference: https://github.com/aiirobyte/TopFreeProxies -->
 
 ## Disclaimer
 * This project is meant for personal and educational uses only.

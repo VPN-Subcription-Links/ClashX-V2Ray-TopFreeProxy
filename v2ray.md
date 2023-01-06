@@ -18,11 +18,10 @@ For a tutorial in Chinese, see [中文版教程](https://github.com/WilliamStar0
 * [Disclaimer](#disclaimer)
 
 ## Installation
-**MacOS, Windows, & Android**
-* Download **V2Ray** from [V2Ray Release](https://github.com/v2ray/v2ray-core/releases) page.
-
-**IOS**
-* Download **Shadowrocket** from [App Store](https://apps.apple.com/us/app/shadowrocket/id932747118).
+| Software | Download | Compatibility |
+| ------------- | ------------- | ------------- |
+| V2Ray | [Release Page](https://github.com/v2ray/v2ray-core/releases) | MacOS, Windows, & Android |
+| Shadowrocket | [App Store](https://apps.apple.com/us/app/shadowrocket/id932747118) | IOS |
 
 ## Subscription Links
 **Modify the date (if any) in the links to the current date!!**

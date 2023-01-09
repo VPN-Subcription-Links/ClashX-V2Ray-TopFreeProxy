@@ -20,7 +20,7 @@
 | 应用程序 | 下载链接 | 备注 |
 | ------------- | ------------- | ------------- |
 | Clash | [发布网页](https://github.com/Dreamacro/clash/releases) | 原始程序 |
-| Clash for Windows | [发布网页](https://github.com/Fndroid/clash_for_windows_pkg/releases) | Windows版 |
+| Clash for Windows | [发布网页](https://github.com/Fndroid/clash_for_windows_pkg/releases) | 优化版 |
 | ClashX | [发布网页](https://github.com/yichengchen/clashX/releases) | 优化版 |
 | ClashX Pro ★ | [应用中心](https://install.appcenter.ms/users/clashx/apps/clashx-pro/distribution_groups/public) | 拥有增强模式与苹果芯片优化 |
 

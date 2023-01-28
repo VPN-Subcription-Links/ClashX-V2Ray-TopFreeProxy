@@ -27,11 +27,11 @@
 ## 订阅链接
 **使用前请修改链接中的日期（如果有的话）至目前日期**
 
-* NodeFree: https://nodefree.org/dy/2023/01/20230127.txt ★
-* ClashNode: https://clashnode.com/wp-content/uploads/2023/01/20230127.txt ★
+* NodeFree: https://nodefree.org/dy/2023/01/20230128.txt ★
+* ClashNode: https://clashnode.com/wp-content/uploads/2023/01/20230128.txt ★
 * Mfuu: https://raw.githubusercontent.com/mfuu/v2ray/master/v2ray
 * Freefq: https://raw.fastgit.org/freefq/free/master/v2 ★
-* Pojiezhiyuanjun: https://github.com/pojiezhiyuanjun/freev2/blob/master/0127.txt
+* Pojiezhiyuanjun: https://github.com/pojiezhiyuanjun/freev2/blob/master/0128.txt
 * Ermaozi: https://raw.githubusercontent.com/ermaozi/get_subscribe/main/subscribe/v2ray.txt ★
 * Aiboboxx: https://raw.githubusercontent.com/aiboboxx/v2rayfree/main/v2
 * Xiyaowong: https://raw.githubusercontent.com/xiyaowong/freeFQ/main/v2ray

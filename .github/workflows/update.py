@@ -13,7 +13,7 @@ def update(filename):
 
         # convert file to string
         content = file.read()
-        # update NodeFree link
+        # update NodeFree & ClashNode link
         new_content = re.sub("[0-9]{4}/[0-9]{2}/[0-9]{8}", f"{year}/{month}/{year}{month}{day}", content)
         # update Pojiezhiyuanjun link
         new_content = re.sub("[0-9]{4}clash\.yml", f"{month}{day}clash.yml", new_content)

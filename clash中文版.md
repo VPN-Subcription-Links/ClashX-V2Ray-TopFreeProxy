@@ -28,10 +28,13 @@
 **使用前请修改链接中的日期（如果有的话）至目前日期**
 
 * NodeFree: https://nodefree.org/dy/2023/02/20230202.yaml ★
+* ClashNode: https://clashnode.com/wp-content/uploads/2023/02/20230202.yaml ★
+* Mfuu: https://raw.githubusercontent.com/mfuu/v2ray/master/clash.yaml
 * Anaer: https://raw.githubusercontent.com/anaer/Sub/main/clash.yaml ★
 * Pojiezhiyuanjun: https://raw.githubusercontent.com/pojiezhiyuanjun/freev2/master/0202clash.yml
 * Oslook: https://raw.githubusercontent.com/oslook/clash-freenode/main/clash.yaml
 * Ermaozi: https://raw.githubusercontent.com/ermaozi/get_subscribe/main/subscribe/clash.yml ★
+* Learnhard-cn: https://cdn.jsdelivr.net/gh/learnhard-cn/free_proxy_ss@main/clash/clash.provider.yaml
 * Xrayfree: https://tt.vg/freeclash
 
 **免费节点池**
@@ -49,12 +52,18 @@
 https://user-images.githubusercontent.com/89805831/179545223-69177f8e-5f2d-4bd3-ba27-b68018418e5a.mp4
 
 ## 致谢
-* NodeFree (https://nodefree.org)
-* Anaer (https://github.com/anaer/Sub)
-* Pojiezhiyuanjun (https://github.com/pojiezhiyuanjun/freev2)
-* Oslook (https://github.com/oslook/clash-freenode)
-* Ermaozi (https://github.com/ermaozi/get_subscribe)
+* NodeFree (https://nodefree.org)  
+* ClashNode (https://clashnode.com)  
+* Mfuu (https://github.com/mfuu/v2ray)  
+* Anaer (https://github.com/anaer/Sub)  
+* Pojiezhiyuanjun (https://github.com/pojiezhiyuanjun/freev2)  
+* Oslook (https://github.com/oslook/clash-freenode)  
+* Ermaozi (https://github.com/ermaozi/get_subscribe)  
+* Learnhard-cn (https://github.com/learnhard-cn/free_proxy_ss)  
 * Xrayfree (https://github.com/xrayfree/free-ssr-ss-v2ray-vpn-clash)
+
+<!-- Archived Reference:
+https://github.com/gooooooooooooogle/Clash-Config -->
 
 ## 免责声明
 * 本项目全部链接来自网络，仅供个人或学习交流使用，严禁用于商业用途

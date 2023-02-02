@@ -34,7 +34,6 @@
 * Pojiezhiyuanjun: https://github.com/pojiezhiyuanjun/freev2/blob/master/0202.txt
 * Ermaozi: https://raw.githubusercontent.com/ermaozi/get_subscribe/main/subscribe/v2ray.txt ★
 * Aiboboxx: https://raw.githubusercontent.com/aiboboxx/v2rayfree/main/v2
-* Xiyaowong: https://raw.githubusercontent.com/xiyaowong/freeFQ/main/v2ray
 * Learnhard-cn: https://raw.githubusercontent.com/learnhard-cn/free_proxy_ss/main/free ★
 * Xrayfree: https://tt.vg/freev2 ★
 
@@ -46,11 +45,12 @@
 * Pojiezhiyuanjun (https://github.com/pojiezhiyuanjun/freev2)  
 * Ermaozi (https://github.com/ermaozi/get_subscribe)  
 * Aiboboxx (https://github.com/aiboboxx/v2rayfree)  
-* Xiyaowong (https://github.com/xiyaowong/freeFQ)  
 * Learnhard-cn (https://github.com/learnhard-cn/free_proxy_ss)  
 * Xrayfree (https://github.com/xrayfree/free-ssr-ss-v2ray-vpn-clash)  
 
-<!-- Archived Reference: https://github.com/aiirobyte/TopFreeProxies -->
+<!-- Archived Reference: 
+https://github.com/aiirobyte/TopFreeProxies 
+https://github.com/xiyaowong/freeFQ -->
 
 ## 免责声明
 * 本项目全部链接来自网络，仅供个人或学习交流使用，严禁用于商业用途

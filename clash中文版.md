@@ -12,7 +12,7 @@
 # 目录
 * [安装](#安装)
 * [订阅链接](#订阅链接)
-* [设置](#设置macos系统)
+* [设置](#设置)
 * [致谢](#致谢)
 * [免责声明](#免责声明)
 
@@ -41,7 +41,9 @@
 * BiHai: https://proxies.bihai.cf ★
 * LonXin: https://fq.lonxin.net
 
-## 设置（macOS系统）
+## 设置
+**详细设置信息请参阅：https://github.com/githubvpn007/ClashX**
+
 1. 打开 **ClashX**
 2. 点击状态栏中 **ClashX 图标**
 3. 选择 **配置** 然后选择 **托管配置**
@@ -61,6 +63,7 @@ https://user-images.githubusercontent.com/89805831/179545223-69177f8e-5f2d-4bd3-
 * Ermaozi (https://github.com/ermaozi/get_subscribe)  
 * Learnhard-cn (https://github.com/learnhard-cn/free_proxy_ss)  
 * Xrayfree (https://github.com/xrayfree/free-ssr-ss-v2ray-vpn-clash)
+* Githubvpn007 (https://github.com/githubvpn007/ClashX)
 
 <!-- Archived Reference:
 https://github.com/gooooooooooooogle/Clash-Config -->

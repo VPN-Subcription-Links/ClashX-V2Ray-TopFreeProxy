@@ -29,11 +29,11 @@ For a tutorial in Chinese, see [中文版教程](https://github.com/WilliamStar0
 ## Subscription Links
 **Modify the date (if any) in the links to the current date!!**
 
-* NodeFree: https://nodefree.org/dy/2023/02/20230205.yaml ★
-* ClashNode: https://clashnode.com/wp-content/uploads/2023/02/20230205.yaml ★
+* NodeFree: https://nodefree.org/dy/2023/02/20230206.yaml ★
+* ClashNode: https://clashnode.com/wp-content/uploads/2023/02/20230206.yaml ★
 * Mfuu: https://raw.githubusercontent.com/mfuu/v2ray/master/clash.yaml
 * Anaer: https://raw.githubusercontent.com/anaer/Sub/main/clash.yaml ★
-* Pojiezhiyuanjun: https://raw.githubusercontent.com/pojiezhiyuanjun/freev2/master/0205clash.yml
+* Pojiezhiyuanjun: https://raw.githubusercontent.com/pojiezhiyuanjun/freev2/master/0206clash.yml
 * Oslook: https://raw.githubusercontent.com/oslook/clash-freenode/main/clash.yaml
 * Ermaozi: https://raw.githubusercontent.com/ermaozi/get_subscribe/main/subscribe/clash.yml ★
 * Learnhard-cn: https://cdn.jsdelivr.net/gh/learnhard-cn/free_proxy_ss@main/clash/clash.provider.yaml

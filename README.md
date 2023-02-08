@@ -44,7 +44,7 @@ For a tutorial in Chinese, see [中文版教程](https://github.com/WilliamStar0
 * LonXin: https://fq.lonxin.net
 
 ## Setup
-**For a detailed guide, see: https://lancellc.gitbook.io/clash/**
+**For a detailed guide, see: https://lancellc.gitbook.io/clash**
 
 1. Open **ClashX**
 2. Click **ClashX icon** in the status bar

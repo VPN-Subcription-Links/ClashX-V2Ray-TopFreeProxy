@@ -35,6 +35,7 @@ For a tutorial in Chinese, see [中文版教程](https://github.com/WilliamStar0
 * Ermaozi: https://raw.githubusercontent.com/ermaozi/get_subscribe/main/subscribe/v2ray.txt ★
 * Aiboboxx: https://raw.githubusercontent.com/aiboboxx/v2rayfree/main/v2
 * Learnhard-cn: https://raw.githubusercontent.com/learnhard-cn/free_proxy_ss/main/free ★
+* Vveg26: https://raw.githubusercontent.com/vveg26/get_proxy/main/dist/v2ray.config.txt
 * Xrayfree: https://tt.vg/freev2 ★
 
 ## Credits
@@ -48,6 +49,7 @@ For a tutorial in Chinese, see [中文版教程](https://github.com/WilliamStar0
 * Learnhard-cn (https://github.com/learnhard-cn/free_proxy_ss)  
 * Xrayfree (https://github.com/xrayfree/free-ssr-ss-v2ray-vpn-clash)  
 * A-better-planet (https://www.a-better-planet.com)
+* Vveg26 (https://github.com/vveg26/getProxy)
 * WannaFlix (https://docs.wannaflix.net)
 
 <!-- Archived Reference: 

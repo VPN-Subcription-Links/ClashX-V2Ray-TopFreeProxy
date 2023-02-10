@@ -10,19 +10,18 @@
 如使用 [ClashX](https://github.com/yichengchen/clashX)，可见 [ClashX 教程](https://github.com/WilliamStar007/ClashX-TopFreeProxy/blob/main/clash%E4%B8%AD%E6%96%87%E7%89%88.md)
 
 # 目录
-* [安装](#安装)
+* [安装 & 设置](#安装--设置)
 * [订阅链接](#订阅链接)
-* [设置](#设置)
 * [致谢](#致谢)
 * [免责声明](#免责声明)
 
-## 安装
-| 应用程序 | 下载链接 | 兼容性 |
-| ------------- | ------------- | ------------- |
-| V2RayX | [发布网页](https://github.com/Cenmrev/V2RayX/releases) | MacOS |
-| V2RayN | [发布网页](https://github.com/2dust/v2rayN/releases) | Windows |
-| V2RayNG | [发布网页](https://github.com/2dust/v2rayNG/releases) | Android |
-| Shadowrocket | [App Store](https://apps.apple.com/us/app/shadowrocket/id932747118) | IOS |
+## 安装 & 设置
+| 应用程序 | 下载链接 | 兼容性 | 设置教程 |
+| ------------- | ------------- | ------------- | ------------- |
+| V2RayX | [发布网页](https://github.com/Cenmrev/V2RayX/releases) | MacOS | [V2RayX/U Tutorial](https://www.a-better-planet.com/how-to-set-up-v2ray-in-apple-mac-os-system/) |
+| V2RayN | [发布网页](https://github.com/2dust/v2rayN/releases) | Windows | [V2RayN Tutorial](https://docs.wannaflix.net/windows/v2ray-shadowsocks/v2rayn-recommended) |
+| V2RayNG | [发布网页](https://github.com/2dust/v2rayNG/releases) | Android | [V2RayNG Tutorial](https://docs.wannaflix.net/android/v2ray-shadowsocks/v2rayng-recommended) |
+| Shadowrocket | [App Store](https://apps.apple.com/us/app/shadowrocket/id932747118) | IOS | [Shadowrocket Tutorial](https://docs.wannaflix.net/ios/v2ray-shadowsocks/shadowrocket) |
 
 ## 订阅链接
 **使用前请修改链接中的日期（如果有的话）至目前日期**

@@ -81,4 +81,4 @@ https://github.com/gooooooooooooogle/Clash-Config -->
 [![Star History Chart](https://api.star-history.com/svg?repos=WilliamStar007/ClashX-TopFreeProxy&type=Date)](https://star-history.com/#WilliamStar007/ClashX-TopFreeProxy&Date)
 -->
 
-<!-- Last Upated at 11:52 AM, Feb. 15, 2023 -->
+<!-- Last Upated at 00:17 AM, Feb. 17, 2023 -->

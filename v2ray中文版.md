@@ -36,6 +36,7 @@
 * Learnhard-cn: https://raw.githubusercontent.com/learnhard-cn/free_proxy_ss/main/free ★
 * Vveg26: https://raw.githubusercontent.com/vveg26/get_proxy/main/dist/v2ray.config.txt
 * Xrayfree: https://tt.vg/freev2 ★
+* Kxswa: https://kxswa.tk/v2ray
 
 ## 致谢
 * NodeFree (https://nodefree.org)  
@@ -48,6 +49,7 @@
 * Learnhard-cn (https://github.com/learnhard-cn/free_proxy_ss)  
 * Vveg26 (https://github.com/vveg26/getProxy)
 * Xrayfree (https://github.com/xrayfree/free-ssr-ss-v2ray-vpn-clash)  
+* Kxswa (https://github.com/kxswa/k)
 
 <!-- Archived Reference: 
 https://github.com/aiirobyte/TopFreeProxies 

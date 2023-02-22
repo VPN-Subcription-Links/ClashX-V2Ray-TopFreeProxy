@@ -39,6 +39,7 @@ For a tutorial in Chinese, see [中文版教程](https://github.com/WilliamStar0
 * Learnhard-cn: https://cdn.jsdelivr.net/gh/learnhard-cn/free_proxy_ss@main/clash/clash.provider.yaml
 * Vveg26: https://raw.githubusercontent.com/vveg26/get_proxy/main/dist/clash.config.yaml
 * Xrayfree: https://tt.vg/freeclash
+* Kxswa: https://kxswa.tk/clash
 
 **Free Node Pool**
 * BiHai: https://proxies.bihai.cf ★
@@ -67,6 +68,7 @@ https://user-images.githubusercontent.com/89805831/179545223-69177f8e-5f2d-4bd3-
 * Learnhard-cn (https://github.com/learnhard-cn/free_proxy_ss) 
 * Vveg26 (https://github.com/vveg26/getProxy)
 * Xrayfree (https://github.com/xrayfree/free-ssr-ss-v2ray-vpn-clash)
+* Kxswa (https://github.com/kxswa/k)
 * Lancellc (https://lancellc.gitbook.io/clash/)
 
 <!-- Archived Reference:

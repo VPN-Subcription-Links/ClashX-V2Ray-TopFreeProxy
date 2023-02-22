@@ -37,6 +37,7 @@ For a tutorial in Chinese, see [中文版教程](https://github.com/WilliamStar0
 * Learnhard-cn: https://raw.githubusercontent.com/learnhard-cn/free_proxy_ss/main/free ★
 * Vveg26: https://raw.githubusercontent.com/vveg26/get_proxy/main/dist/v2ray.config.txt
 * Xrayfree: https://tt.vg/freev2 ★
+* Kxswa: https://kxswa.tk/v2ray
 
 ## Credits
 * NodeFree (https://nodefree.org)  
@@ -50,6 +51,7 @@ For a tutorial in Chinese, see [中文版教程](https://github.com/WilliamStar0
 * Xrayfree (https://github.com/xrayfree/free-ssr-ss-v2ray-vpn-clash)  
 * A-better-planet (https://www.a-better-planet.com)
 * Vveg26 (https://github.com/vveg26/getProxy)
+* Kxswa: (https://github.com/kxswa/k)
 * WannaFlix (https://docs.wannaflix.net)
 
 <!-- Archived Reference: 

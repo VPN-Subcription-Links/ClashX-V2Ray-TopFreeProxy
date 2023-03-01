@@ -27,7 +27,7 @@ links: List[str] = file.readlines()
 file.close()
 
 # blacklist
-blacklist: List[str] = list(map(lambda l: l.strip().split(':'), open('blacklists.txt').readlines()))
+blacklist: List[str] = list(map(lambda l: l.strip().split(':'), open('./combine/blacklists.txt').readlines()))
 
 
 # get content of a html

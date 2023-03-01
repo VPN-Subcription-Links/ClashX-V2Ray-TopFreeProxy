@@ -8,20 +8,20 @@ from typing import Any, Dict, List
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 # initiate file names
-clash_output_tpl: str = './clash.config.template.yaml'
-clash_output_file: str = './clash.config.yaml'
-v2ray_output_file: str = './v2ray.config.txt'
+clash_output_tpl: str = './combine/clash.config.template.yaml'
+clash_output_file: str = './combine/clash.config.yaml'
+v2ray_output_file: str = './combine/v2ray.config.txt'
 
 # clash links
 clash_url_list: List[str] = list()
-file = open('./clashsub.txt', 'r')
+file = open('./combine/clashsub.txt', 'r')
 links: List[str] = file.readlines()
 [clash_url_list.append(l.strip()) for l in links]
 file.close()
 
 # v2ray links
 v2ray_url_list: List[str] = list()
-file = open('./v2raysub.txt', 'r')
+file = open('./combine/v2raysub.txt', 'r')
 links: List[str] = file.readlines()
 [v2ray_url_list.append(l.strip()) for l in links]
 file.close()

@@ -14,14 +14,14 @@ v2ray_output_file: str = './v2ray.config.txt'
 
 # clash links
 clash_url_list: List[str] = list()
-file = open('./proxypool/clashsub.txt', 'r')
+file = open('./clashsub.txt', 'r')
 links: List[str] = file.readlines()
 [clash_url_list.append(l.strip()) for l in links]
 file.close()
 
 # v2ray links
 v2ray_url_list: List[str] = list()
-file = open('./proxypool/v2raysub.txt', 'r')
+file = open('./v2raysub.txt', 'r')
 links: List[str] = file.readlines()
 [v2ray_url_list.append(l.strip()) for l in links]
 file.close()

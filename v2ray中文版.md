@@ -30,7 +30,7 @@
 * ClashNode: https://clashnode.com/wp-content/uploads/2023/02/20230228.txt ★
 * Mfuu: https://raw.githubusercontent.com/mfuu/v2ray/master/v2ray
 * Freefq: https://raw.fastgit.org/freefq/free/master/v2 ★
-* Pojiezhiyuanjun: https://github.com/pojiezhiyuanjun/freev2/blob/master/0228.txt
+* Pojiezhiyuanjun: https://raw.githubusercontent.com/pojiezhiyuanjun/freev2/master/0228.txt
 * Ermaozi: https://raw.githubusercontent.com/ermaozi/get_subscribe/main/subscribe/v2ray.txt ★
 * Aiboboxx: https://raw.githubusercontent.com/aiboboxx/v2rayfree/main/v2
 * Learnhard-cn: https://raw.githubusercontent.com/learnhard-cn/free_proxy_ss/main/free ★

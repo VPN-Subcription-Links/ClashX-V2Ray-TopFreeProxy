@@ -15,16 +15,17 @@ jobs:
     steps:
       # Checks-out the repository under $GITHUB_WORKSPACE
       - uses: actions/checkout@v3
-      - name: Update Links
+      - name: Update Links & Combine Configs
         # Condition to prevent unintended automatic workflow
         # Change or comment out this line for automatic workflow on forks
         if: github.repository == 'williamstar007/clashx-v2ray-topfreeproxy'
-        run: |
-          git config --global user.name "GitHub Action"
-          git config --global user.email "action@github.com"
-          
+        run: |          
+          echo "$(date '+%Y-%m-%d %H:%M:%S')" > .timestamp
           python .github/workflows/update.py
           python combine/main.py
+          
+          git config --global user.name "GitHub Action"
+          git config --global user.email "action@github.com"
           git add .
           git commit -m "updates"
           git push

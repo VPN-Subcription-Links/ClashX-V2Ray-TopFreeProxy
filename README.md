@@ -31,6 +31,7 @@ For a tutorial in Chinese, see [中文版教程](https://github.com/WilliamStar0
 
 * NodeFree: https://nodefree.org/dy/2023/03/20230303.yaml ★
 * ClashNode: https://clashnode.com/wp-content/uploads/2023/03/20230303.yaml ★
+* NiceVpn: https://sub.nicevpn.top/Clash.yaml ★
 * Mfuu: https://raw.githubusercontent.com/mfuu/v2ray/master/clash.yaml
 * Anaer: https://raw.githubusercontent.com/anaer/Sub/main/clash.yaml ★
 * Pojiezhiyuanjun: https://raw.githubusercontent.com/pojiezhiyuanjun/freev2/master/0303clash.yml
@@ -60,6 +61,7 @@ https://user-images.githubusercontent.com/89805831/179545223-69177f8e-5f2d-4bd3-
 ## Credits
 * NodeFree (https://nodefree.org)  
 * ClashNode (https://clashnode.com)  
+* NiceVpn (https://github.com/NiceVPN123/NiceVPN)
 * Mfuu (https://github.com/mfuu/v2ray)  
 * Anaer (https://github.com/anaer/Sub)  
 * Pojiezhiyuanjun (https://github.com/pojiezhiyuanjun/freev2)  

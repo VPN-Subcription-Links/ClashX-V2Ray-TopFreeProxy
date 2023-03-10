@@ -30,4 +30,5 @@ if __name__ == "__main__":
     update("v2ray.md")
     update("clash中文版.md")
     update("v2ray中文版.md")
-    
+    update("combine/clashsub.txt")
+    update("combine/v2raysub.txt")

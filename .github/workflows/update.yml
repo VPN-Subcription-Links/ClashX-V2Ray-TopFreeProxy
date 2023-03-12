@@ -22,7 +22,7 @@ jobs:
         run: |          
           echo "$(date '+%Y-%m-%d %H:%M:%S')" > combine/.timestamp
           python .github/workflows/update.py
-          # python combine/main.py
+          python combine/main.py
           
           git config --global user.name "GitHub Action"
           git config --global user.email "action@github.com"

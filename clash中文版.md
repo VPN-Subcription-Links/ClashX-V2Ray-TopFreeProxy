@@ -27,12 +27,12 @@
 ## 订阅链接
 **使用前请修改链接中的日期（如果有的话）至目前日期**
 
-* NodeFree: https://nodefree.org/dy/2023/04/20230413.yaml ★
-* ClashNode: https://clashnode.com/wp-content/uploads/2023/04/20230413.yaml ★
+* NodeFree: https://nodefree.org/dy/2023/04/20230414.yaml ★
+* ClashNode: https://clashnode.com/wp-content/uploads/2023/04/20230414.yaml ★
 * NiceVPN: https://sub.nicevpn.top/Clash.yaml ★
 * Mfuu: https://raw.githubusercontent.com/mfuu/v2ray/master/clash.yaml
 * Anaer: https://raw.githubusercontent.com/anaer/Sub/main/clash.yaml ★
-* Pojiezhiyuanjun: https://raw.githubusercontent.com/pojiezhiyuanjun/freev2/master/0413clash.yml
+* Pojiezhiyuanjun: https://raw.githubusercontent.com/pojiezhiyuanjun/freev2/master/0414clash.yml
 * Oslook: https://raw.githubusercontent.com/oslook/clash-freenode/main/clash.yaml
 * Ermaozi: https://raw.githubusercontent.com/ermaozi/get_subscribe/main/subscribe/clash.yml ★
 * Learnhard-cn: https://cdn.jsdelivr.net/gh/learnhard-cn/free_proxy_ss@main/clash/clash.provider.yaml

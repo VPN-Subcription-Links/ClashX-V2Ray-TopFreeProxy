@@ -2,32 +2,32 @@ import requests
 import urllib3
 import yaml
 
-from typing import Any, Dict, List
+from typing import Any, Dict, List, Optional
 
 # ignore InsecureRequestWarning
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 # initiate file names
-clash_output_tpl: str = './combine/clash.config.template.yaml'
-clash_output_file: str = './combine/clash.config.yaml'
-v2ray_output_file: str = './combine/v2ray.config.txt'
+clash_output_tpl: str = './clash.config.template.yaml'
+clash_output_file: str = './clash.config.yaml'
+v2ray_output_file: str = './v2ray.config.txt'
 
 # clash links
 clash_url_list: List[str] = list()
-file = open('./combine/clashsub.txt', 'r')
+file = open('./clashsub.txt', 'r')
 links: List[str] = file.readlines()
 [clash_url_list.append(l.strip()) for l in links]
 file.close()
 
 # v2ray links
 v2ray_url_list: List[str] = list()
-file = open('./combine/v2raysub.txt', 'r')
+file = open('./v2raysub.txt', 'r')
 links: List[str] = file.readlines()
 [v2ray_url_list.append(l.strip()) for l in links]
 file.close()
 
 # blacklist
-blacklist: List[str] = list(map(lambda l: l.strip().split(':'), open('./combine/blacklists.txt').readlines()))
+blacklist: List[str] = list(map(lambda l: l.strip().split(':'), open('./blacklists.txt').readlines()))
 
 
 # get content of a html
@@ -40,6 +40,7 @@ def fetch_html(url: str):
             return None
         return resp.text
     except Exception as expt:
+        print(url)
         print(expt)
         return None
 
@@ -73,8 +74,8 @@ def merge_clash(configs: List[str]) -> str:
 
 
 # merge v2ray config files
-def merge_v2ray(configs: List[str]) -> str:
-    return '\n'.join(configs)
+def merge_v2ray(configs: List[Optional[str]]) -> str:
+    return '\n'.join(filter(None, configs))
 
 
 def main():

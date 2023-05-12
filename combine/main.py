@@ -1,8 +1,12 @@
 import requests
 import urllib3
 import yaml
+import os
 
 from typing import Any, Dict, List, Optional
+
+# Change the current working directory to the directory where this script resides
+os.chdir(os.path.dirname(os.path.abspath(__file__)))
 
 # ignore InsecureRequestWarning
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)

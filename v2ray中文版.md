@@ -40,6 +40,9 @@
 * Xrayfree: https://tt.vg/freev2 ★
 * Kxswa: https://kxswa.tk/v2ray
 
+**免费节点池**
+* Zu1k: https://github.com/zu1k/proxypool ★
+
 ## 致谢
 * NodeFree (https://nodefree.org)
 * ClashNode (https://clashnode.com)

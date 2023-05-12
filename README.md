@@ -61,21 +61,21 @@ For a tutorial in Chinese, see [中文版教程](https://github.com/WilliamStar0
 https://user-images.githubusercontent.com/89805831/179545223-69177f8e-5f2d-4bd3-ba27-b68018418e5a.mp4
 
 ## Credits
-* NodeFree (https://nodefree.org)  
-* ClashNode (https://clashnode.com)  
+* NodeFree (https://nodefree.org)
+* ClashNode (https://clashnode.com)
 * NiceVPN (https://github.com/NiceVPN123/NiceVPN)
-* Mfuu (https://github.com/mfuu/v2ray)  
-* Anaer (https://github.com/anaer/Sub)  
-* Pojiezhiyuanjun (https://github.com/pojiezhiyuanjun/freev2)  
-* Oslook (https://github.com/oslook/clash-freenode)  
-* Ermaozi (https://github.com/ermaozi/get_subscribe)  
-* Learnhard-cn (https://github.com/learnhard-cn/free_proxy_ss) 
+* Mfuu (https://github.com/mfuu/v2ray)
+* Anaer (https://github.com/anaer/Sub)
+* Pojiezhiyuanjun (https://github.com/pojiezhiyuanjun/freev2)
+* Oslook (https://github.com/oslook/clash-freenode)
+* Ermaozi (https://github.com/ermaozi/get_subscribe)
+* Learnhard-cn (https://github.com/learnhard-cn/free_proxy_ss)
 * Tbbatbb (https://github.com/tbbatbb/Proxy)
 * Vveg26 (https://github.com/vveg26/getProxy)
 * OpenRunner (https://github.com/openRunner/clash-freenode)
 * Xrayfree (https://github.com/xrayfree/free-ssr-ss-v2ray-vpn-clash)
 * Kxswa (https://github.com/kxswa/k)
-* Lancellc (https://lancellc.gitbook.io/clash/)
+* Lancellc (https://lancellc.gitbook.io/clash)
 
 <!-- Archived Reference:
 https://github.com/gooooooooooooogle/Clash-Config -->

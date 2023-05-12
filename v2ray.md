@@ -41,6 +41,9 @@ For a tutorial in Chinese, see [中文版教程](https://github.com/WilliamStar0
 * Xrayfree: https://tt.vg/freev2 ★
 * Kxswa: https://kxswa.tk/v2ray
 
+**Free Node Pool**
+* Zu1k: https://github.com/zu1k/proxypool ★
+
 ## Credits
 * NodeFree (https://nodefree.org)
 * ClashNode (https://clashnode.com)

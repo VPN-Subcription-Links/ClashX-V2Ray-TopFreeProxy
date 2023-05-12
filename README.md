@@ -45,7 +45,7 @@ For a tutorial in Chinese, see [中文版教程](https://github.com/WilliamStar0
 * Kxswa: https://kxswa.tk/clash
 
 **Free Node Pool**
-* BiHai: https://proxies.bihai.cf ★
+* Zu1k: https://github.com/zu1k/proxypool ★
 * LonXin: https://fq.lonxin.net
 
 ## Setup
@@ -78,7 +78,8 @@ https://user-images.githubusercontent.com/89805831/179545223-69177f8e-5f2d-4bd3-
 * Lancellc (https://lancellc.gitbook.io/clash)
 
 <!-- Archived Reference:
-https://github.com/gooooooooooooogle/Clash-Config -->
+https://github.com/gooooooooooooogle/Clash-Config 
+https://proxies.bihai.cf -->
 
 ## Disclaimer
 * This project is meant for personal and educational uses only.

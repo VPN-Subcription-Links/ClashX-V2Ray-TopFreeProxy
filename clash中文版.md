@@ -43,7 +43,7 @@
 * Kxswa: https://kxswa.tk/clash
 
 **免费节点池**
-* BiHai: https://proxies.bihai.cf ★
+* Zu1k: https://github.com/zu1k/proxypool ★
 * LonXin: https://fq.lonxin.net
 
 ## 设置
@@ -76,7 +76,8 @@ https://user-images.githubusercontent.com/89805831/179545223-69177f8e-5f2d-4bd3-
 * Githubvpn007 (https://github.com/githubvpn007/ClashX)
 
 <!-- Archived Reference:
-https://github.com/gooooooooooooogle/Clash-Config -->
+https://github.com/gooooooooooooogle/Clash-Config 
+https://proxies.bihai.cf  -->
 
 ## 免责声明
 * 本项目全部链接来自网络，仅供个人或学习交流使用，严禁用于商业用途

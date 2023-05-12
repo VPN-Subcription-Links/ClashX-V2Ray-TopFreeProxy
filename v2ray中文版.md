@@ -41,18 +41,18 @@
 * Kxswa: https://kxswa.tk/v2ray
 
 ## 致谢
-* NodeFree (https://nodefree.org)  
-* ClashNode (https://clashnode.com/)  
-* Mfuu (https://github.com/mfuu/v2ray)  
-* Freefq (https://github.com/freefq/free)  
-* Pojiezhiyuanjun (https://github.com/pojiezhiyuanjun/freev2)  
-* Ermaozi (https://github.com/ermaozi/get_subscribe)  
-* Aiboboxx (https://github.com/aiboboxx/v2rayfree)  
-* Learnhard-cn (https://github.com/learnhard-cn/free_proxy_ss)  
+* NodeFree (https://nodefree.org)
+* ClashNode (https://clashnode.com)
+* Mfuu (https://github.com/mfuu/v2ray)
+* Freefq (https://github.com/freefq/free)
+* Pojiezhiyuanjun (https://github.com/pojiezhiyuanjun/freev2)
+* Ermaozi (https://github.com/ermaozi/get_subscribe)
+* Aiboboxx (https://github.com/aiboboxx/v2rayfree)
+* Learnhard-cn (https://github.com/learnhard-cn/free_proxy_ss)
 * Tbbatbb (https://github.com/tbbatbb/Proxy)
 * Vveg26 (https://github.com/vveg26/getProxy)
 * OpenRunner (https://github.com/openRunner/clash-freenode)
-* Xrayfree (https://github.com/xrayfree/free-ssr-ss-v2ray-vpn-clash)  
+* Xrayfree (https://github.com/xrayfree/free-ssr-ss-v2ray-vpn-clash)
 * Kxswa (https://github.com/kxswa/k)
 
 <!-- Archived Reference: 

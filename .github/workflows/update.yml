@@ -4,7 +4,7 @@ name: Daily Update
 on:
   # Runs at 08:00 UTC every day
   schedule:
-    - cron: '0 8 * * *'
+    - cron: '0 */4 * * *'
 
   # Manual updates
   workflow_dispatch:

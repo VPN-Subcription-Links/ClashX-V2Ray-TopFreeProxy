@@ -40,7 +40,6 @@
 * Vveg26: https://raw.githubusercontent.com/vveg26/get_proxy/main/dist/clash.config.yaml
 * OpenRunner: https://raw.githubusercontent.com/openrunner/clash-freenode/main/clash.yaml ★
 * Xrayfree: https://tt.vg/freeclash
-* Kxswa: https://kxswa.tk/clash
 
 **免费节点池**
 * Zu1k: https://github.com/zu1k/proxypool ★
@@ -71,13 +70,13 @@ https://user-images.githubusercontent.com/89805831/179545223-69177f8e-5f2d-4bd3-
 * Vveg26 (https://github.com/vveg26/getProxy)
 * OpenRunner (https://github.com/openRunner/clash-freenode)
 * Xrayfree (https://github.com/xrayfree/free-ssr-ss-v2ray-vpn-clash)
-* Kxswa (https://github.com/kxswa/k)
 * Githubvpn007 (https://github.com/githubvpn007/ClashX)
 
 <!-- Archived Reference:
 https://github.com/gooooooooooooogle/Clash-Config 
 https://proxies.bihai.cf 
-https://fq.lonxin.net -->
+https://fq.lonxin.net 
+https://github.com/kxswa/k -->
 
 ## 免责声明
 * 本项目全部链接来自网络，仅供个人或学习交流使用，严禁用于商业用途

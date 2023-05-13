@@ -44,7 +44,6 @@
 
 **免费节点池**
 * Zu1k: https://github.com/zu1k/proxypool ★
-* LonXin: https://fq.lonxin.net
 
 ## 设置
 **详细设置信息请参阅：https://github.com/githubvpn007/ClashX**
@@ -77,7 +76,8 @@ https://user-images.githubusercontent.com/89805831/179545223-69177f8e-5f2d-4bd3-
 
 <!-- Archived Reference:
 https://github.com/gooooooooooooogle/Clash-Config 
-https://proxies.bihai.cf  -->
+https://proxies.bihai.cf 
+https://fq.lonxin.net -->
 
 ## 免责声明
 * 本项目全部链接来自网络，仅供个人或学习交流使用，严禁用于商业用途

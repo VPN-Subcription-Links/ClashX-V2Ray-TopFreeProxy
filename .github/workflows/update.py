@@ -1,5 +1,6 @@
-from datetime import date
+from datetime import date, datetime, timedelta, timezone
 import requests
+import json
 import re
 
 
@@ -34,9 +35,22 @@ def update(filename):
                 content = re.sub("clashnode.com/wp-content/uploads/[0-9]{4}/[0-9]{2}/[0-9]{8}" + f".{tp}",
                                  f"clashnode.com/wp-content/uploads/{year}/{month}/{year}{month}{day}.{tp}", content)
 
+        def is_commit_recent(user, repo):
+            response = requests.get(f'https://api.github.com/repos/{user}/{repo}/commits')
+            data = json.loads(response.text)
+            if response.status_code == 200 and data:
+                commit_time = datetime.strptime(data[0]['commit']['committer']['date'], "%Y-%m-%dT%H:%M:%SZ")
+                commit_time = commit_time.replace(tzinfo=timezone.utc)
+                now = datetime.now(timezone.utc)
+                if now - commit_time <= timedelta(hours=8):
+                    return True
+
+            return False
+
         # update Pojiezhiyuanjun link
-        content = re.sub("[0-9]{4}clash\.yml", f"{month}{day}clash.yml", content)
-        content = re.sub("[0-9]{4}\.txt", f"{month}{day}.txt", content)
+        if is_commit_recent("Pojiezhiyuanjun", "2023"):
+            content = re.sub("[0-9]{4}clash\.yml", f"{month}{day}clash.yml", content)
+            content = re.sub("[0-9]{4}\.txt", f"{month}{day}.txt", content)
 
         # open text file
         new_file = open(filename, "w")

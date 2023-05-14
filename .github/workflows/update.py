@@ -1,4 +1,5 @@
 from datetime import date
+import requests
 import re
 
 
@@ -13,15 +14,31 @@ def update(filename):
 
         # convert file to string
         content = file.read()
-        # update NodeFree & ClashNode link
-        new_content = re.sub("[0-9]{4}/[0-9]{2}/[0-9]{8}", f"{year}/{month}/{year}{month}{day}", content)
+
+        # check url validity
+        def check_url(url):
+            response = requests.get(url, timeout=3)
+            return response.status_code
+
+        # check and update NodeFree link
+        NodeFree_url = f"https://nodefree.org/dy/{year}/{month}/{year}{month}{day}.yaml"
+        if check_url(NodeFree_url) == 200:
+            content = re.sub("nodefree.org/dy/[0-9]{4}/[0-9]{2}/[0-9]{8}",
+                             f"nodefree.org/dy/{year}/{month}/{year}{month}{day}", content)
+
+        # check and update ClashNode link
+        ClashNode_url = f"https://clashnode.com/wp-content/uploads/{year}/{month}/{year}{month}{day}.yaml"
+        if check_url(ClashNode_url) == 200:
+            content = re.sub("clashnode.com/wp-content/uploads/[0-9]{4}/[0-9]{2}/[0-9]{8}",
+                             f"clashnode.com/wp-content/uploads/{year}/{month}/{year}{month}{day}", content)
+
         # update Pojiezhiyuanjun link
-        new_content = re.sub("[0-9]{4}clash\.yml", f"{month}{day}clash.yml", new_content)
-        new_content = re.sub("[0-9]{4}\.txt", f"{month}{day}.txt", new_content)
+        content = re.sub("[0-9]{4}clash\.yml", f"{month}{day}clash.yml", content)
+        content = re.sub("[0-9]{4}\.txt", f"{month}{day}.txt", content)
 
         # open text file
         new_file = open(filename, "w")
-        new_file.write(new_content)
+        new_file.write(content)
         new_file.close()
 
 

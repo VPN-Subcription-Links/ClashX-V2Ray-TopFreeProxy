@@ -20,17 +20,19 @@ def update(filename):
             response = requests.get(url, timeout=3)
             return response.status_code
 
-        # check and update NodeFree link
-        NodeFree_url = f"https://nodefree.org/dy/{year}/{month}/{year}{month}{day}.yaml"
-        if check_url(NodeFree_url) == 200:
-            content = re.sub("nodefree.org/dy/[0-9]{4}/[0-9]{2}/[0-9]{8}",
-                             f"nodefree.org/dy/{year}/{month}/{year}{month}{day}", content)
+        types = ["yaml", "txt"]
+        for tp in types:
+            # check and update NodeFree link
+            NodeFree_url = f"https://nodefree.org/dy/{year}/{month}/{year}{month}{day}.{tp}"
+            if check_url(NodeFree_url) == 200:
+                content = re.sub("nodefree.org/dy/[0-9]{4}/[0-9]{2}/[0-9]{8}" + f".{tp}",
+                                 f"nodefree.org/dy/{year}/{month}/{year}{month}{day}.{tp}", content)
 
-        # check and update ClashNode link
-        ClashNode_url = f"https://clashnode.com/wp-content/uploads/{year}/{month}/{year}{month}{day}.yaml"
-        if check_url(ClashNode_url) == 200:
-            content = re.sub("clashnode.com/wp-content/uploads/[0-9]{4}/[0-9]{2}/[0-9]{8}",
-                             f"clashnode.com/wp-content/uploads/{year}/{month}/{year}{month}{day}", content)
+            # check and update ClashNode link
+            ClashNode_url = f"https://clashnode.com/wp-content/uploads/{year}/{month}/{year}{month}{day}.{tp}"
+            if check_url(ClashNode_url) == 200:
+                content = re.sub("clashnode.com/wp-content/uploads/[0-9]{4}/[0-9]{2}/[0-9]{8}" + f".{tp}",
+                                 f"clashnode.com/wp-content/uploads/{year}/{month}/{year}{month}{day}.{tp}", content)
 
         # update Pojiezhiyuanjun link
         content = re.sub("[0-9]{4}clash\.yml", f"{month}{day}clash.yml", content)

@@ -6,8 +6,8 @@
 </h1>
 
 <!-- newly added! -->
-![Vistors](https://visitor-badge.laobi.icu/badge?page_id=WilliamStar007.ClashX-V2Ray-TopFreeProxy)
-![LICENSE](https://img.shields.io/badge/license-MIT-green.svg)
+<!-- ![Vistors](https://visitor-badge.laobi.icu/badge?page_id=WilliamStar007.ClashX-V2Ray-TopFreeProxy) -->
+<!-- ![LICENSE](https://img.shields.io/badge/license-MIT-green.svg) -->
 
 Tutorial for setting up a [ClashX](https://github.com/yichengchen/clashX) proxy with free subscription links.  
 Feel free to submit an [Issue](https://github.com/WilliamStar007/ClashX-TopFreeProxy/issues) or make a [Pull Request](https://github.com/WilliamStar007/ClashX-TopFreeProxy/pulls)!  

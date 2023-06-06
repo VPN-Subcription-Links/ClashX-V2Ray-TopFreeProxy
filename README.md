@@ -34,7 +34,7 @@ For a tutorial in Chinese, see [中文版教程](https://github.com/WilliamStar0
 **Modify the date (if any) in the links to the current date!!**
 
 * NodeFree: https://nodefree.org/dy/2023/06/20230605.yaml ★
-* ClashNode: https://clashnode.com/wp-content/uploads/2023/06/20230604.yaml ★
+* ClashNode: https://clashnode.com/wp-content/uploads/2023/06/20230606.yaml ★
 * NiceVPN: https://sub.nicevpn.top/Clash.yaml ★
 * Mfuu: https://raw.githubusercontent.com/mfuu/v2ray/master/clash.yaml
 * Anaer: https://raw.githubusercontent.com/anaer/Sub/main/clash.yaml ★

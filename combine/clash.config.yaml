@@ -1190,7 +1190,7 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: 🇨🇳CN-183.240.169.23-077_2@77
+  name: 🇨🇳CN-183.240.169.26-077_2@77
   network: tcp
   port: 12223
   server: bgpv2.ktyjsq.com
@@ -1203,7 +1203,7 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
-  name: 🇨🇳CN-183.240.169.24-078_2@78
+  name: 🇨🇳CN-183.240.169.28-078_2@78
   network: tcp
   port: 12205
   server: bgpv2.ktyjsq.com
@@ -1343,7 +1343,7 @@ proxies:
   ws-path: /api/v3/download.getFile
 - alterId: 0
   cipher: auto
-  name: 🇨🇳CN-183.240.169.28-093_2@93
+  name: 🇨🇳CN-183.240.221.72-093_2@93
   network: tcp
   port: 12005
   server: bgpv2.ktyjsq.com
@@ -1401,7 +1401,7 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 🇨🇳CN-183.240.169.28-104_2@104
+  name: 🇨🇳CN-183.240.169.24-104_2@104
   network: tcp
   port: 12224
   server: bgpv2.ktyjsq.com
@@ -1446,7 +1446,7 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: 🇨🇳CN-183.240.169.28-110_2@110
+  name: 🇨🇳CN-183.240.169.27-110_2@110
   network: tcp
   port: 12221
   server: bgpv2.ktyjsq.com
@@ -1684,119 +1684,99 @@ proxies:
   ws-headers:
     Host: taobao.babazhuji.com
   ws-path: /didi
-- name: 🇯🇵JP-20.222.34.149-145_2@145
-  password: 254a29d6-51ff-4c89-8bef-03ca2de19abe
+- alterId: 64
+  cipher: auto
+  name: 🇺🇸US-23.225.117.50-145_2@145
+  network: tcp
+  port: 49231
+  server: 23.225.117.50
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: bb25859e-f6da-4101-989f-b4dd67a22682
+  ws-headers:
+    Host: 23.225.117.50
+  ws-path: /
+- name: 🇳🇱NL-149.50.89.110-147_2@147
+  password: TJCfE7Mx2YcA8kX8zg
+  port: 4003
+  server: nl3.barbecuepie.com
+  skip-cert-verify: true
+  type: trojan
+- name: 🇯🇵JP-20.89.51.187-149_2@149
+  password: 6f96d269-31bb-4914-b2c9-629e117265ed
   port: 443
-  server: sg.stablize.top
+  server: usa.stablize.top
   skip-cert-verify: true
   type: trojan
 - alterId: 0
   cipher: auto
-  name: 🏁RELAY-198.41.223.246-146_2@146
-  network: ws
-  port: 8080
-  server: cf-lt.sharecentre.online
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: d16c31a2-93a3-4f1a-954c-e383b14a4d26
-  ws-headers:
-    Host: ssrsub.v01.ssrsub.com
-  ws-path: /api/v3/download.getFile
-- alterId: 0
-  cipher: auto
-  name: 🏁RELAY-104.31.16.27-147_2@147
-  network: ws
-  port: 80
-  server: 104.31.16.27
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 58fe1542-5290-40ad-815a-77707a81afe5
-  ws-headers:
-    Host: ca5.tehme2.fun
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  name: 🏁RELAY-104.254.140.245-150_2@150
-  network: ws
-  port: 80
-  server: 104.254.140.245
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 1feceec7-fc56-41fc-8c8b-9dc3fb30ac2c
-  ws-headers:
-    Host: hello-world-solitary-sky-c0bf.ourwayapp.workers.dev
-  ws-path: /oSiR4t7dQow0J9ea3kKkF
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸US-5.252.197.78-151_2@151
-  network: ws
-  port: 54185
-  server: 5.252.197.78
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 3ab4cb1a-d846-4cf1-b3da-211dccb53107
-  ws-headers:
-    Host: 5.252.197.78
-  ws-path: /?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 🏁RELAY-172.67.215.25-153_2@153
+  name: 🏁RELAY-104.16.150.9-150_2@150
   network: ws
   port: 443
-  server: aaaa.wxx.gay
+  server: 104.16.150.9
   skip-cert-verify: true
   tls: true
   type: vmess
-  uuid: afafd300-0b95-11ee-87f8-000017022008
+  uuid: 3de4ec27-74b4-43e3-bf23-18e726ac80bc
   ws-headers:
-    Host: aaaa.wxx.gay
-  ws-path: /look
+    Host: XWOp2D.janbaroon.com
+  ws-path: /P6kpn5UKG40MNLK2
 - alterId: 0
   cipher: auto
-  name: 🏁RELAY-104.31.16.47-155_2@155
+  name: 🏁RELAY-195.137.167.163-151_2@151
   network: ws
-  port: 80
-  server: ns1.v2-vip.fun
+  port: 443
+  server: 195.137.167.163
   skip-cert-verify: true
-  tls: false
+  tls: true
   type: vmess
-  uuid: 8abe9496-5e24-4e49-b566-dcf86116017d
+  uuid: A84AD30F-9333-48DA-AA1B-C8CB971B78DF
   ws-headers:
-    Host: de5.irteh.fun
-  ws-path: /i99LgvSaslbsPLLQQ7j6Z
+    Host: Kansas.kotick.site
+  ws-path: /speedtest
 - alterId: 0
   cipher: auto
-  name: 🏁RELAY-172.67.208.87-157_2@157
+  name: 🏁RELAY-162.159.243.235-153_2@153
   network: ws
-  port: 80
-  server: cf.yxjnode.com
+  port: 443
+  server: 162.159.243.235
   skip-cert-verify: true
-  tls: false
+  tls: true
   type: vmess
-  uuid: 09c1d32d-4458-4ebf-b36d-4dd732bae3aa
+  uuid: dddd0b29-1576-4003-9990-d7cea34264db
   ws-headers:
-    Host: dp1.yxjnode.com
-  ws-path: /yxzbp
+    Host: dedi2.1808.cf
+  ws-path: /835757
 - alterId: 0
   cipher: auto
-  name: 🏁RELAY-172.67.173.5-158_2@158
+  name: 🏁RELAY-212.110.134.7-155_2@155
   network: ws
-  port: 80
-  server: cf-yd-dns.sharecentre.online
+  port: 443
+  server: 212.110.134.7
   skip-cert-verify: true
-  tls: false
+  tls: true
   type: vmess
-  uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef
+  uuid: 3de4ec27-74b4-43e3-bf23-18e726ac80bc
   ws-headers:
-    Host: dp3.scproxy.top
-  ws-path: /shirker
+    Host: zHGKLbqn6UM.janbaroon.com
+  ws-path: /P6kpn5UKG40MNLK2
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸US-144.24.60.90-156_2@156
+  network: tcp
+  port: 56304
+  server: vs2.anglesccs.top
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 30e69e67-491c-4b46-aa30-60b75325e9db
+  ws-headers:
+    Host: vs2.anglesccs.top
+  ws-path: /
 - alterId: 2
   cipher: auto
-  name: 🇨🇳CN-120.240.41.43-161_2@161
+  name: 🇨🇳CN-120.240.41.43-158_2@158
   network: tcp
   port: 23608
   server: 8.v2-ray.cyou
@@ -1809,209 +1789,216 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
-  name: 🏁RELAY-212.110.134.7-162_2@162
+  name: 🏁RELAY-172.67.147.10-159_2@159
+  network: ws
+  port: 80
+  server: dl.v001sssv.pw
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: a4bb7f93-cee6-43d7-b2dd-fa9c70b88233
+  ws-headers:
+    Host: dl.v001sssv.pw
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  name: 🏁RELAY-172.67.208.87-160_2@160
+  network: ws
+  port: 80
+  server: cf.yxjnode.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 09c1d32d-4458-4ebf-b36d-4dd732bae3aa
+  ws-headers:
+    Host: dp1.yxjnode.com
+  ws-path: /yxzbp
+- alterId: 0
+  cipher: auto
+  name: 🏁RELAY-172.64.164.243-161_2@161
+  network: ws
+  port: 80
+  server: cf-yd-dns.sharecentre.online
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef
+  ws-headers:
+    Host: dp3.scproxy.top
+  ws-path: /shirker
+- alterId: 0
+  cipher: auto
+  name: 🏁RELAY-104.31.16.29-162_2@162
+  network: ws
+  port: 80
+  server: ns1.v2-vip.fun
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 8abe9496-5e24-4e49-b566-dcf86116017d
+  ws-headers:
+    Host: de5.irteh.fun
+  ws-path: /i99LgvSaslbsPLLQQ7j6Z
+- alterId: 0
+  cipher: auto
+  name: 🏁RELAY-104.31.16.27-164_2@164
+  network: ws
+  port: 80
+  server: 104.31.16.27
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 58fe1542-5290-40ad-815a-77707a81afe5
+  ws-headers:
+    Host: ca5.tehme2.fun
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  name: 🏁RELAY-198.41.222.72-165_2@165
+  network: ws
+  port: 8080
+  server: cf-lt.sharecentre.online
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: d16c31a2-93a3-4f1a-954c-e383b14a4d26
+  ws-headers:
+    Host: ssrsub.v01.ssrsub.com
+  ws-path: /api/v3/download.getFile
+- cipher: rc4
+  group: free_ssr
+  name: 🇷🇺RU-188.119.65.46-166_2@166
+  obfs: plain
+  obfsparam: null
+  password: lncn.org ke6
+  port: 21995
+  protocol: origin
+  protoparam: null
+  server: 188.119.65.46
+  type: ssr
+- cipher: rc4
+  group: free_ssr
+  name: 🇷🇺RU-195.133.10.172-167_2@167
+  obfs: plain
+  obfsparam: null
+  password: lncn.org ke6
+  port: 21995
+  protocol: origin
+  protoparam: null
+  server: 195.133.10.172
+  type: ssr
+- cipher: rc4
+  group: free_ssr
+  name: 🇷🇺RU-195.133.10.249-168_2@168
+  obfs: plain
+  obfsparam: null
+  password: lncn.org ke6
+  port: 21995
+  protocol: origin
+  protoparam: null
+  server: 195.133.10.249
+  type: ssr
+- cipher: rc4
+  group: free_ssr
+  name: 🇷🇺RU-188.119.65.56-169_2@169
+  obfs: plain
+  obfsparam: null
+  password: lncn.org ke6
+  port: 21995
+  protocol: origin
+  protoparam: null
+  server: 188.119.65.56
+  type: ssr
+- alterId: 64
+  cipher: auto
+  name: 🏁RELAY-104.21.78.23-170_2@170
   network: ws
   port: 443
-  server: 212.110.134.7
+  server: aaaa.wxx.gay
   skip-cert-verify: true
   tls: true
   type: vmess
-  uuid: 3de4ec27-74b4-43e3-bf23-18e726ac80bc
+  uuid: 44e33d7c-0bfa-11ee-aeb8-000017022008
   ws-headers:
-    Host: zHGKLbqn6UM.janbaroon.com
-  ws-path: /P6kpn5UKG40MNLK2
+    Host: aaaa.wxx.gay
+  ws-path: /look
 - cipher: aes-256-gcm
-  name: 🇬🇧GB-172.99.190.87-163_2@163
+  name: 🇬🇧GB-172.99.190.87-171_2@171
   password: KixLvKzwjekG00rm
   port: 5500
   server: 172.99.190.87
   type: ss
-- cipher: aes-256-gcm
-  name: 🇫🇷FR-149.202.82.172-164_2@164
-  password: KixLvKzwjekG00rm
-  port: 5500
-  server: 149.202.82.172
-  type: ss
-- cipher: aes-256-gcm
-  name: 🇩🇪DE-193.108.118.34-165_2@165
-  password: faBAoD54k87UJG7
-  port: 2375
-  server: 193.108.118.34
-  type: ss
-- cipher: aes-256-cfb
-  name: 🇱🇻LV-185.135.86.173-166_2@166
-  password: UkXRsXvR6buDMG2Y
-  port: 9001
-  server: 185.135.86.173
-  type: ss
 - alterId: 64
   cipher: auto
-  name: 🇯🇵JP-212.50.246.135-168_2@168
+  name: 🇺🇸US-38.63.0.74-172_2@172
   network: tcp
-  port: 32669
-  server: 212.50.246.135
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: b265ea6d-50ba-4f52-8aaa-1c2bee41b39f
-  ws-headers:
-    Host: 212.50.246.135
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  name: 🏁RELAY-172.67.219.5-170_2@170
-  network: ws
-  port: 443
-  server: v2ray.online
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 00BBF5B8-173E-6818-9927-5AD1AA073C7D
-  ws-headers:
-    Host: Kansas.v2ray.online
-  ws-path: /speedtest
-- alterId: 64
-  cipher: auto
-  name: 🇺🇸US-137.175.3.225-171_2@171
-  network: tcp
-  port: 53042
-  server: 137.175.3.225
+  port: 47002
+  server: 38.63.0.74
   skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   ws-headers:
-    Host: 137.175.3.225
+    Host: 38.63.0.74
   ws-path: /
 - alterId: 64
   cipher: auto
-  name: 🇺🇸US-45.58.186.85-173_2@173
+  name: 🇺🇸US-156.225.67.20-173_2@173
   network: tcp
-  port: 51140
-  server: 45.58.186.85
+  port: 45044
+  server: 156.225.67.20
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 4a138e19-0595-4d51-83c6-fd276cf7d307
+  uuid: a7fa8f14-4fb6-4280-9005-d6bbe99c5da9
   ws-headers:
-    Host: 45.58.186.85
+    Host: 156.225.67.20
   ws-path: /
-- name: 🇺🇸US-149.50.68.135-174_2@174
+- alterId: 64
+  cipher: auto
+  name: 🇺🇸US-74.217.179.187-174_2@174
+  network: tcp
+  port: 40042
+  server: 74.217.179.187
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    Host: 74.217.179.187
+  ws-path: /
+- name: 🇺🇸US-149.50.68.136-175_2@175
   password: TJCfE7Mx2YcA8kX8zg
   port: 4003
   server: us2.chuqiangtou.net
   skip-cert-verify: true
   type: trojan
+- alterId: 0
+  cipher: auto
+  name: 🏁RELAY-104.31.16.28-178_2@178
+  network: ws
+  port: 80
+  server: 104.31.16.28
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 58fe1542-5290-40ad-815a-77707a81afe5
+  ws-headers:
+    Host: ca4.tehme2.fun
+  ws-path: /IOebhLMhl1CTbFHbL95myfRX2
 - alterId: 64
   cipher: auto
-  name: 🇺🇸US-142.4.100.43-175_2@175
+  name: 🇫🇷FR-151.80.11.236-180_2@180
   network: tcp
-  port: 45009
-  server: 142.4.100.43
+  port: 48028
+  server: 151.80.11.236
   skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   ws-headers:
-    Host: 142.4.100.43
+    Host: 151.80.11.236
   ws-path: /
-- alterId: 64
-  cipher: auto
-  name: 🇺🇸US-64.32.4.40-178_2@176
-  network: tcp
-  port: 43166
-  server: 64.32.4.40
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 8653004f-de67-44c2-9cce-e0830933fb03
-  ws-headers:
-    Host: 64.32.4.40
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸US-13.56.19.76-179_2@177
-  network: ws
-  port: 443
-  server: 0kxedm1x8q8lksmj13.xingbayun.buzz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 08e358c3-869a-4900-8e04-a04e130908ad
-  ws-headers:
-    Host: www.microsoft.com
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  name: 🇩🇪DE-130.61.61.17-181_2@179
-  network: ws
-  port: 80
-  server: 130.61.61.17
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 13c7db38-b00f-49ca-bd9e-60f4f1f008cd
-  ws-headers:
-    Host: 130.61.61.17
-  ws-path: /cctv13.m3u8?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 🇷🇺RU-195.133.53.90-182_2@180
-  network: ws
-  port: 443
-  server: 195.133.53.90
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 04b38baf-5b78-4937-b27a-83057b08b776
-  ws-headers:
-    Host: 195.133.53.90
-  ws-path: /
-- name: 🇬🇧GB-149.50.77.131-183_2@181
-  password: TJCfE7Mx2YcA8kX8zg
-  port: 4003
-  server: uk1.chuqiangtou.net
-  skip-cert-verify: true
-  type: trojan
-- alterId: 0
-  cipher: auto
-  name: 🏁RELAY-104.18.12.98-184_2@182
-  network: ws
-  port: 443
-  server: cf.durov.ir
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: c7654980-72fe-492d-8b6f-a4cb55c94c2e
-  ws-headers:
-    Host: dedipath.iiio.wiki
-  ws-path: /aries?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 🏁RELAY-104.18.12.98-188_2@186
-  network: ws
-  port: 443
-  server: cfcdn.sanfencdn.net
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 698115e4-1494-4f4a-85a9-76cd011d3ac6
-  ws-headers:
-    Host: us6.sanfencdn.net
-  ws-path: /zh-cn
-- alterId: 0
-  cipher: auto
-  name: 🏁RELAY-172.64.85.245-195_2@193
-  network: ws
-  port: 2052
-  server: 172.64.85.245
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 243240f9-9f5b-4f98-dd5c-e19784d19631
-  ws-headers:
-    Host: uyaa.vtcss.top
-  ws-path: /youlingkaishi
 - alterId: 64
   cipher: auto
   name: 丹麦 001_3@0
@@ -2039,7 +2026,7 @@ proxies:
     path: /FreeForGFW
 - alterId: 0
   cipher: auto
-  name: 乌兹别克斯坦 001_3@3
+  name: 乌兹别克斯坦 001_3@4
   network: ws
   port: 80
   server: 37.110.209.228
@@ -2049,7 +2036,7 @@ proxies:
   ws-path: /mehdi
 - alterId: 0
   cipher: auto
-  name: 亚美尼亚 001_3@4
+  name: 亚美尼亚 001_3@5
   network: ws
   port: 80
   server: 178.160.192.38
@@ -2059,7 +2046,7 @@ proxies:
   ws-path: /mehdi
 - alterId: 0
   cipher: auto
-  name: 伊朗 001_3@5
+  name: 伊朗 001_3@6
   network: ws
   port: 443
   server: ger.hamyonline.shop
@@ -2069,7 +2056,7 @@ proxies:
   ws-path: /17528
 - alterId: 0
   cipher: auto
-  name: 伊朗 002_3@6
+  name: 伊朗 002_3@7
   network: ws
   port: 2052
   server: jpwadnca.114514782.xyz
@@ -2079,8 +2066,21 @@ proxies:
   ws-path: /miaoshen
 - alterId: 0
   cipher: auto
+  name: 俄罗斯 001_3@8
+  network: ws
+  port: 443
+  server: 195.133.53.90
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 04b38baf-5b78-4937-b27a-83057b08b776
+  ws-opts:
+    path: /
+- alterId: 0
+  cipher: auto
   client-fingerprint: chrome
-  name: 俄罗斯 002_3@8
+  name: 俄罗斯 002_3@9
   network: ws
   port: 80
   server: 195.133.53.90
@@ -2095,7 +2095,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 俄罗斯 003_3@9
+  name: 俄罗斯 003_3@10
   network: ws
   port: 80
   server: 92.223.114.6
@@ -2105,7 +2105,7 @@ proxies:
   ws-path: /mehdi
 - alterId: 0
   cipher: auto
-  name: 俄罗斯 004_3@10
+  name: 俄罗斯 004_3@11
   network: ws
   port: 80
   server: 5.8.43.5
@@ -2115,7 +2115,7 @@ proxies:
   ws-path: /mehdi
 - alterId: 0
   cipher: auto
-  name: 俄罗斯 005_3@11
+  name: 俄罗斯 005_3@12
   network: ws
   port: 80
   server: 5.8.43.6
@@ -2125,7 +2125,7 @@ proxies:
   ws-path: /mehdi
 - alterId: 0
   cipher: auto
-  name: 俄罗斯 006_3@12
+  name: 俄罗斯 006_3@13
   network: ws
   port: 80
   server: 92.223.108.13
@@ -2135,7 +2135,7 @@ proxies:
   ws-path: /mehdi
 - alterId: 0
   cipher: auto
-  name: 俄罗斯 007_3@13
+  name: 俄罗斯 007_3@14
   network: ws
   port: 80
   server: 92.223.108.16
@@ -2145,7 +2145,7 @@ proxies:
   ws-path: /mehdi
 - alterId: 0
   cipher: auto
-  name: 俄罗斯 008_3@14
+  name: 俄罗斯 008_3@15
   network: ws
   port: 80
   server: 92.223.114.7
@@ -2155,7 +2155,7 @@ proxies:
   ws-path: /mehdi
 - alterId: 0
   cipher: auto
-  name: 俄罗斯 009_3@15
+  name: 俄罗斯 009_3@16
   network: ws
   port: 80
   server: 92.223.114.11
@@ -2165,7 +2165,7 @@ proxies:
   ws-path: /mehdi
 - alterId: 0
   cipher: auto
-  name: 俄罗斯 010_3@16
+  name: 俄罗斯 010_3@17
   network: ws
   port: 80
   server: 92.223.123.45
@@ -2175,7 +2175,7 @@ proxies:
   ws-path: /mehdi
 - alterId: 0
   cipher: auto
-  name: 俄罗斯 011_3@17
+  name: 俄罗斯 011_3@18
   network: ws
   port: 80
   server: 92.223.123.48
@@ -2185,7 +2185,7 @@ proxies:
   ws-path: /mehdi
 - alterId: 0
   cipher: auto
-  name: 俄罗斯 012_3@18
+  name: 俄罗斯 012_3@19
   network: ws
   port: 80
   server: 92.223.123.20
@@ -2195,7 +2195,7 @@ proxies:
   ws-path: /mehdi
 - alterId: 0
   cipher: auto
-  name: 俄罗斯 013_3@19
+  name: 俄罗斯 013_3@20
   network: ws
   port: 80
   server: 92.223.43.14
@@ -2205,7 +2205,7 @@ proxies:
   ws-path: /mehdi
 - alterId: 0
   cipher: auto
-  name: 俄罗斯 014_3@20
+  name: 俄罗斯 014_3@21
   network: ws
   port: 80
   server: 92.223.122.173
@@ -2215,7 +2215,7 @@ proxies:
   ws-path: /mehdi
 - alterId: 0
   cipher: auto
-  name: 俄罗斯 015_3@21
+  name: 俄罗斯 015_3@22
   network: ws
   port: 80
   server: 92.223.108.14
@@ -2225,7 +2225,7 @@ proxies:
   ws-path: /mehdi
 - alterId: 0
   cipher: auto
-  name: 俄罗斯 016_3@22
+  name: 俄罗斯 016_3@23
   network: ws
   port: 80
   server: 92.223.110.4
@@ -2235,7 +2235,7 @@ proxies:
   ws-path: /mehdi
 - alterId: 0
   cipher: auto
-  name: 俄罗斯 017_3@23
+  name: 俄罗斯 017_3@24
   network: ws
   port: 80
   server: 92.223.123.10
@@ -2245,7 +2245,7 @@ proxies:
   ws-path: /mehdi
 - alterId: 0
   cipher: auto
-  name: 俄罗斯 018_3@24
+  name: 俄罗斯 018_3@25
   network: ws
   port: 80
   server: 92.223.114.14
@@ -2255,7 +2255,7 @@ proxies:
   ws-path: /mehdi
 - alterId: 0
   cipher: auto
-  name: 俄罗斯 019_3@25
+  name: 俄罗斯 019_3@26
   network: ws
   port: 80
   server: 95.85.88.8
@@ -2265,7 +2265,7 @@ proxies:
   ws-path: /mehdi
 - alterId: 0
   cipher: auto
-  name: 俄罗斯 020_3@26
+  name: 俄罗斯 020_3@27
   network: ws
   port: 80
   server: 95.85.88.9
@@ -2275,7 +2275,7 @@ proxies:
   ws-path: /mehdi
 - alterId: 0
   cipher: auto
-  name: 俄罗斯 021_3@27
+  name: 俄罗斯 021_3@28
   network: ws
   port: 80
   server: 5.188.121.178
@@ -2285,7 +2285,7 @@ proxies:
   ws-path: /mehdi
 - alterId: 0
   cipher: auto
-  name: 俄罗斯 022_3@28
+  name: 俄罗斯 022_3@29
   network: ws
   port: 80
   server: 5.188.121.137
@@ -2295,7 +2295,7 @@ proxies:
   ws-path: /mehdi
 - alterId: 0
   cipher: auto
-  name: 俄罗斯 023_3@29
+  name: 俄罗斯 023_3@30
   network: ws
   port: 80
   server: 5.188.121.134
@@ -2305,7 +2305,7 @@ proxies:
   ws-path: /mehdi
 - alterId: 0
   cipher: auto
-  name: 俄罗斯 024_3@30
+  name: 俄罗斯 024_3@31
   network: ws
   port: 80
   server: 5.188.121.135
@@ -2315,7 +2315,7 @@ proxies:
   ws-path: /mehdi
 - alterId: 0
   cipher: auto
-  name: 保加利亚 001_3@31
+  name: 保加利亚 001_3@32
   network: ws
   port: 80
   server: 5.101.219.5
@@ -2325,7 +2325,7 @@ proxies:
   ws-path: /mehdi
 - alterId: 0
   cipher: auto
-  name: 保加利亚 002_3@32
+  name: 保加利亚 002_3@33
   network: ws
   port: 80
   server: 93.123.11.12
@@ -2335,7 +2335,7 @@ proxies:
   ws-path: /mehdi
 - alterId: 0
   cipher: auto
-  name: 保加利亚 003_3@33
+  name: 保加利亚 003_3@34
   network: ws
   port: 80
   server: 93.123.17.137
@@ -2345,7 +2345,7 @@ proxies:
   ws-path: /mehdi
 - alterId: 0
   cipher: auto
-  name: 保加利亚 004_3@34
+  name: 保加利亚 004_3@35
   network: ws
   port: 80
   server: 93.123.17.134
@@ -2355,7 +2355,7 @@ proxies:
   ws-path: /mehdi
 - alterId: 0
   cipher: auto
-  name: 保加利亚 005_3@35
+  name: 保加利亚 005_3@36
   network: ws
   port: 80
   server: 93.123.17.151
@@ -2365,7 +2365,7 @@ proxies:
   ws-path: /mehdi
 - alterId: 0
   cipher: auto
-  name: 保加利亚 006_3@36
+  name: 保加利亚 006_3@37
   network: ws
   port: 80
   server: 93.123.17.141
@@ -2375,7 +2375,7 @@ proxies:
   ws-path: /mehdi
 - alterId: 0
   cipher: auto
-  name: 保加利亚 007_3@37
+  name: 保加利亚 007_3@38
   network: ws
   port: 80
   server: 93.123.17.143
@@ -2385,7 +2385,7 @@ proxies:
   ws-path: /mehdi
 - alterId: 0
   cipher: auto
-  name: 保加利亚 008_3@38
+  name: 保加利亚 008_3@39
   network: ws
   port: 80
   server: 93.123.17.144
@@ -2395,7 +2395,7 @@ proxies:
   ws-path: /mehdi
 - alterId: 0
   cipher: auto
-  name: 保加利亚 009_3@39
+  name: 保加利亚 009_3@40
   network: ws
   port: 80
   server: 93.123.17.139
@@ -2405,7 +2405,7 @@ proxies:
   ws-path: /mehdi
 - alterId: 0
   cipher: auto
-  name: 保加利亚 010_3@40
+  name: 保加利亚 010_3@41
   network: ws
   port: 80
   server: 93.123.17.147
@@ -2415,7 +2415,7 @@ proxies:
   ws-path: /mehdi
 - alterId: 0
   cipher: auto
-  name: 保加利亚 011_3@41
+  name: 保加利亚 011_3@42
   network: ws
   port: 80
   server: 93.123.17.135
@@ -2425,7 +2425,7 @@ proxies:
   ws-path: /mehdi
 - alterId: 0
   cipher: auto
-  name: 保加利亚 012_3@42
+  name: 保加利亚 012_3@43
   network: ws
   port: 80
   server: 93.123.17.136
@@ -2435,7 +2435,7 @@ proxies:
   ws-path: /mehdi
 - alterId: 0
   cipher: auto
-  name: 保加利亚 013_3@43
+  name: 保加利亚 013_3@44
   network: ws
   port: 80
   server: 93.123.17.140
@@ -2445,7 +2445,7 @@ proxies:
   ws-path: /mehdi
 - alterId: 0
   cipher: auto
-  name: 保加利亚 014_3@44
+  name: 保加利亚 014_3@45
   network: ws
   port: 80
   server: 93.123.17.146
@@ -2455,7 +2455,7 @@ proxies:
   ws-path: /mehdi
 - alterId: 0
   cipher: auto
-  name: 保加利亚 015_3@45
+  name: 保加利亚 015_3@46
   network: ws
   port: 80
   server: 93.123.17.149
@@ -2465,7 +2465,7 @@ proxies:
   ws-path: /mehdi
 - alterId: 0
   cipher: auto
-  name: 保加利亚 016_3@46
+  name: 保加利亚 016_3@47
   network: ws
   port: 80
   server: 93.123.17.150
@@ -2475,7 +2475,7 @@ proxies:
   ws-path: /mehdi
 - alterId: 0
   cipher: auto
-  name: 保加利亚 017_3@47
+  name: 保加利亚 017_3@48
   network: ws
   port: 80
   server: 93.123.17.132
@@ -2485,7 +2485,7 @@ proxies:
   ws-path: /mehdi
 - alterId: 0
   cipher: auto
-  name: 保加利亚 018_3@48
+  name: 保加利亚 018_3@49
   network: ws
   port: 80
   server: 93.123.17.133
@@ -2495,7 +2495,7 @@ proxies:
   ws-path: /mehdi
 - alterId: 0
   cipher: auto
-  name: 保加利亚 019_3@49
+  name: 保加利亚 019_3@50
   network: ws
   port: 80
   server: 93.123.17.138
@@ -2505,7 +2505,7 @@ proxies:
   ws-path: /mehdi
 - alterId: 0
   cipher: auto
-  name: 卢森堡 001_3@50
+  name: 卢森堡 001_3@51
   network: ws
   port: 80
   server: 92.223.112.12
@@ -2515,7 +2515,7 @@ proxies:
   ws-path: /mehdi
 - alterId: 0
   cipher: auto
-  name: 卢森堡 002_3@51
+  name: 卢森堡 002_3@52
   network: ws
   port: 80
   server: 92.223.120.15
@@ -2525,7 +2525,7 @@ proxies:
   ws-path: /mehdi
 - alterId: 0
   cipher: auto
-  name: 印尼 001_3@52
+  name: 印尼 001_3@53
   network: ws
   port: 80
   server: banterbener.my.id
@@ -2540,7 +2540,7 @@ proxies:
     path: /xrayvws
 - alterId: 0
   cipher: auto
-  name: 印度 001_3@53
+  name: 印度 001_3@54
   network: ws
   port: 9001
   server: mumbaiamd.csi7lahsc.com
@@ -2552,7 +2552,7 @@ proxies:
     path: /video
 - alterId: 0
   cipher: auto
-  name: 哥斯达黎加 001_3@54
+  name: 哥斯达黎加 001_3@55
   network: ws
   port: 2082
   server: 190.93.247.97
@@ -2562,7 +2562,7 @@ proxies:
   ws-path: /yulingkaishi01
 - alterId: 0
   cipher: auto
-  name: 哥斯达黎加 002_3@55
+  name: 哥斯达黎加 002_3@56
   network: ws
   port: 2095
   server: 190.93.247.215
@@ -2572,7 +2572,7 @@ proxies:
   ws-path: /blue
 - alterId: 0
   cipher: auto
-  name: 土耳其 001_3@56
+  name: 土耳其 001_3@57
   network: ws
   port: 80
   server: 78.111.103.4
@@ -2582,7 +2582,7 @@ proxies:
   ws-path: /mehdi
 - alterId: 0
   cipher: auto
-  name: 土耳其 002_3@57
+  name: 土耳其 002_3@58
   network: ws
   port: 80
   server: 78.111.103.5
@@ -2592,7 +2592,7 @@ proxies:
   ws-path: /mehdi
 - alterId: 64
   cipher: auto
-  name: 塞尔维亚 001_3@58
+  name: 塞尔维亚 001_3@59
   network: tcp
   port: 52920
   server: 37.120.193.102
@@ -2602,7 +2602,7 @@ proxies:
   ws-path: ''
 - alterId: 0
   cipher: auto
-  name: 巴西 001_3@59
+  name: 巴西 001_3@60
   network: ws
   port: 9001
   server: saopaulo.csi7lahsc.com
@@ -2614,7 +2614,7 @@ proxies:
     path: /video
 - alterId: 0
   cipher: auto
-  name: 摩尔多瓦 001_3@60
+  name: 摩尔多瓦 001_3@61
   network: ws
   port: 80
   server: 5.252.26.5
@@ -2624,7 +2624,7 @@ proxies:
   ws-path: /mehdi
 - alterId: 0
   cipher: auto
-  name: 摩尔多瓦 002_3@61
+  name: 摩尔多瓦 002_3@62
   network: ws
   port: 80
   server: 5.252.26.6
@@ -2634,7 +2634,7 @@ proxies:
   ws-path: /mehdi
 - alterId: 0
   cipher: auto
-  name: 新加坡 001_3@62
+  name: 新加坡 001_3@63
   network: ws
   port: 80
   server: 138.2.71.111
@@ -2644,7 +2644,7 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
-  name: 新加坡 002_3@63
+  name: 新加坡 002_3@64
   network: ws
   port: 443
   server: meetzoom.disnet.gq
@@ -2654,7 +2654,7 @@ proxies:
   ws-path: /vmessws
 - alterId: 0
   cipher: auto
-  name: 新加坡 003_3@64
+  name: 新加坡 003_3@65
   network: ws
   port: 443
   server: vsg1.0bad.com
@@ -2664,7 +2664,7 @@ proxies:
   ws-path: /chat
 - alterId: 0
   cipher: chacha20-poly1305
-  name: 新加坡 005_3@66
+  name: 新加坡 005_3@67
   network: ws
   port: 443
   server: sgp.669990.xyz
@@ -2674,7 +2674,7 @@ proxies:
   ws-path: /DFZmOHc4HI6cWLADzLF
 - alterId: 0
   cipher: auto
-  name: 新加坡 006_3@67
+  name: 新加坡 006_3@68
   network: ws
   port: 80
   server: 92.223.116.205
@@ -2684,7 +2684,7 @@ proxies:
   ws-path: /mehdi
 - alterId: 0
   cipher: auto
-  name: 新加坡 007_3@68
+  name: 新加坡 007_3@69
   network: ws
   port: 80
   server: 92.223.116.207
@@ -2694,7 +2694,7 @@ proxies:
   ws-path: /mehdi
 - alterId: 0
   cipher: auto
-  name: 新加坡 008_3@69
+  name: 新加坡 008_3@70
   network: ws
   port: 80
   server: 92.223.116.209
@@ -2704,7 +2704,7 @@ proxies:
   ws-path: /mehdi
 - alterId: 0
   cipher: auto
-  name: 新加坡 009_3@70
+  name: 新加坡 009_3@71
   network: ws
   port: 80
   server: 92.223.116.220
@@ -2714,7 +2714,7 @@ proxies:
   ws-path: /mehdi
 - alterId: 0
   cipher: auto
-  name: 新加坡 010_3@71
+  name: 新加坡 010_3@72
   network: ws
   port: 80
   server: 92.223.116.221
@@ -2724,7 +2724,7 @@ proxies:
   ws-path: /mehdi
 - alterId: 0
   cipher: auto
-  name: 新加坡 011_3@72
+  name: 新加坡 011_3@73
   network: ws
   port: 80
   server: 92.223.116.222
@@ -2734,7 +2734,7 @@ proxies:
   ws-path: /mehdi
 - alterId: 0
   cipher: auto
-  name: 新加坡 012_3@73
+  name: 新加坡 012_3@74
   network: ws
   port: 80
   server: 92.223.116.203
@@ -2744,7 +2744,7 @@ proxies:
   ws-path: /mehdi
 - alterId: 0
   cipher: auto
-  name: 日本 001_3@74
+  name: 日本 001_3@75
   network: ws
   port: 9001
   server: osakayzh.csi7.net
@@ -2757,7 +2757,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 日本 002_3@75
+  name: 日本 002_3@76
   network: ws
   port: 80
   server: 47.91.29.16
@@ -2772,7 +2772,7 @@ proxies:
     path: /tg@heroku666
 - alterId: 0
   cipher: auto
-  name: 日本 003_3@76
+  name: 日本 003_3@77
   network: ws
   port: 443
   server: vjp1.0bad.com
@@ -2785,7 +2785,7 @@ proxies:
     path: /chat
 - alterId: 0
   cipher: auto
-  name: 日本 004_3@77
+  name: 日本 004_3@78
   network: ws
   port: 49757
   server: 213.232.114.211
@@ -2795,7 +2795,7 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
-  name: 日本 005_3@78
+  name: 日本 005_3@79
   network: tcp
   port: 26297
   server: 131.186.41.192
@@ -2805,7 +2805,7 @@ proxies:
   ws-path: ''
 - alterId: 64
   cipher: auto
-  name: 日本 006_3@79
+  name: 日本 006_3@80
   network: tcp
   port: 51801
   server: 45.88.43.143
@@ -2815,7 +2815,7 @@ proxies:
   ws-path: ''
 - alterId: 0
   cipher: auto
-  name: 日本 007_3@80
+  name: 日本 007_3@81
   network: tcp
   port: 22356
   server: 001.AP.POP.node-for-smallairport.win
@@ -2825,7 +2825,7 @@ proxies:
   ws-path: ''
 - alterId: 0
   cipher: auto
-  name: 法国 001_3@81
+  name: 法国 001_3@82
   network: ws
   port: 2082
   server: 141.101.123.158
@@ -2835,7 +2835,7 @@ proxies:
   ws-path: /yulingkaishi01
 - alterId: 0
   cipher: auto
-  name: 法国 002_3@82
+  name: 法国 002_3@83
   network: ws
   port: 2083
   server: 45.32.149.108
@@ -2845,7 +2845,7 @@ proxies:
   ws-path: /
 - alterId: 64
   cipher: auto
-  name: 法国 003_3@83
+  name: 法国 003_3@84
   network: tcp
   port: 51881
   server: 156.249.18.48
@@ -2855,7 +2855,7 @@ proxies:
   ws-path: ''
 - alterId: 0
   cipher: auto
-  name: 法国 004_3@84
+  name: 法国 004_3@85
   network: ws
   port: 80
   server: fr2-vmess.greenssh.xyz
@@ -2865,7 +2865,7 @@ proxies:
   ws-path: ''
 - alterId: 0
   cipher: auto
-  name: 法国 005_3@85
+  name: 法国 005_3@86
   network: ws
   port: 80
   server: 92.223.55.5
@@ -2875,7 +2875,7 @@ proxies:
   ws-path: /mehdi
 - alterId: 0
   cipher: auto
-  name: 法国 006_3@86
+  name: 法国 006_3@87
   network: ws
   port: 80
   server: 92.223.55.6
@@ -2885,7 +2885,7 @@ proxies:
   ws-path: /mehdi
 - alterId: 0
   cipher: auto
-  name: 波兰 001_3@87
+  name: 波兰 001_3@88
   network: ws
   port: 8880
   server: 141.101.120.118
@@ -2895,7 +2895,7 @@ proxies:
   ws-path: /youlingkaishi
 - alterId: 0
   cipher: auto
-  name: 波兰 002_3@88
+  name: 波兰 002_3@89
   network: ws
   port: 2052
   server: 141.101.121.211
@@ -2905,7 +2905,7 @@ proxies:
   ws-path: /youlingkaishi
 - alterId: 0
   cipher: auto
-  name: 波兰 003_3@89
+  name: 波兰 003_3@90
   network: ws
   port: 80
   server: pl1-vmess.greenssh.xyz
@@ -2915,7 +2915,7 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
-  name: 波兰 004_3@90
+  name: 波兰 004_3@91
   network: ws
   port: 80
   server: mos2.esmahdi9.org
@@ -2925,7 +2925,7 @@ proxies:
   ws-path: /MNeOJN4jgWe9gmEbv
 - alterId: 0
   cipher: auto
-  name: 澳大利亚 001_3@91
+  name: 澳大利亚 001_3@92
   network: ws
   port: 80
   server: 92.223.78.23
@@ -2935,7 +2935,7 @@ proxies:
   ws-path: /mehdi
 - alterId: 0
   cipher: auto
-  name: 澳大利亚 002_3@92
+  name: 澳大利亚 002_3@93
   network: ws
   port: 80
   server: au2-vmess.greenssh.xyz
@@ -2945,7 +2945,7 @@ proxies:
   ws-path: /vmess
 - alterId: 0
   cipher: auto
-  name: 澳大利亚 003_3@93
+  name: 澳大利亚 003_3@94
   network: tcp
   port: 443
   server: au.free.yangon.club
@@ -2955,7 +2955,7 @@ proxies:
   ws-path: /root/
 - alterId: 0
   cipher: auto
-  name: 白俄罗斯 001_3@94
+  name: 白俄罗斯 001_3@95
   network: ws
   port: 80
   server: 5.188.7.12
@@ -2965,7 +2965,7 @@ proxies:
   ws-path: /mehdi
 - alterId: 0
   cipher: auto
-  name: 白俄罗斯 002_3@95
+  name: 白俄罗斯 002_3@96
   network: ws
   port: 80
   server: 5.188.7.13
@@ -2975,7 +2975,7 @@ proxies:
   ws-path: /mehdi
 - alterId: 0
   cipher: auto
-  name: 立陶宛 001_3@96
+  name: 立陶宛 001_3@97
   network: ws
   port: 2095
   server: shouerbb.76898102.xyz
@@ -2985,7 +2985,7 @@ proxies:
   ws-path: /funsdfrh
 - alterId: 0
   cipher: auto
-  name: 罗马尼亚 001_3@97
+  name: 罗马尼亚 001_3@98
   network: ws
   port: 80
   server: 94.176.183.11
@@ -2995,7 +2995,7 @@ proxies:
   ws-path: /mehdi
 - alterId: 0
   cipher: auto
-  name: 罗马尼亚 002_3@98
+  name: 罗马尼亚 002_3@99
   network: ws
   port: 80
   server: 94.176.183.12
@@ -3005,21 +3005,67 @@ proxies:
   ws-path: /mehdi
 - alterId: 0
   cipher: auto
-  name: 美国 011_3@109
+  name: 美国 001_3@100
   network: ws
   port: 443
-  server: vus4.0bad.com
+  server: 0kxedm1x8q8lksmj13.xingbayun.buzz
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 08e358c3-869a-4900-8e04-a04e130908ad
+  ws-opts:
+    headers:
+      Host: www.microsoft.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 美国 003_3@102
+  network: ws
+  port: 443
+  server: cf.durov.ir
   skip-cert-verify: false
   tls: true
   type: vmess
-  uuid: 927094d3-d678-4763-8591-e240d0bcae87
+  udp: true
+  uuid: c7654980-72fe-492d-8b6f-a4cb55c94c2e
   ws-opts:
     headers:
-      Host: vus4.0bad.com
-    path: /chat
+      Host: dedipath.iiio.wiki
+    path: /aries?ed=2048
 - alterId: 0
   cipher: auto
-  name: 美国 012_3@110
+  name: 美国 006_3@105
+  network: ws
+  port: 443
+  server: cfcdn.sanfencdn.net
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 698115e4-1494-4f4a-85a9-76cd011d3ac6
+  ws-opts:
+    headers:
+      Host: us6.sanfencdn.net
+    path: /zh-cn
+- alterId: 0
+  cipher: auto
+  name: 美国 010_3@109
+  network: ws
+  port: 2052
+  server: 172.64.85.245
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 243240f9-9f5b-4f98-dd5c-e19784d19631
+  ws-opts:
+    headers:
+      Host: uyaa.vtcss.top
+    path: /youlingkaishi
+- alterId: 0
+  cipher: auto
+  name: 美国 012_3@111
   network: ws
   port: 443
   server: 104.25.96.171
@@ -3033,7 +3079,7 @@ proxies:
     path: /P6kpn5UKG40MNLK2
 - alterId: 64
   cipher: auto
-  name: 美国 013_3@111
+  name: 美国 013_3@112
   network: tcp
   port: 50002
   server: 140.99.57.2
@@ -3043,7 +3089,7 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
-  name: 美国 014_3@112
+  name: 美国 014_3@113
   network: tcp
   port: 50005
   server: 64.32.4.6
@@ -3053,7 +3099,7 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
-  name: 美国 015_3@113
+  name: 美国 015_3@114
   network: tcp
   port: 43900
   server: 107.167.30.132
@@ -3063,7 +3109,7 @@ proxies:
   uuid: 58e560b4-bba6-4843-be5f-83321022fa0d
 - alterId: 64
   cipher: auto
-  name: 美国 016_3@114
+  name: 美国 016_3@115
   network: tcp
   port: 53403
   server: 137.175.1.12
@@ -3073,7 +3119,7 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: 美国 017_3@115
+  name: 美国 017_3@116
   network: ws
   port: 443
   server: 156.251.130.159
@@ -3088,7 +3134,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 美国 018_3@116
+  name: 美国 018_3@117
   network: ws
   port: 30983
   server: free3.mqjs.online
@@ -3104,7 +3150,7 @@ proxies:
     path: /free3
 - alterId: 0
   cipher: auto
-  name: 美国 019_3@117
+  name: 美国 019_3@118
   network: ws
   port: 443
   server: vus3.0bad.com
@@ -3117,7 +3163,7 @@ proxies:
     path: /chat
 - alterId: 0
   cipher: auto
-  name: 美国 021_3@119
+  name: 美国 021_3@120
   network: ws
   port: 443
   server: 104.18.1.110
@@ -3132,7 +3178,7 @@ proxies:
     path: /c3lZ7dp02p?ed=2048
 - alterId: 0
   cipher: auto
-  name: 美国 022_3@120
+  name: 美国 022_3@121
   network: ws
   port: 80
   server: 104.18.26.68
@@ -3147,7 +3193,7 @@ proxies:
     path: /qwer00
 - alterId: 0
   cipher: auto
-  name: 美国 023_3@121
+  name: 美国 023_3@122
   network: ws
   port: 8080
   server: 104.24.181.229
@@ -3162,7 +3208,7 @@ proxies:
     path: /qazxcv00
 - alterId: 0
   cipher: auto
-  name: 美国 024_3@122
+  name: 美国 024_3@123
   network: ws
   port: 1001
   server: bb.hk1997.pro
@@ -3177,7 +3223,7 @@ proxies:
     path: /jash-weh-peft-pseb-lous-jass
 - alterId: 0
   cipher: auto
-  name: 美国 025_3@123
+  name: 美国 025_3@124
   network: ws
   port: 8080
   server: 104.25.29.187
@@ -3192,7 +3238,7 @@ proxies:
     path: /qwer
 - alterId: 0
   cipher: auto
-  name: 美国 026_3@124
+  name: 美国 026_3@125
   network: ws
   port: 80
   server: 104.25.243.70
@@ -3207,7 +3253,7 @@ proxies:
     path: /tg@herhero6
 - alterId: 0
   cipher: auto
-  name: 美国 027_3@125
+  name: 美国 027_3@126
   network: ws
   port: 80
   server: visa.cn
@@ -3222,7 +3268,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 美国 028_3@126
+  name: 美国 028_3@127
   network: ws
   port: 443
   server: www.noice.id
@@ -3237,7 +3283,7 @@ proxies:
     path: /worryfree
 - alterId: 0
   cipher: auto
-  name: 美国 029_3@127
+  name: 美国 029_3@128
   network: ws
   port: 80
   server: 104.21.215.91
@@ -3252,7 +3298,7 @@ proxies:
     path: /qwer00
 - alterId: 0
   cipher: auto
-  name: 美国 030_3@128
+  name: 美国 030_3@129
   network: ws
   port: 8880
   server: tou.vtcss.top
@@ -3267,7 +3313,7 @@ proxies:
     path: /qazxcv00
 - alterId: 0
   cipher: auto
-  name: 美国 031_3@129
+  name: 美国 031_3@130
   network: ws
   port: 2052
   server: dearma.76898102.xyz
@@ -3277,7 +3323,7 @@ proxies:
   ws-path: /abuciwyg
 - alterId: 0
   cipher: auto
-  name: 美国 032_3@130
+  name: 美国 032_3@131
   network: ws
   port: 2052
   server: bxaa.76898102.xyz
@@ -3287,7 +3333,7 @@ proxies:
   ws-path: /bxqmiao
 - alterId: 0
   cipher: auto
-  name: 美国 033_3@131
+  name: 美国 033_3@132
   network: ws
   port: 80
   server: 92.223.68.27
@@ -3297,7 +3343,7 @@ proxies:
   ws-path: /mehdi
 - alterId: 0
   cipher: auto
-  name: 美国 034_3@132
+  name: 美国 034_3@133
   network: ws
   port: 80
   server: 92.223.68.26
@@ -3307,7 +3353,7 @@ proxies:
   ws-path: /mehdi
 - alterId: 0
   cipher: auto
-  name: 美国 035_3@133
+  name: 美国 035_3@134
   network: ws
   port: 443
   server: vin1.0bad.com
@@ -3317,7 +3363,7 @@ proxies:
   ws-path: /chat
 - alterId: 0
   cipher: auto
-  name: 美国 036_3@134
+  name: 美国 036_3@135
   network: ws
   port: 2052
   server: bxgg.76898102.xyz
@@ -3327,7 +3373,7 @@ proxies:
   ws-path: /seifbibgef
 - alterId: 0
   cipher: auto
-  name: 美国 037_3@135
+  name: 美国 037_3@136
   network: ws
   port: 2095
   server: sgbb.76898102.xyz
@@ -3337,7 +3383,7 @@ proxies:
   ws-path: /adwrfeyiyuisfesf
 - alterId: 0
   cipher: auto
-  name: 美国 038_3@136
+  name: 美国 038_3@137
   network: ws
   port: 8880
   server: 15.cashdawiodxkawjaiocjdawdawdadwrawgfsegsededwadawfgrdrcvsssl.top
@@ -3347,7 +3393,7 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
-  name: 美国 039_3@137
+  name: 美国 039_3@138
   network: ws
   port: 2052
   server: shsawcaa.76898102.xyz
@@ -3357,7 +3403,7 @@ proxies:
   ws-path: /funsdfrh
 - alterId: 0
   cipher: auto
-  name: 美国 040_3@138
+  name: 美国 040_3@139
   network: ws
   port: 2095
   server: frsadubibb.76898102.xyz
@@ -3367,7 +3413,7 @@ proxies:
   ws-path: /funsdfrh
 - alterId: 64
   cipher: auto
-  name: 美国 041_3@139
+  name: 美国 041_3@140
   network: tcp
   port: 53302
   server: 156.251.135.11
@@ -3377,7 +3423,7 @@ proxies:
   ws-path: ''
 - alterId: 64
   cipher: auto
-  name: 美国 042_3@140
+  name: 美国 042_3@141
   network: tcp
   port: 53302
   server: 156.251.135.14
@@ -3387,7 +3433,7 @@ proxies:
   ws-path: ''
 - alterId: 0
   cipher: auto
-  name: 美国 043_3@141
+  name: 美国 043_3@142
   network: ws
   port: 2052
   server: jpaa.76898102.xyz
@@ -3397,7 +3443,7 @@ proxies:
   ws-path: /vuesshtgk
 - alterId: 0
   cipher: auto
-  name: 美国 044_3@142
+  name: 美国 044_3@143
   network: ws
   port: 2095
   server: camtleaa.76898102.xyz
@@ -3407,7 +3453,7 @@ proxies:
   ws-path: /funsdfrh
 - alterId: 0
   cipher: auto
-  name: 美国 045_3@143
+  name: 美国 045_3@144
   network: ws
   port: 443
   server: vde1.0bad.com
@@ -3417,7 +3463,7 @@ proxies:
   ws-path: /chat
 - alterId: 0
   cipher: auto
-  name: 美国 046_3@144
+  name: 美国 046_3@145
   network: ws
   port: 80
   server: 13.215.190.191
@@ -3427,7 +3473,7 @@ proxies:
   ws-path: /aws-china-media/Y699Gjx2rNw.mp4
 - alterId: 0
   cipher: auto
-  name: 美国 047_3@145
+  name: 美国 047_3@146
   network: ws
   port: 80
   server: 154.19.186.88
@@ -3437,7 +3483,7 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
-  name: 美国 048_3@146
+  name: 美国 048_3@147
   network: ws
   port: 80
   server: speed.cloudflare.com
@@ -3447,7 +3493,7 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
-  name: 美国 049_3@147
+  name: 美国 049_3@148
   network: ws
   port: 443
   server: speed.cloudflare.com
@@ -3457,7 +3503,7 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
-  name: 美国 050_3@148
+  name: 美国 050_3@149
   network: ws
   port: 443
   server: 104.22.22.237
@@ -3467,7 +3513,7 @@ proxies:
   ws-path: /speedtest/Kansas.kotick.site
 - alterId: 0
   cipher: auto
-  name: 美国 051_3@149
+  name: 美国 051_3@150
   network: ws
   port: 2052
   server: 104.20.55.60
@@ -3477,7 +3523,7 @@ proxies:
   ws-path: /qwer00
 - alterId: 0
   cipher: auto
-  name: 美国 052_3@150
+  name: 美国 052_3@151
   network: ws
   port: 8880
   server: 104.19.145.223
@@ -3487,7 +3533,7 @@ proxies:
   ws-path: /youlingkaishi
 - alterId: 0
   cipher: auto
-  name: 美国 053_3@151
+  name: 美国 053_3@152
   network: ws
   port: 8080
   server: 104.17.32.102
@@ -3497,7 +3543,7 @@ proxies:
   ws-path: /qwer00
 - alterId: 0
   cipher: auto
-  name: 美国 054_3@152
+  name: 美国 054_3@153
   network: ws
   port: 2052
   server: 104.17.94.14
@@ -3507,7 +3553,7 @@ proxies:
   ws-path: /qwer00
 - alterId: 0
   cipher: auto
-  name: 美国 056_3@154
+  name: 美国 056_3@155
   network: ws
   port: 2082
   server: 104.22.65.254
@@ -3517,7 +3563,7 @@ proxies:
   ws-path: /yulingkaishi01
 - alterId: 0
   cipher: auto
-  name: 美国 059_3@157
+  name: 美国 059_3@158
   network: ws
   port: 2082
   server: 104.19.8.35
@@ -3527,7 +3573,7 @@ proxies:
   ws-path: /yulingkaishi01
 - alterId: 0
   cipher: auto
-  name: 美国 060_3@158
+  name: 美国 060_3@159
   network: ws
   port: 2082
   server: 162.159.247.88
@@ -3537,7 +3583,7 @@ proxies:
   ws-path: /yulingkaishi01
 - alterId: 0
   cipher: auto
-  name: 美国 063_3@161
+  name: 美国 063_3@162
   network: ws
   port: 80
   server: 104.19.136.40
@@ -3547,7 +3593,7 @@ proxies:
   ws-path: /youlingkaishi01
 - alterId: 0
   cipher: aes-128-gcm
-  name: 美国 064_3@162
+  name: 美国 064_3@163
   network: ws
   port: 443
   server: 162.159.152.95
@@ -3557,7 +3603,7 @@ proxies:
   ws-path: /835757
 - alterId: 0
   cipher: auto
-  name: 美国 065_3@163
+  name: 美国 065_3@164
   network: ws
   port: 80
   server: 104.17.198.159
@@ -3567,7 +3613,7 @@ proxies:
   ws-path: /youlingkaishi01
 - alterId: 0
   cipher: auto
-  name: 美国 066_3@164
+  name: 美国 066_3@165
   network: ws
   port: 2095
   server: 104.21.45.67
@@ -3577,7 +3623,7 @@ proxies:
   ws-path: /blue
 - alterId: 0
   cipher: auto
-  name: 美国 067_3@165
+  name: 美国 067_3@166
   network: ws
   port: 2082
   server: 104.18.116.193
@@ -3587,7 +3633,7 @@ proxies:
   ws-path: /yulingkaishi01
 - alterId: 0
   cipher: auto
-  name: 美国 068_3@166
+  name: 美国 068_3@167
   network: ws
   port: 8080
   server: 104.18.249.178
@@ -3597,7 +3643,7 @@ proxies:
   ws-path: /qwer00
 - alterId: 0
   cipher: auto
-  name: 美国 069_3@167
+  name: 美国 069_3@168
   network: ws
   port: 2052
   server: 104.19.59.192
@@ -3607,7 +3653,7 @@ proxies:
   ws-path: /qwer00
 - alterId: 0
   cipher: auto
-  name: 美国 070_3@168
+  name: 美国 070_3@169
   network: ws
   port: 443
   server: 104.16.48.44
@@ -3617,7 +3663,7 @@ proxies:
   ws-path: /P6kpn5UKG40MNLK2
 - alterId: 0
   cipher: auto
-  name: 美国 071_3@169
+  name: 美国 071_3@170
   network: ws
   port: 2082
   server: cf.durov.ir
@@ -3627,17 +3673,7 @@ proxies:
   ws-path: /aries?ed=2048
 - alterId: 0
   cipher: aes-128-gcm
-  name: 美国 072_3@170
-  network: ws
-  port: 443
-  server: 162.159.243.235
-  skip-cert-verify: true
-  type: vmess
-  uuid: dddd0b29-1576-4003-9990-d7cea34264db
-  ws-path: /835757
-- alterId: 0
-  cipher: aes-128-gcm
-  name: 美国 073_3@171
+  name: 美国 073_3@172
   network: ws
   port: 443
   server: 104.17.53.191
@@ -3647,7 +3683,7 @@ proxies:
   ws-path: /835757
 - alterId: 0
   cipher: auto
-  name: 美国 074_3@172
+  name: 美国 074_3@173
   network: ws
   port: 443
   server: welfare.kk-proxy.pro
@@ -3657,7 +3693,7 @@ proxies:
   ws-path: /ec3a017507e0/
 - alterId: 0
   cipher: auto
-  name: 美国 075_3@173
+  name: 美国 075_3@174
   network: ws
   port: 80
   server: 104.18.35.238
@@ -3667,7 +3703,7 @@ proxies:
   ws-path: /111111111
 - alterId: 0
   cipher: auto
-  name: 美国 076_3@174
+  name: 美国 076_3@175
   network: ws
   port: 80
   server: 185.101.136.8
@@ -3677,7 +3713,7 @@ proxies:
   ws-path: /mehdi
 - alterId: 0
   cipher: auto
-  name: 美国 077_3@175
+  name: 美国 077_3@176
   network: ws
   port: 2002
   server: 51.195.209.132
@@ -3687,7 +3723,7 @@ proxies:
   ws-path: ''
 - alterId: 64
   cipher: auto
-  name: 美国 078_3@176
+  name: 美国 078_3@177
   network: tcp
   port: 54902
   server: 51.195.125.16
@@ -3697,7 +3733,7 @@ proxies:
   ws-path: ''
 - alterId: 64
   cipher: auto
-  name: 美国 079_3@177
+  name: 美国 079_3@178
   network: tcp
   port: 48028
   server: 51.91.223.25
@@ -3707,7 +3743,7 @@ proxies:
   ws-path: ''
 - alterId: 64
   cipher: auto
-  name: 美国 080_3@178
+  name: 美国 080_3@179
   network: tcp
   port: 49982
   server: 51.195.35.146
@@ -3717,7 +3753,7 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
-  name: 美国 081_3@179
+  name: 美国 081_3@180
   network: ws
   port: 2052
   server: kradvcgfb.76898102.xyz
@@ -3727,7 +3763,7 @@ proxies:
   ws-path: /bcdsuiyv
 - alterId: 0
   cipher: auto
-  name: 美国 082_3@180
+  name: 美国 082_3@181
   network: ws
   port: 2052
   server: bxcc.76898102.xyz
@@ -3737,7 +3773,7 @@ proxies:
   ws-path: /bxsmiao
 - alterId: 0
   cipher: auto
-  name: 美国 083_3@181
+  name: 美国 083_3@182
   network: ws
   port: 80
   server: au1-vmess.greenssh.xyz
@@ -3747,7 +3783,7 @@ proxies:
   ws-path: ''
 - alterId: 64
   cipher: auto
-  name: 美国 084_3@182
+  name: 美国 084_3@183
   network: tcp
   port: 54002
   server: 142.4.110.125
@@ -3757,7 +3793,7 @@ proxies:
   ws-path: ''
 - alterId: 64
   cipher: auto
-  name: 美国 085_3@183
+  name: 美国 085_3@184
   network: tcp
   port: 46902
   server: 198.2.204.241
@@ -3767,7 +3803,7 @@ proxies:
   ws-path: ''
 - alterId: 64
   cipher: auto
-  name: 美国 086_3@184
+  name: 美国 086_3@185
   network: tcp
   port: 55504
   server: 107.148.194.238
@@ -3777,7 +3813,7 @@ proxies:
   ws-path: ''
 - alterId: 64
   cipher: auto
-  name: 美国 087_3@185
+  name: 美国 087_3@186
   network: tcp
   port: 50002
   server: 23.225.9.195
@@ -3787,7 +3823,7 @@ proxies:
   ws-path: ''
 - alterId: 64
   cipher: auto
-  name: 美国 088_3@186
+  name: 美国 088_3@187
   network: tcp
   port: 51091
   server: 142.4.112.27
@@ -3797,7 +3833,7 @@ proxies:
   ws-path: ''
 - alterId: 64
   cipher: auto
-  name: 美国 089_3@187
+  name: 美国 089_3@188
   network: tcp
   port: 56079
   server: 38.54.167.229
@@ -3807,7 +3843,7 @@ proxies:
   ws-path: ''
 - alterId: 0
   cipher: auto
-  name: 美国 090_3@188
+  name: 美国 090_3@189
   network: ws
   port: 51841
   server: 5.161.147.15
@@ -3817,7 +3853,7 @@ proxies:
   ws-path: /
 - alterId: 64
   cipher: auto
-  name: 美国 091_3@189
+  name: 美国 091_3@190
   network: ws
   port: 443
   server: 107.167.29.99
@@ -3827,7 +3863,7 @@ proxies:
   ws-path: /path/1686129180540
 - alterId: 0
   cipher: auto
-  name: 美国 092_3@190
+  name: 美国 092_3@191
   network: ws
   port: 11451
   server: 205.185.125.200
@@ -3837,7 +3873,7 @@ proxies:
   ws-path: /
 - alterId: 64
   cipher: auto
-  name: 美国 093_3@191
+  name: 美国 093_3@192
   network: ws
   port: 443
   server: 23.224.110.246
@@ -3847,7 +3883,17 @@ proxies:
   ws-path: /path/1684230882527
 - alterId: 0
   cipher: auto
-  name: 美国 094_3@192
+  name: 美国 094_3@193
+  network: ws
+  port: 443
+  server: vus4.0bad.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: 927094d3-d678-4763-8591-e240d0bcae87
+  ws-path: /chat
+- alterId: 0
+  cipher: auto
+  name: 美国 095_3@194
   network: ws
   port: 49055
   server: 23.26.63.252
@@ -3857,7 +3903,7 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
-  name: 美国 095_3@193
+  name: 美国 096_3@195
   network: ws
   port: 36590
   server: 2.58.87.124
@@ -3867,7 +3913,7 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
-  name: 美国 096_3@194
+  name: 美国 097_3@196
   network: ws
   port: 59102
   server: 45.131.248.228
@@ -3877,7 +3923,7 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
-  name: 美国 097_3@195
+  name: 美国 098_3@197
   network: ws
   port: 2083
   server: 66.135.28.232
@@ -3887,7 +3933,7 @@ proxies:
   ws-path: /
 - alterId: 64
   cipher: auto
-  name: 美国 098_3@196
+  name: 美国 099_3@198
   network: tcp
   port: 41212
   server: 140.99.57.19
@@ -3895,19 +3941,9 @@ proxies:
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   ws-path: ''
-- alterId: 64
-  cipher: auto
-  name: 美国 100_3@198
-  network: tcp
-  port: 43166
-  server: 64.32.4.34
-  skip-cert-verify: true
-  type: vmess
-  uuid: 8653004f-de67-44c2-9cce-e0830933fb03
-  ws-path: ''
 - alterId: 0
   cipher: auto
-  name: 英国 001_3@199
+  name: 英国 001_3@200
   network: ws
   port: 2096
   server: 64.176.188.230
@@ -3917,7 +3953,7 @@ proxies:
   ws-path: /
 - alterId: 64
   cipher: auto
-  name: 英国 002_3@200
+  name: 英国 002_3@201
   network: tcp
   port: 49920
   server: 83.142.225.58
@@ -3927,7 +3963,7 @@ proxies:
   ws-path: ''
 - alterId: 64
   cipher: auto
-  name: 英国 003_3@201
+  name: 英国 003_3@202
   network: tcp
   port: 49920
   server: 83.142.225.20
@@ -3937,7 +3973,7 @@ proxies:
   ws-path: ''
 - alterId: 64
   cipher: auto
-  name: 荷兰 001_3@202
+  name: 荷兰 001_3@203
   network: tcp
   port: 50022
   server: 45.58.147.195
@@ -3948,7 +3984,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 荷兰 002_3@203
+  name: 荷兰 002_3@204
   network: ws
   port: 2082
   server: sdttkza.76898102.xyz
@@ -3964,7 +4000,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 荷兰 003_3@204
+  name: 荷兰 003_3@205
   network: ws
   port: 8080
   server: 10.cashdawiodxkawjaiocjdawdawdadwrawgfsegsededwadawfgrdrcvsssl.top
@@ -3979,7 +4015,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 荷兰 004_3@205
+  name: 荷兰 004_3@206
   network: ws
   port: 80
   server: bidari.ddns.net
@@ -3989,7 +4025,7 @@ proxies:
   ws-path: /mehdi
 - alterId: 64
   cipher: auto
-  name: 荷兰 005_3@206
+  name: 荷兰 005_3@207
   network: tcp
   port: 49098
   server: 154.85.0.56
@@ -3999,7 +4035,7 @@ proxies:
   ws-path: ''
 - alterId: 0
   cipher: auto
-  name: 荷兰 006_3@207
+  name: 荷兰 006_3@208
   network: ws
   port: 54945
   server: 185.101.139.74
@@ -4009,7 +4045,7 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
-  name: 荷兰 007_3@208
+  name: 荷兰 007_3@209
   network: ws
   port: 443
   server: 51.15.75.140
@@ -4019,7 +4055,7 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
-  name: 荷兰 009_3@210
+  name: 荷兰 009_3@211
   network: ws
   port: 2083
   server: 45.32.238.111
@@ -4029,7 +4065,7 @@ proxies:
   ws-path: /
 - alterId: 64
   cipher: auto
-  name: 荷兰 010_3@211
+  name: 荷兰 010_3@212
   network: tcp
   port: 53283
   server: 154.85.1.148
@@ -4039,7 +4075,7 @@ proxies:
   ws-path: ''
 - alterId: 64
   cipher: auto
-  name: 荷兰 011_3@212
+  name: 荷兰 011_3@213
   network: tcp
   port: 48320
   server: 154.85.1.218
@@ -4049,7 +4085,7 @@ proxies:
   ws-path: ''
 - alterId: 64
   cipher: auto
-  name: 荷兰 012_3@213
+  name: 荷兰 012_3@214
   network: tcp
   port: 41632
   server: 45.153.203.83
@@ -4059,7 +4095,7 @@ proxies:
   ws-path: ''
 - alterId: 64
   cipher: auto
-  name: 荷兰 014_3@215
+  name: 荷兰 014_3@216
   network: tcp
   port: 49098
   server: 154.85.1.51
@@ -4069,7 +4105,7 @@ proxies:
   ws-path: ''
 - alterId: 0
   cipher: auto
-  name: 荷兰 015_3@216
+  name: 荷兰 015_3@217
   network: ws
   port: 80
   server: 93.123.17.142
@@ -4079,7 +4115,7 @@ proxies:
   ws-path: /mehdi
 - alterId: 0
   cipher: auto
-  name: 阿曼 001_3@219
+  name: 阿曼 001_3@220
   network: ws
   port: 80
   server: 134.0.219.26
@@ -4089,7 +4125,7 @@ proxies:
   ws-path: /mehdi
 - alterId: 0
   cipher: auto
-  name: 阿曼 002_3@220
+  name: 阿曼 002_3@221
   network: ws
   port: 443
   server: 134.0.219.26
@@ -4099,7 +4135,7 @@ proxies:
   ws-path: /mehdi
 - alterId: 0
   cipher: auto
-  name: 阿曼 003_3@221
+  name: 阿曼 003_3@222
   network: ws
   port: 443
   server: 134.0.219.37
@@ -4109,7 +4145,7 @@ proxies:
   ws-path: /mehdi
 - alterId: 0
   cipher: auto
-  name: 阿曼 004_3@222
+  name: 阿曼 004_3@223
   network: ws
   port: 80
   server: 134.0.219.37
@@ -4119,7 +4155,7 @@ proxies:
   ws-path: /mehdi
 - alterId: 0
   cipher: auto
-  name: 韩国 001_3@223
+  name: 韩国 001_3@224
   network: ws
   port: 8080
   server: 146.56.174.31
@@ -4131,7 +4167,7 @@ proxies:
     path: /tg@herhero6
 - alterId: 0
   cipher: auto
-  name: 韩国 002_3@224
+  name: 韩国 002_3@225
   network: ws
   port: 10000
   server: kr2.furiousspeed.net
@@ -4146,7 +4182,7 @@ proxies:
     path: /ilhxvws
 - alterId: 0
   cipher: aes-128-gcm
-  name: 韩国 003_3@225
+  name: 韩国 003_3@226
   network: ws
   port: 30009
   server: 218.150.68.18
@@ -4156,7 +4192,7 @@ proxies:
   ws-path: /835757
 - alterId: 0
   cipher: auto
-  name: 香港 001_3@226
+  name: 香港 001_3@227
   network: ws
   port: 443
   server: wasanbi.ga
@@ -4171,7 +4207,7 @@ proxies:
     path: /94448b9f-7d5d-4f7a-9c68-d4978878d401
 - alterId: 0
   cipher: auto
-  name: 香港 002_3@227
+  name: 香港 002_3@228
   network: ws
   port: 2082
   server: hkgkgb.76898102.xyz
@@ -4186,7 +4222,7 @@ proxies:
     path: /funsdfrh
 - alterId: 64
   cipher: auto
-  name: 香港 003_3@228
+  name: 香港 003_3@229
   network: tcp
   port: 50002
   server: 27.124.47.64
@@ -4196,7 +4232,7 @@ proxies:
   ws-path: ''
 - alterId: 64
   cipher: auto
-  name: 香港 004_3@229
+  name: 香港 004_3@230
   network: tcp
   port: 50002
   server: 27.124.45.119
@@ -4206,7 +4242,7 @@ proxies:
   ws-path: ''
 - alterId: 64
   cipher: auto
-  name: 香港 005_3@230
+  name: 香港 005_3@231
   network: tcp
   port: 55211
   server: 45.58.180.175
@@ -4941,16 +4977,23 @@ proxies:
   skip-cert-verify: true
   type: trojan
   udp: true
-- alterId: 0
+- cipher: aes-256-gcm
+  name: 🇺🇸美国-加利福尼亚-0-ss-167.160.90.254:41122_7@0
+  password: dongtaiwang.com
+  port: 41122
+  server: 167.160.90.254
+  type: ss
+- alterId: 4
   cipher: auto
-  name: 🇺🇸美国-加利福尼亚-0-v2ray-xx2xxl.ddns.net:80_7@3
+  name: 🇺🇸美国-弗吉尼亚-阿什本-v2ray-ming2.kiwireich.com:443_7@3
   network: ws
-  port: 80
-  server: xx2xxl.ddns.net
+  port: 443
+  server: ming2.kiwireich.com
+  tls: true
   type: vmess
   udp: false
-  uuid: 28db139c-aff0-4ed8-80f5-3e747c4c737c
-  ws-path: /mehdi
+  uuid: 18e5f40f-bda6-4c15-9334-e87cda6047af
+  ws-path: /ray
 - alterId: 0
   cipher: auto
   name: 🇺🇸_US_美国_1_0@0_8@0
@@ -8757,20 +8800,6 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 🇺🇸_US_美国->🇯🇵_JP_日本_15@28_8@410
-  network: ws
-  port: 443
-  server: ming2.kiwireich.com
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 18e5f40f-bda6-4c15-9334-e87cda6047af
-  ws-opts:
-    headers:
-      host: ming2.kiwireich.com
-    path: /ray
-- alterId: 0
-  cipher: auto
   name: 🇮🇩_ID_印度尼西亚_2_15@30_8@411
   network: ws
   port: 80
@@ -11056,9 +11085,457 @@ proxies:
   uuid: cb7001c7-e495-41ac-b942-f25f60523414
   ws-opts:
     path: /clientarea
+- cipher: chacha20-ietf-poly1305
+  name: 🇨🇳 中国【付费推荐：https://tt.vg/vip】137_9@0
+  password: 9c00cb7d-d3d7-48dc-87e6-8bbf07c451c1
+  port: 32233
+  server: h2.hk.node.vmssr.info
+  type: ss
+- name: 🇨🇳 中国【付费推荐：https://tt.vg/vip】35_9@1
+  password: 09833a6f-4d46-426e-87fe-7793a5489f84
+  port: 41521
+  server: jp04.lovehjq.xyz
+  sni: lovehjq.xyz
+  type: trojan
+- cipher: chacha20-ietf-poly1305
+  name: 🇨🇳 中国【付费推荐：https://tt.vg/vip】84_9@2
+  password: dbc706c9-bc66-4637-b939-92acaccfb257
+  port: 38999
+  server: ctjp1.createmofa.xyz
+  type: ss
+- name: 🇨🇳 中国【付费推荐：https://tt.vg/vip】153_9@3
+  password: 09833a6f-4d46-426e-87fe-7793a5489f84
+  port: 26001
+  server: us02.lovehjq.xyz
+  sni: lovehjq.xyz
+  type: trojan
+- name: 🇨🇳 中国【付费推荐：https://tt.vg/vip】44_9@4
+  password: 2ef1b7af-2ca4-47c6-bffa-48a73764b022
+  port: 21001
+  server: gzyd.jcnode.top
+  sni: jp02.ckcloud.info
+  type: trojan
+- name: 🇨🇳 中国【付费推荐：https://tt.vg/vip】91_9@5
+  password: 2ef1b7af-2ca4-47c6-bffa-48a73764b022
+  port: 23005
+  server: gzyd.jcnode.top
+  sni: sg03.ckcloud.info
+  type: trojan
+- cipher: chacha20-ietf-poly1305
+  name: 🇨🇳 中国【付费推荐：https://tt.vg/vip】165_9@6
+  password: 9c00cb7d-d3d7-48dc-87e6-8bbf07c451c1
+  port: 32213
+  server: k2.de.node.vmssr.info
+  type: ss
+- name: 🇯🇵 日本【付费推荐：https://tt.vg/vip】140_9@8
+  password: 6e787669-8d33-4d8d-98fa-deaec17761b3
+  port: 443
+  server: hk1.gsjc.cfd
+  sni: 20-212-60-88.nhost.00cdn.com
+  type: trojan
+- name: 🇨🇳 中国【付费推荐：https://tt.vg/vip】134_9@9
+  password: 2ef1b7af-2ca4-47c6-bffa-48a73764b022
+  port: 27000
+  server: gzyd.jcnode.top
+  sni: de01.ckcloud.info
+  type: trojan
+- name: 🇨🇳 中国【付费推荐：https://tt.vg/vip】7_9@10
+  password: afe60e42-a1d9-4038-b852-2da7dd859d9a
+  port: 42001
+  server: gzdx.jcnode.top
+  sni: rctw01.ckcloud.info
+  type: trojan
+- name: 🇨🇳 中国【付费推荐：https://tt.vg/vip】12_9@11
+  password: afe60e42-a1d9-4038-b852-2da7dd859d9a
+  port: 40002
+  server: gzyd.jcnode.top
+  sni: hk03.ckcloud.info
+  type: trojan
+- name: 🇨🇳 中国【付费推荐：https://tt.vg/vip】60_9@12
+  password: 2ef1b7af-2ca4-47c6-bffa-48a73764b022
+  port: 23003
+  server: gzdx.jcnode.top
+  sni: sg01.ckcloud.info
+  type: trojan
+- name: 🇨🇳 中国【付费推荐：https://tt.vg/vip】171_9@13
+  password: afe60e42-a1d9-4038-b852-2da7dd859d9a
+  port: 40001
+  server: gzdx.jcnode.top
+  sni: hk02.ckcloud.info
+  type: trojan
 - alterId: 0
   cipher: auto
-  name: 🇨🇳 中国【付费推荐：tt.vg/vip】63_9@0
+  name: 🇨🇳 中国【付费推荐：https://tt.vg/vip】1_9@14
+  network: ws
+  port: 20000
+  server: gzyd.jcnode.top
+  tls: false
+  type: vmess
+  uuid: 2ef1b7af-2ca4-47c6-bffa-48a73764b022
+  ws-opts:
+    headers:
+      Host: gzyd.jcnode.top
+    path: /
+- name: 🇨🇳 中国【付费推荐：https://tt.vg/vip】157_9@15
+  password: 2ef1b7af-2ca4-47c6-bffa-48a73764b022
+  port: 21001
+  server: gzdx.jcnode.top
+  sni: jp02.ckcloud.info
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 🇺🇲 美国【付费推荐：https://tt.vg/vip】85_9@17
+  network: ws
+  port: 80
+  server: datacenter.cu.01.biqibao.site
+  tls: false
+  type: vmess
+  uuid: 12dc6b3e-e078-4dff-b0b0-b11c1270fb15
+  ws-opts:
+    headers:
+      Host: de.biqibao.site
+    path: /public
+- name: 🇨🇳 中国【付费推荐：https://tt.vg/vip】120_9@18
+  password: afe60e42-a1d9-4038-b852-2da7dd859d9a
+  port: 42000
+  server: gzdx.jcnode.top
+  sni: rctw02.ckcloud.info
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 🇯🇵 日本【付费推荐：https://tt.vg/vip】110_9@19
+  network: ws
+  port: 443
+  server: oci.donpau.com
+  tls: true
+  type: vmess
+  uuid: 3C02DC15-56AE-7889-8936-9A2EA8FF8666
+  ws-opts:
+    headers:
+      Host: oci.donpau.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇺🇲 美国【付费推荐：https://tt.vg/vip】181_9@20
+  network: ws
+  port: 2052
+  server: datacenter.cu.01.biqibao.site
+  tls: false
+  type: vmess
+  uuid: 12dc6b3e-e078-4dff-b0b0-b11c1270fb15
+  ws-opts:
+    headers:
+      Host: detacenter.01.biqibao.site
+    path: /public
+- name: 🇨🇳 中国【付费推荐：https://tt.vg/vip】14_9@21
+  password: 09833a6f-4d46-426e-87fe-7793a5489f84
+  port: 28115
+  server: sg04.lovehjq.xyz
+  sni: lovehjq.xyz
+  type: trojan
+- name: 🇨🇳 中国【付费推荐：https://tt.vg/vip】4_9@23
+  password: afe60e42-a1d9-4038-b852-2da7dd859d9a
+  port: 49000
+  server: gzdx.jcnode.top
+  sni: id01.ckcloud.info
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 🇨🇳 台湾【付费推荐：https://tt.vg/vip】108_9@24
+  network: ws
+  port: 21233
+  server: freenode.me.cd
+  tls: false
+  type: vmess
+  uuid: f369a419-1dc2-4ade-d0ed-c062857cf9ba
+  ws-opts:
+    headers:
+      Host: freenode.me.cd
+    path: /testws
+- alterId: 0
+  cipher: auto
+  name: 🇺🇲 美国【付费推荐：https://tt.vg/vip】105_9@26
+  network: ws
+  port: 443
+  server: quiz.vidio.com
+  tls: true
+  type: vmess
+  uuid: 3f1efe58-f94e-4c8d-8428-8928ad5f075c
+  ws-opts:
+    headers:
+      Host: dynamic-sg2b.obfs.xyz
+    path: /worryfree
+- alterId: 64
+  cipher: auto
+  name: 🇺🇲 美国【付费推荐：https://tt.vg/vip】183_9@30
+  port: 44667
+  server: 142.4.112.149
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
+  cipher: auto
+  name: 🇺🇲 美国【付费推荐：https://tt.vg/vip】88_9@34
+  port: 42002
+  server: 137.175.18.65
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 🇨🇳 中国【付费推荐：https://tt.vg/vip】59_9@37
+  network: ws
+  port: 48002
+  server: gzdx.jcnode.top
+  tls: false
+  type: vmess
+  uuid: afe60e42-a1d9-4038-b852-2da7dd859d9a
+  ws-opts:
+    headers:
+      Host: gzdx.jcnode.top
+    path: /fly
+- alterId: 0
+  cipher: auto
+  name: 🇺🇲 美国【付费推荐：https://tt.vg/vip】163_9@39
+  network: ws
+  port: 443
+  server: 172.66.46.15
+  tls: true
+  type: vmess
+  uuid: 12612e87-8003-44a8-b4e8-ec4a325e9016
+  ws-opts:
+    headers:
+      Host: z.zorro.tk
+    path: /ou
+- alterId: 64
+  cipher: auto
+  name: 🇺🇲 美国【付费推荐：https://tt.vg/vip】78_9@40
+  port: 41139
+  server: 156.225.67.150
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 🇺🇲 美国【付费推荐：https://tt.vg/vip】109_9@43
+  network: ws
+  port: 443
+  server: 104.16.183.101
+  tls: true
+  type: vmess
+  uuid: 3de4ec27-74b4-43e3-bf23-18e726ac80bc
+  ws-opts:
+    headers:
+      Host: pWghljmnknq.janbaroon.com
+    path: /P6kpn5UKG40MNLK2
+- alterId: 0
+  cipher: auto
+  name: 捷克【付费推荐：https://tt.vg/vip】19_9@44
+  network: ws
+  port: 443
+  server: 195.85.23.105
+  tls: true
+  type: vmess
+  uuid: 3de4ec27-74b4-43e3-bf23-18e726ac80bc
+  ws-opts:
+    headers:
+      Host: 06vmJVW.janbaroon.com
+    path: /P6kpn5UKG40MNLK2
+- alterId: 0
+  cipher: auto
+  name: 🇺🇲 美国【付费推荐：https://tt.vg/vip】104_9@45
+  network: ws
+  port: 80
+  server: cdn.noice.id
+  tls: false
+  type: vmess
+  uuid: 336bdc47-cf80-46c2-ba79-e83966750804
+  ws-opts:
+    headers:
+      Host: sg1.hijinetwork.cloud
+    path: /tunnelvmess
+- name: 以色列【付费推荐：https://tt.vg/vip】187_9@47
+  password: TJCfE7Mx2YcA8kX8zg
+  port: 4003
+  server: uk1.barbecuepie.com
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 🇺🇲 美国【付费推荐：https://tt.vg/vip】98_9@48
+  network: ws
+  port: 2052
+  server: datacenter.cm.01.biqibao.site
+  tls: false
+  type: vmess
+  uuid: 12dc6b3e-e078-4dff-b0b0-b11c1270fb15
+  ws-opts:
+    headers:
+      Host: luxembourg.biqibao.site
+    path: /public
+- alterId: 64
+  cipher: auto
+  name: 🇺🇲 美国【付费推荐：https://tt.vg/vip】69_9@52
+  port: 42243
+  server: 156.225.67.76
+  tls: false
+  type: vmess
+  uuid: 3e016c4d-986e-42df-838c-6046f3d89ecf
+- alterId: 64
+  cipher: auto
+  name: 🇺🇲 美国【付费推荐：https://tt.vg/vip】155_9@53
+  port: 53311
+  server: 137.175.68.46
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- name: 🇺🇲 美国【付费推荐：https://tt.vg/vip】143_9@66
+  password: 41bec492-cd79-4b57-9a15-7d2bb00fcfca
+  port: 443
+  server: 148.59.74.52
+  sni: 18-140-66-207.nhost.00cdn.com
+  type: trojan
+- name: 🇨🇳 中国【付费推荐：https://tt.vg/vip】27_9@67
+  password: 09833a6f-4d46-426e-87fe-7793a5489f84
+  port: 22001
+  server: hk01.lovehjq.xyz
+  sni: lovehjq.xyz
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 🇺🇲 美国【付费推荐：https://tt.vg/vip】75_9@68
+  network: ws
+  port: 2052
+  server: datacenter.ct.01.biqibao.site
+  tls: false
+  type: vmess
+  uuid: 12dc6b3e-e078-4dff-b0b0-b11c1270fb15
+  ws-opts:
+    headers:
+      Host: luxembourg.biqibao.site
+    path: /public
+- alterId: 0
+  cipher: auto
+  name: 🇺🇲 美国【付费推荐：https://tt.vg/vip】131_9@70
+  network: ws
+  port: 443
+  server: v2ray.online
+  tls: true
+  type: vmess
+  uuid: 00BBF5B8-173E-6818-9927-5AD1AA073C7D
+  ws-opts:
+    headers:
+      Host: Kansas.v2ray.online
+    path: /speedtest
+- alterId: 64
+  cipher: auto
+  name: 🇺🇲 美国【付费推荐：https://tt.vg/vip】111_9@72
+  port: 51203
+  server: 198.2.218.203
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
+  cipher: auto
+  name: 🇺🇲 美国【付费推荐：https://tt.vg/vip】77_9@74
+  port: 43246
+  server: 192.74.243.58
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
+  cipher: auto
+  name: 🇫🇷 法国【付费推荐：https://tt.vg/vip】48_9@75
+  port: 49872
+  server: 156.249.18.68
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
+  cipher: auto
+  name: 🇺🇲 美国【付费推荐：https://tt.vg/vip】156_9@79
+  port: 56002
+  server: 142.4.104.201
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
+  cipher: auto
+  name: 🇺🇲 美国【付费推荐：https://tt.vg/vip】118_9@80
+  port: 45009
+  server: 142.4.100.43
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
+  cipher: auto
+  name: 🇺🇲 美国【付费推荐：https://tt.vg/vip】66_9@82
+  port: 53042
+  server: 137.175.3.225
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
+  cipher: auto
+  name: 🇺🇲 美国【付费推荐：https://tt.vg/vip】166_9@83
+  port: 45502
+  server: 108.186.192.229
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 🇺🇲 美国【付费推荐：https://tt.vg/vip】150_9@84
+  network: ws
+  port: 80
+  server: tech.noaries.de
+  tls: false
+  type: vmess
+  uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef
+  ws-opts:
+    headers:
+      Host: nl.sharecentrepro.com
+    path: /shirker
+- alterId: 0
+  cipher: auto
+  name: 🇺🇲 美国【付费推荐：https://tt.vg/vip】142_9@87
+  network: ws
+  port: 2052
+  server: datacenter.cm.02.biqibao.site
+  tls: false
+  type: vmess
+  uuid: 12dc6b3e-e078-4dff-b0b0-b11c1270fb15
+  ws-opts:
+    headers:
+      Host: just01.biqibao.site
+    path: /public
+- alterId: 64
+  cipher: auto
+  name: 🇭🇰 香港【付费推荐：https://tt.vg/vip】126_9@90
+  port: 47024
+  server: 156.245.8.129
+  tls: false
+  type: vmess
+  uuid: 3ca912da-6ac2-418f-b9cf-45b6f694579b
+- name: 🇯🇵 日本【付费推荐：https://tt.vg/vip】146_9@95
+  password: 7a73f1dc97a70905870c0c0484b12145
+  port: 443
+  server: trs19.bolab.net
+  sni: trs19.bolab.net
+  type: trojan
+- name: 🇨🇳 中国【付费推荐：https://tt.vg/vip】121_9@100
+  password: 09833a6f-4d46-426e-87fe-7793a5489f84
+  port: 28107
+  server: kr04.lovehjq.xyz
+  sni: lovehjq.xyz
+  type: trojan
+- name: 🇸🇬 新加坡【付费推荐：https://tt.vg/vip】113_9@103
+  password: 40297165-0545-4f8f-abc4-3ee25e6cfb87
+  port: 443
+  server: jp.stablize.top
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 🇨🇳 中国【付费推荐：https://tt.vg/vip】10_9@106
   network: ws
   port: 443
   server: 202.108.15.135
@@ -11071,7 +11548,7 @@ proxies:
     path: /835757
 - alterId: 0
   cipher: auto
-  name: 🇺🇲 美国【付费推荐：tt.vg/vip】115_9@1
+  name: 🇺🇲 美国【付费推荐：https://tt.vg/vip】92_9@108
   network: ws
   port: 443
   server: 104.18.83.10
@@ -11082,46 +11559,28 @@ proxies:
     headers:
       Host: dedi2.1808.cf
     path: /835757
+- name: 🇨🇳 中国【付费推荐：https://tt.vg/vip】62_9@109
+  password: 09833a6f-4d46-426e-87fe-7793a5489f84
+  port: 30007
+  server: uk02.lovehjq.xyz
+  sni: lovehjq.xyz
+  type: trojan
 - alterId: 0
   cipher: auto
-  name: 🇺🇲 美国【付费推荐：tt.vg/vip】117_9@5
+  name: 伊朗【付费推荐：https://tt.vg/vip】95_9@110
   network: ws
-  port: 443
-  server: 172.66.46.15
+  port: 2053
+  server: snappfood.ir
   tls: true
   type: vmess
-  uuid: 12612e87-8003-44a8-b4e8-ec4a325e9016
+  uuid: 2d2808fb-961f-4e86-bd6b-cf90c031fd9b
   ws-opts:
     headers:
-      Host: z.zorro.tk
-    path: /ou
-- name: 🇺🇲 美国【付费推荐：tt.vg/vip】17_9@10
-  password: 41bec492-cd79-4b57-9a15-7d2bb00fcfca
-  port: 443
-  server: 148.59.74.52
-  sni: 18-140-66-207.nhost.00cdn.com
-  type: trojan
-- alterId: 0
-  cipher: auto
-  name: 🇺🇲 美国【付费推荐：tt.vg/vip】93_9@14
-  network: ws
-  port: 80
-  server: 104.31.16.28
-  tls: false
-  type: vmess
-  uuid: 58fe1542-5290-40ad-815a-77707a81afe5
-  ws-opts:
-    headers:
-      Host: ca4.tehme2.fun
-    path: /IOebhLMhl1CTbFHbL95myfRX2
-- name: 🇸🇬 新加坡【付费推荐：tt.vg/vip】77_9@15
-  password: 2dddb8e6-927a-4294-97ea-10a016e24aba
-  port: 443
-  server: de.stablize.top
-  type: trojan
+      Host: cdn.alimohammadi.cloud
+    path: /
 - alterId: 2
   cipher: auto
-  name: 🇨🇳 中国【付费推荐：tt.vg/vip】19_9@17
+  name: 🇨🇳 中国【付费推荐：https://tt.vg/vip】149_9@113
   network: ws
   port: 23626
   server: 26.v2-ray.cyou
@@ -11132,22 +11591,6 @@ proxies:
     headers:
       Host: 26.v2-ray.cyou
     path: /
-- name: 🇯🇵 日本【付费推荐：tt.vg/vip】7_9@19
-  password: 7a73f1dc97a70905870c0c0484b12145
-  port: 443
-  server: trs19.bolab.net
-  sni: trs19.bolab.net
-  type: trojan
-- name: 🇯🇵 日本【付费推荐：tt.vg/vip】120_9@20
-  password: 40297165-0545-4f8f-abc4-3ee25e6cfb87
-  port: 443
-  server: jp.stablize.top
-  type: trojan
-- name: 🇸🇬 新加坡【付费推荐：tt.vg/vip】71_9@23
-  password: e81c0cf0-d4f4-402e-81ee-4eb19a832ffa
-  port: 443
-  server: usa.stablize.top
-  type: trojan
 proxy-groups:
 - name: 🚀 节点选择
   proxies:
@@ -11268,8 +11711,8 @@ proxy-groups:
   - 🇨🇳CN-120.233.185.59-074_2@74
   - 🇦🇶NOWHERE-0.0.0.0-075_2@75
   - 🇦🇶NOWHERE-0.0.0.0-076_2@76
-  - 🇨🇳CN-183.240.169.23-077_2@77
-  - 🇨🇳CN-183.240.169.24-078_2@78
+  - 🇨🇳CN-183.240.169.26-077_2@77
+  - 🇨🇳CN-183.240.169.28-078_2@78
   - 🇭🇺HU-185.225.69.134-079_2@79
   - 🇦🇶NOWHERE-0.0.0.0-080_2@80
   - 🇦🇶NOWHERE-0.0.0.0-081_2@81
@@ -11284,16 +11727,16 @@ proxy-groups:
   - 🏁RELAY-188.114.97.110-090_2@90
   - 🇦🇶NOWHERE-0.0.0.0-091_2@91
   - 🇦🇶NOWHERE-0.0.0.0-092_2@92
-  - 🇨🇳CN-183.240.169.28-093_2@93
+  - 🇨🇳CN-183.240.221.72-093_2@93
   - 🇦🇶NOWHERE-0.0.0.0-095_2@95
   - 🇯🇵JP-43.128.253.82-100_2@100
   - 🇦🇶NOWHERE-0.0.0.0-102_2@102
   - 🇦🇺AU-103.224.182.210-103_2@103
-  - 🇨🇳CN-183.240.169.28-104_2@104
+  - 🇨🇳CN-183.240.169.24-104_2@104
   - 🇦🇶NOWHERE-0.0.0.0-106_2@106
   - 🇦🇶NOWHERE-0.0.0.0-107_2@107
   - 🇦🇶NOWHERE-0.0.0.0-109_2@109
-  - 🇨🇳CN-183.240.169.28-110_2@110
+  - 🇨🇳CN-183.240.169.27-110_2@110
   - 🇦🇶NOWHERE-0.0.0.0-112_2@112
   - 🇦🇶NOWHERE-0.0.0.0-115_2@115
   - 🇦🇶NOWHERE-0.0.0.0-117_2@117
@@ -11315,242 +11758,243 @@ proxy-groups:
   - 🇦🇶NOWHERE-0.0.0.0-140_2@140
   - 🇺🇸US-144.24.30.237-141_2@141
   - 🏁RELAY-172.67.197.117-142_2@142
-  - 🇯🇵JP-20.222.34.149-145_2@145
-  - 🏁RELAY-198.41.223.246-146_2@146
-  - 🏁RELAY-104.31.16.27-147_2@147
-  - 🏁RELAY-104.254.140.245-150_2@150
-  - 🇺🇸US-5.252.197.78-151_2@151
-  - 🏁RELAY-172.67.215.25-153_2@153
-  - 🏁RELAY-104.31.16.47-155_2@155
-  - 🏁RELAY-172.67.208.87-157_2@157
-  - 🏁RELAY-172.67.173.5-158_2@158
-  - 🇨🇳CN-120.240.41.43-161_2@161
-  - 🏁RELAY-212.110.134.7-162_2@162
-  - 🇬🇧GB-172.99.190.87-163_2@163
-  - 🇫🇷FR-149.202.82.172-164_2@164
-  - 🇩🇪DE-193.108.118.34-165_2@165
-  - 🇱🇻LV-185.135.86.173-166_2@166
-  - 🇯🇵JP-212.50.246.135-168_2@168
-  - 🏁RELAY-172.67.219.5-170_2@170
-  - 🇺🇸US-137.175.3.225-171_2@171
-  - 🇺🇸US-45.58.186.85-173_2@173
-  - 🇺🇸US-149.50.68.135-174_2@174
-  - 🇺🇸US-142.4.100.43-175_2@175
-  - 🇺🇸US-64.32.4.40-178_2@176
-  - 🇺🇸US-13.56.19.76-179_2@177
-  - 🇩🇪DE-130.61.61.17-181_2@179
-  - 🇷🇺RU-195.133.53.90-182_2@180
-  - 🇬🇧GB-149.50.77.131-183_2@181
-  - 🏁RELAY-104.18.12.98-184_2@182
-  - 🏁RELAY-104.18.12.98-188_2@186
-  - 🏁RELAY-172.64.85.245-195_2@193
+  - 🇺🇸US-23.225.117.50-145_2@145
+  - 🇳🇱NL-149.50.89.110-147_2@147
+  - 🇯🇵JP-20.89.51.187-149_2@149
+  - 🏁RELAY-104.16.150.9-150_2@150
+  - 🏁RELAY-195.137.167.163-151_2@151
+  - 🏁RELAY-162.159.243.235-153_2@153
+  - 🏁RELAY-212.110.134.7-155_2@155
+  - 🇺🇸US-144.24.60.90-156_2@156
+  - 🇨🇳CN-120.240.41.43-158_2@158
+  - 🏁RELAY-172.67.147.10-159_2@159
+  - 🏁RELAY-172.67.208.87-160_2@160
+  - 🏁RELAY-172.64.164.243-161_2@161
+  - 🏁RELAY-104.31.16.29-162_2@162
+  - 🏁RELAY-104.31.16.27-164_2@164
+  - 🏁RELAY-198.41.222.72-165_2@165
+  - 🇷🇺RU-188.119.65.46-166_2@166
+  - 🇷🇺RU-195.133.10.172-167_2@167
+  - 🇷🇺RU-195.133.10.249-168_2@168
+  - 🇷🇺RU-188.119.65.56-169_2@169
+  - 🏁RELAY-104.21.78.23-170_2@170
+  - 🇬🇧GB-172.99.190.87-171_2@171
+  - 🇺🇸US-38.63.0.74-172_2@172
+  - 🇺🇸US-156.225.67.20-173_2@173
+  - 🇺🇸US-74.217.179.187-174_2@174
+  - 🇺🇸US-149.50.68.136-175_2@175
+  - 🏁RELAY-104.31.16.28-178_2@178
+  - 🇫🇷FR-151.80.11.236-180_2@180
   - 丹麦 001_3@0
   - 乌克兰 001_3@1
-  - 乌兹别克斯坦 001_3@3
-  - 亚美尼亚 001_3@4
-  - 伊朗 001_3@5
-  - 伊朗 002_3@6
-  - 俄罗斯 002_3@8
-  - 俄罗斯 003_3@9
-  - 俄罗斯 004_3@10
-  - 俄罗斯 005_3@11
-  - 俄罗斯 006_3@12
-  - 俄罗斯 007_3@13
-  - 俄罗斯 008_3@14
-  - 俄罗斯 009_3@15
-  - 俄罗斯 010_3@16
-  - 俄罗斯 011_3@17
-  - 俄罗斯 012_3@18
-  - 俄罗斯 013_3@19
-  - 俄罗斯 014_3@20
-  - 俄罗斯 015_3@21
-  - 俄罗斯 016_3@22
-  - 俄罗斯 017_3@23
-  - 俄罗斯 018_3@24
-  - 俄罗斯 019_3@25
-  - 俄罗斯 020_3@26
-  - 俄罗斯 021_3@27
-  - 俄罗斯 022_3@28
-  - 俄罗斯 023_3@29
-  - 俄罗斯 024_3@30
-  - 保加利亚 001_3@31
-  - 保加利亚 002_3@32
-  - 保加利亚 003_3@33
-  - 保加利亚 004_3@34
-  - 保加利亚 005_3@35
-  - 保加利亚 006_3@36
-  - 保加利亚 007_3@37
-  - 保加利亚 008_3@38
-  - 保加利亚 009_3@39
-  - 保加利亚 010_3@40
-  - 保加利亚 011_3@41
-  - 保加利亚 012_3@42
-  - 保加利亚 013_3@43
-  - 保加利亚 014_3@44
-  - 保加利亚 015_3@45
-  - 保加利亚 016_3@46
-  - 保加利亚 017_3@47
-  - 保加利亚 018_3@48
-  - 保加利亚 019_3@49
-  - 卢森堡 001_3@50
-  - 卢森堡 002_3@51
-  - 印尼 001_3@52
-  - 印度 001_3@53
-  - 哥斯达黎加 001_3@54
-  - 哥斯达黎加 002_3@55
-  - 土耳其 001_3@56
-  - 土耳其 002_3@57
-  - 塞尔维亚 001_3@58
-  - 巴西 001_3@59
-  - 摩尔多瓦 001_3@60
-  - 摩尔多瓦 002_3@61
-  - 新加坡 001_3@62
-  - 新加坡 002_3@63
-  - 新加坡 003_3@64
-  - 新加坡 005_3@66
-  - 新加坡 006_3@67
-  - 新加坡 007_3@68
-  - 新加坡 008_3@69
-  - 新加坡 009_3@70
-  - 新加坡 010_3@71
-  - 新加坡 011_3@72
-  - 新加坡 012_3@73
-  - 日本 001_3@74
-  - 日本 002_3@75
-  - 日本 003_3@76
-  - 日本 004_3@77
-  - 日本 005_3@78
-  - 日本 006_3@79
-  - 日本 007_3@80
-  - 法国 001_3@81
-  - 法国 002_3@82
-  - 法国 003_3@83
-  - 法国 004_3@84
-  - 法国 005_3@85
-  - 法国 006_3@86
-  - 波兰 001_3@87
-  - 波兰 002_3@88
-  - 波兰 003_3@89
-  - 波兰 004_3@90
-  - 澳大利亚 001_3@91
-  - 澳大利亚 002_3@92
-  - 澳大利亚 003_3@93
-  - 白俄罗斯 001_3@94
-  - 白俄罗斯 002_3@95
-  - 立陶宛 001_3@96
-  - 罗马尼亚 001_3@97
-  - 罗马尼亚 002_3@98
-  - 美国 011_3@109
-  - 美国 012_3@110
-  - 美国 013_3@111
-  - 美国 014_3@112
-  - 美国 015_3@113
-  - 美国 016_3@114
-  - 美国 017_3@115
-  - 美国 018_3@116
-  - 美国 019_3@117
-  - 美国 021_3@119
-  - 美国 022_3@120
-  - 美国 023_3@121
-  - 美国 024_3@122
-  - 美国 025_3@123
-  - 美国 026_3@124
-  - 美国 027_3@125
-  - 美国 028_3@126
-  - 美国 029_3@127
-  - 美国 030_3@128
-  - 美国 031_3@129
-  - 美国 032_3@130
-  - 美国 033_3@131
-  - 美国 034_3@132
-  - 美国 035_3@133
-  - 美国 036_3@134
-  - 美国 037_3@135
-  - 美国 038_3@136
-  - 美国 039_3@137
-  - 美国 040_3@138
-  - 美国 041_3@139
-  - 美国 042_3@140
-  - 美国 043_3@141
-  - 美国 044_3@142
-  - 美国 045_3@143
-  - 美国 046_3@144
-  - 美国 047_3@145
-  - 美国 048_3@146
-  - 美国 049_3@147
-  - 美国 050_3@148
-  - 美国 051_3@149
-  - 美国 052_3@150
-  - 美国 053_3@151
-  - 美国 054_3@152
-  - 美国 056_3@154
-  - 美国 059_3@157
-  - 美国 060_3@158
-  - 美国 063_3@161
-  - 美国 064_3@162
-  - 美国 065_3@163
-  - 美国 066_3@164
-  - 美国 067_3@165
-  - 美国 068_3@166
-  - 美国 069_3@167
-  - 美国 070_3@168
-  - 美国 071_3@169
-  - 美国 072_3@170
-  - 美国 073_3@171
-  - 美国 074_3@172
-  - 美国 075_3@173
-  - 美国 076_3@174
-  - 美国 077_3@175
-  - 美国 078_3@176
-  - 美国 079_3@177
-  - 美国 080_3@178
-  - 美国 081_3@179
-  - 美国 082_3@180
-  - 美国 083_3@181
-  - 美国 084_3@182
-  - 美国 085_3@183
-  - 美国 086_3@184
-  - 美国 087_3@185
-  - 美国 088_3@186
-  - 美国 089_3@187
-  - 美国 090_3@188
-  - 美国 091_3@189
-  - 美国 092_3@190
-  - 美国 093_3@191
-  - 美国 094_3@192
-  - 美国 095_3@193
-  - 美国 096_3@194
-  - 美国 097_3@195
-  - 美国 098_3@196
-  - 美国 100_3@198
-  - 英国 001_3@199
-  - 英国 002_3@200
-  - 英国 003_3@201
-  - 荷兰 001_3@202
-  - 荷兰 002_3@203
-  - 荷兰 003_3@204
-  - 荷兰 004_3@205
-  - 荷兰 005_3@206
-  - 荷兰 006_3@207
-  - 荷兰 007_3@208
-  - 荷兰 009_3@210
-  - 荷兰 010_3@211
-  - 荷兰 011_3@212
-  - 荷兰 012_3@213
-  - 荷兰 014_3@215
-  - 荷兰 015_3@216
-  - 阿曼 001_3@219
-  - 阿曼 002_3@220
-  - 阿曼 003_3@221
-  - 阿曼 004_3@222
-  - 韩国 001_3@223
-  - 韩国 002_3@224
-  - 韩国 003_3@225
-  - 香港 001_3@226
-  - 香港 002_3@227
-  - 香港 003_3@228
-  - 香港 004_3@229
-  - 香港 005_3@230
+  - 乌兹别克斯坦 001_3@4
+  - 亚美尼亚 001_3@5
+  - 伊朗 001_3@6
+  - 伊朗 002_3@7
+  - 俄罗斯 001_3@8
+  - 俄罗斯 002_3@9
+  - 俄罗斯 003_3@10
+  - 俄罗斯 004_3@11
+  - 俄罗斯 005_3@12
+  - 俄罗斯 006_3@13
+  - 俄罗斯 007_3@14
+  - 俄罗斯 008_3@15
+  - 俄罗斯 009_3@16
+  - 俄罗斯 010_3@17
+  - 俄罗斯 011_3@18
+  - 俄罗斯 012_3@19
+  - 俄罗斯 013_3@20
+  - 俄罗斯 014_3@21
+  - 俄罗斯 015_3@22
+  - 俄罗斯 016_3@23
+  - 俄罗斯 017_3@24
+  - 俄罗斯 018_3@25
+  - 俄罗斯 019_3@26
+  - 俄罗斯 020_3@27
+  - 俄罗斯 021_3@28
+  - 俄罗斯 022_3@29
+  - 俄罗斯 023_3@30
+  - 俄罗斯 024_3@31
+  - 保加利亚 001_3@32
+  - 保加利亚 002_3@33
+  - 保加利亚 003_3@34
+  - 保加利亚 004_3@35
+  - 保加利亚 005_3@36
+  - 保加利亚 006_3@37
+  - 保加利亚 007_3@38
+  - 保加利亚 008_3@39
+  - 保加利亚 009_3@40
+  - 保加利亚 010_3@41
+  - 保加利亚 011_3@42
+  - 保加利亚 012_3@43
+  - 保加利亚 013_3@44
+  - 保加利亚 014_3@45
+  - 保加利亚 015_3@46
+  - 保加利亚 016_3@47
+  - 保加利亚 017_3@48
+  - 保加利亚 018_3@49
+  - 保加利亚 019_3@50
+  - 卢森堡 001_3@51
+  - 卢森堡 002_3@52
+  - 印尼 001_3@53
+  - 印度 001_3@54
+  - 哥斯达黎加 001_3@55
+  - 哥斯达黎加 002_3@56
+  - 土耳其 001_3@57
+  - 土耳其 002_3@58
+  - 塞尔维亚 001_3@59
+  - 巴西 001_3@60
+  - 摩尔多瓦 001_3@61
+  - 摩尔多瓦 002_3@62
+  - 新加坡 001_3@63
+  - 新加坡 002_3@64
+  - 新加坡 003_3@65
+  - 新加坡 005_3@67
+  - 新加坡 006_3@68
+  - 新加坡 007_3@69
+  - 新加坡 008_3@70
+  - 新加坡 009_3@71
+  - 新加坡 010_3@72
+  - 新加坡 011_3@73
+  - 新加坡 012_3@74
+  - 日本 001_3@75
+  - 日本 002_3@76
+  - 日本 003_3@77
+  - 日本 004_3@78
+  - 日本 005_3@79
+  - 日本 006_3@80
+  - 日本 007_3@81
+  - 法国 001_3@82
+  - 法国 002_3@83
+  - 法国 003_3@84
+  - 法国 004_3@85
+  - 法国 005_3@86
+  - 法国 006_3@87
+  - 波兰 001_3@88
+  - 波兰 002_3@89
+  - 波兰 003_3@90
+  - 波兰 004_3@91
+  - 澳大利亚 001_3@92
+  - 澳大利亚 002_3@93
+  - 澳大利亚 003_3@94
+  - 白俄罗斯 001_3@95
+  - 白俄罗斯 002_3@96
+  - 立陶宛 001_3@97
+  - 罗马尼亚 001_3@98
+  - 罗马尼亚 002_3@99
+  - 美国 001_3@100
+  - 美国 003_3@102
+  - 美国 006_3@105
+  - 美国 010_3@109
+  - 美国 012_3@111
+  - 美国 013_3@112
+  - 美国 014_3@113
+  - 美国 015_3@114
+  - 美国 016_3@115
+  - 美国 017_3@116
+  - 美国 018_3@117
+  - 美国 019_3@118
+  - 美国 021_3@120
+  - 美国 022_3@121
+  - 美国 023_3@122
+  - 美国 024_3@123
+  - 美国 025_3@124
+  - 美国 026_3@125
+  - 美国 027_3@126
+  - 美国 028_3@127
+  - 美国 029_3@128
+  - 美国 030_3@129
+  - 美国 031_3@130
+  - 美国 032_3@131
+  - 美国 033_3@132
+  - 美国 034_3@133
+  - 美国 035_3@134
+  - 美国 036_3@135
+  - 美国 037_3@136
+  - 美国 038_3@137
+  - 美国 039_3@138
+  - 美国 040_3@139
+  - 美国 041_3@140
+  - 美国 042_3@141
+  - 美国 043_3@142
+  - 美国 044_3@143
+  - 美国 045_3@144
+  - 美国 046_3@145
+  - 美国 047_3@146
+  - 美国 048_3@147
+  - 美国 049_3@148
+  - 美国 050_3@149
+  - 美国 051_3@150
+  - 美国 052_3@151
+  - 美国 053_3@152
+  - 美国 054_3@153
+  - 美国 056_3@155
+  - 美国 059_3@158
+  - 美国 060_3@159
+  - 美国 063_3@162
+  - 美国 064_3@163
+  - 美国 065_3@164
+  - 美国 066_3@165
+  - 美国 067_3@166
+  - 美国 068_3@167
+  - 美国 069_3@168
+  - 美国 070_3@169
+  - 美国 071_3@170
+  - 美国 073_3@172
+  - 美国 074_3@173
+  - 美国 075_3@174
+  - 美国 076_3@175
+  - 美国 077_3@176
+  - 美国 078_3@177
+  - 美国 079_3@178
+  - 美国 080_3@179
+  - 美国 081_3@180
+  - 美国 082_3@181
+  - 美国 083_3@182
+  - 美国 084_3@183
+  - 美国 085_3@184
+  - 美国 086_3@185
+  - 美国 087_3@186
+  - 美国 088_3@187
+  - 美国 089_3@188
+  - 美国 090_3@189
+  - 美国 091_3@190
+  - 美国 092_3@191
+  - 美国 093_3@192
+  - 美国 094_3@193
+  - 美国 095_3@194
+  - 美国 096_3@195
+  - 美国 097_3@196
+  - 美国 098_3@197
+  - 美国 099_3@198
+  - 英国 001_3@200
+  - 英国 002_3@201
+  - 英国 003_3@202
+  - 荷兰 001_3@203
+  - 荷兰 002_3@204
+  - 荷兰 003_3@205
+  - 荷兰 004_3@206
+  - 荷兰 005_3@207
+  - 荷兰 006_3@208
+  - 荷兰 007_3@209
+  - 荷兰 009_3@211
+  - 荷兰 010_3@212
+  - 荷兰 011_3@213
+  - 荷兰 012_3@214
+  - 荷兰 014_3@216
+  - 荷兰 015_3@217
+  - 阿曼 001_3@220
+  - 阿曼 002_3@221
+  - 阿曼 003_3@222
+  - 阿曼 004_3@223
+  - 韩国 001_3@224
+  - 韩国 002_3@225
+  - 韩国 003_3@226
+  - 香港 001_3@227
+  - 香港 002_3@228
+  - 香港 003_3@229
+  - 香港 004_3@230
+  - 香港 005_3@231
   - 亚洲(油管:破解资源君2.0)_4@0
   - 🇬🇧 _GB_英国_5@0
   - 🇺🇸 _US_美国_5@1
@@ -11620,7 +12064,8 @@ proxy-groups:
   - 🇸🇬_SG_新加坡->🇦🇪_AE_阿联酋_6@22
   - 🇸🇬_SG_新加坡_3_6@23
   - 🇸🇬_SG_新加坡_4_6@24
-  - 🇺🇸美国-加利福尼亚-0-v2ray-xx2xxl.ddns.net:80_7@3
+  - 🇺🇸美国-加利福尼亚-0-ss-167.160.90.254:41122_7@0
+  - 🇺🇸美国-弗吉尼亚-阿什本-v2ray-ming2.kiwireich.com:443_7@3
   - 🇺🇸_US_美国_1_0@0_8@0
   - 🇹🇼_TW_台湾->🇺🇸_US_美国_1_0@1_8@1
   - 🇨🇦_CA_加拿大_1_0@2_8@2
@@ -12014,7 +12459,6 @@ proxy-groups:
   - 🇨🇳_CN_中国->🇭🇰_HK_香港_15@25_8@407
   - 🇺🇸_US_美国_8_15@26_8@408
   - 🇨🇳_CN_中国_3_15@27_8@409
-  - 🇺🇸_US_美国->🇯🇵_JP_日本_15@28_8@410
   - 🇮🇩_ID_印度尼西亚_2_15@30_8@411
   - 🇯🇵_JP_日本_3_15@34_8@412
   - 🇹🇼_TW_台湾_2_15@35_8@413
@@ -12235,16 +12679,63 @@ proxy-groups:
   - 🇺🇸_US_美国_15_24@40_8@630
   - 🇺🇸_US_美国_16_24@41_8@631
   - 🇨🇦_CA_加拿大_3_24@42_8@632
-  - 🇨🇳 中国【付费推荐：tt.vg/vip】63_9@0
-  - 🇺🇲 美国【付费推荐：tt.vg/vip】115_9@1
-  - 🇺🇲 美国【付费推荐：tt.vg/vip】117_9@5
-  - 🇺🇲 美国【付费推荐：tt.vg/vip】17_9@10
-  - 🇺🇲 美国【付费推荐：tt.vg/vip】93_9@14
-  - 🇸🇬 新加坡【付费推荐：tt.vg/vip】77_9@15
-  - 🇨🇳 中国【付费推荐：tt.vg/vip】19_9@17
-  - 🇯🇵 日本【付费推荐：tt.vg/vip】7_9@19
-  - 🇯🇵 日本【付费推荐：tt.vg/vip】120_9@20
-  - 🇸🇬 新加坡【付费推荐：tt.vg/vip】71_9@23
+  - 🇨🇳 中国【付费推荐：https://tt.vg/vip】137_9@0
+  - 🇨🇳 中国【付费推荐：https://tt.vg/vip】35_9@1
+  - 🇨🇳 中国【付费推荐：https://tt.vg/vip】84_9@2
+  - 🇨🇳 中国【付费推荐：https://tt.vg/vip】153_9@3
+  - 🇨🇳 中国【付费推荐：https://tt.vg/vip】44_9@4
+  - 🇨🇳 中国【付费推荐：https://tt.vg/vip】91_9@5
+  - 🇨🇳 中国【付费推荐：https://tt.vg/vip】165_9@6
+  - 🇯🇵 日本【付费推荐：https://tt.vg/vip】140_9@8
+  - 🇨🇳 中国【付费推荐：https://tt.vg/vip】134_9@9
+  - 🇨🇳 中国【付费推荐：https://tt.vg/vip】7_9@10
+  - 🇨🇳 中国【付费推荐：https://tt.vg/vip】12_9@11
+  - 🇨🇳 中国【付费推荐：https://tt.vg/vip】60_9@12
+  - 🇨🇳 中国【付费推荐：https://tt.vg/vip】171_9@13
+  - 🇨🇳 中国【付费推荐：https://tt.vg/vip】1_9@14
+  - 🇨🇳 中国【付费推荐：https://tt.vg/vip】157_9@15
+  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】85_9@17
+  - 🇨🇳 中国【付费推荐：https://tt.vg/vip】120_9@18
+  - 🇯🇵 日本【付费推荐：https://tt.vg/vip】110_9@19
+  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】181_9@20
+  - 🇨🇳 中国【付费推荐：https://tt.vg/vip】14_9@21
+  - 🇨🇳 中国【付费推荐：https://tt.vg/vip】4_9@23
+  - 🇨🇳 台湾【付费推荐：https://tt.vg/vip】108_9@24
+  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】105_9@26
+  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】183_9@30
+  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】88_9@34
+  - 🇨🇳 中国【付费推荐：https://tt.vg/vip】59_9@37
+  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】163_9@39
+  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】78_9@40
+  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】109_9@43
+  - 捷克【付费推荐：https://tt.vg/vip】19_9@44
+  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】104_9@45
+  - 以色列【付费推荐：https://tt.vg/vip】187_9@47
+  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】98_9@48
+  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】69_9@52
+  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】155_9@53
+  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】143_9@66
+  - 🇨🇳 中国【付费推荐：https://tt.vg/vip】27_9@67
+  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】75_9@68
+  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】131_9@70
+  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】111_9@72
+  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】77_9@74
+  - 🇫🇷 法国【付费推荐：https://tt.vg/vip】48_9@75
+  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】156_9@79
+  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】118_9@80
+  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】66_9@82
+  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】166_9@83
+  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】150_9@84
+  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】142_9@87
+  - 🇭🇰 香港【付费推荐：https://tt.vg/vip】126_9@90
+  - 🇯🇵 日本【付费推荐：https://tt.vg/vip】146_9@95
+  - 🇨🇳 中国【付费推荐：https://tt.vg/vip】121_9@100
+  - 🇸🇬 新加坡【付费推荐：https://tt.vg/vip】113_9@103
+  - 🇨🇳 中国【付费推荐：https://tt.vg/vip】10_9@106
+  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】92_9@108
+  - 🇨🇳 中国【付费推荐：https://tt.vg/vip】62_9@109
+  - 伊朗【付费推荐：https://tt.vg/vip】95_9@110
+  - 🇨🇳 中国【付费推荐：https://tt.vg/vip】149_9@113
   type: select
 - interval: 300
   name: ♻️ 自动选择
@@ -12364,8 +12855,8 @@ proxy-groups:
   - 🇨🇳CN-120.233.185.59-074_2@74
   - 🇦🇶NOWHERE-0.0.0.0-075_2@75
   - 🇦🇶NOWHERE-0.0.0.0-076_2@76
-  - 🇨🇳CN-183.240.169.23-077_2@77
-  - 🇨🇳CN-183.240.169.24-078_2@78
+  - 🇨🇳CN-183.240.169.26-077_2@77
+  - 🇨🇳CN-183.240.169.28-078_2@78
   - 🇭🇺HU-185.225.69.134-079_2@79
   - 🇦🇶NOWHERE-0.0.0.0-080_2@80
   - 🇦🇶NOWHERE-0.0.0.0-081_2@81
@@ -12380,16 +12871,16 @@ proxy-groups:
   - 🏁RELAY-188.114.97.110-090_2@90
   - 🇦🇶NOWHERE-0.0.0.0-091_2@91
   - 🇦🇶NOWHERE-0.0.0.0-092_2@92
-  - 🇨🇳CN-183.240.169.28-093_2@93
+  - 🇨🇳CN-183.240.221.72-093_2@93
   - 🇦🇶NOWHERE-0.0.0.0-095_2@95
   - 🇯🇵JP-43.128.253.82-100_2@100
   - 🇦🇶NOWHERE-0.0.0.0-102_2@102
   - 🇦🇺AU-103.224.182.210-103_2@103
-  - 🇨🇳CN-183.240.169.28-104_2@104
+  - 🇨🇳CN-183.240.169.24-104_2@104
   - 🇦🇶NOWHERE-0.0.0.0-106_2@106
   - 🇦🇶NOWHERE-0.0.0.0-107_2@107
   - 🇦🇶NOWHERE-0.0.0.0-109_2@109
-  - 🇨🇳CN-183.240.169.28-110_2@110
+  - 🇨🇳CN-183.240.169.27-110_2@110
   - 🇦🇶NOWHERE-0.0.0.0-112_2@112
   - 🇦🇶NOWHERE-0.0.0.0-115_2@115
   - 🇦🇶NOWHERE-0.0.0.0-117_2@117
@@ -12411,242 +12902,243 @@ proxy-groups:
   - 🇦🇶NOWHERE-0.0.0.0-140_2@140
   - 🇺🇸US-144.24.30.237-141_2@141
   - 🏁RELAY-172.67.197.117-142_2@142
-  - 🇯🇵JP-20.222.34.149-145_2@145
-  - 🏁RELAY-198.41.223.246-146_2@146
-  - 🏁RELAY-104.31.16.27-147_2@147
-  - 🏁RELAY-104.254.140.245-150_2@150
-  - 🇺🇸US-5.252.197.78-151_2@151
-  - 🏁RELAY-172.67.215.25-153_2@153
-  - 🏁RELAY-104.31.16.47-155_2@155
-  - 🏁RELAY-172.67.208.87-157_2@157
-  - 🏁RELAY-172.67.173.5-158_2@158
-  - 🇨🇳CN-120.240.41.43-161_2@161
-  - 🏁RELAY-212.110.134.7-162_2@162
-  - 🇬🇧GB-172.99.190.87-163_2@163
-  - 🇫🇷FR-149.202.82.172-164_2@164
-  - 🇩🇪DE-193.108.118.34-165_2@165
-  - 🇱🇻LV-185.135.86.173-166_2@166
-  - 🇯🇵JP-212.50.246.135-168_2@168
-  - 🏁RELAY-172.67.219.5-170_2@170
-  - 🇺🇸US-137.175.3.225-171_2@171
-  - 🇺🇸US-45.58.186.85-173_2@173
-  - 🇺🇸US-149.50.68.135-174_2@174
-  - 🇺🇸US-142.4.100.43-175_2@175
-  - 🇺🇸US-64.32.4.40-178_2@176
-  - 🇺🇸US-13.56.19.76-179_2@177
-  - 🇩🇪DE-130.61.61.17-181_2@179
-  - 🇷🇺RU-195.133.53.90-182_2@180
-  - 🇬🇧GB-149.50.77.131-183_2@181
-  - 🏁RELAY-104.18.12.98-184_2@182
-  - 🏁RELAY-104.18.12.98-188_2@186
-  - 🏁RELAY-172.64.85.245-195_2@193
+  - 🇺🇸US-23.225.117.50-145_2@145
+  - 🇳🇱NL-149.50.89.110-147_2@147
+  - 🇯🇵JP-20.89.51.187-149_2@149
+  - 🏁RELAY-104.16.150.9-150_2@150
+  - 🏁RELAY-195.137.167.163-151_2@151
+  - 🏁RELAY-162.159.243.235-153_2@153
+  - 🏁RELAY-212.110.134.7-155_2@155
+  - 🇺🇸US-144.24.60.90-156_2@156
+  - 🇨🇳CN-120.240.41.43-158_2@158
+  - 🏁RELAY-172.67.147.10-159_2@159
+  - 🏁RELAY-172.67.208.87-160_2@160
+  - 🏁RELAY-172.64.164.243-161_2@161
+  - 🏁RELAY-104.31.16.29-162_2@162
+  - 🏁RELAY-104.31.16.27-164_2@164
+  - 🏁RELAY-198.41.222.72-165_2@165
+  - 🇷🇺RU-188.119.65.46-166_2@166
+  - 🇷🇺RU-195.133.10.172-167_2@167
+  - 🇷🇺RU-195.133.10.249-168_2@168
+  - 🇷🇺RU-188.119.65.56-169_2@169
+  - 🏁RELAY-104.21.78.23-170_2@170
+  - 🇬🇧GB-172.99.190.87-171_2@171
+  - 🇺🇸US-38.63.0.74-172_2@172
+  - 🇺🇸US-156.225.67.20-173_2@173
+  - 🇺🇸US-74.217.179.187-174_2@174
+  - 🇺🇸US-149.50.68.136-175_2@175
+  - 🏁RELAY-104.31.16.28-178_2@178
+  - 🇫🇷FR-151.80.11.236-180_2@180
   - 丹麦 001_3@0
   - 乌克兰 001_3@1
-  - 乌兹别克斯坦 001_3@3
-  - 亚美尼亚 001_3@4
-  - 伊朗 001_3@5
-  - 伊朗 002_3@6
-  - 俄罗斯 002_3@8
-  - 俄罗斯 003_3@9
-  - 俄罗斯 004_3@10
-  - 俄罗斯 005_3@11
-  - 俄罗斯 006_3@12
-  - 俄罗斯 007_3@13
-  - 俄罗斯 008_3@14
-  - 俄罗斯 009_3@15
-  - 俄罗斯 010_3@16
-  - 俄罗斯 011_3@17
-  - 俄罗斯 012_3@18
-  - 俄罗斯 013_3@19
-  - 俄罗斯 014_3@20
-  - 俄罗斯 015_3@21
-  - 俄罗斯 016_3@22
-  - 俄罗斯 017_3@23
-  - 俄罗斯 018_3@24
-  - 俄罗斯 019_3@25
-  - 俄罗斯 020_3@26
-  - 俄罗斯 021_3@27
-  - 俄罗斯 022_3@28
-  - 俄罗斯 023_3@29
-  - 俄罗斯 024_3@30
-  - 保加利亚 001_3@31
-  - 保加利亚 002_3@32
-  - 保加利亚 003_3@33
-  - 保加利亚 004_3@34
-  - 保加利亚 005_3@35
-  - 保加利亚 006_3@36
-  - 保加利亚 007_3@37
-  - 保加利亚 008_3@38
-  - 保加利亚 009_3@39
-  - 保加利亚 010_3@40
-  - 保加利亚 011_3@41
-  - 保加利亚 012_3@42
-  - 保加利亚 013_3@43
-  - 保加利亚 014_3@44
-  - 保加利亚 015_3@45
-  - 保加利亚 016_3@46
-  - 保加利亚 017_3@47
-  - 保加利亚 018_3@48
-  - 保加利亚 019_3@49
-  - 卢森堡 001_3@50
-  - 卢森堡 002_3@51
-  - 印尼 001_3@52
-  - 印度 001_3@53
-  - 哥斯达黎加 001_3@54
-  - 哥斯达黎加 002_3@55
-  - 土耳其 001_3@56
-  - 土耳其 002_3@57
-  - 塞尔维亚 001_3@58
-  - 巴西 001_3@59
-  - 摩尔多瓦 001_3@60
-  - 摩尔多瓦 002_3@61
-  - 新加坡 001_3@62
-  - 新加坡 002_3@63
-  - 新加坡 003_3@64
-  - 新加坡 005_3@66
-  - 新加坡 006_3@67
-  - 新加坡 007_3@68
-  - 新加坡 008_3@69
-  - 新加坡 009_3@70
-  - 新加坡 010_3@71
-  - 新加坡 011_3@72
-  - 新加坡 012_3@73
-  - 日本 001_3@74
-  - 日本 002_3@75
-  - 日本 003_3@76
-  - 日本 004_3@77
-  - 日本 005_3@78
-  - 日本 006_3@79
-  - 日本 007_3@80
-  - 法国 001_3@81
-  - 法国 002_3@82
-  - 法国 003_3@83
-  - 法国 004_3@84
-  - 法国 005_3@85
-  - 法国 006_3@86
-  - 波兰 001_3@87
-  - 波兰 002_3@88
-  - 波兰 003_3@89
-  - 波兰 004_3@90
-  - 澳大利亚 001_3@91
-  - 澳大利亚 002_3@92
-  - 澳大利亚 003_3@93
-  - 白俄罗斯 001_3@94
-  - 白俄罗斯 002_3@95
-  - 立陶宛 001_3@96
-  - 罗马尼亚 001_3@97
-  - 罗马尼亚 002_3@98
-  - 美国 011_3@109
-  - 美国 012_3@110
-  - 美国 013_3@111
-  - 美国 014_3@112
-  - 美国 015_3@113
-  - 美国 016_3@114
-  - 美国 017_3@115
-  - 美国 018_3@116
-  - 美国 019_3@117
-  - 美国 021_3@119
-  - 美国 022_3@120
-  - 美国 023_3@121
-  - 美国 024_3@122
-  - 美国 025_3@123
-  - 美国 026_3@124
-  - 美国 027_3@125
-  - 美国 028_3@126
-  - 美国 029_3@127
-  - 美国 030_3@128
-  - 美国 031_3@129
-  - 美国 032_3@130
-  - 美国 033_3@131
-  - 美国 034_3@132
-  - 美国 035_3@133
-  - 美国 036_3@134
-  - 美国 037_3@135
-  - 美国 038_3@136
-  - 美国 039_3@137
-  - 美国 040_3@138
-  - 美国 041_3@139
-  - 美国 042_3@140
-  - 美国 043_3@141
-  - 美国 044_3@142
-  - 美国 045_3@143
-  - 美国 046_3@144
-  - 美国 047_3@145
-  - 美国 048_3@146
-  - 美国 049_3@147
-  - 美国 050_3@148
-  - 美国 051_3@149
-  - 美国 052_3@150
-  - 美国 053_3@151
-  - 美国 054_3@152
-  - 美国 056_3@154
-  - 美国 059_3@157
-  - 美国 060_3@158
-  - 美国 063_3@161
-  - 美国 064_3@162
-  - 美国 065_3@163
-  - 美国 066_3@164
-  - 美国 067_3@165
-  - 美国 068_3@166
-  - 美国 069_3@167
-  - 美国 070_3@168
-  - 美国 071_3@169
-  - 美国 072_3@170
-  - 美国 073_3@171
-  - 美国 074_3@172
-  - 美国 075_3@173
-  - 美国 076_3@174
-  - 美国 077_3@175
-  - 美国 078_3@176
-  - 美国 079_3@177
-  - 美国 080_3@178
-  - 美国 081_3@179
-  - 美国 082_3@180
-  - 美国 083_3@181
-  - 美国 084_3@182
-  - 美国 085_3@183
-  - 美国 086_3@184
-  - 美国 087_3@185
-  - 美国 088_3@186
-  - 美国 089_3@187
-  - 美国 090_3@188
-  - 美国 091_3@189
-  - 美国 092_3@190
-  - 美国 093_3@191
-  - 美国 094_3@192
-  - 美国 095_3@193
-  - 美国 096_3@194
-  - 美国 097_3@195
-  - 美国 098_3@196
-  - 美国 100_3@198
-  - 英国 001_3@199
-  - 英国 002_3@200
-  - 英国 003_3@201
-  - 荷兰 001_3@202
-  - 荷兰 002_3@203
-  - 荷兰 003_3@204
-  - 荷兰 004_3@205
-  - 荷兰 005_3@206
-  - 荷兰 006_3@207
-  - 荷兰 007_3@208
-  - 荷兰 009_3@210
-  - 荷兰 010_3@211
-  - 荷兰 011_3@212
-  - 荷兰 012_3@213
-  - 荷兰 014_3@215
-  - 荷兰 015_3@216
-  - 阿曼 001_3@219
-  - 阿曼 002_3@220
-  - 阿曼 003_3@221
-  - 阿曼 004_3@222
-  - 韩国 001_3@223
-  - 韩国 002_3@224
-  - 韩国 003_3@225
-  - 香港 001_3@226
-  - 香港 002_3@227
-  - 香港 003_3@228
-  - 香港 004_3@229
-  - 香港 005_3@230
+  - 乌兹别克斯坦 001_3@4
+  - 亚美尼亚 001_3@5
+  - 伊朗 001_3@6
+  - 伊朗 002_3@7
+  - 俄罗斯 001_3@8
+  - 俄罗斯 002_3@9
+  - 俄罗斯 003_3@10
+  - 俄罗斯 004_3@11
+  - 俄罗斯 005_3@12
+  - 俄罗斯 006_3@13
+  - 俄罗斯 007_3@14
+  - 俄罗斯 008_3@15
+  - 俄罗斯 009_3@16
+  - 俄罗斯 010_3@17
+  - 俄罗斯 011_3@18
+  - 俄罗斯 012_3@19
+  - 俄罗斯 013_3@20
+  - 俄罗斯 014_3@21
+  - 俄罗斯 015_3@22
+  - 俄罗斯 016_3@23
+  - 俄罗斯 017_3@24
+  - 俄罗斯 018_3@25
+  - 俄罗斯 019_3@26
+  - 俄罗斯 020_3@27
+  - 俄罗斯 021_3@28
+  - 俄罗斯 022_3@29
+  - 俄罗斯 023_3@30
+  - 俄罗斯 024_3@31
+  - 保加利亚 001_3@32
+  - 保加利亚 002_3@33
+  - 保加利亚 003_3@34
+  - 保加利亚 004_3@35
+  - 保加利亚 005_3@36
+  - 保加利亚 006_3@37
+  - 保加利亚 007_3@38
+  - 保加利亚 008_3@39
+  - 保加利亚 009_3@40
+  - 保加利亚 010_3@41
+  - 保加利亚 011_3@42
+  - 保加利亚 012_3@43
+  - 保加利亚 013_3@44
+  - 保加利亚 014_3@45
+  - 保加利亚 015_3@46
+  - 保加利亚 016_3@47
+  - 保加利亚 017_3@48
+  - 保加利亚 018_3@49
+  - 保加利亚 019_3@50
+  - 卢森堡 001_3@51
+  - 卢森堡 002_3@52
+  - 印尼 001_3@53
+  - 印度 001_3@54
+  - 哥斯达黎加 001_3@55
+  - 哥斯达黎加 002_3@56
+  - 土耳其 001_3@57
+  - 土耳其 002_3@58
+  - 塞尔维亚 001_3@59
+  - 巴西 001_3@60
+  - 摩尔多瓦 001_3@61
+  - 摩尔多瓦 002_3@62
+  - 新加坡 001_3@63
+  - 新加坡 002_3@64
+  - 新加坡 003_3@65
+  - 新加坡 005_3@67
+  - 新加坡 006_3@68
+  - 新加坡 007_3@69
+  - 新加坡 008_3@70
+  - 新加坡 009_3@71
+  - 新加坡 010_3@72
+  - 新加坡 011_3@73
+  - 新加坡 012_3@74
+  - 日本 001_3@75
+  - 日本 002_3@76
+  - 日本 003_3@77
+  - 日本 004_3@78
+  - 日本 005_3@79
+  - 日本 006_3@80
+  - 日本 007_3@81
+  - 法国 001_3@82
+  - 法国 002_3@83
+  - 法国 003_3@84
+  - 法国 004_3@85
+  - 法国 005_3@86
+  - 法国 006_3@87
+  - 波兰 001_3@88
+  - 波兰 002_3@89
+  - 波兰 003_3@90
+  - 波兰 004_3@91
+  - 澳大利亚 001_3@92
+  - 澳大利亚 002_3@93
+  - 澳大利亚 003_3@94
+  - 白俄罗斯 001_3@95
+  - 白俄罗斯 002_3@96
+  - 立陶宛 001_3@97
+  - 罗马尼亚 001_3@98
+  - 罗马尼亚 002_3@99
+  - 美国 001_3@100
+  - 美国 003_3@102
+  - 美国 006_3@105
+  - 美国 010_3@109
+  - 美国 012_3@111
+  - 美国 013_3@112
+  - 美国 014_3@113
+  - 美国 015_3@114
+  - 美国 016_3@115
+  - 美国 017_3@116
+  - 美国 018_3@117
+  - 美国 019_3@118
+  - 美国 021_3@120
+  - 美国 022_3@121
+  - 美国 023_3@122
+  - 美国 024_3@123
+  - 美国 025_3@124
+  - 美国 026_3@125
+  - 美国 027_3@126
+  - 美国 028_3@127
+  - 美国 029_3@128
+  - 美国 030_3@129
+  - 美国 031_3@130
+  - 美国 032_3@131
+  - 美国 033_3@132
+  - 美国 034_3@133
+  - 美国 035_3@134
+  - 美国 036_3@135
+  - 美国 037_3@136
+  - 美国 038_3@137
+  - 美国 039_3@138
+  - 美国 040_3@139
+  - 美国 041_3@140
+  - 美国 042_3@141
+  - 美国 043_3@142
+  - 美国 044_3@143
+  - 美国 045_3@144
+  - 美国 046_3@145
+  - 美国 047_3@146
+  - 美国 048_3@147
+  - 美国 049_3@148
+  - 美国 050_3@149
+  - 美国 051_3@150
+  - 美国 052_3@151
+  - 美国 053_3@152
+  - 美国 054_3@153
+  - 美国 056_3@155
+  - 美国 059_3@158
+  - 美国 060_3@159
+  - 美国 063_3@162
+  - 美国 064_3@163
+  - 美国 065_3@164
+  - 美国 066_3@165
+  - 美国 067_3@166
+  - 美国 068_3@167
+  - 美国 069_3@168
+  - 美国 070_3@169
+  - 美国 071_3@170
+  - 美国 073_3@172
+  - 美国 074_3@173
+  - 美国 075_3@174
+  - 美国 076_3@175
+  - 美国 077_3@176
+  - 美国 078_3@177
+  - 美国 079_3@178
+  - 美国 080_3@179
+  - 美国 081_3@180
+  - 美国 082_3@181
+  - 美国 083_3@182
+  - 美国 084_3@183
+  - 美国 085_3@184
+  - 美国 086_3@185
+  - 美国 087_3@186
+  - 美国 088_3@187
+  - 美国 089_3@188
+  - 美国 090_3@189
+  - 美国 091_3@190
+  - 美国 092_3@191
+  - 美国 093_3@192
+  - 美国 094_3@193
+  - 美国 095_3@194
+  - 美国 096_3@195
+  - 美国 097_3@196
+  - 美国 098_3@197
+  - 美国 099_3@198
+  - 英国 001_3@200
+  - 英国 002_3@201
+  - 英国 003_3@202
+  - 荷兰 001_3@203
+  - 荷兰 002_3@204
+  - 荷兰 003_3@205
+  - 荷兰 004_3@206
+  - 荷兰 005_3@207
+  - 荷兰 006_3@208
+  - 荷兰 007_3@209
+  - 荷兰 009_3@211
+  - 荷兰 010_3@212
+  - 荷兰 011_3@213
+  - 荷兰 012_3@214
+  - 荷兰 014_3@216
+  - 荷兰 015_3@217
+  - 阿曼 001_3@220
+  - 阿曼 002_3@221
+  - 阿曼 003_3@222
+  - 阿曼 004_3@223
+  - 韩国 001_3@224
+  - 韩国 002_3@225
+  - 韩国 003_3@226
+  - 香港 001_3@227
+  - 香港 002_3@228
+  - 香港 003_3@229
+  - 香港 004_3@230
+  - 香港 005_3@231
   - 亚洲(油管:破解资源君2.0)_4@0
   - 🇬🇧 _GB_英国_5@0
   - 🇺🇸 _US_美国_5@1
@@ -12716,7 +13208,8 @@ proxy-groups:
   - 🇸🇬_SG_新加坡->🇦🇪_AE_阿联酋_6@22
   - 🇸🇬_SG_新加坡_3_6@23
   - 🇸🇬_SG_新加坡_4_6@24
-  - 🇺🇸美国-加利福尼亚-0-v2ray-xx2xxl.ddns.net:80_7@3
+  - 🇺🇸美国-加利福尼亚-0-ss-167.160.90.254:41122_7@0
+  - 🇺🇸美国-弗吉尼亚-阿什本-v2ray-ming2.kiwireich.com:443_7@3
   - 🇺🇸_US_美国_1_0@0_8@0
   - 🇹🇼_TW_台湾->🇺🇸_US_美国_1_0@1_8@1
   - 🇨🇦_CA_加拿大_1_0@2_8@2
@@ -13110,7 +13603,6 @@ proxy-groups:
   - 🇨🇳_CN_中国->🇭🇰_HK_香港_15@25_8@407
   - 🇺🇸_US_美国_8_15@26_8@408
   - 🇨🇳_CN_中国_3_15@27_8@409
-  - 🇺🇸_US_美国->🇯🇵_JP_日本_15@28_8@410
   - 🇮🇩_ID_印度尼西亚_2_15@30_8@411
   - 🇯🇵_JP_日本_3_15@34_8@412
   - 🇹🇼_TW_台湾_2_15@35_8@413
@@ -13331,16 +13823,63 @@ proxy-groups:
   - 🇺🇸_US_美国_15_24@40_8@630
   - 🇺🇸_US_美国_16_24@41_8@631
   - 🇨🇦_CA_加拿大_3_24@42_8@632
-  - 🇨🇳 中国【付费推荐：tt.vg/vip】63_9@0
-  - 🇺🇲 美国【付费推荐：tt.vg/vip】115_9@1
-  - 🇺🇲 美国【付费推荐：tt.vg/vip】117_9@5
-  - 🇺🇲 美国【付费推荐：tt.vg/vip】17_9@10
-  - 🇺🇲 美国【付费推荐：tt.vg/vip】93_9@14
-  - 🇸🇬 新加坡【付费推荐：tt.vg/vip】77_9@15
-  - 🇨🇳 中国【付费推荐：tt.vg/vip】19_9@17
-  - 🇯🇵 日本【付费推荐：tt.vg/vip】7_9@19
-  - 🇯🇵 日本【付费推荐：tt.vg/vip】120_9@20
-  - 🇸🇬 新加坡【付费推荐：tt.vg/vip】71_9@23
+  - 🇨🇳 中国【付费推荐：https://tt.vg/vip】137_9@0
+  - 🇨🇳 中国【付费推荐：https://tt.vg/vip】35_9@1
+  - 🇨🇳 中国【付费推荐：https://tt.vg/vip】84_9@2
+  - 🇨🇳 中国【付费推荐：https://tt.vg/vip】153_9@3
+  - 🇨🇳 中国【付费推荐：https://tt.vg/vip】44_9@4
+  - 🇨🇳 中国【付费推荐：https://tt.vg/vip】91_9@5
+  - 🇨🇳 中国【付费推荐：https://tt.vg/vip】165_9@6
+  - 🇯🇵 日本【付费推荐：https://tt.vg/vip】140_9@8
+  - 🇨🇳 中国【付费推荐：https://tt.vg/vip】134_9@9
+  - 🇨🇳 中国【付费推荐：https://tt.vg/vip】7_9@10
+  - 🇨🇳 中国【付费推荐：https://tt.vg/vip】12_9@11
+  - 🇨🇳 中国【付费推荐：https://tt.vg/vip】60_9@12
+  - 🇨🇳 中国【付费推荐：https://tt.vg/vip】171_9@13
+  - 🇨🇳 中国【付费推荐：https://tt.vg/vip】1_9@14
+  - 🇨🇳 中国【付费推荐：https://tt.vg/vip】157_9@15
+  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】85_9@17
+  - 🇨🇳 中国【付费推荐：https://tt.vg/vip】120_9@18
+  - 🇯🇵 日本【付费推荐：https://tt.vg/vip】110_9@19
+  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】181_9@20
+  - 🇨🇳 中国【付费推荐：https://tt.vg/vip】14_9@21
+  - 🇨🇳 中国【付费推荐：https://tt.vg/vip】4_9@23
+  - 🇨🇳 台湾【付费推荐：https://tt.vg/vip】108_9@24
+  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】105_9@26
+  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】183_9@30
+  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】88_9@34
+  - 🇨🇳 中国【付费推荐：https://tt.vg/vip】59_9@37
+  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】163_9@39
+  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】78_9@40
+  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】109_9@43
+  - 捷克【付费推荐：https://tt.vg/vip】19_9@44
+  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】104_9@45
+  - 以色列【付费推荐：https://tt.vg/vip】187_9@47
+  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】98_9@48
+  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】69_9@52
+  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】155_9@53
+  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】143_9@66
+  - 🇨🇳 中国【付费推荐：https://tt.vg/vip】27_9@67
+  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】75_9@68
+  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】131_9@70
+  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】111_9@72
+  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】77_9@74
+  - 🇫🇷 法国【付费推荐：https://tt.vg/vip】48_9@75
+  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】156_9@79
+  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】118_9@80
+  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】66_9@82
+  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】166_9@83
+  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】150_9@84
+  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】142_9@87
+  - 🇭🇰 香港【付费推荐：https://tt.vg/vip】126_9@90
+  - 🇯🇵 日本【付费推荐：https://tt.vg/vip】146_9@95
+  - 🇨🇳 中国【付费推荐：https://tt.vg/vip】121_9@100
+  - 🇸🇬 新加坡【付费推荐：https://tt.vg/vip】113_9@103
+  - 🇨🇳 中国【付费推荐：https://tt.vg/vip】10_9@106
+  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】92_9@108
+  - 🇨🇳 中国【付费推荐：https://tt.vg/vip】62_9@109
+  - 伊朗【付费推荐：https://tt.vg/vip】95_9@110
+  - 🇨🇳 中国【付费推荐：https://tt.vg/vip】149_9@113
   tolerance: 50
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -13464,8 +14003,8 @@ proxy-groups:
   - 🇨🇳CN-120.233.185.59-074_2@74
   - 🇦🇶NOWHERE-0.0.0.0-075_2@75
   - 🇦🇶NOWHERE-0.0.0.0-076_2@76
-  - 🇨🇳CN-183.240.169.23-077_2@77
-  - 🇨🇳CN-183.240.169.24-078_2@78
+  - 🇨🇳CN-183.240.169.26-077_2@77
+  - 🇨🇳CN-183.240.169.28-078_2@78
   - 🇭🇺HU-185.225.69.134-079_2@79
   - 🇦🇶NOWHERE-0.0.0.0-080_2@80
   - 🇦🇶NOWHERE-0.0.0.0-081_2@81
@@ -13480,16 +14019,16 @@ proxy-groups:
   - 🏁RELAY-188.114.97.110-090_2@90
   - 🇦🇶NOWHERE-0.0.0.0-091_2@91
   - 🇦🇶NOWHERE-0.0.0.0-092_2@92
-  - 🇨🇳CN-183.240.169.28-093_2@93
+  - 🇨🇳CN-183.240.221.72-093_2@93
   - 🇦🇶NOWHERE-0.0.0.0-095_2@95
   - 🇯🇵JP-43.128.253.82-100_2@100
   - 🇦🇶NOWHERE-0.0.0.0-102_2@102
   - 🇦🇺AU-103.224.182.210-103_2@103
-  - 🇨🇳CN-183.240.169.28-104_2@104
+  - 🇨🇳CN-183.240.169.24-104_2@104
   - 🇦🇶NOWHERE-0.0.0.0-106_2@106
   - 🇦🇶NOWHERE-0.0.0.0-107_2@107
   - 🇦🇶NOWHERE-0.0.0.0-109_2@109
-  - 🇨🇳CN-183.240.169.28-110_2@110
+  - 🇨🇳CN-183.240.169.27-110_2@110
   - 🇦🇶NOWHERE-0.0.0.0-112_2@112
   - 🇦🇶NOWHERE-0.0.0.0-115_2@115
   - 🇦🇶NOWHERE-0.0.0.0-117_2@117
@@ -13511,242 +14050,243 @@ proxy-groups:
   - 🇦🇶NOWHERE-0.0.0.0-140_2@140
   - 🇺🇸US-144.24.30.237-141_2@141
   - 🏁RELAY-172.67.197.117-142_2@142
-  - 🇯🇵JP-20.222.34.149-145_2@145
-  - 🏁RELAY-198.41.223.246-146_2@146
-  - 🏁RELAY-104.31.16.27-147_2@147
-  - 🏁RELAY-104.254.140.245-150_2@150
-  - 🇺🇸US-5.252.197.78-151_2@151
-  - 🏁RELAY-172.67.215.25-153_2@153
-  - 🏁RELAY-104.31.16.47-155_2@155
-  - 🏁RELAY-172.67.208.87-157_2@157
-  - 🏁RELAY-172.67.173.5-158_2@158
-  - 🇨🇳CN-120.240.41.43-161_2@161
-  - 🏁RELAY-212.110.134.7-162_2@162
-  - 🇬🇧GB-172.99.190.87-163_2@163
-  - 🇫🇷FR-149.202.82.172-164_2@164
-  - 🇩🇪DE-193.108.118.34-165_2@165
-  - 🇱🇻LV-185.135.86.173-166_2@166
-  - 🇯🇵JP-212.50.246.135-168_2@168
-  - 🏁RELAY-172.67.219.5-170_2@170
-  - 🇺🇸US-137.175.3.225-171_2@171
-  - 🇺🇸US-45.58.186.85-173_2@173
-  - 🇺🇸US-149.50.68.135-174_2@174
-  - 🇺🇸US-142.4.100.43-175_2@175
-  - 🇺🇸US-64.32.4.40-178_2@176
-  - 🇺🇸US-13.56.19.76-179_2@177
-  - 🇩🇪DE-130.61.61.17-181_2@179
-  - 🇷🇺RU-195.133.53.90-182_2@180
-  - 🇬🇧GB-149.50.77.131-183_2@181
-  - 🏁RELAY-104.18.12.98-184_2@182
-  - 🏁RELAY-104.18.12.98-188_2@186
-  - 🏁RELAY-172.64.85.245-195_2@193
+  - 🇺🇸US-23.225.117.50-145_2@145
+  - 🇳🇱NL-149.50.89.110-147_2@147
+  - 🇯🇵JP-20.89.51.187-149_2@149
+  - 🏁RELAY-104.16.150.9-150_2@150
+  - 🏁RELAY-195.137.167.163-151_2@151
+  - 🏁RELAY-162.159.243.235-153_2@153
+  - 🏁RELAY-212.110.134.7-155_2@155
+  - 🇺🇸US-144.24.60.90-156_2@156
+  - 🇨🇳CN-120.240.41.43-158_2@158
+  - 🏁RELAY-172.67.147.10-159_2@159
+  - 🏁RELAY-172.67.208.87-160_2@160
+  - 🏁RELAY-172.64.164.243-161_2@161
+  - 🏁RELAY-104.31.16.29-162_2@162
+  - 🏁RELAY-104.31.16.27-164_2@164
+  - 🏁RELAY-198.41.222.72-165_2@165
+  - 🇷🇺RU-188.119.65.46-166_2@166
+  - 🇷🇺RU-195.133.10.172-167_2@167
+  - 🇷🇺RU-195.133.10.249-168_2@168
+  - 🇷🇺RU-188.119.65.56-169_2@169
+  - 🏁RELAY-104.21.78.23-170_2@170
+  - 🇬🇧GB-172.99.190.87-171_2@171
+  - 🇺🇸US-38.63.0.74-172_2@172
+  - 🇺🇸US-156.225.67.20-173_2@173
+  - 🇺🇸US-74.217.179.187-174_2@174
+  - 🇺🇸US-149.50.68.136-175_2@175
+  - 🏁RELAY-104.31.16.28-178_2@178
+  - 🇫🇷FR-151.80.11.236-180_2@180
   - 丹麦 001_3@0
   - 乌克兰 001_3@1
-  - 乌兹别克斯坦 001_3@3
-  - 亚美尼亚 001_3@4
-  - 伊朗 001_3@5
-  - 伊朗 002_3@6
-  - 俄罗斯 002_3@8
-  - 俄罗斯 003_3@9
-  - 俄罗斯 004_3@10
-  - 俄罗斯 005_3@11
-  - 俄罗斯 006_3@12
-  - 俄罗斯 007_3@13
-  - 俄罗斯 008_3@14
-  - 俄罗斯 009_3@15
-  - 俄罗斯 010_3@16
-  - 俄罗斯 011_3@17
-  - 俄罗斯 012_3@18
-  - 俄罗斯 013_3@19
-  - 俄罗斯 014_3@20
-  - 俄罗斯 015_3@21
-  - 俄罗斯 016_3@22
-  - 俄罗斯 017_3@23
-  - 俄罗斯 018_3@24
-  - 俄罗斯 019_3@25
-  - 俄罗斯 020_3@26
-  - 俄罗斯 021_3@27
-  - 俄罗斯 022_3@28
-  - 俄罗斯 023_3@29
-  - 俄罗斯 024_3@30
-  - 保加利亚 001_3@31
-  - 保加利亚 002_3@32
-  - 保加利亚 003_3@33
-  - 保加利亚 004_3@34
-  - 保加利亚 005_3@35
-  - 保加利亚 006_3@36
-  - 保加利亚 007_3@37
-  - 保加利亚 008_3@38
-  - 保加利亚 009_3@39
-  - 保加利亚 010_3@40
-  - 保加利亚 011_3@41
-  - 保加利亚 012_3@42
-  - 保加利亚 013_3@43
-  - 保加利亚 014_3@44
-  - 保加利亚 015_3@45
-  - 保加利亚 016_3@46
-  - 保加利亚 017_3@47
-  - 保加利亚 018_3@48
-  - 保加利亚 019_3@49
-  - 卢森堡 001_3@50
-  - 卢森堡 002_3@51
-  - 印尼 001_3@52
-  - 印度 001_3@53
-  - 哥斯达黎加 001_3@54
-  - 哥斯达黎加 002_3@55
-  - 土耳其 001_3@56
-  - 土耳其 002_3@57
-  - 塞尔维亚 001_3@58
-  - 巴西 001_3@59
-  - 摩尔多瓦 001_3@60
-  - 摩尔多瓦 002_3@61
-  - 新加坡 001_3@62
-  - 新加坡 002_3@63
-  - 新加坡 003_3@64
-  - 新加坡 005_3@66
-  - 新加坡 006_3@67
-  - 新加坡 007_3@68
-  - 新加坡 008_3@69
-  - 新加坡 009_3@70
-  - 新加坡 010_3@71
-  - 新加坡 011_3@72
-  - 新加坡 012_3@73
-  - 日本 001_3@74
-  - 日本 002_3@75
-  - 日本 003_3@76
-  - 日本 004_3@77
-  - 日本 005_3@78
-  - 日本 006_3@79
-  - 日本 007_3@80
-  - 法国 001_3@81
-  - 法国 002_3@82
-  - 法国 003_3@83
-  - 法国 004_3@84
-  - 法国 005_3@85
-  - 法国 006_3@86
-  - 波兰 001_3@87
-  - 波兰 002_3@88
-  - 波兰 003_3@89
-  - 波兰 004_3@90
-  - 澳大利亚 001_3@91
-  - 澳大利亚 002_3@92
-  - 澳大利亚 003_3@93
-  - 白俄罗斯 001_3@94
-  - 白俄罗斯 002_3@95
-  - 立陶宛 001_3@96
-  - 罗马尼亚 001_3@97
-  - 罗马尼亚 002_3@98
-  - 美国 011_3@109
-  - 美国 012_3@110
-  - 美国 013_3@111
-  - 美国 014_3@112
-  - 美国 015_3@113
-  - 美国 016_3@114
-  - 美国 017_3@115
-  - 美国 018_3@116
-  - 美国 019_3@117
-  - 美国 021_3@119
-  - 美国 022_3@120
-  - 美国 023_3@121
-  - 美国 024_3@122
-  - 美国 025_3@123
-  - 美国 026_3@124
-  - 美国 027_3@125
-  - 美国 028_3@126
-  - 美国 029_3@127
-  - 美国 030_3@128
-  - 美国 031_3@129
-  - 美国 032_3@130
-  - 美国 033_3@131
-  - 美国 034_3@132
-  - 美国 035_3@133
-  - 美国 036_3@134
-  - 美国 037_3@135
-  - 美国 038_3@136
-  - 美国 039_3@137
-  - 美国 040_3@138
-  - 美国 041_3@139
-  - 美国 042_3@140
-  - 美国 043_3@141
-  - 美国 044_3@142
-  - 美国 045_3@143
-  - 美国 046_3@144
-  - 美国 047_3@145
-  - 美国 048_3@146
-  - 美国 049_3@147
-  - 美国 050_3@148
-  - 美国 051_3@149
-  - 美国 052_3@150
-  - 美国 053_3@151
-  - 美国 054_3@152
-  - 美国 056_3@154
-  - 美国 059_3@157
-  - 美国 060_3@158
-  - 美国 063_3@161
-  - 美国 064_3@162
-  - 美国 065_3@163
-  - 美国 066_3@164
-  - 美国 067_3@165
-  - 美国 068_3@166
-  - 美国 069_3@167
-  - 美国 070_3@168
-  - 美国 071_3@169
-  - 美国 072_3@170
-  - 美国 073_3@171
-  - 美国 074_3@172
-  - 美国 075_3@173
-  - 美国 076_3@174
-  - 美国 077_3@175
-  - 美国 078_3@176
-  - 美国 079_3@177
-  - 美国 080_3@178
-  - 美国 081_3@179
-  - 美国 082_3@180
-  - 美国 083_3@181
-  - 美国 084_3@182
-  - 美国 085_3@183
-  - 美国 086_3@184
-  - 美国 087_3@185
-  - 美国 088_3@186
-  - 美国 089_3@187
-  - 美国 090_3@188
-  - 美国 091_3@189
-  - 美国 092_3@190
-  - 美国 093_3@191
-  - 美国 094_3@192
-  - 美国 095_3@193
-  - 美国 096_3@194
-  - 美国 097_3@195
-  - 美国 098_3@196
-  - 美国 100_3@198
-  - 英国 001_3@199
-  - 英国 002_3@200
-  - 英国 003_3@201
-  - 荷兰 001_3@202
-  - 荷兰 002_3@203
-  - 荷兰 003_3@204
-  - 荷兰 004_3@205
-  - 荷兰 005_3@206
-  - 荷兰 006_3@207
-  - 荷兰 007_3@208
-  - 荷兰 009_3@210
-  - 荷兰 010_3@211
-  - 荷兰 011_3@212
-  - 荷兰 012_3@213
-  - 荷兰 014_3@215
-  - 荷兰 015_3@216
-  - 阿曼 001_3@219
-  - 阿曼 002_3@220
-  - 阿曼 003_3@221
-  - 阿曼 004_3@222
-  - 韩国 001_3@223
-  - 韩国 002_3@224
-  - 韩国 003_3@225
-  - 香港 001_3@226
-  - 香港 002_3@227
-  - 香港 003_3@228
-  - 香港 004_3@229
-  - 香港 005_3@230
+  - 乌兹别克斯坦 001_3@4
+  - 亚美尼亚 001_3@5
+  - 伊朗 001_3@6
+  - 伊朗 002_3@7
+  - 俄罗斯 001_3@8
+  - 俄罗斯 002_3@9
+  - 俄罗斯 003_3@10
+  - 俄罗斯 004_3@11
+  - 俄罗斯 005_3@12
+  - 俄罗斯 006_3@13
+  - 俄罗斯 007_3@14
+  - 俄罗斯 008_3@15
+  - 俄罗斯 009_3@16
+  - 俄罗斯 010_3@17
+  - 俄罗斯 011_3@18
+  - 俄罗斯 012_3@19
+  - 俄罗斯 013_3@20
+  - 俄罗斯 014_3@21
+  - 俄罗斯 015_3@22
+  - 俄罗斯 016_3@23
+  - 俄罗斯 017_3@24
+  - 俄罗斯 018_3@25
+  - 俄罗斯 019_3@26
+  - 俄罗斯 020_3@27
+  - 俄罗斯 021_3@28
+  - 俄罗斯 022_3@29
+  - 俄罗斯 023_3@30
+  - 俄罗斯 024_3@31
+  - 保加利亚 001_3@32
+  - 保加利亚 002_3@33
+  - 保加利亚 003_3@34
+  - 保加利亚 004_3@35
+  - 保加利亚 005_3@36
+  - 保加利亚 006_3@37
+  - 保加利亚 007_3@38
+  - 保加利亚 008_3@39
+  - 保加利亚 009_3@40
+  - 保加利亚 010_3@41
+  - 保加利亚 011_3@42
+  - 保加利亚 012_3@43
+  - 保加利亚 013_3@44
+  - 保加利亚 014_3@45
+  - 保加利亚 015_3@46
+  - 保加利亚 016_3@47
+  - 保加利亚 017_3@48
+  - 保加利亚 018_3@49
+  - 保加利亚 019_3@50
+  - 卢森堡 001_3@51
+  - 卢森堡 002_3@52
+  - 印尼 001_3@53
+  - 印度 001_3@54
+  - 哥斯达黎加 001_3@55
+  - 哥斯达黎加 002_3@56
+  - 土耳其 001_3@57
+  - 土耳其 002_3@58
+  - 塞尔维亚 001_3@59
+  - 巴西 001_3@60
+  - 摩尔多瓦 001_3@61
+  - 摩尔多瓦 002_3@62
+  - 新加坡 001_3@63
+  - 新加坡 002_3@64
+  - 新加坡 003_3@65
+  - 新加坡 005_3@67
+  - 新加坡 006_3@68
+  - 新加坡 007_3@69
+  - 新加坡 008_3@70
+  - 新加坡 009_3@71
+  - 新加坡 010_3@72
+  - 新加坡 011_3@73
+  - 新加坡 012_3@74
+  - 日本 001_3@75
+  - 日本 002_3@76
+  - 日本 003_3@77
+  - 日本 004_3@78
+  - 日本 005_3@79
+  - 日本 006_3@80
+  - 日本 007_3@81
+  - 法国 001_3@82
+  - 法国 002_3@83
+  - 法国 003_3@84
+  - 法国 004_3@85
+  - 法国 005_3@86
+  - 法国 006_3@87
+  - 波兰 001_3@88
+  - 波兰 002_3@89
+  - 波兰 003_3@90
+  - 波兰 004_3@91
+  - 澳大利亚 001_3@92
+  - 澳大利亚 002_3@93
+  - 澳大利亚 003_3@94
+  - 白俄罗斯 001_3@95
+  - 白俄罗斯 002_3@96
+  - 立陶宛 001_3@97
+  - 罗马尼亚 001_3@98
+  - 罗马尼亚 002_3@99
+  - 美国 001_3@100
+  - 美国 003_3@102
+  - 美国 006_3@105
+  - 美国 010_3@109
+  - 美国 012_3@111
+  - 美国 013_3@112
+  - 美国 014_3@113
+  - 美国 015_3@114
+  - 美国 016_3@115
+  - 美国 017_3@116
+  - 美国 018_3@117
+  - 美国 019_3@118
+  - 美国 021_3@120
+  - 美国 022_3@121
+  - 美国 023_3@122
+  - 美国 024_3@123
+  - 美国 025_3@124
+  - 美国 026_3@125
+  - 美国 027_3@126
+  - 美国 028_3@127
+  - 美国 029_3@128
+  - 美国 030_3@129
+  - 美国 031_3@130
+  - 美国 032_3@131
+  - 美国 033_3@132
+  - 美国 034_3@133
+  - 美国 035_3@134
+  - 美国 036_3@135
+  - 美国 037_3@136
+  - 美国 038_3@137
+  - 美国 039_3@138
+  - 美国 040_3@139
+  - 美国 041_3@140
+  - 美国 042_3@141
+  - 美国 043_3@142
+  - 美国 044_3@143
+  - 美国 045_3@144
+  - 美国 046_3@145
+  - 美国 047_3@146
+  - 美国 048_3@147
+  - 美国 049_3@148
+  - 美国 050_3@149
+  - 美国 051_3@150
+  - 美国 052_3@151
+  - 美国 053_3@152
+  - 美国 054_3@153
+  - 美国 056_3@155
+  - 美国 059_3@158
+  - 美国 060_3@159
+  - 美国 063_3@162
+  - 美国 064_3@163
+  - 美国 065_3@164
+  - 美国 066_3@165
+  - 美国 067_3@166
+  - 美国 068_3@167
+  - 美国 069_3@168
+  - 美国 070_3@169
+  - 美国 071_3@170
+  - 美国 073_3@172
+  - 美国 074_3@173
+  - 美国 075_3@174
+  - 美国 076_3@175
+  - 美国 077_3@176
+  - 美国 078_3@177
+  - 美国 079_3@178
+  - 美国 080_3@179
+  - 美国 081_3@180
+  - 美国 082_3@181
+  - 美国 083_3@182
+  - 美国 084_3@183
+  - 美国 085_3@184
+  - 美国 086_3@185
+  - 美国 087_3@186
+  - 美国 088_3@187
+  - 美国 089_3@188
+  - 美国 090_3@189
+  - 美国 091_3@190
+  - 美国 092_3@191
+  - 美国 093_3@192
+  - 美国 094_3@193
+  - 美国 095_3@194
+  - 美国 096_3@195
+  - 美国 097_3@196
+  - 美国 098_3@197
+  - 美国 099_3@198
+  - 英国 001_3@200
+  - 英国 002_3@201
+  - 英国 003_3@202
+  - 荷兰 001_3@203
+  - 荷兰 002_3@204
+  - 荷兰 003_3@205
+  - 荷兰 004_3@206
+  - 荷兰 005_3@207
+  - 荷兰 006_3@208
+  - 荷兰 007_3@209
+  - 荷兰 009_3@211
+  - 荷兰 010_3@212
+  - 荷兰 011_3@213
+  - 荷兰 012_3@214
+  - 荷兰 014_3@216
+  - 荷兰 015_3@217
+  - 阿曼 001_3@220
+  - 阿曼 002_3@221
+  - 阿曼 003_3@222
+  - 阿曼 004_3@223
+  - 韩国 001_3@224
+  - 韩国 002_3@225
+  - 韩国 003_3@226
+  - 香港 001_3@227
+  - 香港 002_3@228
+  - 香港 003_3@229
+  - 香港 004_3@230
+  - 香港 005_3@231
   - 亚洲(油管:破解资源君2.0)_4@0
   - 🇬🇧 _GB_英国_5@0
   - 🇺🇸 _US_美国_5@1
@@ -13816,7 +14356,8 @@ proxy-groups:
   - 🇸🇬_SG_新加坡->🇦🇪_AE_阿联酋_6@22
   - 🇸🇬_SG_新加坡_3_6@23
   - 🇸🇬_SG_新加坡_4_6@24
-  - 🇺🇸美国-加利福尼亚-0-v2ray-xx2xxl.ddns.net:80_7@3
+  - 🇺🇸美国-加利福尼亚-0-ss-167.160.90.254:41122_7@0
+  - 🇺🇸美国-弗吉尼亚-阿什本-v2ray-ming2.kiwireich.com:443_7@3
   - 🇺🇸_US_美国_1_0@0_8@0
   - 🇹🇼_TW_台湾->🇺🇸_US_美国_1_0@1_8@1
   - 🇨🇦_CA_加拿大_1_0@2_8@2
@@ -14210,7 +14751,6 @@ proxy-groups:
   - 🇨🇳_CN_中国->🇭🇰_HK_香港_15@25_8@407
   - 🇺🇸_US_美国_8_15@26_8@408
   - 🇨🇳_CN_中国_3_15@27_8@409
-  - 🇺🇸_US_美国->🇯🇵_JP_日本_15@28_8@410
   - 🇮🇩_ID_印度尼西亚_2_15@30_8@411
   - 🇯🇵_JP_日本_3_15@34_8@412
   - 🇹🇼_TW_台湾_2_15@35_8@413
@@ -14431,16 +14971,63 @@ proxy-groups:
   - 🇺🇸_US_美国_15_24@40_8@630
   - 🇺🇸_US_美国_16_24@41_8@631
   - 🇨🇦_CA_加拿大_3_24@42_8@632
-  - 🇨🇳 中国【付费推荐：tt.vg/vip】63_9@0
-  - 🇺🇲 美国【付费推荐：tt.vg/vip】115_9@1
-  - 🇺🇲 美国【付费推荐：tt.vg/vip】117_9@5
-  - 🇺🇲 美国【付费推荐：tt.vg/vip】17_9@10
-  - 🇺🇲 美国【付费推荐：tt.vg/vip】93_9@14
-  - 🇸🇬 新加坡【付费推荐：tt.vg/vip】77_9@15
-  - 🇨🇳 中国【付费推荐：tt.vg/vip】19_9@17
-  - 🇯🇵 日本【付费推荐：tt.vg/vip】7_9@19
-  - 🇯🇵 日本【付费推荐：tt.vg/vip】120_9@20
-  - 🇸🇬 新加坡【付费推荐：tt.vg/vip】71_9@23
+  - 🇨🇳 中国【付费推荐：https://tt.vg/vip】137_9@0
+  - 🇨🇳 中国【付费推荐：https://tt.vg/vip】35_9@1
+  - 🇨🇳 中国【付费推荐：https://tt.vg/vip】84_9@2
+  - 🇨🇳 中国【付费推荐：https://tt.vg/vip】153_9@3
+  - 🇨🇳 中国【付费推荐：https://tt.vg/vip】44_9@4
+  - 🇨🇳 中国【付费推荐：https://tt.vg/vip】91_9@5
+  - 🇨🇳 中国【付费推荐：https://tt.vg/vip】165_9@6
+  - 🇯🇵 日本【付费推荐：https://tt.vg/vip】140_9@8
+  - 🇨🇳 中国【付费推荐：https://tt.vg/vip】134_9@9
+  - 🇨🇳 中国【付费推荐：https://tt.vg/vip】7_9@10
+  - 🇨🇳 中国【付费推荐：https://tt.vg/vip】12_9@11
+  - 🇨🇳 中国【付费推荐：https://tt.vg/vip】60_9@12
+  - 🇨🇳 中国【付费推荐：https://tt.vg/vip】171_9@13
+  - 🇨🇳 中国【付费推荐：https://tt.vg/vip】1_9@14
+  - 🇨🇳 中国【付费推荐：https://tt.vg/vip】157_9@15
+  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】85_9@17
+  - 🇨🇳 中国【付费推荐：https://tt.vg/vip】120_9@18
+  - 🇯🇵 日本【付费推荐：https://tt.vg/vip】110_9@19
+  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】181_9@20
+  - 🇨🇳 中国【付费推荐：https://tt.vg/vip】14_9@21
+  - 🇨🇳 中国【付费推荐：https://tt.vg/vip】4_9@23
+  - 🇨🇳 台湾【付费推荐：https://tt.vg/vip】108_9@24
+  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】105_9@26
+  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】183_9@30
+  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】88_9@34
+  - 🇨🇳 中国【付费推荐：https://tt.vg/vip】59_9@37
+  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】163_9@39
+  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】78_9@40
+  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】109_9@43
+  - 捷克【付费推荐：https://tt.vg/vip】19_9@44
+  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】104_9@45
+  - 以色列【付费推荐：https://tt.vg/vip】187_9@47
+  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】98_9@48
+  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】69_9@52
+  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】155_9@53
+  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】143_9@66
+  - 🇨🇳 中国【付费推荐：https://tt.vg/vip】27_9@67
+  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】75_9@68
+  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】131_9@70
+  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】111_9@72
+  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】77_9@74
+  - 🇫🇷 法国【付费推荐：https://tt.vg/vip】48_9@75
+  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】156_9@79
+  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】118_9@80
+  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】66_9@82
+  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】166_9@83
+  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】150_9@84
+  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】142_9@87
+  - 🇭🇰 香港【付费推荐：https://tt.vg/vip】126_9@90
+  - 🇯🇵 日本【付费推荐：https://tt.vg/vip】146_9@95
+  - 🇨🇳 中国【付费推荐：https://tt.vg/vip】121_9@100
+  - 🇸🇬 新加坡【付费推荐：https://tt.vg/vip】113_9@103
+  - 🇨🇳 中国【付费推荐：https://tt.vg/vip】10_9@106
+  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】92_9@108
+  - 🇨🇳 中国【付费推荐：https://tt.vg/vip】62_9@109
+  - 伊朗【付费推荐：https://tt.vg/vip】95_9@110
+  - 🇨🇳 中国【付费推荐：https://tt.vg/vip】149_9@113
   type: select
 - name: 📲 电报信息
   proxies:
@@ -14561,8 +15148,8 @@ proxy-groups:
   - 🇨🇳CN-120.233.185.59-074_2@74
   - 🇦🇶NOWHERE-0.0.0.0-075_2@75
   - 🇦🇶NOWHERE-0.0.0.0-076_2@76
-  - 🇨🇳CN-183.240.169.23-077_2@77
-  - 🇨🇳CN-183.240.169.24-078_2@78
+  - 🇨🇳CN-183.240.169.26-077_2@77
+  - 🇨🇳CN-183.240.169.28-078_2@78
   - 🇭🇺HU-185.225.69.134-079_2@79
   - 🇦🇶NOWHERE-0.0.0.0-080_2@80
   - 🇦🇶NOWHERE-0.0.0.0-081_2@81
@@ -14577,16 +15164,16 @@ proxy-groups:
   - 🏁RELAY-188.114.97.110-090_2@90
   - 🇦🇶NOWHERE-0.0.0.0-091_2@91
   - 🇦🇶NOWHERE-0.0.0.0-092_2@92
-  - 🇨🇳CN-183.240.169.28-093_2@93
+  - 🇨🇳CN-183.240.221.72-093_2@93
   - 🇦🇶NOWHERE-0.0.0.0-095_2@95
   - 🇯🇵JP-43.128.253.82-100_2@100
   - 🇦🇶NOWHERE-0.0.0.0-102_2@102
   - 🇦🇺AU-103.224.182.210-103_2@103
-  - 🇨🇳CN-183.240.169.28-104_2@104
+  - 🇨🇳CN-183.240.169.24-104_2@104
   - 🇦🇶NOWHERE-0.0.0.0-106_2@106
   - 🇦🇶NOWHERE-0.0.0.0-107_2@107
   - 🇦🇶NOWHERE-0.0.0.0-109_2@109
-  - 🇨🇳CN-183.240.169.28-110_2@110
+  - 🇨🇳CN-183.240.169.27-110_2@110
   - 🇦🇶NOWHERE-0.0.0.0-112_2@112
   - 🇦🇶NOWHERE-0.0.0.0-115_2@115
   - 🇦🇶NOWHERE-0.0.0.0-117_2@117
@@ -14608,242 +15195,243 @@ proxy-groups:
   - 🇦🇶NOWHERE-0.0.0.0-140_2@140
   - 🇺🇸US-144.24.30.237-141_2@141
   - 🏁RELAY-172.67.197.117-142_2@142
-  - 🇯🇵JP-20.222.34.149-145_2@145
-  - 🏁RELAY-198.41.223.246-146_2@146
-  - 🏁RELAY-104.31.16.27-147_2@147
-  - 🏁RELAY-104.254.140.245-150_2@150
-  - 🇺🇸US-5.252.197.78-151_2@151
-  - 🏁RELAY-172.67.215.25-153_2@153
-  - 🏁RELAY-104.31.16.47-155_2@155
-  - 🏁RELAY-172.67.208.87-157_2@157
-  - 🏁RELAY-172.67.173.5-158_2@158
-  - 🇨🇳CN-120.240.41.43-161_2@161
-  - 🏁RELAY-212.110.134.7-162_2@162
-  - 🇬🇧GB-172.99.190.87-163_2@163
-  - 🇫🇷FR-149.202.82.172-164_2@164
-  - 🇩🇪DE-193.108.118.34-165_2@165
-  - 🇱🇻LV-185.135.86.173-166_2@166
-  - 🇯🇵JP-212.50.246.135-168_2@168
-  - 🏁RELAY-172.67.219.5-170_2@170
-  - 🇺🇸US-137.175.3.225-171_2@171
-  - 🇺🇸US-45.58.186.85-173_2@173
-  - 🇺🇸US-149.50.68.135-174_2@174
-  - 🇺🇸US-142.4.100.43-175_2@175
-  - 🇺🇸US-64.32.4.40-178_2@176
-  - 🇺🇸US-13.56.19.76-179_2@177
-  - 🇩🇪DE-130.61.61.17-181_2@179
-  - 🇷🇺RU-195.133.53.90-182_2@180
-  - 🇬🇧GB-149.50.77.131-183_2@181
-  - 🏁RELAY-104.18.12.98-184_2@182
-  - 🏁RELAY-104.18.12.98-188_2@186
-  - 🏁RELAY-172.64.85.245-195_2@193
+  - 🇺🇸US-23.225.117.50-145_2@145
+  - 🇳🇱NL-149.50.89.110-147_2@147
+  - 🇯🇵JP-20.89.51.187-149_2@149
+  - 🏁RELAY-104.16.150.9-150_2@150
+  - 🏁RELAY-195.137.167.163-151_2@151
+  - 🏁RELAY-162.159.243.235-153_2@153
+  - 🏁RELAY-212.110.134.7-155_2@155
+  - 🇺🇸US-144.24.60.90-156_2@156
+  - 🇨🇳CN-120.240.41.43-158_2@158
+  - 🏁RELAY-172.67.147.10-159_2@159
+  - 🏁RELAY-172.67.208.87-160_2@160
+  - 🏁RELAY-172.64.164.243-161_2@161
+  - 🏁RELAY-104.31.16.29-162_2@162
+  - 🏁RELAY-104.31.16.27-164_2@164
+  - 🏁RELAY-198.41.222.72-165_2@165
+  - 🇷🇺RU-188.119.65.46-166_2@166
+  - 🇷🇺RU-195.133.10.172-167_2@167
+  - 🇷🇺RU-195.133.10.249-168_2@168
+  - 🇷🇺RU-188.119.65.56-169_2@169
+  - 🏁RELAY-104.21.78.23-170_2@170
+  - 🇬🇧GB-172.99.190.87-171_2@171
+  - 🇺🇸US-38.63.0.74-172_2@172
+  - 🇺🇸US-156.225.67.20-173_2@173
+  - 🇺🇸US-74.217.179.187-174_2@174
+  - 🇺🇸US-149.50.68.136-175_2@175
+  - 🏁RELAY-104.31.16.28-178_2@178
+  - 🇫🇷FR-151.80.11.236-180_2@180
   - 丹麦 001_3@0
   - 乌克兰 001_3@1
-  - 乌兹别克斯坦 001_3@3
-  - 亚美尼亚 001_3@4
-  - 伊朗 001_3@5
-  - 伊朗 002_3@6
-  - 俄罗斯 002_3@8
-  - 俄罗斯 003_3@9
-  - 俄罗斯 004_3@10
-  - 俄罗斯 005_3@11
-  - 俄罗斯 006_3@12
-  - 俄罗斯 007_3@13
-  - 俄罗斯 008_3@14
-  - 俄罗斯 009_3@15
-  - 俄罗斯 010_3@16
-  - 俄罗斯 011_3@17
-  - 俄罗斯 012_3@18
-  - 俄罗斯 013_3@19
-  - 俄罗斯 014_3@20
-  - 俄罗斯 015_3@21
-  - 俄罗斯 016_3@22
-  - 俄罗斯 017_3@23
-  - 俄罗斯 018_3@24
-  - 俄罗斯 019_3@25
-  - 俄罗斯 020_3@26
-  - 俄罗斯 021_3@27
-  - 俄罗斯 022_3@28
-  - 俄罗斯 023_3@29
-  - 俄罗斯 024_3@30
-  - 保加利亚 001_3@31
-  - 保加利亚 002_3@32
-  - 保加利亚 003_3@33
-  - 保加利亚 004_3@34
-  - 保加利亚 005_3@35
-  - 保加利亚 006_3@36
-  - 保加利亚 007_3@37
-  - 保加利亚 008_3@38
-  - 保加利亚 009_3@39
-  - 保加利亚 010_3@40
-  - 保加利亚 011_3@41
-  - 保加利亚 012_3@42
-  - 保加利亚 013_3@43
-  - 保加利亚 014_3@44
-  - 保加利亚 015_3@45
-  - 保加利亚 016_3@46
-  - 保加利亚 017_3@47
-  - 保加利亚 018_3@48
-  - 保加利亚 019_3@49
-  - 卢森堡 001_3@50
-  - 卢森堡 002_3@51
-  - 印尼 001_3@52
-  - 印度 001_3@53
-  - 哥斯达黎加 001_3@54
-  - 哥斯达黎加 002_3@55
-  - 土耳其 001_3@56
-  - 土耳其 002_3@57
-  - 塞尔维亚 001_3@58
-  - 巴西 001_3@59
-  - 摩尔多瓦 001_3@60
-  - 摩尔多瓦 002_3@61
-  - 新加坡 001_3@62
-  - 新加坡 002_3@63
-  - 新加坡 003_3@64
-  - 新加坡 005_3@66
-  - 新加坡 006_3@67
-  - 新加坡 007_3@68
-  - 新加坡 008_3@69
-  - 新加坡 009_3@70
-  - 新加坡 010_3@71
-  - 新加坡 011_3@72
-  - 新加坡 012_3@73
-  - 日本 001_3@74
-  - 日本 002_3@75
-  - 日本 003_3@76
-  - 日本 004_3@77
-  - 日本 005_3@78
-  - 日本 006_3@79
-  - 日本 007_3@80
-  - 法国 001_3@81
-  - 法国 002_3@82
-  - 法国 003_3@83
-  - 法国 004_3@84
-  - 法国 005_3@85
-  - 法国 006_3@86
-  - 波兰 001_3@87
-  - 波兰 002_3@88
-  - 波兰 003_3@89
-  - 波兰 004_3@90
-  - 澳大利亚 001_3@91
-  - 澳大利亚 002_3@92
-  - 澳大利亚 003_3@93
-  - 白俄罗斯 001_3@94
-  - 白俄罗斯 002_3@95
-  - 立陶宛 001_3@96
-  - 罗马尼亚 001_3@97
-  - 罗马尼亚 002_3@98
-  - 美国 011_3@109
-  - 美国 012_3@110
-  - 美国 013_3@111
-  - 美国 014_3@112
-  - 美国 015_3@113
-  - 美国 016_3@114
-  - 美国 017_3@115
-  - 美国 018_3@116
-  - 美国 019_3@117
-  - 美国 021_3@119
-  - 美国 022_3@120
-  - 美国 023_3@121
-  - 美国 024_3@122
-  - 美国 025_3@123
-  - 美国 026_3@124
-  - 美国 027_3@125
-  - 美国 028_3@126
-  - 美国 029_3@127
-  - 美国 030_3@128
-  - 美国 031_3@129
-  - 美国 032_3@130
-  - 美国 033_3@131
-  - 美国 034_3@132
-  - 美国 035_3@133
-  - 美国 036_3@134
-  - 美国 037_3@135
-  - 美国 038_3@136
-  - 美国 039_3@137
-  - 美国 040_3@138
-  - 美国 041_3@139
-  - 美国 042_3@140
-  - 美国 043_3@141
-  - 美国 044_3@142
-  - 美国 045_3@143
-  - 美国 046_3@144
-  - 美国 047_3@145
-  - 美国 048_3@146
-  - 美国 049_3@147
-  - 美国 050_3@148
-  - 美国 051_3@149
-  - 美国 052_3@150
-  - 美国 053_3@151
-  - 美国 054_3@152
-  - 美国 056_3@154
-  - 美国 059_3@157
-  - 美国 060_3@158
-  - 美国 063_3@161
-  - 美国 064_3@162
-  - 美国 065_3@163
-  - 美国 066_3@164
-  - 美国 067_3@165
-  - 美国 068_3@166
-  - 美国 069_3@167
-  - 美国 070_3@168
-  - 美国 071_3@169
-  - 美国 072_3@170
-  - 美国 073_3@171
-  - 美国 074_3@172
-  - 美国 075_3@173
-  - 美国 076_3@174
-  - 美国 077_3@175
-  - 美国 078_3@176
-  - 美国 079_3@177
-  - 美国 080_3@178
-  - 美国 081_3@179
-  - 美国 082_3@180
-  - 美国 083_3@181
-  - 美国 084_3@182
-  - 美国 085_3@183
-  - 美国 086_3@184
-  - 美国 087_3@185
-  - 美国 088_3@186
-  - 美国 089_3@187
-  - 美国 090_3@188
-  - 美国 091_3@189
-  - 美国 092_3@190
-  - 美国 093_3@191
-  - 美国 094_3@192
-  - 美国 095_3@193
-  - 美国 096_3@194
-  - 美国 097_3@195
-  - 美国 098_3@196
-  - 美国 100_3@198
-  - 英国 001_3@199
-  - 英国 002_3@200
-  - 英国 003_3@201
-  - 荷兰 001_3@202
-  - 荷兰 002_3@203
-  - 荷兰 003_3@204
-  - 荷兰 004_3@205
-  - 荷兰 005_3@206
-  - 荷兰 006_3@207
-  - 荷兰 007_3@208
-  - 荷兰 009_3@210
-  - 荷兰 010_3@211
-  - 荷兰 011_3@212
-  - 荷兰 012_3@213
-  - 荷兰 014_3@215
-  - 荷兰 015_3@216
-  - 阿曼 001_3@219
-  - 阿曼 002_3@220
-  - 阿曼 003_3@221
-  - 阿曼 004_3@222
-  - 韩国 001_3@223
-  - 韩国 002_3@224
-  - 韩国 003_3@225
-  - 香港 001_3@226
-  - 香港 002_3@227
-  - 香港 003_3@228
-  - 香港 004_3@229
-  - 香港 005_3@230
+  - 乌兹别克斯坦 001_3@4
+  - 亚美尼亚 001_3@5
+  - 伊朗 001_3@6
+  - 伊朗 002_3@7
+  - 俄罗斯 001_3@8
+  - 俄罗斯 002_3@9
+  - 俄罗斯 003_3@10
+  - 俄罗斯 004_3@11
+  - 俄罗斯 005_3@12
+  - 俄罗斯 006_3@13
+  - 俄罗斯 007_3@14
+  - 俄罗斯 008_3@15
+  - 俄罗斯 009_3@16
+  - 俄罗斯 010_3@17
+  - 俄罗斯 011_3@18
+  - 俄罗斯 012_3@19
+  - 俄罗斯 013_3@20
+  - 俄罗斯 014_3@21
+  - 俄罗斯 015_3@22
+  - 俄罗斯 016_3@23
+  - 俄罗斯 017_3@24
+  - 俄罗斯 018_3@25
+  - 俄罗斯 019_3@26
+  - 俄罗斯 020_3@27
+  - 俄罗斯 021_3@28
+  - 俄罗斯 022_3@29
+  - 俄罗斯 023_3@30
+  - 俄罗斯 024_3@31
+  - 保加利亚 001_3@32
+  - 保加利亚 002_3@33
+  - 保加利亚 003_3@34
+  - 保加利亚 004_3@35
+  - 保加利亚 005_3@36
+  - 保加利亚 006_3@37
+  - 保加利亚 007_3@38
+  - 保加利亚 008_3@39
+  - 保加利亚 009_3@40
+  - 保加利亚 010_3@41
+  - 保加利亚 011_3@42
+  - 保加利亚 012_3@43
+  - 保加利亚 013_3@44
+  - 保加利亚 014_3@45
+  - 保加利亚 015_3@46
+  - 保加利亚 016_3@47
+  - 保加利亚 017_3@48
+  - 保加利亚 018_3@49
+  - 保加利亚 019_3@50
+  - 卢森堡 001_3@51
+  - 卢森堡 002_3@52
+  - 印尼 001_3@53
+  - 印度 001_3@54
+  - 哥斯达黎加 001_3@55
+  - 哥斯达黎加 002_3@56
+  - 土耳其 001_3@57
+  - 土耳其 002_3@58
+  - 塞尔维亚 001_3@59
+  - 巴西 001_3@60
+  - 摩尔多瓦 001_3@61
+  - 摩尔多瓦 002_3@62
+  - 新加坡 001_3@63
+  - 新加坡 002_3@64
+  - 新加坡 003_3@65
+  - 新加坡 005_3@67
+  - 新加坡 006_3@68
+  - 新加坡 007_3@69
+  - 新加坡 008_3@70
+  - 新加坡 009_3@71
+  - 新加坡 010_3@72
+  - 新加坡 011_3@73
+  - 新加坡 012_3@74
+  - 日本 001_3@75
+  - 日本 002_3@76
+  - 日本 003_3@77
+  - 日本 004_3@78
+  - 日本 005_3@79
+  - 日本 006_3@80
+  - 日本 007_3@81
+  - 法国 001_3@82
+  - 法国 002_3@83
+  - 法国 003_3@84
+  - 法国 004_3@85
+  - 法国 005_3@86
+  - 法国 006_3@87
+  - 波兰 001_3@88
+  - 波兰 002_3@89
+  - 波兰 003_3@90
+  - 波兰 004_3@91
+  - 澳大利亚 001_3@92
+  - 澳大利亚 002_3@93
+  - 澳大利亚 003_3@94
+  - 白俄罗斯 001_3@95
+  - 白俄罗斯 002_3@96
+  - 立陶宛 001_3@97
+  - 罗马尼亚 001_3@98
+  - 罗马尼亚 002_3@99
+  - 美国 001_3@100
+  - 美国 003_3@102
+  - 美国 006_3@105
+  - 美国 010_3@109
+  - 美国 012_3@111
+  - 美国 013_3@112
+  - 美国 014_3@113
+  - 美国 015_3@114
+  - 美国 016_3@115
+  - 美国 017_3@116
+  - 美国 018_3@117
+  - 美国 019_3@118
+  - 美国 021_3@120
+  - 美国 022_3@121
+  - 美国 023_3@122
+  - 美国 024_3@123
+  - 美国 025_3@124
+  - 美国 026_3@125
+  - 美国 027_3@126
+  - 美国 028_3@127
+  - 美国 029_3@128
+  - 美国 030_3@129
+  - 美国 031_3@130
+  - 美国 032_3@131
+  - 美国 033_3@132
+  - 美国 034_3@133
+  - 美国 035_3@134
+  - 美国 036_3@135
+  - 美国 037_3@136
+  - 美国 038_3@137
+  - 美国 039_3@138
+  - 美国 040_3@139
+  - 美国 041_3@140
+  - 美国 042_3@141
+  - 美国 043_3@142
+  - 美国 044_3@143
+  - 美国 045_3@144
+  - 美国 046_3@145
+  - 美国 047_3@146
+  - 美国 048_3@147
+  - 美国 049_3@148
+  - 美国 050_3@149
+  - 美国 051_3@150
+  - 美国 052_3@151
+  - 美国 053_3@152
+  - 美国 054_3@153
+  - 美国 056_3@155
+  - 美国 059_3@158
+  - 美国 060_3@159
+  - 美国 063_3@162
+  - 美国 064_3@163
+  - 美国 065_3@164
+  - 美国 066_3@165
+  - 美国 067_3@166
+  - 美国 068_3@167
+  - 美国 069_3@168
+  - 美国 070_3@169
+  - 美国 071_3@170
+  - 美国 073_3@172
+  - 美国 074_3@173
+  - 美国 075_3@174
+  - 美国 076_3@175
+  - 美国 077_3@176
+  - 美国 078_3@177
+  - 美国 079_3@178
+  - 美国 080_3@179
+  - 美国 081_3@180
+  - 美国 082_3@181
+  - 美国 083_3@182
+  - 美国 084_3@183
+  - 美国 085_3@184
+  - 美国 086_3@185
+  - 美国 087_3@186
+  - 美国 088_3@187
+  - 美国 089_3@188
+  - 美国 090_3@189
+  - 美国 091_3@190
+  - 美国 092_3@191
+  - 美国 093_3@192
+  - 美国 094_3@193
+  - 美国 095_3@194
+  - 美国 096_3@195
+  - 美国 097_3@196
+  - 美国 098_3@197
+  - 美国 099_3@198
+  - 英国 001_3@200
+  - 英国 002_3@201
+  - 英国 003_3@202
+  - 荷兰 001_3@203
+  - 荷兰 002_3@204
+  - 荷兰 003_3@205
+  - 荷兰 004_3@206
+  - 荷兰 005_3@207
+  - 荷兰 006_3@208
+  - 荷兰 007_3@209
+  - 荷兰 009_3@211
+  - 荷兰 010_3@212
+  - 荷兰 011_3@213
+  - 荷兰 012_3@214
+  - 荷兰 014_3@216
+  - 荷兰 015_3@217
+  - 阿曼 001_3@220
+  - 阿曼 002_3@221
+  - 阿曼 003_3@222
+  - 阿曼 004_3@223
+  - 韩国 001_3@224
+  - 韩国 002_3@225
+  - 韩国 003_3@226
+  - 香港 001_3@227
+  - 香港 002_3@228
+  - 香港 003_3@229
+  - 香港 004_3@230
+  - 香港 005_3@231
   - 亚洲(油管:破解资源君2.0)_4@0
   - 🇬🇧 _GB_英国_5@0
   - 🇺🇸 _US_美国_5@1
@@ -14913,7 +15501,8 @@ proxy-groups:
   - 🇸🇬_SG_新加坡->🇦🇪_AE_阿联酋_6@22
   - 🇸🇬_SG_新加坡_3_6@23
   - 🇸🇬_SG_新加坡_4_6@24
-  - 🇺🇸美国-加利福尼亚-0-v2ray-xx2xxl.ddns.net:80_7@3
+  - 🇺🇸美国-加利福尼亚-0-ss-167.160.90.254:41122_7@0
+  - 🇺🇸美国-弗吉尼亚-阿什本-v2ray-ming2.kiwireich.com:443_7@3
   - 🇺🇸_US_美国_1_0@0_8@0
   - 🇹🇼_TW_台湾->🇺🇸_US_美国_1_0@1_8@1
   - 🇨🇦_CA_加拿大_1_0@2_8@2
@@ -15307,7 +15896,6 @@ proxy-groups:
   - 🇨🇳_CN_中国->🇭🇰_HK_香港_15@25_8@407
   - 🇺🇸_US_美国_8_15@26_8@408
   - 🇨🇳_CN_中国_3_15@27_8@409
-  - 🇺🇸_US_美国->🇯🇵_JP_日本_15@28_8@410
   - 🇮🇩_ID_印度尼西亚_2_15@30_8@411
   - 🇯🇵_JP_日本_3_15@34_8@412
   - 🇹🇼_TW_台湾_2_15@35_8@413
@@ -15528,16 +16116,63 @@ proxy-groups:
   - 🇺🇸_US_美国_15_24@40_8@630
   - 🇺🇸_US_美国_16_24@41_8@631
   - 🇨🇦_CA_加拿大_3_24@42_8@632
-  - 🇨🇳 中国【付费推荐：tt.vg/vip】63_9@0
-  - 🇺🇲 美国【付费推荐：tt.vg/vip】115_9@1
-  - 🇺🇲 美国【付费推荐：tt.vg/vip】117_9@5
-  - 🇺🇲 美国【付费推荐：tt.vg/vip】17_9@10
-  - 🇺🇲 美国【付费推荐：tt.vg/vip】93_9@14
-  - 🇸🇬 新加坡【付费推荐：tt.vg/vip】77_9@15
-  - 🇨🇳 中国【付费推荐：tt.vg/vip】19_9@17
-  - 🇯🇵 日本【付费推荐：tt.vg/vip】7_9@19
-  - 🇯🇵 日本【付费推荐：tt.vg/vip】120_9@20
-  - 🇸🇬 新加坡【付费推荐：tt.vg/vip】71_9@23
+  - 🇨🇳 中国【付费推荐：https://tt.vg/vip】137_9@0
+  - 🇨🇳 中国【付费推荐：https://tt.vg/vip】35_9@1
+  - 🇨🇳 中国【付费推荐：https://tt.vg/vip】84_9@2
+  - 🇨🇳 中国【付费推荐：https://tt.vg/vip】153_9@3
+  - 🇨🇳 中国【付费推荐：https://tt.vg/vip】44_9@4
+  - 🇨🇳 中国【付费推荐：https://tt.vg/vip】91_9@5
+  - 🇨🇳 中国【付费推荐：https://tt.vg/vip】165_9@6
+  - 🇯🇵 日本【付费推荐：https://tt.vg/vip】140_9@8
+  - 🇨🇳 中国【付费推荐：https://tt.vg/vip】134_9@9
+  - 🇨🇳 中国【付费推荐：https://tt.vg/vip】7_9@10
+  - 🇨🇳 中国【付费推荐：https://tt.vg/vip】12_9@11
+  - 🇨🇳 中国【付费推荐：https://tt.vg/vip】60_9@12
+  - 🇨🇳 中国【付费推荐：https://tt.vg/vip】171_9@13
+  - 🇨🇳 中国【付费推荐：https://tt.vg/vip】1_9@14
+  - 🇨🇳 中国【付费推荐：https://tt.vg/vip】157_9@15
+  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】85_9@17
+  - 🇨🇳 中国【付费推荐：https://tt.vg/vip】120_9@18
+  - 🇯🇵 日本【付费推荐：https://tt.vg/vip】110_9@19
+  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】181_9@20
+  - 🇨🇳 中国【付费推荐：https://tt.vg/vip】14_9@21
+  - 🇨🇳 中国【付费推荐：https://tt.vg/vip】4_9@23
+  - 🇨🇳 台湾【付费推荐：https://tt.vg/vip】108_9@24
+  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】105_9@26
+  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】183_9@30
+  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】88_9@34
+  - 🇨🇳 中国【付费推荐：https://tt.vg/vip】59_9@37
+  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】163_9@39
+  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】78_9@40
+  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】109_9@43
+  - 捷克【付费推荐：https://tt.vg/vip】19_9@44
+  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】104_9@45
+  - 以色列【付费推荐：https://tt.vg/vip】187_9@47
+  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】98_9@48
+  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】69_9@52
+  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】155_9@53
+  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】143_9@66
+  - 🇨🇳 中国【付费推荐：https://tt.vg/vip】27_9@67
+  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】75_9@68
+  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】131_9@70
+  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】111_9@72
+  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】77_9@74
+  - 🇫🇷 法国【付费推荐：https://tt.vg/vip】48_9@75
+  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】156_9@79
+  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】118_9@80
+  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】66_9@82
+  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】166_9@83
+  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】150_9@84
+  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】142_9@87
+  - 🇭🇰 香港【付费推荐：https://tt.vg/vip】126_9@90
+  - 🇯🇵 日本【付费推荐：https://tt.vg/vip】146_9@95
+  - 🇨🇳 中国【付费推荐：https://tt.vg/vip】121_9@100
+  - 🇸🇬 新加坡【付费推荐：https://tt.vg/vip】113_9@103
+  - 🇨🇳 中国【付费推荐：https://tt.vg/vip】10_9@106
+  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】92_9@108
+  - 🇨🇳 中国【付费推荐：https://tt.vg/vip】62_9@109
+  - 伊朗【付费推荐：https://tt.vg/vip】95_9@110
+  - 🇨🇳 中国【付费推荐：https://tt.vg/vip】149_9@113
   type: select
 - name: Ⓜ️ 微软服务
   proxies:
@@ -15658,8 +16293,8 @@ proxy-groups:
   - 🇨🇳CN-120.233.185.59-074_2@74
   - 🇦🇶NOWHERE-0.0.0.0-075_2@75
   - 🇦🇶NOWHERE-0.0.0.0-076_2@76
-  - 🇨🇳CN-183.240.169.23-077_2@77
-  - 🇨🇳CN-183.240.169.24-078_2@78
+  - 🇨🇳CN-183.240.169.26-077_2@77
+  - 🇨🇳CN-183.240.169.28-078_2@78
   - 🇭🇺HU-185.225.69.134-079_2@79
   - 🇦🇶NOWHERE-0.0.0.0-080_2@80
   - 🇦🇶NOWHERE-0.0.0.0-081_2@81
@@ -15674,16 +16309,16 @@ proxy-groups:
   - 🏁RELAY-188.114.97.110-090_2@90
   - 🇦🇶NOWHERE-0.0.0.0-091_2@91
   - 🇦🇶NOWHERE-0.0.0.0-092_2@92
-  - 🇨🇳CN-183.240.169.28-093_2@93
+  - 🇨🇳CN-183.240.221.72-093_2@93
   - 🇦🇶NOWHERE-0.0.0.0-095_2@95
   - 🇯🇵JP-43.128.253.82-100_2@100
   - 🇦🇶NOWHERE-0.0.0.0-102_2@102
   - 🇦🇺AU-103.224.182.210-103_2@103
-  - 🇨🇳CN-183.240.169.28-104_2@104
+  - 🇨🇳CN-183.240.169.24-104_2@104
   - 🇦🇶NOWHERE-0.0.0.0-106_2@106
   - 🇦🇶NOWHERE-0.0.0.0-107_2@107
   - 🇦🇶NOWHERE-0.0.0.0-109_2@109
-  - 🇨🇳CN-183.240.169.28-110_2@110
+  - 🇨🇳CN-183.240.169.27-110_2@110
   - 🇦🇶NOWHERE-0.0.0.0-112_2@112
   - 🇦🇶NOWHERE-0.0.0.0-115_2@115
   - 🇦🇶NOWHERE-0.0.0.0-117_2@117
@@ -15705,242 +16340,243 @@ proxy-groups:
   - 🇦🇶NOWHERE-0.0.0.0-140_2@140
   - 🇺🇸US-144.24.30.237-141_2@141
   - 🏁RELAY-172.67.197.117-142_2@142
-  - 🇯🇵JP-20.222.34.149-145_2@145
-  - 🏁RELAY-198.41.223.246-146_2@146
-  - 🏁RELAY-104.31.16.27-147_2@147
-  - 🏁RELAY-104.254.140.245-150_2@150
-  - 🇺🇸US-5.252.197.78-151_2@151
-  - 🏁RELAY-172.67.215.25-153_2@153
-  - 🏁RELAY-104.31.16.47-155_2@155
-  - 🏁RELAY-172.67.208.87-157_2@157
-  - 🏁RELAY-172.67.173.5-158_2@158
-  - 🇨🇳CN-120.240.41.43-161_2@161
-  - 🏁RELAY-212.110.134.7-162_2@162
-  - 🇬🇧GB-172.99.190.87-163_2@163
-  - 🇫🇷FR-149.202.82.172-164_2@164
-  - 🇩🇪DE-193.108.118.34-165_2@165
-  - 🇱🇻LV-185.135.86.173-166_2@166
-  - 🇯🇵JP-212.50.246.135-168_2@168
-  - 🏁RELAY-172.67.219.5-170_2@170
-  - 🇺🇸US-137.175.3.225-171_2@171
-  - 🇺🇸US-45.58.186.85-173_2@173
-  - 🇺🇸US-149.50.68.135-174_2@174
-  - 🇺🇸US-142.4.100.43-175_2@175
-  - 🇺🇸US-64.32.4.40-178_2@176
-  - 🇺🇸US-13.56.19.76-179_2@177
-  - 🇩🇪DE-130.61.61.17-181_2@179
-  - 🇷🇺RU-195.133.53.90-182_2@180
-  - 🇬🇧GB-149.50.77.131-183_2@181
-  - 🏁RELAY-104.18.12.98-184_2@182
-  - 🏁RELAY-104.18.12.98-188_2@186
-  - 🏁RELAY-172.64.85.245-195_2@193
+  - 🇺🇸US-23.225.117.50-145_2@145
+  - 🇳🇱NL-149.50.89.110-147_2@147
+  - 🇯🇵JP-20.89.51.187-149_2@149
+  - 🏁RELAY-104.16.150.9-150_2@150
+  - 🏁RELAY-195.137.167.163-151_2@151
+  - 🏁RELAY-162.159.243.235-153_2@153
+  - 🏁RELAY-212.110.134.7-155_2@155
+  - 🇺🇸US-144.24.60.90-156_2@156
+  - 🇨🇳CN-120.240.41.43-158_2@158
+  - 🏁RELAY-172.67.147.10-159_2@159
+  - 🏁RELAY-172.67.208.87-160_2@160
+  - 🏁RELAY-172.64.164.243-161_2@161
+  - 🏁RELAY-104.31.16.29-162_2@162
+  - 🏁RELAY-104.31.16.27-164_2@164
+  - 🏁RELAY-198.41.222.72-165_2@165
+  - 🇷🇺RU-188.119.65.46-166_2@166
+  - 🇷🇺RU-195.133.10.172-167_2@167
+  - 🇷🇺RU-195.133.10.249-168_2@168
+  - 🇷🇺RU-188.119.65.56-169_2@169
+  - 🏁RELAY-104.21.78.23-170_2@170
+  - 🇬🇧GB-172.99.190.87-171_2@171
+  - 🇺🇸US-38.63.0.74-172_2@172
+  - 🇺🇸US-156.225.67.20-173_2@173
+  - 🇺🇸US-74.217.179.187-174_2@174
+  - 🇺🇸US-149.50.68.136-175_2@175
+  - 🏁RELAY-104.31.16.28-178_2@178
+  - 🇫🇷FR-151.80.11.236-180_2@180
   - 丹麦 001_3@0
   - 乌克兰 001_3@1
-  - 乌兹别克斯坦 001_3@3
-  - 亚美尼亚 001_3@4
-  - 伊朗 001_3@5
-  - 伊朗 002_3@6
-  - 俄罗斯 002_3@8
-  - 俄罗斯 003_3@9
-  - 俄罗斯 004_3@10
-  - 俄罗斯 005_3@11
-  - 俄罗斯 006_3@12
-  - 俄罗斯 007_3@13
-  - 俄罗斯 008_3@14
-  - 俄罗斯 009_3@15
-  - 俄罗斯 010_3@16
-  - 俄罗斯 011_3@17
-  - 俄罗斯 012_3@18
-  - 俄罗斯 013_3@19
-  - 俄罗斯 014_3@20
-  - 俄罗斯 015_3@21
-  - 俄罗斯 016_3@22
-  - 俄罗斯 017_3@23
-  - 俄罗斯 018_3@24
-  - 俄罗斯 019_3@25
-  - 俄罗斯 020_3@26
-  - 俄罗斯 021_3@27
-  - 俄罗斯 022_3@28
-  - 俄罗斯 023_3@29
-  - 俄罗斯 024_3@30
-  - 保加利亚 001_3@31
-  - 保加利亚 002_3@32
-  - 保加利亚 003_3@33
-  - 保加利亚 004_3@34
-  - 保加利亚 005_3@35
-  - 保加利亚 006_3@36
-  - 保加利亚 007_3@37
-  - 保加利亚 008_3@38
-  - 保加利亚 009_3@39
-  - 保加利亚 010_3@40
-  - 保加利亚 011_3@41
-  - 保加利亚 012_3@42
-  - 保加利亚 013_3@43
-  - 保加利亚 014_3@44
-  - 保加利亚 015_3@45
-  - 保加利亚 016_3@46
-  - 保加利亚 017_3@47
-  - 保加利亚 018_3@48
-  - 保加利亚 019_3@49
-  - 卢森堡 001_3@50
-  - 卢森堡 002_3@51
-  - 印尼 001_3@52
-  - 印度 001_3@53
-  - 哥斯达黎加 001_3@54
-  - 哥斯达黎加 002_3@55
-  - 土耳其 001_3@56
-  - 土耳其 002_3@57
-  - 塞尔维亚 001_3@58
-  - 巴西 001_3@59
-  - 摩尔多瓦 001_3@60
-  - 摩尔多瓦 002_3@61
-  - 新加坡 001_3@62
-  - 新加坡 002_3@63
-  - 新加坡 003_3@64
-  - 新加坡 005_3@66
-  - 新加坡 006_3@67
-  - 新加坡 007_3@68
-  - 新加坡 008_3@69
-  - 新加坡 009_3@70
-  - 新加坡 010_3@71
-  - 新加坡 011_3@72
-  - 新加坡 012_3@73
-  - 日本 001_3@74
-  - 日本 002_3@75
-  - 日本 003_3@76
-  - 日本 004_3@77
-  - 日本 005_3@78
-  - 日本 006_3@79
-  - 日本 007_3@80
-  - 法国 001_3@81
-  - 法国 002_3@82
-  - 法国 003_3@83
-  - 法国 004_3@84
-  - 法国 005_3@85
-  - 法国 006_3@86
-  - 波兰 001_3@87
-  - 波兰 002_3@88
-  - 波兰 003_3@89
-  - 波兰 004_3@90
-  - 澳大利亚 001_3@91
-  - 澳大利亚 002_3@92
-  - 澳大利亚 003_3@93
-  - 白俄罗斯 001_3@94
-  - 白俄罗斯 002_3@95
-  - 立陶宛 001_3@96
-  - 罗马尼亚 001_3@97
-  - 罗马尼亚 002_3@98
-  - 美国 011_3@109
-  - 美国 012_3@110
-  - 美国 013_3@111
-  - 美国 014_3@112
-  - 美国 015_3@113
-  - 美国 016_3@114
-  - 美国 017_3@115
-  - 美国 018_3@116
-  - 美国 019_3@117
-  - 美国 021_3@119
-  - 美国 022_3@120
-  - 美国 023_3@121
-  - 美国 024_3@122
-  - 美国 025_3@123
-  - 美国 026_3@124
-  - 美国 027_3@125
-  - 美国 028_3@126
-  - 美国 029_3@127
-  - 美国 030_3@128
-  - 美国 031_3@129
-  - 美国 032_3@130
-  - 美国 033_3@131
-  - 美国 034_3@132
-  - 美国 035_3@133
-  - 美国 036_3@134
-  - 美国 037_3@135
-  - 美国 038_3@136
-  - 美国 039_3@137
-  - 美国 040_3@138
-  - 美国 041_3@139
-  - 美国 042_3@140
-  - 美国 043_3@141
-  - 美国 044_3@142
-  - 美国 045_3@143
-  - 美国 046_3@144
-  - 美国 047_3@145
-  - 美国 048_3@146
-  - 美国 049_3@147
-  - 美国 050_3@148
-  - 美国 051_3@149
-  - 美国 052_3@150
-  - 美国 053_3@151
-  - 美国 054_3@152
-  - 美国 056_3@154
-  - 美国 059_3@157
-  - 美国 060_3@158
-  - 美国 063_3@161
-  - 美国 064_3@162
-  - 美国 065_3@163
-  - 美国 066_3@164
-  - 美国 067_3@165
-  - 美国 068_3@166
-  - 美国 069_3@167
-  - 美国 070_3@168
-  - 美国 071_3@169
-  - 美国 072_3@170
-  - 美国 073_3@171
-  - 美国 074_3@172
-  - 美国 075_3@173
-  - 美国 076_3@174
-  - 美国 077_3@175
-  - 美国 078_3@176
-  - 美国 079_3@177
-  - 美国 080_3@178
-  - 美国 081_3@179
-  - 美国 082_3@180
-  - 美国 083_3@181
-  - 美国 084_3@182
-  - 美国 085_3@183
-  - 美国 086_3@184
-  - 美国 087_3@185
-  - 美国 088_3@186
-  - 美国 089_3@187
-  - 美国 090_3@188
-  - 美国 091_3@189
-  - 美国 092_3@190
-  - 美国 093_3@191
-  - 美国 094_3@192
-  - 美国 095_3@193
-  - 美国 096_3@194
-  - 美国 097_3@195
-  - 美国 098_3@196
-  - 美国 100_3@198
-  - 英国 001_3@199
-  - 英国 002_3@200
-  - 英国 003_3@201
-  - 荷兰 001_3@202
-  - 荷兰 002_3@203
-  - 荷兰 003_3@204
-  - 荷兰 004_3@205
-  - 荷兰 005_3@206
-  - 荷兰 006_3@207
-  - 荷兰 007_3@208
-  - 荷兰 009_3@210
-  - 荷兰 010_3@211
-  - 荷兰 011_3@212
-  - 荷兰 012_3@213
-  - 荷兰 014_3@215
-  - 荷兰 015_3@216
-  - 阿曼 001_3@219
-  - 阿曼 002_3@220
-  - 阿曼 003_3@221
-  - 阿曼 004_3@222
-  - 韩国 001_3@223
-  - 韩国 002_3@224
-  - 韩国 003_3@225
-  - 香港 001_3@226
-  - 香港 002_3@227
-  - 香港 003_3@228
-  - 香港 004_3@229
-  - 香港 005_3@230
+  - 乌兹别克斯坦 001_3@4
+  - 亚美尼亚 001_3@5
+  - 伊朗 001_3@6
+  - 伊朗 002_3@7
+  - 俄罗斯 001_3@8
+  - 俄罗斯 002_3@9
+  - 俄罗斯 003_3@10
+  - 俄罗斯 004_3@11
+  - 俄罗斯 005_3@12
+  - 俄罗斯 006_3@13
+  - 俄罗斯 007_3@14
+  - 俄罗斯 008_3@15
+  - 俄罗斯 009_3@16
+  - 俄罗斯 010_3@17
+  - 俄罗斯 011_3@18
+  - 俄罗斯 012_3@19
+  - 俄罗斯 013_3@20
+  - 俄罗斯 014_3@21
+  - 俄罗斯 015_3@22
+  - 俄罗斯 016_3@23
+  - 俄罗斯 017_3@24
+  - 俄罗斯 018_3@25
+  - 俄罗斯 019_3@26
+  - 俄罗斯 020_3@27
+  - 俄罗斯 021_3@28
+  - 俄罗斯 022_3@29
+  - 俄罗斯 023_3@30
+  - 俄罗斯 024_3@31
+  - 保加利亚 001_3@32
+  - 保加利亚 002_3@33
+  - 保加利亚 003_3@34
+  - 保加利亚 004_3@35
+  - 保加利亚 005_3@36
+  - 保加利亚 006_3@37
+  - 保加利亚 007_3@38
+  - 保加利亚 008_3@39
+  - 保加利亚 009_3@40
+  - 保加利亚 010_3@41
+  - 保加利亚 011_3@42
+  - 保加利亚 012_3@43
+  - 保加利亚 013_3@44
+  - 保加利亚 014_3@45
+  - 保加利亚 015_3@46
+  - 保加利亚 016_3@47
+  - 保加利亚 017_3@48
+  - 保加利亚 018_3@49
+  - 保加利亚 019_3@50
+  - 卢森堡 001_3@51
+  - 卢森堡 002_3@52
+  - 印尼 001_3@53
+  - 印度 001_3@54
+  - 哥斯达黎加 001_3@55
+  - 哥斯达黎加 002_3@56
+  - 土耳其 001_3@57
+  - 土耳其 002_3@58
+  - 塞尔维亚 001_3@59
+  - 巴西 001_3@60
+  - 摩尔多瓦 001_3@61
+  - 摩尔多瓦 002_3@62
+  - 新加坡 001_3@63
+  - 新加坡 002_3@64
+  - 新加坡 003_3@65
+  - 新加坡 005_3@67
+  - 新加坡 006_3@68
+  - 新加坡 007_3@69
+  - 新加坡 008_3@70
+  - 新加坡 009_3@71
+  - 新加坡 010_3@72
+  - 新加坡 011_3@73
+  - 新加坡 012_3@74
+  - 日本 001_3@75
+  - 日本 002_3@76
+  - 日本 003_3@77
+  - 日本 004_3@78
+  - 日本 005_3@79
+  - 日本 006_3@80
+  - 日本 007_3@81
+  - 法国 001_3@82
+  - 法国 002_3@83
+  - 法国 003_3@84
+  - 法国 004_3@85
+  - 法国 005_3@86
+  - 法国 006_3@87
+  - 波兰 001_3@88
+  - 波兰 002_3@89
+  - 波兰 003_3@90
+  - 波兰 004_3@91
+  - 澳大利亚 001_3@92
+  - 澳大利亚 002_3@93
+  - 澳大利亚 003_3@94
+  - 白俄罗斯 001_3@95
+  - 白俄罗斯 002_3@96
+  - 立陶宛 001_3@97
+  - 罗马尼亚 001_3@98
+  - 罗马尼亚 002_3@99
+  - 美国 001_3@100
+  - 美国 003_3@102
+  - 美国 006_3@105
+  - 美国 010_3@109
+  - 美国 012_3@111
+  - 美国 013_3@112
+  - 美国 014_3@113
+  - 美国 015_3@114
+  - 美国 016_3@115
+  - 美国 017_3@116
+  - 美国 018_3@117
+  - 美国 019_3@118
+  - 美国 021_3@120
+  - 美国 022_3@121
+  - 美国 023_3@122
+  - 美国 024_3@123
+  - 美国 025_3@124
+  - 美国 026_3@125
+  - 美国 027_3@126
+  - 美国 028_3@127
+  - 美国 029_3@128
+  - 美国 030_3@129
+  - 美国 031_3@130
+  - 美国 032_3@131
+  - 美国 033_3@132
+  - 美国 034_3@133
+  - 美国 035_3@134
+  - 美国 036_3@135
+  - 美国 037_3@136
+  - 美国 038_3@137
+  - 美国 039_3@138
+  - 美国 040_3@139
+  - 美国 041_3@140
+  - 美国 042_3@141
+  - 美国 043_3@142
+  - 美国 044_3@143
+  - 美国 045_3@144
+  - 美国 046_3@145
+  - 美国 047_3@146
+  - 美国 048_3@147
+  - 美国 049_3@148
+  - 美国 050_3@149
+  - 美国 051_3@150
+  - 美国 052_3@151
+  - 美国 053_3@152
+  - 美国 054_3@153
+  - 美国 056_3@155
+  - 美国 059_3@158
+  - 美国 060_3@159
+  - 美国 063_3@162
+  - 美国 064_3@163
+  - 美国 065_3@164
+  - 美国 066_3@165
+  - 美国 067_3@166
+  - 美国 068_3@167
+  - 美国 069_3@168
+  - 美国 070_3@169
+  - 美国 071_3@170
+  - 美国 073_3@172
+  - 美国 074_3@173
+  - 美国 075_3@174
+  - 美国 076_3@175
+  - 美国 077_3@176
+  - 美国 078_3@177
+  - 美国 079_3@178
+  - 美国 080_3@179
+  - 美国 081_3@180
+  - 美国 082_3@181
+  - 美国 083_3@182
+  - 美国 084_3@183
+  - 美国 085_3@184
+  - 美国 086_3@185
+  - 美国 087_3@186
+  - 美国 088_3@187
+  - 美国 089_3@188
+  - 美国 090_3@189
+  - 美国 091_3@190
+  - 美国 092_3@191
+  - 美国 093_3@192
+  - 美国 094_3@193
+  - 美国 095_3@194
+  - 美国 096_3@195
+  - 美国 097_3@196
+  - 美国 098_3@197
+  - 美国 099_3@198
+  - 英国 001_3@200
+  - 英国 002_3@201
+  - 英国 003_3@202
+  - 荷兰 001_3@203
+  - 荷兰 002_3@204
+  - 荷兰 003_3@205
+  - 荷兰 004_3@206
+  - 荷兰 005_3@207
+  - 荷兰 006_3@208
+  - 荷兰 007_3@209
+  - 荷兰 009_3@211
+  - 荷兰 010_3@212
+  - 荷兰 011_3@213
+  - 荷兰 012_3@214
+  - 荷兰 014_3@216
+  - 荷兰 015_3@217
+  - 阿曼 001_3@220
+  - 阿曼 002_3@221
+  - 阿曼 003_3@222
+  - 阿曼 004_3@223
+  - 韩国 001_3@224
+  - 韩国 002_3@225
+  - 韩国 003_3@226
+  - 香港 001_3@227
+  - 香港 002_3@228
+  - 香港 003_3@229
+  - 香港 004_3@230
+  - 香港 005_3@231
   - 亚洲(油管:破解资源君2.0)_4@0
   - 🇬🇧 _GB_英国_5@0
   - 🇺🇸 _US_美国_5@1
@@ -16010,7 +16646,8 @@ proxy-groups:
   - 🇸🇬_SG_新加坡->🇦🇪_AE_阿联酋_6@22
   - 🇸🇬_SG_新加坡_3_6@23
   - 🇸🇬_SG_新加坡_4_6@24
-  - 🇺🇸美国-加利福尼亚-0-v2ray-xx2xxl.ddns.net:80_7@3
+  - 🇺🇸美国-加利福尼亚-0-ss-167.160.90.254:41122_7@0
+  - 🇺🇸美国-弗吉尼亚-阿什本-v2ray-ming2.kiwireich.com:443_7@3
   - 🇺🇸_US_美国_1_0@0_8@0
   - 🇹🇼_TW_台湾->🇺🇸_US_美国_1_0@1_8@1
   - 🇨🇦_CA_加拿大_1_0@2_8@2
@@ -16404,7 +17041,6 @@ proxy-groups:
   - 🇨🇳_CN_中国->🇭🇰_HK_香港_15@25_8@407
   - 🇺🇸_US_美国_8_15@26_8@408
   - 🇨🇳_CN_中国_3_15@27_8@409
-  - 🇺🇸_US_美国->🇯🇵_JP_日本_15@28_8@410
   - 🇮🇩_ID_印度尼西亚_2_15@30_8@411
   - 🇯🇵_JP_日本_3_15@34_8@412
   - 🇹🇼_TW_台湾_2_15@35_8@413
@@ -16625,16 +17261,63 @@ proxy-groups:
   - 🇺🇸_US_美国_15_24@40_8@630
   - 🇺🇸_US_美国_16_24@41_8@631
   - 🇨🇦_CA_加拿大_3_24@42_8@632
-  - 🇨🇳 中国【付费推荐：tt.vg/vip】63_9@0
-  - 🇺🇲 美国【付费推荐：tt.vg/vip】115_9@1
-  - 🇺🇲 美国【付费推荐：tt.vg/vip】117_9@5
-  - 🇺🇲 美国【付费推荐：tt.vg/vip】17_9@10
-  - 🇺🇲 美国【付费推荐：tt.vg/vip】93_9@14
-  - 🇸🇬 新加坡【付费推荐：tt.vg/vip】77_9@15
-  - 🇨🇳 中国【付费推荐：tt.vg/vip】19_9@17
-  - 🇯🇵 日本【付费推荐：tt.vg/vip】7_9@19
-  - 🇯🇵 日本【付费推荐：tt.vg/vip】120_9@20
-  - 🇸🇬 新加坡【付费推荐：tt.vg/vip】71_9@23
+  - 🇨🇳 中国【付费推荐：https://tt.vg/vip】137_9@0
+  - 🇨🇳 中国【付费推荐：https://tt.vg/vip】35_9@1
+  - 🇨🇳 中国【付费推荐：https://tt.vg/vip】84_9@2
+  - 🇨🇳 中国【付费推荐：https://tt.vg/vip】153_9@3
+  - 🇨🇳 中国【付费推荐：https://tt.vg/vip】44_9@4
+  - 🇨🇳 中国【付费推荐：https://tt.vg/vip】91_9@5
+  - 🇨🇳 中国【付费推荐：https://tt.vg/vip】165_9@6
+  - 🇯🇵 日本【付费推荐：https://tt.vg/vip】140_9@8
+  - 🇨🇳 中国【付费推荐：https://tt.vg/vip】134_9@9
+  - 🇨🇳 中国【付费推荐：https://tt.vg/vip】7_9@10
+  - 🇨🇳 中国【付费推荐：https://tt.vg/vip】12_9@11
+  - 🇨🇳 中国【付费推荐：https://tt.vg/vip】60_9@12
+  - 🇨🇳 中国【付费推荐：https://tt.vg/vip】171_9@13
+  - 🇨🇳 中国【付费推荐：https://tt.vg/vip】1_9@14
+  - 🇨🇳 中国【付费推荐：https://tt.vg/vip】157_9@15
+  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】85_9@17
+  - 🇨🇳 中国【付费推荐：https://tt.vg/vip】120_9@18
+  - 🇯🇵 日本【付费推荐：https://tt.vg/vip】110_9@19
+  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】181_9@20
+  - 🇨🇳 中国【付费推荐：https://tt.vg/vip】14_9@21
+  - 🇨🇳 中国【付费推荐：https://tt.vg/vip】4_9@23
+  - 🇨🇳 台湾【付费推荐：https://tt.vg/vip】108_9@24
+  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】105_9@26
+  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】183_9@30
+  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】88_9@34
+  - 🇨🇳 中国【付费推荐：https://tt.vg/vip】59_9@37
+  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】163_9@39
+  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】78_9@40
+  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】109_9@43
+  - 捷克【付费推荐：https://tt.vg/vip】19_9@44
+  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】104_9@45
+  - 以色列【付费推荐：https://tt.vg/vip】187_9@47
+  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】98_9@48
+  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】69_9@52
+  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】155_9@53
+  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】143_9@66
+  - 🇨🇳 中国【付费推荐：https://tt.vg/vip】27_9@67
+  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】75_9@68
+  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】131_9@70
+  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】111_9@72
+  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】77_9@74
+  - 🇫🇷 法国【付费推荐：https://tt.vg/vip】48_9@75
+  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】156_9@79
+  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】118_9@80
+  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】66_9@82
+  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】166_9@83
+  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】150_9@84
+  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】142_9@87
+  - 🇭🇰 香港【付费推荐：https://tt.vg/vip】126_9@90
+  - 🇯🇵 日本【付费推荐：https://tt.vg/vip】146_9@95
+  - 🇨🇳 中国【付费推荐：https://tt.vg/vip】121_9@100
+  - 🇸🇬 新加坡【付费推荐：https://tt.vg/vip】113_9@103
+  - 🇨🇳 中国【付费推荐：https://tt.vg/vip】10_9@106
+  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】92_9@108
+  - 🇨🇳 中国【付费推荐：https://tt.vg/vip】62_9@109
+  - 伊朗【付费推荐：https://tt.vg/vip】95_9@110
+  - 🇨🇳 中国【付费推荐：https://tt.vg/vip】149_9@113
   type: select
 - name: 🍎 苹果服务
   proxies:
@@ -16755,8 +17438,8 @@ proxy-groups:
   - 🇨🇳CN-120.233.185.59-074_2@74
   - 🇦🇶NOWHERE-0.0.0.0-075_2@75
   - 🇦🇶NOWHERE-0.0.0.0-076_2@76
-  - 🇨🇳CN-183.240.169.23-077_2@77
-  - 🇨🇳CN-183.240.169.24-078_2@78
+  - 🇨🇳CN-183.240.169.26-077_2@77
+  - 🇨🇳CN-183.240.169.28-078_2@78
   - 🇭🇺HU-185.225.69.134-079_2@79
   - 🇦🇶NOWHERE-0.0.0.0-080_2@80
   - 🇦🇶NOWHERE-0.0.0.0-081_2@81
@@ -16771,16 +17454,16 @@ proxy-groups:
   - 🏁RELAY-188.114.97.110-090_2@90
   - 🇦🇶NOWHERE-0.0.0.0-091_2@91
   - 🇦🇶NOWHERE-0.0.0.0-092_2@92
-  - 🇨🇳CN-183.240.169.28-093_2@93
+  - 🇨🇳CN-183.240.221.72-093_2@93
   - 🇦🇶NOWHERE-0.0.0.0-095_2@95
   - 🇯🇵JP-43.128.253.82-100_2@100
   - 🇦🇶NOWHERE-0.0.0.0-102_2@102
   - 🇦🇺AU-103.224.182.210-103_2@103
-  - 🇨🇳CN-183.240.169.28-104_2@104
+  - 🇨🇳CN-183.240.169.24-104_2@104
   - 🇦🇶NOWHERE-0.0.0.0-106_2@106
   - 🇦🇶NOWHERE-0.0.0.0-107_2@107
   - 🇦🇶NOWHERE-0.0.0.0-109_2@109
-  - 🇨🇳CN-183.240.169.28-110_2@110
+  - 🇨🇳CN-183.240.169.27-110_2@110
   - 🇦🇶NOWHERE-0.0.0.0-112_2@112
   - 🇦🇶NOWHERE-0.0.0.0-115_2@115
   - 🇦🇶NOWHERE-0.0.0.0-117_2@117
@@ -16802,242 +17485,243 @@ proxy-groups:
   - 🇦🇶NOWHERE-0.0.0.0-140_2@140
   - 🇺🇸US-144.24.30.237-141_2@141
   - 🏁RELAY-172.67.197.117-142_2@142
-  - 🇯🇵JP-20.222.34.149-145_2@145
-  - 🏁RELAY-198.41.223.246-146_2@146
-  - 🏁RELAY-104.31.16.27-147_2@147
-  - 🏁RELAY-104.254.140.245-150_2@150
-  - 🇺🇸US-5.252.197.78-151_2@151
-  - 🏁RELAY-172.67.215.25-153_2@153
-  - 🏁RELAY-104.31.16.47-155_2@155
-  - 🏁RELAY-172.67.208.87-157_2@157
-  - 🏁RELAY-172.67.173.5-158_2@158
-  - 🇨🇳CN-120.240.41.43-161_2@161
-  - 🏁RELAY-212.110.134.7-162_2@162
-  - 🇬🇧GB-172.99.190.87-163_2@163
-  - 🇫🇷FR-149.202.82.172-164_2@164
-  - 🇩🇪DE-193.108.118.34-165_2@165
-  - 🇱🇻LV-185.135.86.173-166_2@166
-  - 🇯🇵JP-212.50.246.135-168_2@168
-  - 🏁RELAY-172.67.219.5-170_2@170
-  - 🇺🇸US-137.175.3.225-171_2@171
-  - 🇺🇸US-45.58.186.85-173_2@173
-  - 🇺🇸US-149.50.68.135-174_2@174
-  - 🇺🇸US-142.4.100.43-175_2@175
-  - 🇺🇸US-64.32.4.40-178_2@176
-  - 🇺🇸US-13.56.19.76-179_2@177
-  - 🇩🇪DE-130.61.61.17-181_2@179
-  - 🇷🇺RU-195.133.53.90-182_2@180
-  - 🇬🇧GB-149.50.77.131-183_2@181
-  - 🏁RELAY-104.18.12.98-184_2@182
-  - 🏁RELAY-104.18.12.98-188_2@186
-  - 🏁RELAY-172.64.85.245-195_2@193
+  - 🇺🇸US-23.225.117.50-145_2@145
+  - 🇳🇱NL-149.50.89.110-147_2@147
+  - 🇯🇵JP-20.89.51.187-149_2@149
+  - 🏁RELAY-104.16.150.9-150_2@150
+  - 🏁RELAY-195.137.167.163-151_2@151
+  - 🏁RELAY-162.159.243.235-153_2@153
+  - 🏁RELAY-212.110.134.7-155_2@155
+  - 🇺🇸US-144.24.60.90-156_2@156
+  - 🇨🇳CN-120.240.41.43-158_2@158
+  - 🏁RELAY-172.67.147.10-159_2@159
+  - 🏁RELAY-172.67.208.87-160_2@160
+  - 🏁RELAY-172.64.164.243-161_2@161
+  - 🏁RELAY-104.31.16.29-162_2@162
+  - 🏁RELAY-104.31.16.27-164_2@164
+  - 🏁RELAY-198.41.222.72-165_2@165
+  - 🇷🇺RU-188.119.65.46-166_2@166
+  - 🇷🇺RU-195.133.10.172-167_2@167
+  - 🇷🇺RU-195.133.10.249-168_2@168
+  - 🇷🇺RU-188.119.65.56-169_2@169
+  - 🏁RELAY-104.21.78.23-170_2@170
+  - 🇬🇧GB-172.99.190.87-171_2@171
+  - 🇺🇸US-38.63.0.74-172_2@172
+  - 🇺🇸US-156.225.67.20-173_2@173
+  - 🇺🇸US-74.217.179.187-174_2@174
+  - 🇺🇸US-149.50.68.136-175_2@175
+  - 🏁RELAY-104.31.16.28-178_2@178
+  - 🇫🇷FR-151.80.11.236-180_2@180
   - 丹麦 001_3@0
   - 乌克兰 001_3@1
-  - 乌兹别克斯坦 001_3@3
-  - 亚美尼亚 001_3@4
-  - 伊朗 001_3@5
-  - 伊朗 002_3@6
-  - 俄罗斯 002_3@8
-  - 俄罗斯 003_3@9
-  - 俄罗斯 004_3@10
-  - 俄罗斯 005_3@11
-  - 俄罗斯 006_3@12
-  - 俄罗斯 007_3@13
-  - 俄罗斯 008_3@14
-  - 俄罗斯 009_3@15
-  - 俄罗斯 010_3@16
-  - 俄罗斯 011_3@17
-  - 俄罗斯 012_3@18
-  - 俄罗斯 013_3@19
-  - 俄罗斯 014_3@20
-  - 俄罗斯 015_3@21
-  - 俄罗斯 016_3@22
-  - 俄罗斯 017_3@23
-  - 俄罗斯 018_3@24
-  - 俄罗斯 019_3@25
-  - 俄罗斯 020_3@26
-  - 俄罗斯 021_3@27
-  - 俄罗斯 022_3@28
-  - 俄罗斯 023_3@29
-  - 俄罗斯 024_3@30
-  - 保加利亚 001_3@31
-  - 保加利亚 002_3@32
-  - 保加利亚 003_3@33
-  - 保加利亚 004_3@34
-  - 保加利亚 005_3@35
-  - 保加利亚 006_3@36
-  - 保加利亚 007_3@37
-  - 保加利亚 008_3@38
-  - 保加利亚 009_3@39
-  - 保加利亚 010_3@40
-  - 保加利亚 011_3@41
-  - 保加利亚 012_3@42
-  - 保加利亚 013_3@43
-  - 保加利亚 014_3@44
-  - 保加利亚 015_3@45
-  - 保加利亚 016_3@46
-  - 保加利亚 017_3@47
-  - 保加利亚 018_3@48
-  - 保加利亚 019_3@49
-  - 卢森堡 001_3@50
-  - 卢森堡 002_3@51
-  - 印尼 001_3@52
-  - 印度 001_3@53
-  - 哥斯达黎加 001_3@54
-  - 哥斯达黎加 002_3@55
-  - 土耳其 001_3@56
-  - 土耳其 002_3@57
-  - 塞尔维亚 001_3@58
-  - 巴西 001_3@59
-  - 摩尔多瓦 001_3@60
-  - 摩尔多瓦 002_3@61
-  - 新加坡 001_3@62
-  - 新加坡 002_3@63
-  - 新加坡 003_3@64
-  - 新加坡 005_3@66
-  - 新加坡 006_3@67
-  - 新加坡 007_3@68
-  - 新加坡 008_3@69
-  - 新加坡 009_3@70
-  - 新加坡 010_3@71
-  - 新加坡 011_3@72
-  - 新加坡 012_3@73
-  - 日本 001_3@74
-  - 日本 002_3@75
-  - 日本 003_3@76
-  - 日本 004_3@77
-  - 日本 005_3@78
-  - 日本 006_3@79
-  - 日本 007_3@80
-  - 法国 001_3@81
-  - 法国 002_3@82
-  - 法国 003_3@83
-  - 法国 004_3@84
-  - 法国 005_3@85
-  - 法国 006_3@86
-  - 波兰 001_3@87
-  - 波兰 002_3@88
-  - 波兰 003_3@89
-  - 波兰 004_3@90
-  - 澳大利亚 001_3@91
-  - 澳大利亚 002_3@92
-  - 澳大利亚 003_3@93
-  - 白俄罗斯 001_3@94
-  - 白俄罗斯 002_3@95
-  - 立陶宛 001_3@96
-  - 罗马尼亚 001_3@97
-  - 罗马尼亚 002_3@98
-  - 美国 011_3@109
-  - 美国 012_3@110
-  - 美国 013_3@111
-  - 美国 014_3@112
-  - 美国 015_3@113
-  - 美国 016_3@114
-  - 美国 017_3@115
-  - 美国 018_3@116
-  - 美国 019_3@117
-  - 美国 021_3@119
-  - 美国 022_3@120
-  - 美国 023_3@121
-  - 美国 024_3@122
-  - 美国 025_3@123
-  - 美国 026_3@124
-  - 美国 027_3@125
-  - 美国 028_3@126
-  - 美国 029_3@127
-  - 美国 030_3@128
-  - 美国 031_3@129
-  - 美国 032_3@130
-  - 美国 033_3@131
-  - 美国 034_3@132
-  - 美国 035_3@133
-  - 美国 036_3@134
-  - 美国 037_3@135
-  - 美国 038_3@136
-  - 美国 039_3@137
-  - 美国 040_3@138
-  - 美国 041_3@139
-  - 美国 042_3@140
-  - 美国 043_3@141
-  - 美国 044_3@142
-  - 美国 045_3@143
-  - 美国 046_3@144
-  - 美国 047_3@145
-  - 美国 048_3@146
-  - 美国 049_3@147
-  - 美国 050_3@148
-  - 美国 051_3@149
-  - 美国 052_3@150
-  - 美国 053_3@151
-  - 美国 054_3@152
-  - 美国 056_3@154
-  - 美国 059_3@157
-  - 美国 060_3@158
-  - 美国 063_3@161
-  - 美国 064_3@162
-  - 美国 065_3@163
-  - 美国 066_3@164
-  - 美国 067_3@165
-  - 美国 068_3@166
-  - 美国 069_3@167
-  - 美国 070_3@168
-  - 美国 071_3@169
-  - 美国 072_3@170
-  - 美国 073_3@171
-  - 美国 074_3@172
-  - 美国 075_3@173
-  - 美国 076_3@174
-  - 美国 077_3@175
-  - 美国 078_3@176
-  - 美国 079_3@177
-  - 美国 080_3@178
-  - 美国 081_3@179
-  - 美国 082_3@180
-  - 美国 083_3@181
-  - 美国 084_3@182
-  - 美国 085_3@183
-  - 美国 086_3@184
-  - 美国 087_3@185
-  - 美国 088_3@186
-  - 美国 089_3@187
-  - 美国 090_3@188
-  - 美国 091_3@189
-  - 美国 092_3@190
-  - 美国 093_3@191
-  - 美国 094_3@192
-  - 美国 095_3@193
-  - 美国 096_3@194
-  - 美国 097_3@195
-  - 美国 098_3@196
-  - 美国 100_3@198
-  - 英国 001_3@199
-  - 英国 002_3@200
-  - 英国 003_3@201
-  - 荷兰 001_3@202
-  - 荷兰 002_3@203
-  - 荷兰 003_3@204
-  - 荷兰 004_3@205
-  - 荷兰 005_3@206
-  - 荷兰 006_3@207
-  - 荷兰 007_3@208
-  - 荷兰 009_3@210
-  - 荷兰 010_3@211
-  - 荷兰 011_3@212
-  - 荷兰 012_3@213
-  - 荷兰 014_3@215
-  - 荷兰 015_3@216
-  - 阿曼 001_3@219
-  - 阿曼 002_3@220
-  - 阿曼 003_3@221
-  - 阿曼 004_3@222
-  - 韩国 001_3@223
-  - 韩国 002_3@224
-  - 韩国 003_3@225
-  - 香港 001_3@226
-  - 香港 002_3@227
-  - 香港 003_3@228
-  - 香港 004_3@229
-  - 香港 005_3@230
+  - 乌兹别克斯坦 001_3@4
+  - 亚美尼亚 001_3@5
+  - 伊朗 001_3@6
+  - 伊朗 002_3@7
+  - 俄罗斯 001_3@8
+  - 俄罗斯 002_3@9
+  - 俄罗斯 003_3@10
+  - 俄罗斯 004_3@11
+  - 俄罗斯 005_3@12
+  - 俄罗斯 006_3@13
+  - 俄罗斯 007_3@14
+  - 俄罗斯 008_3@15
+  - 俄罗斯 009_3@16
+  - 俄罗斯 010_3@17
+  - 俄罗斯 011_3@18
+  - 俄罗斯 012_3@19
+  - 俄罗斯 013_3@20
+  - 俄罗斯 014_3@21
+  - 俄罗斯 015_3@22
+  - 俄罗斯 016_3@23
+  - 俄罗斯 017_3@24
+  - 俄罗斯 018_3@25
+  - 俄罗斯 019_3@26
+  - 俄罗斯 020_3@27
+  - 俄罗斯 021_3@28
+  - 俄罗斯 022_3@29
+  - 俄罗斯 023_3@30
+  - 俄罗斯 024_3@31
+  - 保加利亚 001_3@32
+  - 保加利亚 002_3@33
+  - 保加利亚 003_3@34
+  - 保加利亚 004_3@35
+  - 保加利亚 005_3@36
+  - 保加利亚 006_3@37
+  - 保加利亚 007_3@38
+  - 保加利亚 008_3@39
+  - 保加利亚 009_3@40
+  - 保加利亚 010_3@41
+  - 保加利亚 011_3@42
+  - 保加利亚 012_3@43
+  - 保加利亚 013_3@44
+  - 保加利亚 014_3@45
+  - 保加利亚 015_3@46
+  - 保加利亚 016_3@47
+  - 保加利亚 017_3@48
+  - 保加利亚 018_3@49
+  - 保加利亚 019_3@50
+  - 卢森堡 001_3@51
+  - 卢森堡 002_3@52
+  - 印尼 001_3@53
+  - 印度 001_3@54
+  - 哥斯达黎加 001_3@55
+  - 哥斯达黎加 002_3@56
+  - 土耳其 001_3@57
+  - 土耳其 002_3@58
+  - 塞尔维亚 001_3@59
+  - 巴西 001_3@60
+  - 摩尔多瓦 001_3@61
+  - 摩尔多瓦 002_3@62
+  - 新加坡 001_3@63
+  - 新加坡 002_3@64
+  - 新加坡 003_3@65
+  - 新加坡 005_3@67
+  - 新加坡 006_3@68
+  - 新加坡 007_3@69
+  - 新加坡 008_3@70
+  - 新加坡 009_3@71
+  - 新加坡 010_3@72
+  - 新加坡 011_3@73
+  - 新加坡 012_3@74
+  - 日本 001_3@75
+  - 日本 002_3@76
+  - 日本 003_3@77
+  - 日本 004_3@78
+  - 日本 005_3@79
+  - 日本 006_3@80
+  - 日本 007_3@81
+  - 法国 001_3@82
+  - 法国 002_3@83
+  - 法国 003_3@84
+  - 法国 004_3@85
+  - 法国 005_3@86
+  - 法国 006_3@87
+  - 波兰 001_3@88
+  - 波兰 002_3@89
+  - 波兰 003_3@90
+  - 波兰 004_3@91
+  - 澳大利亚 001_3@92
+  - 澳大利亚 002_3@93
+  - 澳大利亚 003_3@94
+  - 白俄罗斯 001_3@95
+  - 白俄罗斯 002_3@96
+  - 立陶宛 001_3@97
+  - 罗马尼亚 001_3@98
+  - 罗马尼亚 002_3@99
+  - 美国 001_3@100
+  - 美国 003_3@102
+  - 美国 006_3@105
+  - 美国 010_3@109
+  - 美国 012_3@111
+  - 美国 013_3@112
+  - 美国 014_3@113
+  - 美国 015_3@114
+  - 美国 016_3@115
+  - 美国 017_3@116
+  - 美国 018_3@117
+  - 美国 019_3@118
+  - 美国 021_3@120
+  - 美国 022_3@121
+  - 美国 023_3@122
+  - 美国 024_3@123
+  - 美国 025_3@124
+  - 美国 026_3@125
+  - 美国 027_3@126
+  - 美国 028_3@127
+  - 美国 029_3@128
+  - 美国 030_3@129
+  - 美国 031_3@130
+  - 美国 032_3@131
+  - 美国 033_3@132
+  - 美国 034_3@133
+  - 美国 035_3@134
+  - 美国 036_3@135
+  - 美国 037_3@136
+  - 美国 038_3@137
+  - 美国 039_3@138
+  - 美国 040_3@139
+  - 美国 041_3@140
+  - 美国 042_3@141
+  - 美国 043_3@142
+  - 美国 044_3@143
+  - 美国 045_3@144
+  - 美国 046_3@145
+  - 美国 047_3@146
+  - 美国 048_3@147
+  - 美国 049_3@148
+  - 美国 050_3@149
+  - 美国 051_3@150
+  - 美国 052_3@151
+  - 美国 053_3@152
+  - 美国 054_3@153
+  - 美国 056_3@155
+  - 美国 059_3@158
+  - 美国 060_3@159
+  - 美国 063_3@162
+  - 美国 064_3@163
+  - 美国 065_3@164
+  - 美国 066_3@165
+  - 美国 067_3@166
+  - 美国 068_3@167
+  - 美国 069_3@168
+  - 美国 070_3@169
+  - 美国 071_3@170
+  - 美国 073_3@172
+  - 美国 074_3@173
+  - 美国 075_3@174
+  - 美国 076_3@175
+  - 美国 077_3@176
+  - 美国 078_3@177
+  - 美国 079_3@178
+  - 美国 080_3@179
+  - 美国 081_3@180
+  - 美国 082_3@181
+  - 美国 083_3@182
+  - 美国 084_3@183
+  - 美国 085_3@184
+  - 美国 086_3@185
+  - 美国 087_3@186
+  - 美国 088_3@187
+  - 美国 089_3@188
+  - 美国 090_3@189
+  - 美国 091_3@190
+  - 美国 092_3@191
+  - 美国 093_3@192
+  - 美国 094_3@193
+  - 美国 095_3@194
+  - 美国 096_3@195
+  - 美国 097_3@196
+  - 美国 098_3@197
+  - 美国 099_3@198
+  - 英国 001_3@200
+  - 英国 002_3@201
+  - 英国 003_3@202
+  - 荷兰 001_3@203
+  - 荷兰 002_3@204
+  - 荷兰 003_3@205
+  - 荷兰 004_3@206
+  - 荷兰 005_3@207
+  - 荷兰 006_3@208
+  - 荷兰 007_3@209
+  - 荷兰 009_3@211
+  - 荷兰 010_3@212
+  - 荷兰 011_3@213
+  - 荷兰 012_3@214
+  - 荷兰 014_3@216
+  - 荷兰 015_3@217
+  - 阿曼 001_3@220
+  - 阿曼 002_3@221
+  - 阿曼 003_3@222
+  - 阿曼 004_3@223
+  - 韩国 001_3@224
+  - 韩国 002_3@225
+  - 韩国 003_3@226
+  - 香港 001_3@227
+  - 香港 002_3@228
+  - 香港 003_3@229
+  - 香港 004_3@230
+  - 香港 005_3@231
   - 亚洲(油管:破解资源君2.0)_4@0
   - 🇬🇧 _GB_英国_5@0
   - 🇺🇸 _US_美国_5@1
@@ -17107,7 +17791,8 @@ proxy-groups:
   - 🇸🇬_SG_新加坡->🇦🇪_AE_阿联酋_6@22
   - 🇸🇬_SG_新加坡_3_6@23
   - 🇸🇬_SG_新加坡_4_6@24
-  - 🇺🇸美国-加利福尼亚-0-v2ray-xx2xxl.ddns.net:80_7@3
+  - 🇺🇸美国-加利福尼亚-0-ss-167.160.90.254:41122_7@0
+  - 🇺🇸美国-弗吉尼亚-阿什本-v2ray-ming2.kiwireich.com:443_7@3
   - 🇺🇸_US_美国_1_0@0_8@0
   - 🇹🇼_TW_台湾->🇺🇸_US_美国_1_0@1_8@1
   - 🇨🇦_CA_加拿大_1_0@2_8@2
@@ -17501,7 +18186,6 @@ proxy-groups:
   - 🇨🇳_CN_中国->🇭🇰_HK_香港_15@25_8@407
   - 🇺🇸_US_美国_8_15@26_8@408
   - 🇨🇳_CN_中国_3_15@27_8@409
-  - 🇺🇸_US_美国->🇯🇵_JP_日本_15@28_8@410
   - 🇮🇩_ID_印度尼西亚_2_15@30_8@411
   - 🇯🇵_JP_日本_3_15@34_8@412
   - 🇹🇼_TW_台湾_2_15@35_8@413
@@ -17722,16 +18406,63 @@ proxy-groups:
   - 🇺🇸_US_美国_15_24@40_8@630
   - 🇺🇸_US_美国_16_24@41_8@631
   - 🇨🇦_CA_加拿大_3_24@42_8@632
-  - 🇨🇳 中国【付费推荐：tt.vg/vip】63_9@0
-  - 🇺🇲 美国【付费推荐：tt.vg/vip】115_9@1
-  - 🇺🇲 美国【付费推荐：tt.vg/vip】117_9@5
-  - 🇺🇲 美国【付费推荐：tt.vg/vip】17_9@10
-  - 🇺🇲 美国【付费推荐：tt.vg/vip】93_9@14
-  - 🇸🇬 新加坡【付费推荐：tt.vg/vip】77_9@15
-  - 🇨🇳 中国【付费推荐：tt.vg/vip】19_9@17
-  - 🇯🇵 日本【付费推荐：tt.vg/vip】7_9@19
-  - 🇯🇵 日本【付费推荐：tt.vg/vip】120_9@20
-  - 🇸🇬 新加坡【付费推荐：tt.vg/vip】71_9@23
+  - 🇨🇳 中国【付费推荐：https://tt.vg/vip】137_9@0
+  - 🇨🇳 中国【付费推荐：https://tt.vg/vip】35_9@1
+  - 🇨🇳 中国【付费推荐：https://tt.vg/vip】84_9@2
+  - 🇨🇳 中国【付费推荐：https://tt.vg/vip】153_9@3
+  - 🇨🇳 中国【付费推荐：https://tt.vg/vip】44_9@4
+  - 🇨🇳 中国【付费推荐：https://tt.vg/vip】91_9@5
+  - 🇨🇳 中国【付费推荐：https://tt.vg/vip】165_9@6
+  - 🇯🇵 日本【付费推荐：https://tt.vg/vip】140_9@8
+  - 🇨🇳 中国【付费推荐：https://tt.vg/vip】134_9@9
+  - 🇨🇳 中国【付费推荐：https://tt.vg/vip】7_9@10
+  - 🇨🇳 中国【付费推荐：https://tt.vg/vip】12_9@11
+  - 🇨🇳 中国【付费推荐：https://tt.vg/vip】60_9@12
+  - 🇨🇳 中国【付费推荐：https://tt.vg/vip】171_9@13
+  - 🇨🇳 中国【付费推荐：https://tt.vg/vip】1_9@14
+  - 🇨🇳 中国【付费推荐：https://tt.vg/vip】157_9@15
+  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】85_9@17
+  - 🇨🇳 中国【付费推荐：https://tt.vg/vip】120_9@18
+  - 🇯🇵 日本【付费推荐：https://tt.vg/vip】110_9@19
+  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】181_9@20
+  - 🇨🇳 中国【付费推荐：https://tt.vg/vip】14_9@21
+  - 🇨🇳 中国【付费推荐：https://tt.vg/vip】4_9@23
+  - 🇨🇳 台湾【付费推荐：https://tt.vg/vip】108_9@24
+  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】105_9@26
+  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】183_9@30
+  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】88_9@34
+  - 🇨🇳 中国【付费推荐：https://tt.vg/vip】59_9@37
+  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】163_9@39
+  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】78_9@40
+  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】109_9@43
+  - 捷克【付费推荐：https://tt.vg/vip】19_9@44
+  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】104_9@45
+  - 以色列【付费推荐：https://tt.vg/vip】187_9@47
+  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】98_9@48
+  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】69_9@52
+  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】155_9@53
+  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】143_9@66
+  - 🇨🇳 中国【付费推荐：https://tt.vg/vip】27_9@67
+  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】75_9@68
+  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】131_9@70
+  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】111_9@72
+  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】77_9@74
+  - 🇫🇷 法国【付费推荐：https://tt.vg/vip】48_9@75
+  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】156_9@79
+  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】118_9@80
+  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】66_9@82
+  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】166_9@83
+  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】150_9@84
+  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】142_9@87
+  - 🇭🇰 香港【付费推荐：https://tt.vg/vip】126_9@90
+  - 🇯🇵 日本【付费推荐：https://tt.vg/vip】146_9@95
+  - 🇨🇳 中国【付费推荐：https://tt.vg/vip】121_9@100
+  - 🇸🇬 新加坡【付费推荐：https://tt.vg/vip】113_9@103
+  - 🇨🇳 中国【付费推荐：https://tt.vg/vip】10_9@106
+  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】92_9@108
+  - 🇨🇳 中国【付费推荐：https://tt.vg/vip】62_9@109
+  - 伊朗【付费推荐：https://tt.vg/vip】95_9@110
+  - 🇨🇳 中国【付费推荐：https://tt.vg/vip】149_9@113
   type: select
 - name: 🎯 全球直连
   proxies:
@@ -17869,8 +18600,8 @@ proxy-groups:
   - 🇨🇳CN-120.233.185.59-074_2@74
   - 🇦🇶NOWHERE-0.0.0.0-075_2@75
   - 🇦🇶NOWHERE-0.0.0.0-076_2@76
-  - 🇨🇳CN-183.240.169.23-077_2@77
-  - 🇨🇳CN-183.240.169.24-078_2@78
+  - 🇨🇳CN-183.240.169.26-077_2@77
+  - 🇨🇳CN-183.240.169.28-078_2@78
   - 🇭🇺HU-185.225.69.134-079_2@79
   - 🇦🇶NOWHERE-0.0.0.0-080_2@80
   - 🇦🇶NOWHERE-0.0.0.0-081_2@81
@@ -17885,16 +18616,16 @@ proxy-groups:
   - 🏁RELAY-188.114.97.110-090_2@90
   - 🇦🇶NOWHERE-0.0.0.0-091_2@91
   - 🇦🇶NOWHERE-0.0.0.0-092_2@92
-  - 🇨🇳CN-183.240.169.28-093_2@93
+  - 🇨🇳CN-183.240.221.72-093_2@93
   - 🇦🇶NOWHERE-0.0.0.0-095_2@95
   - 🇯🇵JP-43.128.253.82-100_2@100
   - 🇦🇶NOWHERE-0.0.0.0-102_2@102
   - 🇦🇺AU-103.224.182.210-103_2@103
-  - 🇨🇳CN-183.240.169.28-104_2@104
+  - 🇨🇳CN-183.240.169.24-104_2@104
   - 🇦🇶NOWHERE-0.0.0.0-106_2@106
   - 🇦🇶NOWHERE-0.0.0.0-107_2@107
   - 🇦🇶NOWHERE-0.0.0.0-109_2@109
-  - 🇨🇳CN-183.240.169.28-110_2@110
+  - 🇨🇳CN-183.240.169.27-110_2@110
   - 🇦🇶NOWHERE-0.0.0.0-112_2@112
   - 🇦🇶NOWHERE-0.0.0.0-115_2@115
   - 🇦🇶NOWHERE-0.0.0.0-117_2@117
@@ -17916,242 +18647,243 @@ proxy-groups:
   - 🇦🇶NOWHERE-0.0.0.0-140_2@140
   - 🇺🇸US-144.24.30.237-141_2@141
   - 🏁RELAY-172.67.197.117-142_2@142
-  - 🇯🇵JP-20.222.34.149-145_2@145
-  - 🏁RELAY-198.41.223.246-146_2@146
-  - 🏁RELAY-104.31.16.27-147_2@147
-  - 🏁RELAY-104.254.140.245-150_2@150
-  - 🇺🇸US-5.252.197.78-151_2@151
-  - 🏁RELAY-172.67.215.25-153_2@153
-  - 🏁RELAY-104.31.16.47-155_2@155
-  - 🏁RELAY-172.67.208.87-157_2@157
-  - 🏁RELAY-172.67.173.5-158_2@158
-  - 🇨🇳CN-120.240.41.43-161_2@161
-  - 🏁RELAY-212.110.134.7-162_2@162
-  - 🇬🇧GB-172.99.190.87-163_2@163
-  - 🇫🇷FR-149.202.82.172-164_2@164
-  - 🇩🇪DE-193.108.118.34-165_2@165
-  - 🇱🇻LV-185.135.86.173-166_2@166
-  - 🇯🇵JP-212.50.246.135-168_2@168
-  - 🏁RELAY-172.67.219.5-170_2@170
-  - 🇺🇸US-137.175.3.225-171_2@171
-  - 🇺🇸US-45.58.186.85-173_2@173
-  - 🇺🇸US-149.50.68.135-174_2@174
-  - 🇺🇸US-142.4.100.43-175_2@175
-  - 🇺🇸US-64.32.4.40-178_2@176
-  - 🇺🇸US-13.56.19.76-179_2@177
-  - 🇩🇪DE-130.61.61.17-181_2@179
-  - 🇷🇺RU-195.133.53.90-182_2@180
-  - 🇬🇧GB-149.50.77.131-183_2@181
-  - 🏁RELAY-104.18.12.98-184_2@182
-  - 🏁RELAY-104.18.12.98-188_2@186
-  - 🏁RELAY-172.64.85.245-195_2@193
+  - 🇺🇸US-23.225.117.50-145_2@145
+  - 🇳🇱NL-149.50.89.110-147_2@147
+  - 🇯🇵JP-20.89.51.187-149_2@149
+  - 🏁RELAY-104.16.150.9-150_2@150
+  - 🏁RELAY-195.137.167.163-151_2@151
+  - 🏁RELAY-162.159.243.235-153_2@153
+  - 🏁RELAY-212.110.134.7-155_2@155
+  - 🇺🇸US-144.24.60.90-156_2@156
+  - 🇨🇳CN-120.240.41.43-158_2@158
+  - 🏁RELAY-172.67.147.10-159_2@159
+  - 🏁RELAY-172.67.208.87-160_2@160
+  - 🏁RELAY-172.64.164.243-161_2@161
+  - 🏁RELAY-104.31.16.29-162_2@162
+  - 🏁RELAY-104.31.16.27-164_2@164
+  - 🏁RELAY-198.41.222.72-165_2@165
+  - 🇷🇺RU-188.119.65.46-166_2@166
+  - 🇷🇺RU-195.133.10.172-167_2@167
+  - 🇷🇺RU-195.133.10.249-168_2@168
+  - 🇷🇺RU-188.119.65.56-169_2@169
+  - 🏁RELAY-104.21.78.23-170_2@170
+  - 🇬🇧GB-172.99.190.87-171_2@171
+  - 🇺🇸US-38.63.0.74-172_2@172
+  - 🇺🇸US-156.225.67.20-173_2@173
+  - 🇺🇸US-74.217.179.187-174_2@174
+  - 🇺🇸US-149.50.68.136-175_2@175
+  - 🏁RELAY-104.31.16.28-178_2@178
+  - 🇫🇷FR-151.80.11.236-180_2@180
   - 丹麦 001_3@0
   - 乌克兰 001_3@1
-  - 乌兹别克斯坦 001_3@3
-  - 亚美尼亚 001_3@4
-  - 伊朗 001_3@5
-  - 伊朗 002_3@6
-  - 俄罗斯 002_3@8
-  - 俄罗斯 003_3@9
-  - 俄罗斯 004_3@10
-  - 俄罗斯 005_3@11
-  - 俄罗斯 006_3@12
-  - 俄罗斯 007_3@13
-  - 俄罗斯 008_3@14
-  - 俄罗斯 009_3@15
-  - 俄罗斯 010_3@16
-  - 俄罗斯 011_3@17
-  - 俄罗斯 012_3@18
-  - 俄罗斯 013_3@19
-  - 俄罗斯 014_3@20
-  - 俄罗斯 015_3@21
-  - 俄罗斯 016_3@22
-  - 俄罗斯 017_3@23
-  - 俄罗斯 018_3@24
-  - 俄罗斯 019_3@25
-  - 俄罗斯 020_3@26
-  - 俄罗斯 021_3@27
-  - 俄罗斯 022_3@28
-  - 俄罗斯 023_3@29
-  - 俄罗斯 024_3@30
-  - 保加利亚 001_3@31
-  - 保加利亚 002_3@32
-  - 保加利亚 003_3@33
-  - 保加利亚 004_3@34
-  - 保加利亚 005_3@35
-  - 保加利亚 006_3@36
-  - 保加利亚 007_3@37
-  - 保加利亚 008_3@38
-  - 保加利亚 009_3@39
-  - 保加利亚 010_3@40
-  - 保加利亚 011_3@41
-  - 保加利亚 012_3@42
-  - 保加利亚 013_3@43
-  - 保加利亚 014_3@44
-  - 保加利亚 015_3@45
-  - 保加利亚 016_3@46
-  - 保加利亚 017_3@47
-  - 保加利亚 018_3@48
-  - 保加利亚 019_3@49
-  - 卢森堡 001_3@50
-  - 卢森堡 002_3@51
-  - 印尼 001_3@52
-  - 印度 001_3@53
-  - 哥斯达黎加 001_3@54
-  - 哥斯达黎加 002_3@55
-  - 土耳其 001_3@56
-  - 土耳其 002_3@57
-  - 塞尔维亚 001_3@58
-  - 巴西 001_3@59
-  - 摩尔多瓦 001_3@60
-  - 摩尔多瓦 002_3@61
-  - 新加坡 001_3@62
-  - 新加坡 002_3@63
-  - 新加坡 003_3@64
-  - 新加坡 005_3@66
-  - 新加坡 006_3@67
-  - 新加坡 007_3@68
-  - 新加坡 008_3@69
-  - 新加坡 009_3@70
-  - 新加坡 010_3@71
-  - 新加坡 011_3@72
-  - 新加坡 012_3@73
-  - 日本 001_3@74
-  - 日本 002_3@75
-  - 日本 003_3@76
-  - 日本 004_3@77
-  - 日本 005_3@78
-  - 日本 006_3@79
-  - 日本 007_3@80
-  - 法国 001_3@81
-  - 法国 002_3@82
-  - 法国 003_3@83
-  - 法国 004_3@84
-  - 法国 005_3@85
-  - 法国 006_3@86
-  - 波兰 001_3@87
-  - 波兰 002_3@88
-  - 波兰 003_3@89
-  - 波兰 004_3@90
-  - 澳大利亚 001_3@91
-  - 澳大利亚 002_3@92
-  - 澳大利亚 003_3@93
-  - 白俄罗斯 001_3@94
-  - 白俄罗斯 002_3@95
-  - 立陶宛 001_3@96
-  - 罗马尼亚 001_3@97
-  - 罗马尼亚 002_3@98
-  - 美国 011_3@109
-  - 美国 012_3@110
-  - 美国 013_3@111
-  - 美国 014_3@112
-  - 美国 015_3@113
-  - 美国 016_3@114
-  - 美国 017_3@115
-  - 美国 018_3@116
-  - 美国 019_3@117
-  - 美国 021_3@119
-  - 美国 022_3@120
-  - 美国 023_3@121
-  - 美国 024_3@122
-  - 美国 025_3@123
-  - 美国 026_3@124
-  - 美国 027_3@125
-  - 美国 028_3@126
-  - 美国 029_3@127
-  - 美国 030_3@128
-  - 美国 031_3@129
-  - 美国 032_3@130
-  - 美国 033_3@131
-  - 美国 034_3@132
-  - 美国 035_3@133
-  - 美国 036_3@134
-  - 美国 037_3@135
-  - 美国 038_3@136
-  - 美国 039_3@137
-  - 美国 040_3@138
-  - 美国 041_3@139
-  - 美国 042_3@140
-  - 美国 043_3@141
-  - 美国 044_3@142
-  - 美国 045_3@143
-  - 美国 046_3@144
-  - 美国 047_3@145
-  - 美国 048_3@146
-  - 美国 049_3@147
-  - 美国 050_3@148
-  - 美国 051_3@149
-  - 美国 052_3@150
-  - 美国 053_3@151
-  - 美国 054_3@152
-  - 美国 056_3@154
-  - 美国 059_3@157
-  - 美国 060_3@158
-  - 美国 063_3@161
-  - 美国 064_3@162
-  - 美国 065_3@163
-  - 美国 066_3@164
-  - 美国 067_3@165
-  - 美国 068_3@166
-  - 美国 069_3@167
-  - 美国 070_3@168
-  - 美国 071_3@169
-  - 美国 072_3@170
-  - 美国 073_3@171
-  - 美国 074_3@172
-  - 美国 075_3@173
-  - 美国 076_3@174
-  - 美国 077_3@175
-  - 美国 078_3@176
-  - 美国 079_3@177
-  - 美国 080_3@178
-  - 美国 081_3@179
-  - 美国 082_3@180
-  - 美国 083_3@181
-  - 美国 084_3@182
-  - 美国 085_3@183
-  - 美国 086_3@184
-  - 美国 087_3@185
-  - 美国 088_3@186
-  - 美国 089_3@187
-  - 美国 090_3@188
-  - 美国 091_3@189
-  - 美国 092_3@190
-  - 美国 093_3@191
-  - 美国 094_3@192
-  - 美国 095_3@193
-  - 美国 096_3@194
-  - 美国 097_3@195
-  - 美国 098_3@196
-  - 美国 100_3@198
-  - 英国 001_3@199
-  - 英国 002_3@200
-  - 英国 003_3@201
-  - 荷兰 001_3@202
-  - 荷兰 002_3@203
-  - 荷兰 003_3@204
-  - 荷兰 004_3@205
-  - 荷兰 005_3@206
-  - 荷兰 006_3@207
-  - 荷兰 007_3@208
-  - 荷兰 009_3@210
-  - 荷兰 010_3@211
-  - 荷兰 011_3@212
-  - 荷兰 012_3@213
-  - 荷兰 014_3@215
-  - 荷兰 015_3@216
-  - 阿曼 001_3@219
-  - 阿曼 002_3@220
-  - 阿曼 003_3@221
-  - 阿曼 004_3@222
-  - 韩国 001_3@223
-  - 韩国 002_3@224
-  - 韩国 003_3@225
-  - 香港 001_3@226
-  - 香港 002_3@227
-  - 香港 003_3@228
-  - 香港 004_3@229
-  - 香港 005_3@230
+  - 乌兹别克斯坦 001_3@4
+  - 亚美尼亚 001_3@5
+  - 伊朗 001_3@6
+  - 伊朗 002_3@7
+  - 俄罗斯 001_3@8
+  - 俄罗斯 002_3@9
+  - 俄罗斯 003_3@10
+  - 俄罗斯 004_3@11
+  - 俄罗斯 005_3@12
+  - 俄罗斯 006_3@13
+  - 俄罗斯 007_3@14
+  - 俄罗斯 008_3@15
+  - 俄罗斯 009_3@16
+  - 俄罗斯 010_3@17
+  - 俄罗斯 011_3@18
+  - 俄罗斯 012_3@19
+  - 俄罗斯 013_3@20
+  - 俄罗斯 014_3@21
+  - 俄罗斯 015_3@22
+  - 俄罗斯 016_3@23
+  - 俄罗斯 017_3@24
+  - 俄罗斯 018_3@25
+  - 俄罗斯 019_3@26
+  - 俄罗斯 020_3@27
+  - 俄罗斯 021_3@28
+  - 俄罗斯 022_3@29
+  - 俄罗斯 023_3@30
+  - 俄罗斯 024_3@31
+  - 保加利亚 001_3@32
+  - 保加利亚 002_3@33
+  - 保加利亚 003_3@34
+  - 保加利亚 004_3@35
+  - 保加利亚 005_3@36
+  - 保加利亚 006_3@37
+  - 保加利亚 007_3@38
+  - 保加利亚 008_3@39
+  - 保加利亚 009_3@40
+  - 保加利亚 010_3@41
+  - 保加利亚 011_3@42
+  - 保加利亚 012_3@43
+  - 保加利亚 013_3@44
+  - 保加利亚 014_3@45
+  - 保加利亚 015_3@46
+  - 保加利亚 016_3@47
+  - 保加利亚 017_3@48
+  - 保加利亚 018_3@49
+  - 保加利亚 019_3@50
+  - 卢森堡 001_3@51
+  - 卢森堡 002_3@52
+  - 印尼 001_3@53
+  - 印度 001_3@54
+  - 哥斯达黎加 001_3@55
+  - 哥斯达黎加 002_3@56
+  - 土耳其 001_3@57
+  - 土耳其 002_3@58
+  - 塞尔维亚 001_3@59
+  - 巴西 001_3@60
+  - 摩尔多瓦 001_3@61
+  - 摩尔多瓦 002_3@62
+  - 新加坡 001_3@63
+  - 新加坡 002_3@64
+  - 新加坡 003_3@65
+  - 新加坡 005_3@67
+  - 新加坡 006_3@68
+  - 新加坡 007_3@69
+  - 新加坡 008_3@70
+  - 新加坡 009_3@71
+  - 新加坡 010_3@72
+  - 新加坡 011_3@73
+  - 新加坡 012_3@74
+  - 日本 001_3@75
+  - 日本 002_3@76
+  - 日本 003_3@77
+  - 日本 004_3@78
+  - 日本 005_3@79
+  - 日本 006_3@80
+  - 日本 007_3@81
+  - 法国 001_3@82
+  - 法国 002_3@83
+  - 法国 003_3@84
+  - 法国 004_3@85
+  - 法国 005_3@86
+  - 法国 006_3@87
+  - 波兰 001_3@88
+  - 波兰 002_3@89
+  - 波兰 003_3@90
+  - 波兰 004_3@91
+  - 澳大利亚 001_3@92
+  - 澳大利亚 002_3@93
+  - 澳大利亚 003_3@94
+  - 白俄罗斯 001_3@95
+  - 白俄罗斯 002_3@96
+  - 立陶宛 001_3@97
+  - 罗马尼亚 001_3@98
+  - 罗马尼亚 002_3@99
+  - 美国 001_3@100
+  - 美国 003_3@102
+  - 美国 006_3@105
+  - 美国 010_3@109
+  - 美国 012_3@111
+  - 美国 013_3@112
+  - 美国 014_3@113
+  - 美国 015_3@114
+  - 美国 016_3@115
+  - 美国 017_3@116
+  - 美国 018_3@117
+  - 美国 019_3@118
+  - 美国 021_3@120
+  - 美国 022_3@121
+  - 美国 023_3@122
+  - 美国 024_3@123
+  - 美国 025_3@124
+  - 美国 026_3@125
+  - 美国 027_3@126
+  - 美国 028_3@127
+  - 美国 029_3@128
+  - 美国 030_3@129
+  - 美国 031_3@130
+  - 美国 032_3@131
+  - 美国 033_3@132
+  - 美国 034_3@133
+  - 美国 035_3@134
+  - 美国 036_3@135
+  - 美国 037_3@136
+  - 美国 038_3@137
+  - 美国 039_3@138
+  - 美国 040_3@139
+  - 美国 041_3@140
+  - 美国 042_3@141
+  - 美国 043_3@142
+  - 美国 044_3@143
+  - 美国 045_3@144
+  - 美国 046_3@145
+  - 美国 047_3@146
+  - 美国 048_3@147
+  - 美国 049_3@148
+  - 美国 050_3@149
+  - 美国 051_3@150
+  - 美国 052_3@151
+  - 美国 053_3@152
+  - 美国 054_3@153
+  - 美国 056_3@155
+  - 美国 059_3@158
+  - 美国 060_3@159
+  - 美国 063_3@162
+  - 美国 064_3@163
+  - 美国 065_3@164
+  - 美国 066_3@165
+  - 美国 067_3@166
+  - 美国 068_3@167
+  - 美国 069_3@168
+  - 美国 070_3@169
+  - 美国 071_3@170
+  - 美国 073_3@172
+  - 美国 074_3@173
+  - 美国 075_3@174
+  - 美国 076_3@175
+  - 美国 077_3@176
+  - 美国 078_3@177
+  - 美国 079_3@178
+  - 美国 080_3@179
+  - 美国 081_3@180
+  - 美国 082_3@181
+  - 美国 083_3@182
+  - 美国 084_3@183
+  - 美国 085_3@184
+  - 美国 086_3@185
+  - 美国 087_3@186
+  - 美国 088_3@187
+  - 美国 089_3@188
+  - 美国 090_3@189
+  - 美国 091_3@190
+  - 美国 092_3@191
+  - 美国 093_3@192
+  - 美国 094_3@193
+  - 美国 095_3@194
+  - 美国 096_3@195
+  - 美国 097_3@196
+  - 美国 098_3@197
+  - 美国 099_3@198
+  - 英国 001_3@200
+  - 英国 002_3@201
+  - 英国 003_3@202
+  - 荷兰 001_3@203
+  - 荷兰 002_3@204
+  - 荷兰 003_3@205
+  - 荷兰 004_3@206
+  - 荷兰 005_3@207
+  - 荷兰 006_3@208
+  - 荷兰 007_3@209
+  - 荷兰 009_3@211
+  - 荷兰 010_3@212
+  - 荷兰 011_3@213
+  - 荷兰 012_3@214
+  - 荷兰 014_3@216
+  - 荷兰 015_3@217
+  - 阿曼 001_3@220
+  - 阿曼 002_3@221
+  - 阿曼 003_3@222
+  - 阿曼 004_3@223
+  - 韩国 001_3@224
+  - 韩国 002_3@225
+  - 韩国 003_3@226
+  - 香港 001_3@227
+  - 香港 002_3@228
+  - 香港 003_3@229
+  - 香港 004_3@230
+  - 香港 005_3@231
   - 亚洲(油管:破解资源君2.0)_4@0
   - 🇬🇧 _GB_英国_5@0
   - 🇺🇸 _US_美国_5@1
@@ -18221,7 +18953,8 @@ proxy-groups:
   - 🇸🇬_SG_新加坡->🇦🇪_AE_阿联酋_6@22
   - 🇸🇬_SG_新加坡_3_6@23
   - 🇸🇬_SG_新加坡_4_6@24
-  - 🇺🇸美国-加利福尼亚-0-v2ray-xx2xxl.ddns.net:80_7@3
+  - 🇺🇸美国-加利福尼亚-0-ss-167.160.90.254:41122_7@0
+  - 🇺🇸美国-弗吉尼亚-阿什本-v2ray-ming2.kiwireich.com:443_7@3
   - 🇺🇸_US_美国_1_0@0_8@0
   - 🇹🇼_TW_台湾->🇺🇸_US_美国_1_0@1_8@1
   - 🇨🇦_CA_加拿大_1_0@2_8@2
@@ -18615,7 +19348,6 @@ proxy-groups:
   - 🇨🇳_CN_中国->🇭🇰_HK_香港_15@25_8@407
   - 🇺🇸_US_美国_8_15@26_8@408
   - 🇨🇳_CN_中国_3_15@27_8@409
-  - 🇺🇸_US_美国->🇯🇵_JP_日本_15@28_8@410
   - 🇮🇩_ID_印度尼西亚_2_15@30_8@411
   - 🇯🇵_JP_日本_3_15@34_8@412
   - 🇹🇼_TW_台湾_2_15@35_8@413
@@ -18836,16 +19568,63 @@ proxy-groups:
   - 🇺🇸_US_美国_15_24@40_8@630
   - 🇺🇸_US_美国_16_24@41_8@631
   - 🇨🇦_CA_加拿大_3_24@42_8@632
-  - 🇨🇳 中国【付费推荐：tt.vg/vip】63_9@0
-  - 🇺🇲 美国【付费推荐：tt.vg/vip】115_9@1
-  - 🇺🇲 美国【付费推荐：tt.vg/vip】117_9@5
-  - 🇺🇲 美国【付费推荐：tt.vg/vip】17_9@10
-  - 🇺🇲 美国【付费推荐：tt.vg/vip】93_9@14
-  - 🇸🇬 新加坡【付费推荐：tt.vg/vip】77_9@15
-  - 🇨🇳 中国【付费推荐：tt.vg/vip】19_9@17
-  - 🇯🇵 日本【付费推荐：tt.vg/vip】7_9@19
-  - 🇯🇵 日本【付费推荐：tt.vg/vip】120_9@20
-  - 🇸🇬 新加坡【付费推荐：tt.vg/vip】71_9@23
+  - 🇨🇳 中国【付费推荐：https://tt.vg/vip】137_9@0
+  - 🇨🇳 中国【付费推荐：https://tt.vg/vip】35_9@1
+  - 🇨🇳 中国【付费推荐：https://tt.vg/vip】84_9@2
+  - 🇨🇳 中国【付费推荐：https://tt.vg/vip】153_9@3
+  - 🇨🇳 中国【付费推荐：https://tt.vg/vip】44_9@4
+  - 🇨🇳 中国【付费推荐：https://tt.vg/vip】91_9@5
+  - 🇨🇳 中国【付费推荐：https://tt.vg/vip】165_9@6
+  - 🇯🇵 日本【付费推荐：https://tt.vg/vip】140_9@8
+  - 🇨🇳 中国【付费推荐：https://tt.vg/vip】134_9@9
+  - 🇨🇳 中国【付费推荐：https://tt.vg/vip】7_9@10
+  - 🇨🇳 中国【付费推荐：https://tt.vg/vip】12_9@11
+  - 🇨🇳 中国【付费推荐：https://tt.vg/vip】60_9@12
+  - 🇨🇳 中国【付费推荐：https://tt.vg/vip】171_9@13
+  - 🇨🇳 中国【付费推荐：https://tt.vg/vip】1_9@14
+  - 🇨🇳 中国【付费推荐：https://tt.vg/vip】157_9@15
+  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】85_9@17
+  - 🇨🇳 中国【付费推荐：https://tt.vg/vip】120_9@18
+  - 🇯🇵 日本【付费推荐：https://tt.vg/vip】110_9@19
+  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】181_9@20
+  - 🇨🇳 中国【付费推荐：https://tt.vg/vip】14_9@21
+  - 🇨🇳 中国【付费推荐：https://tt.vg/vip】4_9@23
+  - 🇨🇳 台湾【付费推荐：https://tt.vg/vip】108_9@24
+  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】105_9@26
+  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】183_9@30
+  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】88_9@34
+  - 🇨🇳 中国【付费推荐：https://tt.vg/vip】59_9@37
+  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】163_9@39
+  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】78_9@40
+  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】109_9@43
+  - 捷克【付费推荐：https://tt.vg/vip】19_9@44
+  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】104_9@45
+  - 以色列【付费推荐：https://tt.vg/vip】187_9@47
+  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】98_9@48
+  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】69_9@52
+  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】155_9@53
+  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】143_9@66
+  - 🇨🇳 中国【付费推荐：https://tt.vg/vip】27_9@67
+  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】75_9@68
+  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】131_9@70
+  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】111_9@72
+  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】77_9@74
+  - 🇫🇷 法国【付费推荐：https://tt.vg/vip】48_9@75
+  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】156_9@79
+  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】118_9@80
+  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】66_9@82
+  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】166_9@83
+  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】150_9@84
+  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】142_9@87
+  - 🇭🇰 香港【付费推荐：https://tt.vg/vip】126_9@90
+  - 🇯🇵 日本【付费推荐：https://tt.vg/vip】146_9@95
+  - 🇨🇳 中国【付费推荐：https://tt.vg/vip】121_9@100
+  - 🇸🇬 新加坡【付费推荐：https://tt.vg/vip】113_9@103
+  - 🇨🇳 中国【付费推荐：https://tt.vg/vip】10_9@106
+  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】92_9@108
+  - 🇨🇳 中国【付费推荐：https://tt.vg/vip】62_9@109
+  - 伊朗【付费推荐：https://tt.vg/vip】95_9@110
+  - 🇨🇳 中国【付费推荐：https://tt.vg/vip】149_9@113
   type: select
 rules:
 - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连

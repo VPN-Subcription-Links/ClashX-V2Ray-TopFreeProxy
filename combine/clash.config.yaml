@@ -1189,39 +1189,13 @@ proxies:
   server: 18.141.236.15
   tfo: false
   type: ss
-- alterId: 64
-  cipher: auto
-  name: 中国 01_3@0
-  network: ws
-  port: 443
-  server: 137.175.15.212
-  servername: www.83524650.xyz
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    path: /path/1690195052514
-- alterId: 64
-  cipher: auto
-  name: 中国 02_3@1
-  network: ws
-  port: 443
-  server: 137.175.58.135
-  servername: www.82592324.xyz
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    path: /path/1689935243027
 - alterId: 0
   cipher: auto
   http-opts:
     method: GET
     path:
     - /
-  name: 俄罗斯 01_3@2
+  name: 俄罗斯 01_3@0
   network: http
   port: 443
   server: 45.144.179.138
@@ -1231,7 +1205,7 @@ proxies:
   uuid: 96cbe4a6-5728-42df-dc7a-ceb9b51a3db5
 - alterId: 0
   cipher: auto
-  name: 哥斯达黎加 01_3@4
+  name: 哥斯达黎加 01_3@2
   network: ws
   port: 8080
   server: cf3.992688.xyz
@@ -1246,7 +1220,22 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 塞浦路斯 01_3@5
+  name: 哥斯达黎加 02_3@3
+  network: ws
+  port: 8080
+  server: 190.93.246.192
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 54d4a5e9-6441-442c-cab7-05620cbe4f7d
+  ws-opts:
+    headers:
+      Host: ecc.vtcss.top
+    path: /qwer01
+- alterId: 0
+  cipher: auto
+  name: 塞浦路斯 01_3@4
   network: ws
   port: 443
   server: 203.28.8.207
@@ -1261,21 +1250,7 @@ proxies:
     path: ro2.v2rayserv.com/vmess
 - alterId: 0
   cipher: auto
-  name: 德国 01_3@6
-  network: ws
-  port: 443
-  server: vde2.0bad.com
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 927094d3-d678-4763-8591-e240d0bcae87
-  ws-opts:
-    headers:
-      Host: vde2.0bad.com
-    path: /chat
-- alterId: 0
-  cipher: auto
-  name: 美国 01_3@7
+  name: 美国 01_3@5
   network: ws
   port: 2095
   server: 104.20.18.54
@@ -1290,7 +1265,7 @@ proxies:
     path: /@hkaa0
 - alterId: 0
   cipher: auto
-  name: 美国 02_3@8
+  name: 美国 02_3@6
   network: ws
   port: 443
   server: dongtaiwang3.com
@@ -1306,7 +1281,7 @@ proxies:
     path: /dongtaiwang.com
 - alterId: 0
   cipher: auto
-  name: 美国 04_3@10
+  name: 美国 04_3@8
   network: ws
   port: 443
   server: cf.dalazhi.eu.org
@@ -1321,7 +1296,7 @@ proxies:
     path: /kplxvws
 - alterId: 0
   cipher: auto
-  name: 美国 05_3@11
+  name: 美国 05_3@9
   network: ws
   port: 2082
   server: 104.31.16.46
@@ -1336,7 +1311,7 @@ proxies:
     path: /IOebhLMhl1CTbFHbL95myfRX2
 - alterId: 0
   cipher: auto
-  name: 美国 06_3@12
+  name: 美国 06_3@10
   network: ws
   port: 80
   server: cf-lt.sharecentre.online
@@ -1351,7 +1326,7 @@ proxies:
     path: /shirker
 - alterId: 0
   cipher: auto
-  name: 美国 07_3@13
+  name: 美国 07_3@11
   network: ws
   port: 443
   server: aaaa.wxx.gay
@@ -1366,7 +1341,7 @@ proxies:
     path: /look
 - alterId: 0
   cipher: auto
-  name: 美国 09_3@15
+  name: 美国 09_3@13
   network: ws
   port: 2095
   server: amszxc.66666654.xyz
@@ -1381,7 +1356,7 @@ proxies:
     path: /hgcefomn
 - alterId: 0
   cipher: auto
-  name: 美国 10_3@16
+  name: 美国 10_3@14
   network: ws
   port: 443
   server: www.codepen.io
@@ -1396,7 +1371,7 @@ proxies:
     path: /vmess
 - alterId: 0
   cipher: auto
-  name: 美国 11_3@17
+  name: 美国 11_3@15
   network: ws
   port: 8880
   server: cdn.narutos.top
@@ -1411,7 +1386,7 @@ proxies:
     path: /GdtYWlsLmNvbSJ9LCJjb3V
 - alterId: 0
   cipher: auto
-  name: 美国 13_3@19
+  name: 美国 13_3@17
   network: ws
   port: 443
   server: hk.kkpp.online
@@ -1426,7 +1401,21 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 美国 14_3@20
+  name: 美国 14_3@18
+  network: ws
+  port: 443
+  server: cloudflare.piaole.me
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 9e2c433a-6917-4190-9d28-4877825685e4
+  ws-opts:
+    headers:
+      Host: cloudflare.piaole.me
+    path: /huawei
+- alterId: 0
+  cipher: auto
+  name: 美国 15_3@19
   network: ws
   port: 443
   server: vus5.0bad.com
@@ -1440,63 +1429,336 @@ proxies:
     path: /chat
 - alterId: 0
   cipher: auto
-  name: 美国 15_3@21
-  network: ws
-  port: 443
-  server: cloudflare.piaole.me
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 9e2c433a-6917-4190-9d28-4877825685e4
-  ws-opts:
-    headers:
-      Host: cloudflare.piaole.me
-    path: /huawei
-- alterId: 0
-  cipher: auto
-  name: 美国 16_3@22
+  name: 美国 16_3@20
   network: ws
   port: 8080
-  server: digitalocean.com
+  server: 190.93.244.217
   skip-cert-verify: false
   tls: false
   type: vmess
-  uuid: 5f098028-ea22-42ea-abfd-9222cb298b74
+  udp: true
+  uuid: 54d4a5e9-6441-442c-cab7-05620cbe4f7d
   ws-opts:
     headers:
-      Host: vceu.vpn66.eu.org
+      Host: ecc.vtcss.top
+    path: /qwer01
+- alterId: 0
+  cipher: auto
+  name: 美国 17_3@21
+  network: ws
+  port: 8080
+  server: 198.41.218.144
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 54d4a5e9-6441-442c-cab7-05620cbe4f7d
+  ws-opts:
+    headers:
+      Host: ecc.vtcss.top
+    path: /qwer01
+- alterId: 0
+  cipher: auto
+  name: 美国 18_3@22
+  network: ws
+  port: 8080
+  server: 104.18.177.181
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 54d4a5e9-6441-442c-cab7-05620cbe4f7d
+  ws-opts:
+    headers:
+      Host: ecc.vtcss.top
+    path: /qwer01
+- alterId: 0
+  cipher: auto
+  name: 美国 19_3@23
+  network: ws
+  port: 8080
+  server: 104.24.90.135
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 54d4a5e9-6441-442c-cab7-05620cbe4f7d
+  ws-opts:
+    headers:
+      Host: ecc.vtcss.top
+    path: /qwer01
+- alterId: 0
+  cipher: auto
+  name: 美国 20_3@24
+  network: ws
+  port: 80
+  server: speedip.eu.org
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 789dfa0d-2028-4d53-a4db-252ea75d863e
+  ws-opts:
+    headers:
+      Host: ssrsub.v02.ssrsub.com
+    path: /api/v3/download.getFile
+- alterId: 0
+  cipher: auto
+  name: 美国 21_3@25
+  network: ws
+  port: 8080
+  server: 104.16.139.135
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 54d4a5e9-6441-442c-cab7-05620cbe4f7d
+  ws-opts:
+    headers:
+      Host: ecc.vtcss.top
+    path: /qwer01
+- alterId: 0
+  cipher: auto
+  name: 美国 22_3@26
+  network: ws
+  port: 8880
+  server: 141.101.114.249
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 006023f6-6d17-4ec6-af24-bcc5f7c44e35
+  ws-opts:
+    headers:
+      Host: ecc.vtcss.top
+    path: /qwer01
+- alterId: 0
+  cipher: auto
+  name: 美国 23_3@27
+  network: ws
+  port: 8080
+  server: 104.21.7.156
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 54d4a5e9-6441-442c-cab7-05620cbe4f7d
+  ws-opts:
+    headers:
+      Host: ecc.vtcss.top
+    path: /qwer01
+- alterId: 0
+  cipher: auto
+  name: 美国 24_3@28
+  network: ws
+  port: 8080
+  server: 104.27.27.157
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 54d4a5e9-6441-442c-cab7-05620cbe4f7d
+  ws-opts:
+    headers:
+      Host: ecc.vtcss.top
+    path: /qwer01
+- alterId: 0
+  cipher: auto
+  name: 美国 25_3@29
+  network: ws
+  port: 8880
+  server: 172.67.124.143
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 006023f6-6d17-4ec6-af24-bcc5f7c44e35
+  ws-opts:
+    headers:
+      Host: ecc.vtcss.top
+    path: /qwer01
+- alterId: 0
+  cipher: auto
+  name: 美国 26_3@30
+  network: ws
+  port: 8080
+  server: 104.22.75.183
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 54d4a5e9-6441-442c-cab7-05620cbe4f7d
+  ws-opts:
+    headers:
+      Host: ecc.vtcss.top
+    path: /qwer01
+- alterId: 0
+  cipher: auto
+  name: 美国 27_3@31
+  network: ws
+  port: 8080
+  server: 162.159.241.157
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 54d4a5e9-6441-442c-cab7-05620cbe4f7d
+  ws-opts:
+    headers:
+      Host: ecc.vtcss.top
+    path: /qwer01
+- alterId: 0
+  cipher: auto
+  name: 美国 28_3@32
+  network: ws
+  port: 8080
+  server: 104.20.6.253
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 54d4a5e9-6441-442c-cab7-05620cbe4f7d
+  ws-opts:
+    headers:
+      Host: ecc.vtcss.top
+    path: /qwer01
+- alterId: 0
+  cipher: auto
+  name: 美国 29_3@33
+  network: ws
+  port: 8880
+  server: 172.67.154.35
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 006023f6-6d17-4ec6-af24-bcc5f7c44e35
+  ws-opts:
+    headers:
+      Host: ecc.vtcss.top
+    path: /qwer01
+- alterId: 0
+  cipher: auto
+  name: 美国 30_3@34
+  network: ws
+  port: 8080
+  server: 104.21.55.82
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 54d4a5e9-6441-442c-cab7-05620cbe4f7d
+  ws-opts:
+    headers:
+      Host: ecc.vtcss.top
+    path: /qwer01
+- alterId: 0
+  cipher: auto
+  name: 美国 31_3@35
+  network: ws
+  port: 8880
+  server: 104.23.131.73
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 006023f6-6d17-4ec6-af24-bcc5f7c44e35
+  ws-opts:
+    headers:
+      Host: ecc.vtcss.top
+    path: /qwer01
+- alterId: 0
+  cipher: auto
+  name: 美国 32_3@36
+  network: ws
+  port: 8880
+  server: 104.23.103.75
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 006023f6-6d17-4ec6-af24-bcc5f7c44e35
+  ws-opts:
+    headers:
+      Host: ecc.vtcss.top
+    path: /qwer01
+- alterId: 0
+  cipher: auto
+  name: 美国 33_3@37
+  network: ws
+  port: 8880
+  server: 104.20.85.186
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 006023f6-6d17-4ec6-af24-bcc5f7c44e35
+  ws-opts:
+    headers:
+      Host: ecc.vtcss.top
+    path: /qwer01
+- alterId: 0
+  cipher: auto
+  name: 美国 34_3@38
+  network: ws
+  port: 8080
+  server: 104.27.42.125
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 54d4a5e9-6441-442c-cab7-05620cbe4f7d
+  ws-opts:
+    headers:
+      Host: ecc.vtcss.top
+    path: /qwer01
+- alterId: 0
+  cipher: auto
+  name: 美国 35_3@39
+  network: ws
+  port: 8880
+  server: 104.25.196.249
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 006023f6-6d17-4ec6-af24-bcc5f7c44e35
+  ws-opts:
+    headers:
+      Host: ecc.vtcss.top
+    path: /qwer01
+- alterId: 0
+  cipher: auto
+  name: 美国 36_3@40
+  network: ws
+  port: 443
+  server: v2node2.bipbupvpn.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 1fcd5ae8-74eb-4d3e-8eef-0f0316c9d179
+  ws-opts:
+    headers:
+      Host: v2node2.bipbupvpn.com
     path: /
 - alterId: 0
   cipher: auto
-  name: 美国 17_3@23
+  name: 荷兰 01_3@41
   network: ws
-  port: 2086
-  server: 136.175.8.101
-  servername: ba24.ir
+  port: 8880
+  server: 188.114.97.96
   skip-cert-verify: false
   tls: false
   type: vmess
-  uuid: 3d298cb0-2adc-11ee-b534-205c6d5f5d78
-  ws-opts:
-    path: /V2RayyNGvpn
-- alterId: 64
-  cipher: auto
-  name: 美国 18_3@24
-  network: ws
-  port: 443
-  server: 192.74.242.133
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  udp: true
+  uuid: 006023f6-6d17-4ec6-af24-bcc5f7c44e35
   ws-opts:
     headers:
-      Host: www.67023582.xyz
-    path: /path/1690195052514
+      Host: ecc.vtcss.top
+    path: /qwer01
 - alterId: 0
   cipher: auto
-  name: 西班牙 01_3@25
+  name: 西班牙 01_3@42
   network: ws
   port: 443
   server: shm.ircf.space
@@ -1511,7 +1773,7 @@ proxies:
     path: /juYLyvNBpY0LBOAommy2aJE
 - alterId: 0
   cipher: auto
-  name: 西班牙 02_3@26
+  name: 西班牙 02_3@43
   network: ws
   port: 443
   server: mci.ircf.space
@@ -1526,7 +1788,7 @@ proxies:
     path: ua1.v2rayserv.com/vmess
 - alterId: 0
   cipher: auto
-  name: 香港 01_3@27
+  name: 香港 01_3@44
   network: ws
   port: 443
   server: 103.160.204.26
@@ -1541,7 +1803,7 @@ proxies:
     path: a2284cc1
 - alterId: 0
   cipher: auto
-  name: 香港 02_3@28
+  name: 香港 02_3@45
   network: ws
   port: 443
   server: 103.160.204.40
@@ -1556,7 +1818,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 香港 03_3@29
+  name: 香港 03_3@46
   network: ws
   port: 443
   server: 103.160.204.12
@@ -1569,6 +1831,126 @@ proxies:
     headers:
       Host: dedi2.1808.cf
     path: /
+- alterId: 0
+  cipher: auto
+  name: 香港 04_3@47
+  network: ws
+  port: 80
+  server: 154.92.9.156
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: dd41b5cb-b72e-4a8c-c75a-3ecc928d6eb3
+  ws-opts:
+    headers:
+      Host: ecc.vtcss.top
+    path: /blue
+- alterId: 0
+  cipher: auto
+  name: 香港 05_3@48
+  network: ws
+  port: 80
+  server: 154.92.9.75
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: dd41b5cb-b72e-4a8c-c75a-3ecc928d6eb3
+  ws-opts:
+    headers:
+      Host: ecc.vtcss.top
+    path: /blue
+- alterId: 0
+  cipher: auto
+  name: 香港 06_3@49
+  network: ws
+  port: 80
+  server: 154.92.9.43
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: dd41b5cb-b72e-4a8c-c75a-3ecc928d6eb3
+  ws-opts:
+    headers:
+      Host: ecc.vtcss.top
+    path: /blue
+- alterId: 0
+  cipher: auto
+  name: 香港 07_3@50
+  network: ws
+  port: 80
+  server: 154.92.9.52
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: dd41b5cb-b72e-4a8c-c75a-3ecc928d6eb3
+  ws-opts:
+    headers:
+      Host: ecc.vtcss.top
+    path: /blue
+- alterId: 0
+  cipher: auto
+  name: 香港 08_3@51
+  network: ws
+  port: 80
+  server: 154.92.9.113
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: dd41b5cb-b72e-4a8c-c75a-3ecc928d6eb3
+  ws-opts:
+    headers:
+      Host: ecc.vtcss.top
+    path: /blue
+- alterId: 0
+  cipher: auto
+  name: 香港 09_3@52
+  network: ws
+  port: 80
+  server: 154.92.9.253
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: dd41b5cb-b72e-4a8c-c75a-3ecc928d6eb3
+  ws-opts:
+    headers:
+      Host: ecc.vtcss.top
+    path: /blue
+- alterId: 0
+  cipher: auto
+  name: 香港 10_3@53
+  network: ws
+  port: 80
+  server: 154.92.9.152
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: dd41b5cb-b72e-4a8c-c75a-3ecc928d6eb3
+  ws-opts:
+    headers:
+      Host: ecc.vtcss.top
+    path: /blue
+- alterId: 0
+  cipher: auto
+  name: 香港 11_3@54
+  network: ws
+  port: 80
+  server: 154.92.9.218
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: dd41b5cb-b72e-4a8c-c75a-3ecc928d6eb3
+  ws-opts:
+    headers:
+      Host: ecc.vtcss.top
+    path: /blue
 - cipher: chacha20-ietf-poly1305
   name: 日本(油管:破解资源君2.0)_4@0
   password: G!yBwPWH3Vao
@@ -3399,6 +3781,18 @@ proxies:
   tls: false
   type: vmess
   uuid: 2f278a45-940a-46c1-c886-77f3b2d33987
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸_US_美国_1_6@13
+  network: ws
+  port: 443
+  server: vde2.0bad.com
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 927094d3-d678-4763-8591-e240d0bcae87
+  ws-opts:
+    path: /chat
 - cipher: aes-128-cfb
   name: 🇨🇳_CN_中国->🇹🇼_TW_台湾_6@14
   password: QazEdcTgb159@$*
@@ -9764,24 +10158,29 @@ proxies:
   uuid: cb7001c7-e495-41ac-b942-f25f60523414
   ws-opts:
     path: /clientarea
-- alterId: 0
+- alterId: 64
   cipher: auto
-  name: 🇺🇲 美国【付费推荐：https://tt.vg/vip】456_9@2
-  network: ws
-  port: 8880
-  server: 108.162.195.141
+  name: 🇺🇲 美国【付费推荐：https://tt.vg/vip】89_9@2
+  port: 41144
+  server: 45.199.138.90
   skip-cert-verify: true
   tls: false
   type: vmess
   udp: true
-  uuid: d7ca2363-81c2-43a0-f141-352815da3ac3
-  ws-opts:
-    headers:
-      Host: uxx.vtcss.top
-    path: /qwer
+  uuid: 078eb24d-8d1d-4fbd-b914-ee58a897a35e
+- alterId: 64
+  cipher: auto
+  name: 🇺🇲 美国【付费推荐：https://tt.vg/vip】143_9@3
+  port: 34412
+  server: 173.82.55.92
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 82620a6e-dbfd-4d57-8a59-9004a4bb9e92
 - alterId: 0
   cipher: auto
-  name: 🇨🇳 中国【付费推荐：https://tt.vg/vip】374_9@3
+  name: 🇨🇳 中国【付费推荐：https://tt.vg/vip】374_9@5
   network: ws
   port: 443
   server: 103.184.44.202
@@ -9794,39 +10193,9 @@ proxies:
     headers:
       Host: uxx.vtcss.top
     path: /qwer
-- alterId: 64
-  cipher: auto
-  name: 🇺🇲 美国【付费推荐：https://tt.vg/vip】89_9@4
-  port: 41144
-  server: 45.199.138.90
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 078eb24d-8d1d-4fbd-b914-ee58a897a35e
-- alterId: 64
-  cipher: auto
-  name: 🇺🇲 美国【付费推荐：https://tt.vg/vip】143_9@6
-  port: 34412
-  server: 173.82.55.92
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 82620a6e-dbfd-4d57-8a59-9004a4bb9e92
-- alterId: 64
-  cipher: auto
-  name: 🇺🇲 美国【付费推荐：https://tt.vg/vip】177_9@9
-  port: 40200
-  server: 45.199.138.154
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 130c9f2e-42b1-4ebf-b345-e26456a061f9
 - alterId: 0
   cipher: auto
-  name: 🇺🇲 美国【付费推荐：https://tt.vg/vip】388_9@13
+  name: 🇺🇲 美国【付费推荐：https://tt.vg/vip】388_9@6
   network: ws
   port: 8080
   server: 104.25.179.44
@@ -9839,69 +10208,9 @@ proxies:
     headers:
       Host: uxx.vtcss.top
     path: /qwer
-- alterId: 64
-  cipher: auto
-  name: 🇺🇲 美国【付费推荐：https://tt.vg/vip】165_9@14
-  port: 42111
-  server: 45.199.138.145
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 4ec0ae62-de09-4029-904a-0313d4628ecf
-- alterId: 64
-  cipher: auto
-  name: 🇺🇲 美国【付费推荐：https://tt.vg/vip】139_9@15
-  port: 48344
-  server: 45.199.138.29
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 743bdc87-1dea-41bf-aa0b-51dfbbfec8aa
-- alterId: 64
-  cipher: auto
-  name: 🇺🇲 美国【付费推荐：https://tt.vg/vip】240_9@16
-  port: 55602
-  server: 140.99.49.56
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
-  name: 🇺🇲 美国【付费推荐：https://tt.vg/vip】120_9@17
-  port: 44672
-  server: 198.2.203.51
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
-  name: 🇺🇲 美国【付费推荐：https://tt.vg/vip】142_9@18
-  port: 48123
-  server: 156.225.67.47
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 3ca912da-6ac2-418f-b9cf-45b6f694579b
-- alterId: 64
-  cipher: auto
-  name: 🇺🇲 美国【付费推荐：https://tt.vg/vip】436_9@22
-  port: 42941
-  server: 23.225.211.21
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: 🇺🇲 美国【付费推荐：https://tt.vg/vip】459_9@24
+  name: 🇺🇲 美国【付费推荐：https://tt.vg/vip】459_9@7
   network: ws
   port: 8880
   server: 141.101.123.18
@@ -9916,7 +10225,17 @@ proxies:
     path: /qwer
 - alterId: 64
   cipher: auto
-  name: 🇺🇲 美国【付费推荐：https://tt.vg/vip】413_9@25
+  name: 🇺🇲 美国【付费推荐：https://tt.vg/vip】120_9@10
+  port: 44672
+  server: 198.2.203.51
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
+  cipher: auto
+  name: 🇺🇲 美国【付费推荐：https://tt.vg/vip】413_9@14
   port: 46321
   server: 107.167.29.235
   skip-cert-verify: true
@@ -9926,7 +10245,32 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: 🇭🇰 香港【付费推荐：https://tt.vg/vip】50_9@27
+  name: 🇺🇲 美国【付费推荐：https://tt.vg/vip】456_9@15
+  network: ws
+  port: 8880
+  server: 108.162.195.141
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d7ca2363-81c2-43a0-f141-352815da3ac3
+  ws-opts:
+    headers:
+      Host: uxx.vtcss.top
+    path: /qwer
+- alterId: 64
+  cipher: auto
+  name: 🇺🇲 美国【付费推荐：https://tt.vg/vip】165_9@17
+  port: 42111
+  server: 45.199.138.145
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 4ec0ae62-de09-4029-904a-0313d4628ecf
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰 香港【付费推荐：https://tt.vg/vip】50_9@20
   network: ws
   port: 443
   server: 167.179.32.53
@@ -9941,14 +10285,14 @@ proxies:
     path: a2284cc1
 - alterId: 64
   cipher: auto
-  name: 🇺🇲 美国【付费推荐：https://tt.vg/vip】440_9@28
-  port: 51140
-  server: 45.58.186.81
+  name: 🇺🇲 美国【付费推荐：https://tt.vg/vip】436_9@24
+  port: 42941
+  server: 23.225.211.21
   skip-cert-verify: true
   tls: false
   type: vmess
   udp: true
-  uuid: 4a138e19-0595-4d51-83c6-fd276cf7d307
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 proxy-groups:
 - name: 🚀 节点选择
   proxies:
@@ -10050,32 +10394,57 @@ proxy-groups:
   - 🇺🇸 _US_美国 28_1@46
   - 🇨🇦 _CA_加拿大->🇫🇷_FR_法国_1@47
   - 🇸🇬 _SG_新加坡 2_1@49
-  - 中国 01_3@0
-  - 中国 02_3@1
-  - 俄罗斯 01_3@2
-  - 哥斯达黎加 01_3@4
-  - 塞浦路斯 01_3@5
-  - 德国 01_3@6
-  - 美国 01_3@7
-  - 美国 02_3@8
-  - 美国 04_3@10
-  - 美国 05_3@11
-  - 美国 06_3@12
-  - 美国 07_3@13
-  - 美国 09_3@15
-  - 美国 10_3@16
-  - 美国 11_3@17
-  - 美国 13_3@19
-  - 美国 14_3@20
-  - 美国 15_3@21
-  - 美国 16_3@22
-  - 美国 17_3@23
-  - 美国 18_3@24
-  - 西班牙 01_3@25
-  - 西班牙 02_3@26
-  - 香港 01_3@27
-  - 香港 02_3@28
-  - 香港 03_3@29
+  - 俄罗斯 01_3@0
+  - 哥斯达黎加 01_3@2
+  - 哥斯达黎加 02_3@3
+  - 塞浦路斯 01_3@4
+  - 美国 01_3@5
+  - 美国 02_3@6
+  - 美国 04_3@8
+  - 美国 05_3@9
+  - 美国 06_3@10
+  - 美国 07_3@11
+  - 美国 09_3@13
+  - 美国 10_3@14
+  - 美国 11_3@15
+  - 美国 13_3@17
+  - 美国 14_3@18
+  - 美国 15_3@19
+  - 美国 16_3@20
+  - 美国 17_3@21
+  - 美国 18_3@22
+  - 美国 19_3@23
+  - 美国 20_3@24
+  - 美国 21_3@25
+  - 美国 22_3@26
+  - 美国 23_3@27
+  - 美国 24_3@28
+  - 美国 25_3@29
+  - 美国 26_3@30
+  - 美国 27_3@31
+  - 美国 28_3@32
+  - 美国 29_3@33
+  - 美国 30_3@34
+  - 美国 31_3@35
+  - 美国 32_3@36
+  - 美国 33_3@37
+  - 美国 34_3@38
+  - 美国 35_3@39
+  - 美国 36_3@40
+  - 荷兰 01_3@41
+  - 西班牙 01_3@42
+  - 西班牙 02_3@43
+  - 香港 01_3@44
+  - 香港 02_3@45
+  - 香港 03_3@46
+  - 香港 04_3@47
+  - 香港 05_3@48
+  - 香港 06_3@49
+  - 香港 07_3@50
+  - 香港 08_3@51
+  - 香港 09_3@52
+  - 香港 10_3@53
+  - 香港 11_3@54
   - 日本(油管:破解资源君2.0)_4@0
   - 日本(油管:破解资源君2.0) 2_4@1
   - 日本(油管:破解资源君2.0) 3_4@2
@@ -10260,6 +10629,7 @@ proxy-groups:
   - 🇳🇱_NL_荷兰_8_6@10
   - 🇳🇱_NL_荷兰_9_6@11
   - 🇨🇳_CN_中国_2_6@12
+  - 🇺🇸_US_美国_1_6@13
   - 🇨🇳_CN_中国->🇹🇼_TW_台湾_6@14
   - 🇰🇷_KR_韩国_6@15
   - 🇸🇬_SG_新加坡_1_6@16
@@ -10900,22 +11270,17 @@ proxy-groups:
   - 🇺🇸_US_美国_15_24@40_8@630
   - 🇺🇸_US_美国_16_24@41_8@631
   - 🇨🇦_CA_加拿大_3_24@42_8@632
-  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】456_9@2
-  - 🇨🇳 中国【付费推荐：https://tt.vg/vip】374_9@3
-  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】89_9@4
-  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】143_9@6
-  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】177_9@9
-  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】388_9@13
-  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】165_9@14
-  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】139_9@15
-  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】240_9@16
-  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】120_9@17
-  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】142_9@18
-  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】436_9@22
-  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】459_9@24
-  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】413_9@25
-  - 🇭🇰 香港【付费推荐：https://tt.vg/vip】50_9@27
-  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】440_9@28
+  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】89_9@2
+  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】143_9@3
+  - 🇨🇳 中国【付费推荐：https://tt.vg/vip】374_9@5
+  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】388_9@6
+  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】459_9@7
+  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】120_9@10
+  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】413_9@14
+  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】456_9@15
+  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】165_9@17
+  - 🇭🇰 香港【付费推荐：https://tt.vg/vip】50_9@20
+  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】436_9@24
   type: select
 - interval: 300
   name: ♻️ 自动选择
@@ -11016,32 +11381,57 @@ proxy-groups:
   - 🇺🇸 _US_美国 28_1@46
   - 🇨🇦 _CA_加拿大->🇫🇷_FR_法国_1@47
   - 🇸🇬 _SG_新加坡 2_1@49
-  - 中国 01_3@0
-  - 中国 02_3@1
-  - 俄罗斯 01_3@2
-  - 哥斯达黎加 01_3@4
-  - 塞浦路斯 01_3@5
-  - 德国 01_3@6
-  - 美国 01_3@7
-  - 美国 02_3@8
-  - 美国 04_3@10
-  - 美国 05_3@11
-  - 美国 06_3@12
-  - 美国 07_3@13
-  - 美国 09_3@15
-  - 美国 10_3@16
-  - 美国 11_3@17
-  - 美国 13_3@19
-  - 美国 14_3@20
-  - 美国 15_3@21
-  - 美国 16_3@22
-  - 美国 17_3@23
-  - 美国 18_3@24
-  - 西班牙 01_3@25
-  - 西班牙 02_3@26
-  - 香港 01_3@27
-  - 香港 02_3@28
-  - 香港 03_3@29
+  - 俄罗斯 01_3@0
+  - 哥斯达黎加 01_3@2
+  - 哥斯达黎加 02_3@3
+  - 塞浦路斯 01_3@4
+  - 美国 01_3@5
+  - 美国 02_3@6
+  - 美国 04_3@8
+  - 美国 05_3@9
+  - 美国 06_3@10
+  - 美国 07_3@11
+  - 美国 09_3@13
+  - 美国 10_3@14
+  - 美国 11_3@15
+  - 美国 13_3@17
+  - 美国 14_3@18
+  - 美国 15_3@19
+  - 美国 16_3@20
+  - 美国 17_3@21
+  - 美国 18_3@22
+  - 美国 19_3@23
+  - 美国 20_3@24
+  - 美国 21_3@25
+  - 美国 22_3@26
+  - 美国 23_3@27
+  - 美国 24_3@28
+  - 美国 25_3@29
+  - 美国 26_3@30
+  - 美国 27_3@31
+  - 美国 28_3@32
+  - 美国 29_3@33
+  - 美国 30_3@34
+  - 美国 31_3@35
+  - 美国 32_3@36
+  - 美国 33_3@37
+  - 美国 34_3@38
+  - 美国 35_3@39
+  - 美国 36_3@40
+  - 荷兰 01_3@41
+  - 西班牙 01_3@42
+  - 西班牙 02_3@43
+  - 香港 01_3@44
+  - 香港 02_3@45
+  - 香港 03_3@46
+  - 香港 04_3@47
+  - 香港 05_3@48
+  - 香港 06_3@49
+  - 香港 07_3@50
+  - 香港 08_3@51
+  - 香港 09_3@52
+  - 香港 10_3@53
+  - 香港 11_3@54
   - 日本(油管:破解资源君2.0)_4@0
   - 日本(油管:破解资源君2.0) 2_4@1
   - 日本(油管:破解资源君2.0) 3_4@2
@@ -11226,6 +11616,7 @@ proxy-groups:
   - 🇳🇱_NL_荷兰_8_6@10
   - 🇳🇱_NL_荷兰_9_6@11
   - 🇨🇳_CN_中国_2_6@12
+  - 🇺🇸_US_美国_1_6@13
   - 🇨🇳_CN_中国->🇹🇼_TW_台湾_6@14
   - 🇰🇷_KR_韩国_6@15
   - 🇸🇬_SG_新加坡_1_6@16
@@ -11866,22 +12257,17 @@ proxy-groups:
   - 🇺🇸_US_美国_15_24@40_8@630
   - 🇺🇸_US_美国_16_24@41_8@631
   - 🇨🇦_CA_加拿大_3_24@42_8@632
-  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】456_9@2
-  - 🇨🇳 中国【付费推荐：https://tt.vg/vip】374_9@3
-  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】89_9@4
-  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】143_9@6
-  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】177_9@9
-  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】388_9@13
-  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】165_9@14
-  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】139_9@15
-  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】240_9@16
-  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】120_9@17
-  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】142_9@18
-  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】436_9@22
-  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】459_9@24
-  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】413_9@25
-  - 🇭🇰 香港【付费推荐：https://tt.vg/vip】50_9@27
-  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】440_9@28
+  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】89_9@2
+  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】143_9@3
+  - 🇨🇳 中国【付费推荐：https://tt.vg/vip】374_9@5
+  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】388_9@6
+  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】459_9@7
+  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】120_9@10
+  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】413_9@14
+  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】456_9@15
+  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】165_9@17
+  - 🇭🇰 香港【付费推荐：https://tt.vg/vip】50_9@20
+  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】436_9@24
   tolerance: 50
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -11986,32 +12372,57 @@ proxy-groups:
   - 🇺🇸 _US_美国 28_1@46
   - 🇨🇦 _CA_加拿大->🇫🇷_FR_法国_1@47
   - 🇸🇬 _SG_新加坡 2_1@49
-  - 中国 01_3@0
-  - 中国 02_3@1
-  - 俄罗斯 01_3@2
-  - 哥斯达黎加 01_3@4
-  - 塞浦路斯 01_3@5
-  - 德国 01_3@6
-  - 美国 01_3@7
-  - 美国 02_3@8
-  - 美国 04_3@10
-  - 美国 05_3@11
-  - 美国 06_3@12
-  - 美国 07_3@13
-  - 美国 09_3@15
-  - 美国 10_3@16
-  - 美国 11_3@17
-  - 美国 13_3@19
-  - 美国 14_3@20
-  - 美国 15_3@21
-  - 美国 16_3@22
-  - 美国 17_3@23
-  - 美国 18_3@24
-  - 西班牙 01_3@25
-  - 西班牙 02_3@26
-  - 香港 01_3@27
-  - 香港 02_3@28
-  - 香港 03_3@29
+  - 俄罗斯 01_3@0
+  - 哥斯达黎加 01_3@2
+  - 哥斯达黎加 02_3@3
+  - 塞浦路斯 01_3@4
+  - 美国 01_3@5
+  - 美国 02_3@6
+  - 美国 04_3@8
+  - 美国 05_3@9
+  - 美国 06_3@10
+  - 美国 07_3@11
+  - 美国 09_3@13
+  - 美国 10_3@14
+  - 美国 11_3@15
+  - 美国 13_3@17
+  - 美国 14_3@18
+  - 美国 15_3@19
+  - 美国 16_3@20
+  - 美国 17_3@21
+  - 美国 18_3@22
+  - 美国 19_3@23
+  - 美国 20_3@24
+  - 美国 21_3@25
+  - 美国 22_3@26
+  - 美国 23_3@27
+  - 美国 24_3@28
+  - 美国 25_3@29
+  - 美国 26_3@30
+  - 美国 27_3@31
+  - 美国 28_3@32
+  - 美国 29_3@33
+  - 美国 30_3@34
+  - 美国 31_3@35
+  - 美国 32_3@36
+  - 美国 33_3@37
+  - 美国 34_3@38
+  - 美国 35_3@39
+  - 美国 36_3@40
+  - 荷兰 01_3@41
+  - 西班牙 01_3@42
+  - 西班牙 02_3@43
+  - 香港 01_3@44
+  - 香港 02_3@45
+  - 香港 03_3@46
+  - 香港 04_3@47
+  - 香港 05_3@48
+  - 香港 06_3@49
+  - 香港 07_3@50
+  - 香港 08_3@51
+  - 香港 09_3@52
+  - 香港 10_3@53
+  - 香港 11_3@54
   - 日本(油管:破解资源君2.0)_4@0
   - 日本(油管:破解资源君2.0) 2_4@1
   - 日本(油管:破解资源君2.0) 3_4@2
@@ -12196,6 +12607,7 @@ proxy-groups:
   - 🇳🇱_NL_荷兰_8_6@10
   - 🇳🇱_NL_荷兰_9_6@11
   - 🇨🇳_CN_中国_2_6@12
+  - 🇺🇸_US_美国_1_6@13
   - 🇨🇳_CN_中国->🇹🇼_TW_台湾_6@14
   - 🇰🇷_KR_韩国_6@15
   - 🇸🇬_SG_新加坡_1_6@16
@@ -12836,22 +13248,17 @@ proxy-groups:
   - 🇺🇸_US_美国_15_24@40_8@630
   - 🇺🇸_US_美国_16_24@41_8@631
   - 🇨🇦_CA_加拿大_3_24@42_8@632
-  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】456_9@2
-  - 🇨🇳 中国【付费推荐：https://tt.vg/vip】374_9@3
-  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】89_9@4
-  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】143_9@6
-  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】177_9@9
-  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】388_9@13
-  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】165_9@14
-  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】139_9@15
-  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】240_9@16
-  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】120_9@17
-  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】142_9@18
-  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】436_9@22
-  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】459_9@24
-  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】413_9@25
-  - 🇭🇰 香港【付费推荐：https://tt.vg/vip】50_9@27
-  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】440_9@28
+  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】89_9@2
+  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】143_9@3
+  - 🇨🇳 中国【付费推荐：https://tt.vg/vip】374_9@5
+  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】388_9@6
+  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】459_9@7
+  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】120_9@10
+  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】413_9@14
+  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】456_9@15
+  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】165_9@17
+  - 🇭🇰 香港【付费推荐：https://tt.vg/vip】50_9@20
+  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】436_9@24
   type: select
 - name: 📲 电报信息
   proxies:
@@ -12953,32 +13360,57 @@ proxy-groups:
   - 🇺🇸 _US_美国 28_1@46
   - 🇨🇦 _CA_加拿大->🇫🇷_FR_法国_1@47
   - 🇸🇬 _SG_新加坡 2_1@49
-  - 中国 01_3@0
-  - 中国 02_3@1
-  - 俄罗斯 01_3@2
-  - 哥斯达黎加 01_3@4
-  - 塞浦路斯 01_3@5
-  - 德国 01_3@6
-  - 美国 01_3@7
-  - 美国 02_3@8
-  - 美国 04_3@10
-  - 美国 05_3@11
-  - 美国 06_3@12
-  - 美国 07_3@13
-  - 美国 09_3@15
-  - 美国 10_3@16
-  - 美国 11_3@17
-  - 美国 13_3@19
-  - 美国 14_3@20
-  - 美国 15_3@21
-  - 美国 16_3@22
-  - 美国 17_3@23
-  - 美国 18_3@24
-  - 西班牙 01_3@25
-  - 西班牙 02_3@26
-  - 香港 01_3@27
-  - 香港 02_3@28
-  - 香港 03_3@29
+  - 俄罗斯 01_3@0
+  - 哥斯达黎加 01_3@2
+  - 哥斯达黎加 02_3@3
+  - 塞浦路斯 01_3@4
+  - 美国 01_3@5
+  - 美国 02_3@6
+  - 美国 04_3@8
+  - 美国 05_3@9
+  - 美国 06_3@10
+  - 美国 07_3@11
+  - 美国 09_3@13
+  - 美国 10_3@14
+  - 美国 11_3@15
+  - 美国 13_3@17
+  - 美国 14_3@18
+  - 美国 15_3@19
+  - 美国 16_3@20
+  - 美国 17_3@21
+  - 美国 18_3@22
+  - 美国 19_3@23
+  - 美国 20_3@24
+  - 美国 21_3@25
+  - 美国 22_3@26
+  - 美国 23_3@27
+  - 美国 24_3@28
+  - 美国 25_3@29
+  - 美国 26_3@30
+  - 美国 27_3@31
+  - 美国 28_3@32
+  - 美国 29_3@33
+  - 美国 30_3@34
+  - 美国 31_3@35
+  - 美国 32_3@36
+  - 美国 33_3@37
+  - 美国 34_3@38
+  - 美国 35_3@39
+  - 美国 36_3@40
+  - 荷兰 01_3@41
+  - 西班牙 01_3@42
+  - 西班牙 02_3@43
+  - 香港 01_3@44
+  - 香港 02_3@45
+  - 香港 03_3@46
+  - 香港 04_3@47
+  - 香港 05_3@48
+  - 香港 06_3@49
+  - 香港 07_3@50
+  - 香港 08_3@51
+  - 香港 09_3@52
+  - 香港 10_3@53
+  - 香港 11_3@54
   - 日本(油管:破解资源君2.0)_4@0
   - 日本(油管:破解资源君2.0) 2_4@1
   - 日本(油管:破解资源君2.0) 3_4@2
@@ -13163,6 +13595,7 @@ proxy-groups:
   - 🇳🇱_NL_荷兰_8_6@10
   - 🇳🇱_NL_荷兰_9_6@11
   - 🇨🇳_CN_中国_2_6@12
+  - 🇺🇸_US_美国_1_6@13
   - 🇨🇳_CN_中国->🇹🇼_TW_台湾_6@14
   - 🇰🇷_KR_韩国_6@15
   - 🇸🇬_SG_新加坡_1_6@16
@@ -13803,22 +14236,17 @@ proxy-groups:
   - 🇺🇸_US_美国_15_24@40_8@630
   - 🇺🇸_US_美国_16_24@41_8@631
   - 🇨🇦_CA_加拿大_3_24@42_8@632
-  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】456_9@2
-  - 🇨🇳 中国【付费推荐：https://tt.vg/vip】374_9@3
-  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】89_9@4
-  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】143_9@6
-  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】177_9@9
-  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】388_9@13
-  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】165_9@14
-  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】139_9@15
-  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】240_9@16
-  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】120_9@17
-  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】142_9@18
-  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】436_9@22
-  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】459_9@24
-  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】413_9@25
-  - 🇭🇰 香港【付费推荐：https://tt.vg/vip】50_9@27
-  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】440_9@28
+  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】89_9@2
+  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】143_9@3
+  - 🇨🇳 中国【付费推荐：https://tt.vg/vip】374_9@5
+  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】388_9@6
+  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】459_9@7
+  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】120_9@10
+  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】413_9@14
+  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】456_9@15
+  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】165_9@17
+  - 🇭🇰 香港【付费推荐：https://tt.vg/vip】50_9@20
+  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】436_9@24
   type: select
 - name: Ⓜ️ 微软服务
   proxies:
@@ -13920,32 +14348,57 @@ proxy-groups:
   - 🇺🇸 _US_美国 28_1@46
   - 🇨🇦 _CA_加拿大->🇫🇷_FR_法国_1@47
   - 🇸🇬 _SG_新加坡 2_1@49
-  - 中国 01_3@0
-  - 中国 02_3@1
-  - 俄罗斯 01_3@2
-  - 哥斯达黎加 01_3@4
-  - 塞浦路斯 01_3@5
-  - 德国 01_3@6
-  - 美国 01_3@7
-  - 美国 02_3@8
-  - 美国 04_3@10
-  - 美国 05_3@11
-  - 美国 06_3@12
-  - 美国 07_3@13
-  - 美国 09_3@15
-  - 美国 10_3@16
-  - 美国 11_3@17
-  - 美国 13_3@19
-  - 美国 14_3@20
-  - 美国 15_3@21
-  - 美国 16_3@22
-  - 美国 17_3@23
-  - 美国 18_3@24
-  - 西班牙 01_3@25
-  - 西班牙 02_3@26
-  - 香港 01_3@27
-  - 香港 02_3@28
-  - 香港 03_3@29
+  - 俄罗斯 01_3@0
+  - 哥斯达黎加 01_3@2
+  - 哥斯达黎加 02_3@3
+  - 塞浦路斯 01_3@4
+  - 美国 01_3@5
+  - 美国 02_3@6
+  - 美国 04_3@8
+  - 美国 05_3@9
+  - 美国 06_3@10
+  - 美国 07_3@11
+  - 美国 09_3@13
+  - 美国 10_3@14
+  - 美国 11_3@15
+  - 美国 13_3@17
+  - 美国 14_3@18
+  - 美国 15_3@19
+  - 美国 16_3@20
+  - 美国 17_3@21
+  - 美国 18_3@22
+  - 美国 19_3@23
+  - 美国 20_3@24
+  - 美国 21_3@25
+  - 美国 22_3@26
+  - 美国 23_3@27
+  - 美国 24_3@28
+  - 美国 25_3@29
+  - 美国 26_3@30
+  - 美国 27_3@31
+  - 美国 28_3@32
+  - 美国 29_3@33
+  - 美国 30_3@34
+  - 美国 31_3@35
+  - 美国 32_3@36
+  - 美国 33_3@37
+  - 美国 34_3@38
+  - 美国 35_3@39
+  - 美国 36_3@40
+  - 荷兰 01_3@41
+  - 西班牙 01_3@42
+  - 西班牙 02_3@43
+  - 香港 01_3@44
+  - 香港 02_3@45
+  - 香港 03_3@46
+  - 香港 04_3@47
+  - 香港 05_3@48
+  - 香港 06_3@49
+  - 香港 07_3@50
+  - 香港 08_3@51
+  - 香港 09_3@52
+  - 香港 10_3@53
+  - 香港 11_3@54
   - 日本(油管:破解资源君2.0)_4@0
   - 日本(油管:破解资源君2.0) 2_4@1
   - 日本(油管:破解资源君2.0) 3_4@2
@@ -14130,6 +14583,7 @@ proxy-groups:
   - 🇳🇱_NL_荷兰_8_6@10
   - 🇳🇱_NL_荷兰_9_6@11
   - 🇨🇳_CN_中国_2_6@12
+  - 🇺🇸_US_美国_1_6@13
   - 🇨🇳_CN_中国->🇹🇼_TW_台湾_6@14
   - 🇰🇷_KR_韩国_6@15
   - 🇸🇬_SG_新加坡_1_6@16
@@ -14770,22 +15224,17 @@ proxy-groups:
   - 🇺🇸_US_美国_15_24@40_8@630
   - 🇺🇸_US_美国_16_24@41_8@631
   - 🇨🇦_CA_加拿大_3_24@42_8@632
-  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】456_9@2
-  - 🇨🇳 中国【付费推荐：https://tt.vg/vip】374_9@3
-  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】89_9@4
-  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】143_9@6
-  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】177_9@9
-  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】388_9@13
-  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】165_9@14
-  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】139_9@15
-  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】240_9@16
-  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】120_9@17
-  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】142_9@18
-  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】436_9@22
-  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】459_9@24
-  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】413_9@25
-  - 🇭🇰 香港【付费推荐：https://tt.vg/vip】50_9@27
-  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】440_9@28
+  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】89_9@2
+  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】143_9@3
+  - 🇨🇳 中国【付费推荐：https://tt.vg/vip】374_9@5
+  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】388_9@6
+  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】459_9@7
+  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】120_9@10
+  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】413_9@14
+  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】456_9@15
+  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】165_9@17
+  - 🇭🇰 香港【付费推荐：https://tt.vg/vip】50_9@20
+  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】436_9@24
   type: select
 - name: 🍎 苹果服务
   proxies:
@@ -14887,32 +15336,57 @@ proxy-groups:
   - 🇺🇸 _US_美国 28_1@46
   - 🇨🇦 _CA_加拿大->🇫🇷_FR_法国_1@47
   - 🇸🇬 _SG_新加坡 2_1@49
-  - 中国 01_3@0
-  - 中国 02_3@1
-  - 俄罗斯 01_3@2
-  - 哥斯达黎加 01_3@4
-  - 塞浦路斯 01_3@5
-  - 德国 01_3@6
-  - 美国 01_3@7
-  - 美国 02_3@8
-  - 美国 04_3@10
-  - 美国 05_3@11
-  - 美国 06_3@12
-  - 美国 07_3@13
-  - 美国 09_3@15
-  - 美国 10_3@16
-  - 美国 11_3@17
-  - 美国 13_3@19
-  - 美国 14_3@20
-  - 美国 15_3@21
-  - 美国 16_3@22
-  - 美国 17_3@23
-  - 美国 18_3@24
-  - 西班牙 01_3@25
-  - 西班牙 02_3@26
-  - 香港 01_3@27
-  - 香港 02_3@28
-  - 香港 03_3@29
+  - 俄罗斯 01_3@0
+  - 哥斯达黎加 01_3@2
+  - 哥斯达黎加 02_3@3
+  - 塞浦路斯 01_3@4
+  - 美国 01_3@5
+  - 美国 02_3@6
+  - 美国 04_3@8
+  - 美国 05_3@9
+  - 美国 06_3@10
+  - 美国 07_3@11
+  - 美国 09_3@13
+  - 美国 10_3@14
+  - 美国 11_3@15
+  - 美国 13_3@17
+  - 美国 14_3@18
+  - 美国 15_3@19
+  - 美国 16_3@20
+  - 美国 17_3@21
+  - 美国 18_3@22
+  - 美国 19_3@23
+  - 美国 20_3@24
+  - 美国 21_3@25
+  - 美国 22_3@26
+  - 美国 23_3@27
+  - 美国 24_3@28
+  - 美国 25_3@29
+  - 美国 26_3@30
+  - 美国 27_3@31
+  - 美国 28_3@32
+  - 美国 29_3@33
+  - 美国 30_3@34
+  - 美国 31_3@35
+  - 美国 32_3@36
+  - 美国 33_3@37
+  - 美国 34_3@38
+  - 美国 35_3@39
+  - 美国 36_3@40
+  - 荷兰 01_3@41
+  - 西班牙 01_3@42
+  - 西班牙 02_3@43
+  - 香港 01_3@44
+  - 香港 02_3@45
+  - 香港 03_3@46
+  - 香港 04_3@47
+  - 香港 05_3@48
+  - 香港 06_3@49
+  - 香港 07_3@50
+  - 香港 08_3@51
+  - 香港 09_3@52
+  - 香港 10_3@53
+  - 香港 11_3@54
   - 日本(油管:破解资源君2.0)_4@0
   - 日本(油管:破解资源君2.0) 2_4@1
   - 日本(油管:破解资源君2.0) 3_4@2
@@ -15097,6 +15571,7 @@ proxy-groups:
   - 🇳🇱_NL_荷兰_8_6@10
   - 🇳🇱_NL_荷兰_9_6@11
   - 🇨🇳_CN_中国_2_6@12
+  - 🇺🇸_US_美国_1_6@13
   - 🇨🇳_CN_中国->🇹🇼_TW_台湾_6@14
   - 🇰🇷_KR_韩国_6@15
   - 🇸🇬_SG_新加坡_1_6@16
@@ -15737,22 +16212,17 @@ proxy-groups:
   - 🇺🇸_US_美国_15_24@40_8@630
   - 🇺🇸_US_美国_16_24@41_8@631
   - 🇨🇦_CA_加拿大_3_24@42_8@632
-  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】456_9@2
-  - 🇨🇳 中国【付费推荐：https://tt.vg/vip】374_9@3
-  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】89_9@4
-  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】143_9@6
-  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】177_9@9
-  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】388_9@13
-  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】165_9@14
-  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】139_9@15
-  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】240_9@16
-  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】120_9@17
-  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】142_9@18
-  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】436_9@22
-  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】459_9@24
-  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】413_9@25
-  - 🇭🇰 香港【付费推荐：https://tt.vg/vip】50_9@27
-  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】440_9@28
+  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】89_9@2
+  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】143_9@3
+  - 🇨🇳 中国【付费推荐：https://tt.vg/vip】374_9@5
+  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】388_9@6
+  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】459_9@7
+  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】120_9@10
+  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】413_9@14
+  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】456_9@15
+  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】165_9@17
+  - 🇭🇰 香港【付费推荐：https://tt.vg/vip】50_9@20
+  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】436_9@24
   type: select
 - name: 🎯 全球直连
   proxies:
@@ -15871,32 +16341,57 @@ proxy-groups:
   - 🇺🇸 _US_美国 28_1@46
   - 🇨🇦 _CA_加拿大->🇫🇷_FR_法国_1@47
   - 🇸🇬 _SG_新加坡 2_1@49
-  - 中国 01_3@0
-  - 中国 02_3@1
-  - 俄罗斯 01_3@2
-  - 哥斯达黎加 01_3@4
-  - 塞浦路斯 01_3@5
-  - 德国 01_3@6
-  - 美国 01_3@7
-  - 美国 02_3@8
-  - 美国 04_3@10
-  - 美国 05_3@11
-  - 美国 06_3@12
-  - 美国 07_3@13
-  - 美国 09_3@15
-  - 美国 10_3@16
-  - 美国 11_3@17
-  - 美国 13_3@19
-  - 美国 14_3@20
-  - 美国 15_3@21
-  - 美国 16_3@22
-  - 美国 17_3@23
-  - 美国 18_3@24
-  - 西班牙 01_3@25
-  - 西班牙 02_3@26
-  - 香港 01_3@27
-  - 香港 02_3@28
-  - 香港 03_3@29
+  - 俄罗斯 01_3@0
+  - 哥斯达黎加 01_3@2
+  - 哥斯达黎加 02_3@3
+  - 塞浦路斯 01_3@4
+  - 美国 01_3@5
+  - 美国 02_3@6
+  - 美国 04_3@8
+  - 美国 05_3@9
+  - 美国 06_3@10
+  - 美国 07_3@11
+  - 美国 09_3@13
+  - 美国 10_3@14
+  - 美国 11_3@15
+  - 美国 13_3@17
+  - 美国 14_3@18
+  - 美国 15_3@19
+  - 美国 16_3@20
+  - 美国 17_3@21
+  - 美国 18_3@22
+  - 美国 19_3@23
+  - 美国 20_3@24
+  - 美国 21_3@25
+  - 美国 22_3@26
+  - 美国 23_3@27
+  - 美国 24_3@28
+  - 美国 25_3@29
+  - 美国 26_3@30
+  - 美国 27_3@31
+  - 美国 28_3@32
+  - 美国 29_3@33
+  - 美国 30_3@34
+  - 美国 31_3@35
+  - 美国 32_3@36
+  - 美国 33_3@37
+  - 美国 34_3@38
+  - 美国 35_3@39
+  - 美国 36_3@40
+  - 荷兰 01_3@41
+  - 西班牙 01_3@42
+  - 西班牙 02_3@43
+  - 香港 01_3@44
+  - 香港 02_3@45
+  - 香港 03_3@46
+  - 香港 04_3@47
+  - 香港 05_3@48
+  - 香港 06_3@49
+  - 香港 07_3@50
+  - 香港 08_3@51
+  - 香港 09_3@52
+  - 香港 10_3@53
+  - 香港 11_3@54
   - 日本(油管:破解资源君2.0)_4@0
   - 日本(油管:破解资源君2.0) 2_4@1
   - 日本(油管:破解资源君2.0) 3_4@2
@@ -16081,6 +16576,7 @@ proxy-groups:
   - 🇳🇱_NL_荷兰_8_6@10
   - 🇳🇱_NL_荷兰_9_6@11
   - 🇨🇳_CN_中国_2_6@12
+  - 🇺🇸_US_美国_1_6@13
   - 🇨🇳_CN_中国->🇹🇼_TW_台湾_6@14
   - 🇰🇷_KR_韩国_6@15
   - 🇸🇬_SG_新加坡_1_6@16
@@ -16721,22 +17217,17 @@ proxy-groups:
   - 🇺🇸_US_美国_15_24@40_8@630
   - 🇺🇸_US_美国_16_24@41_8@631
   - 🇨🇦_CA_加拿大_3_24@42_8@632
-  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】456_9@2
-  - 🇨🇳 中国【付费推荐：https://tt.vg/vip】374_9@3
-  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】89_9@4
-  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】143_9@6
-  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】177_9@9
-  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】388_9@13
-  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】165_9@14
-  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】139_9@15
-  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】240_9@16
-  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】120_9@17
-  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】142_9@18
-  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】436_9@22
-  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】459_9@24
-  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】413_9@25
-  - 🇭🇰 香港【付费推荐：https://tt.vg/vip】50_9@27
-  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】440_9@28
+  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】89_9@2
+  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】143_9@3
+  - 🇨🇳 中国【付费推荐：https://tt.vg/vip】374_9@5
+  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】388_9@6
+  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】459_9@7
+  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】120_9@10
+  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】413_9@14
+  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】456_9@15
+  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】165_9@17
+  - 🇭🇰 香港【付费推荐：https://tt.vg/vip】50_9@20
+  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】436_9@24
   type: select
 rules:
 - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连

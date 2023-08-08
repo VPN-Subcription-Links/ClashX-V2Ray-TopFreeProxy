@@ -1,10 +1,10 @@
 # Squash Bot Commits
-name: Daily Squash
+name: Weekly Squash
 
 on:
-  # Runs every 24 hours
+  # Runs every week
   schedule:
-    - cron: '0 */24 * * *'
+    - cron: '0 0 * * 0'
 
   # Manual updates
   workflow_dispatch:
@@ -19,43 +19,34 @@ jobs:
           fetch-depth: 0  # Fetch all history
 
       - name: Squash Bot Commits
-        env:
-          # EDITOR: vim
-          BOT_EMAIL: "action@github.com"
         run: |
           git config --global user.name "GitHub Action"
           git config --global user.email "action@github.com"
 
-          # Get authors of the last 10 commits
-          authors=$(git log -10 --pretty=format:"%aN")
+          # Get authors of the last 21 commits
+          authors=$(git log -21 --pretty=format:"%aN")
           
-          # Prepare the rebase instructions
-          instructions=""
-
-          # Loop through the authors to decide which commits to pick or squash
+          # Temporary file for rebase instructions
+          tmp_file="/tmp/rebase-instructions"
+          >$tmp_file
+          
+          # Loop through the authors to pick or squash
           count=0
           echo "$authors" | while read author; do
             if [[ "$author" == "GitHub Action" ]] && [[ "$count" -ne 0 ]]; then
-              instructions+="squash "
+              echo "squash $(git rev-parse HEAD~$count)" >> $tmp_file
             else
-              instructions+="pick "
+              echo "pick $(git rev-parse HEAD~$count)" >> $tmp_file
             fi
             
             # Increment count if it's a bot commit
             [[ "$author" == "GitHub Action" ]] && count=$((count+1))
-            
-            instructions+=$(git rev-parse HEAD~$count)
-            instructions+=$'\n'
           done
 
-          # Save the instructions to a temporary file
-          echo "$instructions" > /tmp/rebase-instructions
-
           # Perform the rebase
-          EDITOR="cat /tmp/rebase-instructions >" git rebase -i HEAD~10
+          EDITOR="cat" git rebase -i HEAD~21 < /tmp/rebase-instructions
 
       - name: Force push to the branch
         run: |
           git commit --amend -m "squash"
           git push origin main --force
-          

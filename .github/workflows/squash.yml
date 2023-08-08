@@ -1,0 +1,40 @@
+# Squash Bot Commits
+name: Daily Squash
+
+on:
+  # Runs every 24 hours
+  schedule:
+    - cron: '0 */24 * * *'
+
+  # Manual updates
+  workflow_dispatch:
+
+jobs:
+  squash:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0  # Fetch all history
+
+      - name: Squash Last 3 Bot Commits
+        env:
+          EDITOR: vim
+        run: |
+          git config --global user.name "GitHub Action"
+          git config --global user.email "action@github.com"
+          
+          # Store rebase instructions in a temporary file
+          cat <<-EOS > /tmp/rebase-instructions
+            pick $(git rev-parse HEAD~2)
+            squash $(git rev-parse HEAD~1)
+            squash $(git rev-parse HEAD)
+          EOS
+
+          # Automate Rebase
+          EDITOR="cat /tmp/rebase-instructions >" git rebase -i HEAD~3
+  
+      - name: Force push to the branch
+        run: git push origin main --force
+        

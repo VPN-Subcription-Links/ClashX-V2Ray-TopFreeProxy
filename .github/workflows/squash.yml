@@ -28,11 +28,14 @@ jobs:
           
           # Rebase instruction to squash bot commits only
           git log --pretty=format:'%H %ae' HEAD~10 |
-          awk -v bot_email=$BOT_EMAIL '{
-            if ($2 == bot_email) {
-              print "squash "$1
+          awk -v bot_email=$BOT_EMAIL 'BEGIN { first=1 } {
+            if (first) {
+              print "pick "$1;
+              first=0;
+            } else if ($2 == bot_email) {
+              print "squash "$1;
             } else {
-              print "pick "$1
+              print "pick "$1;
             }
           }' > /tmp/rebase-instructions
 

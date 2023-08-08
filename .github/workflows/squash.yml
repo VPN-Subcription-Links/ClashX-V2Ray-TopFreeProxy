@@ -44,7 +44,7 @@ jobs:
           done
 
           # Perform the rebase
-          GIT_SEQUENCE_EDITOR="cat" git rebase -i HEAD~21 < $tmp_file
+          GIT_EDITOR="cat" git rebase -i HEAD~21 < $tmp_file
 
       - name: Force push to the branch
         run: |

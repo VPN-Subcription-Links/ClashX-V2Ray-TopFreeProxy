@@ -18,7 +18,7 @@ jobs:
         with:
           fetch-depth: 0  # Fetch all history
 
-      - name: Squash Last 3 Bot Commits
+      - name: Squash Bot Commits
         env:
           # EDITOR: vim
           BOT_EMAIL: "action@github.com"
@@ -26,24 +26,30 @@ jobs:
           git config --global user.name "GitHub Action"
           git config --global user.email "action@github.com"
           
-          # Rebase instruction to squash bot commits only
-          git log --pretty=format:'%H %ae' HEAD~10 |
-          awk -v bot_email=$BOT_EMAIL 'BEGIN { first=1 } {
-            if (first) {
-              print "pick "$1;
-              first=0;
-            } else if ($2 == bot_email) {
-              print "squash "$1;
-            } else {
-              print "pick "$1;
-            }
-          }' > /tmp/rebase-instructions
+          # Prepare the rebase instructions
+          instructions=""
+
+          # Loop through the authors to decide which commits to pick or squash
+          count=0
+          echo "$authors" | while read author; do
+            if [[ "$author" == "GitHub Action" ]] && [[ "$count" -ne 0 ]]; then
+              instructions+="squash "
+            else
+              instructions+="pick "
+            fi
+            
+            # Increment count if it's a bot commit
+            [[ "$author" == "GitHub Action" ]] && count=$((count+1))
+            
+            instructions+=$(git rev-parse HEAD~$count)
+            instructions+=$'\n'
+          done
+
+          # Save the instructions to a temporary file
+          echo "$instructions" > /tmp/rebase-instructions
 
           # Automate Rebase
-          EDITOR="cat /tmp/rebase-instructions >" git rebase -i HEAD~10 || {
-            echo "Skip problematic commit"
-            git rebase --skip
-          }
+          EDITOR="cat /tmp/rebase-instructions >" git rebase -i HEAD~10
   
       - name: Force push to the branch
         run: |

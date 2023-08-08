@@ -20,21 +20,27 @@ jobs:
 
       - name: Squash Last 3 Bot Commits
         env:
-          EDITOR: vim
+          # EDITOR: vim
+          BOT_EMAIL: "action@github.com"
         run: |
           git config --global user.name "GitHub Action"
           git config --global user.email "action@github.com"
           
-          # Store rebase instructions in a temporary file
-          cat <<-EOS > /tmp/rebase-instructions
-            pick $(git rev-parse HEAD~2)
-            squash $(git rev-parse HEAD~1)
-            squash $(git rev-parse HEAD)
-          EOS
+          # Rebase instruction to squash bot commits only
+          git log --pretty=format:'%H %ae' HEAD~10 |
+          awk -v bot_email=$BOT_EMAIL '{
+            if ($2 == bot_email) {
+              print "squash "$1
+            } else {
+              print "pick "$1
+            }
+          }' > /tmp/rebase-instructions
 
           # Automate Rebase
-          EDITOR="cat /tmp/rebase-instructions >" git rebase -i HEAD~3
+          EDITOR="cat /tmp/rebase-instructions >" git rebase -i HEAD~10
   
       - name: Force push to the branch
-        run: git push origin main --force
-        
+        run: |
+          git commit --amend -m "squash"
+          git push origin main --force
+          

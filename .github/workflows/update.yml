@@ -2,7 +2,7 @@
 name: Daily Update
 
 on:
-  # Runs at 08:00 UTC every day
+  # Runs every 8 hours
   schedule:
     - cron: '0 */8 * * *'
 
@@ -13,7 +13,7 @@ jobs:
   update:
     runs-on: ubuntu-latest
     steps:
-      # Checks-out the repository under $GITHUB_WORKSPACE
+      # Checks out the repository under $GITHUB_WORKSPACE
       - uses: actions/checkout@v3
       - name: Update Links & Combine Configs
         # Condition to prevent unintended automatic workflow

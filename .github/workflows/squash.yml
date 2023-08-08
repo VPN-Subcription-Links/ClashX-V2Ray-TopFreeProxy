@@ -40,7 +40,10 @@ jobs:
           }' > /tmp/rebase-instructions
 
           # Automate Rebase
-          EDITOR="cat /tmp/rebase-instructions >" git rebase -i HEAD~10
+          EDITOR="cat /tmp/rebase-instructions >" git rebase -i HEAD~10 || {
+            echo "Skip problematic commit"
+            git rebase --skip
+          }
   
       - name: Force push to the branch
         run: |

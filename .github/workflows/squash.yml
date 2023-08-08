@@ -1,12 +1,8 @@
 # Squash Bot Commits
-name: Weekly Squash
+name: Squash
 
 on:
-  # Runs every week
-  schedule:
-    - cron: '0 0 * * 0'
-
-  # Manual updates
+  # Manual squash only
   workflow_dispatch:
 
 jobs:
@@ -16,37 +12,15 @@ jobs:
     steps:
       - uses: actions/checkout@v3
         with:
-          fetch-depth: 0  # Fetch all history
+          # Fetch all history
+          fetch-depth: 0
 
       - name: Squash Bot Commits
         run: |
-          git config --global user.name "GitHub Action"
-          git config --global user.email "action@github.com"
+          git config --global user.name "WilliamStar"
+          git config --global user.email "89805831+WilliamStar007@users.noreply.github.com"
 
-          # Get authors of the last 21 commits
-          authors=$(git log -21 --pretty=format:"%aN")
+          git reset --soft HEAD~10
+          git commit -m "squash"
+          git push -f origin main
           
-          # Temporary file for rebase instructions
-          tmp_file="/tmp/rebase-instructions"
-          >$tmp_file
-          
-          # Loop through the authors to pick or squash
-          count=0
-          echo "$authors" | while read author; do
-            if [[ "$author" == "GitHub Action" ]] && [[ "$count" -ne 0 ]]; then
-              echo "squash $(git rev-parse HEAD~$count)" >> $tmp_file
-            else
-              echo "pick $(git rev-parse HEAD~$count)" >> $tmp_file
-            fi
-            
-            # Increment count if it's a bot commit
-            [[ "$author" == "GitHub Action" ]] && count=$((count+1))
-          done
-
-          # Perform the rebase
-          GIT_SEQUENCE_EDITOR='cat $tmp_file >' git rebase -i HEAD~21
-
-      - name: Force push to the branch
-        run: |
-          git commit --amend -m "squash"
-          git push origin main --force

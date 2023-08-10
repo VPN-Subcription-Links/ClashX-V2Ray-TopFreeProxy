@@ -31,7 +31,7 @@ For a tutorial in Chinese, see [中文版教程](https://github.com/WilliamStar0
 * Download **ClashX Pro** with enhanced mode and native Apple Silicon support at [AppCenter](https://install.appcenter.ms/users/clashx/apps/clashx-pro/distribution_groups/public).
 
 ## Subscription Links
-**Modify the date (if any) in the links to the current date!!**
+<!-- **Modify the date (if any) in the links to the current date!!** -->
 
 * NodeFree: https://nodefree.org/dy/2023/08/20230809.yaml ★
 * ClashNode: https://clashnode.com/wp-content/uploads/2023/08/20230810.yaml ★

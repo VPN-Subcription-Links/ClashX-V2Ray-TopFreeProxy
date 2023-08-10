@@ -25,7 +25,7 @@
 | ClashX Pro ★ | [应用中心](https://install.appcenter.ms/users/clashx/apps/clashx-pro/distribution_groups/public) | 拥有增强模式与苹果芯片优化 |
 
 ## 订阅链接
-**使用前请修改链接中的日期（如果有的话）至目前日期**
+<!-- **使用前请修改链接中的日期（如果有的话）至目前日期** -->
 
 * NodeFree: https://nodefree.org/dy/2023/08/20230809.yaml ★
 * ClashNode: https://clashnode.com/wp-content/uploads/2023/08/20230810.yaml ★

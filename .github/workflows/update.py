@@ -18,7 +18,10 @@ def update(filename):
 
         # check url validity
         def check_url(url):
-            response = requests.get(url, timeout=3)
+            try:
+                response = requests.get(url, timeout=3)
+            except requests.exceptions.ReadTimeout:
+                return 504
             return response.status_code
 
         types = ["yaml", "txt"]

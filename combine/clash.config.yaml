@@ -7139,7 +7139,96 @@ proxies:
   server: catnet-moble.gatknqh.cn
   type: ss
   udp: true
-- name: 🇨🇳_CN_中国->🇯🇵_JP_日本_1_6@2
+- alterId: 0
+  cipher: auto
+  name: 🇨🇳_CN_中国->🇭🇰_HK_香港_1_6@1
+  network: tcp
+  port: 50010
+  server: 10.kccic2pa.xyz
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 66a5e5f4-4d18-474a-ad2d-3f11e09058e9
+- cipher: chacha20-ietf-poly1305
+  name: 🇨🇳_CN_中国->🇸🇬_SG_新加坡_1_6@2
+  password: 72f0fd15-fbb7-411f-8b33-e59a742300db
+  port: 24962
+  server: free.node.kk-proxy.pro
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 🇨🇳_CN_中国->🇺🇸_US_美国_1_6@3
+  network: tcp
+  port: 16666
+  server: cn-guangzhou.applebench.tech
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 666d382c-d614-4129-aedb-06c63982820a
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸_US_美国->🇫🇷_FR_法国_2_6@6
+  network: ws
+  port: 80
+  server: 104.31.16.14
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: d53cc5f9-b8ff-4cbe-bf10-295956c03276
+  ws-opts:
+    headers:
+      host: de1vm.cdn-03.live
+    path: /@hopev2ray
+- alterId: 0
+  cipher: auto
+  name: 🇨🇳_CN_中国->🇺🇸_US_美国_2_6@7
+  network: tcp
+  port: 50017
+  server: 17.kccic2pa.xyz
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 66a5e5f4-4d18-474a-ad2d-3f11e09058e9
+- alterId: 0
+  cipher: auto
+  name: 🇨🇳_CN_中国->🇬🇧_GB_英国_6@8
+  network: tcp
+  port: 50009
+  server: 09.kccic2pa.xyz
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 66a5e5f4-4d18-474a-ad2d-3f11e09058e9
+- cipher: chacha20-ietf-poly1305
+  name: 🇨🇳_CN_中国->🇸🇬_SG_新加坡_2_6@9
+  password: 72f0fd15-fbb7-411f-8b33-e59a742300db
+  port: 24961
+  server: free.node.kk-proxy.pro
+  type: ss
+- cipher: aes-256-cfb
+  name: 🇯🇵_JP_日本_1_6@10
+  password: amazonskr05
+  port: 443
+  server: 54.238.87.162
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇨🇳_CN_中国->🇭🇰_HK_香港_2_6@11
+  password: '123456'
+  port: 31101
+  server: cm1-go.go001.buzz
+  type: ss
+- name: 🇯🇵_JP_日本_2_6@12
+  network: ws
+  password: 3febb05ea76a940f
+  port: 3306
+  server: 103.168.155.69
+  skip-cert-verify: true
+  sni: n2.gladns.com
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /gateway/connect
+- name: 🇨🇳_CN_中国->🇯🇵_JP_日本_1_6@13
   network: tcp
   password: LYaOvuNXdQGTZNonhlRUKqOJcKVihzKY
   port: 39929
@@ -7150,112 +7239,63 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 🇨🇳_CN_中国->🇯🇵_JP_日本_2_6@3
+  name: 🇺🇸_US_美国->🇳🇱_NL_荷兰_1_6@17
   network: ws
-  port: 29968
-  server: ihine-1083-v2-1.r-kcd-b.tuil.xyz
+  port: 8880
+  server: 172.64.229.116
   skip-cert-verify: true
-  tls: true
+  tls: false
   type: vmess
-  uuid: a590e692-4c8d-42dd-ba80-b1765a34f699
+  uuid: 4b5e4565-322f-4223-a891-78a84f189726
   ws-opts:
     headers:
-      host: cdn.cjhh.lol
-    path: /je5x3pBN1vez3NQudNkB
-- cipher: aes-256-cfb
-  name: 🇰🇷_KR_韩国_1_6@4
-  password: amazonskr05
-  port: 443
-  server: 43.202.42.214
-  type: ss
+      host: netherlands.yj2022.gq
+    path: /XQ2WCa29jfDMGBcbnQ
 - alterId: 0
   cipher: auto
-  name: 🇨🇳_CN_中国->🇱🇺_LU_卢森堡_6@11
-  network: tcp
-  port: 18353
-  server: cn-guangzhou.applebench.tech
+  name: 🇺🇸_US_美国->🇨🇳_CN_中国_2_6@18
+  network: ws
+  port: 80
+  server: 172.67.6.189
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: a0043275-5033-4923-9f22-b2f466a8794a
-- name: 🇬🇧_GB_英国_1_6@13
+  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
+  ws-opts:
+    headers:
+      host: ca.ilovescp.com
+    path: /shirker
+- name: 🇨🇳_CN_中国->🇭🇰_HK_香港_3_6@19
   network: tcp
-  password: b640d791-ff83-4300-b509-c2a02f97f167
-  port: 80
-  server: 51.38.71.175
+  password: LYaOvuNXdQGTZNonhlRUKqOJcKVihzKY
+  port: 29989
+  server: rpete-1096-tr-3.r-kcd-e.iote.bond
   skip-cert-verify: true
+  sni: cdn.cjhh.lol
   type: trojan
   udp: true
-- name: 🇬🇧_GB_英国_2_6@14
+- name: 🇯🇵_JP_日本_3_6@24
   network: tcp
-  password: b44579e1-f803-4981-86bc-aa8c783daa04
-  port: 80
-  server: uk1.trojanvh.xyz
+  password: d8c88fd3-7fe4-422c-acf0-b2e6fc18af20
+  port: 20003
+  server: 18.182.26.232
   skip-cert-verify: true
+  sni: fschk.1234567890spcloud.com
   type: trojan
   udp: true
-- alterId: 0
-  cipher: auto
-  name: 🇨🇳_CN_中国->🇫🇷_FR_法国_6@17
-  network: tcp
-  port: 50041
-  server: 41.kccic2pa.xyz
+- name: 🇨🇳_CN_中国->🇯🇵_JP_日本_2_6@27
+  network: ws
+  password: 8b475d9e868e43e0
+  port: 3306
+  server: 110.72.99.118
   skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 569dad3e-46e0-474f-8350-8acc959ff5f7
-- cipher: aes-256-cfb
-  name: 🇰🇷_KR_韩国_2_6@20
-  password: amazonskr05
-  port: 443
-  server: 43.202.49.88
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 🇨🇳_CN_中国->🇺🇸_US_美国_2_6@21
-  network: tcp
-  port: 50020
-  server: 20.kccic2pa.xyz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 569dad3e-46e0-474f-8350-8acc959ff5f7
-- name: 🇭🇰_HK_香港->🇸🇬_SG_新加坡_6@23
-  network: tcp
-  password: ZFYOpKqD8uEClpZ2ya83cyCDalwSOYz3F3eCxnBD4eSXNSR5R0aAATj7I3x69g
-  port: 443
-  server: 18.163.249.175
-  skip-cert-verify: true
-  sni: golang.protocolbuffer.com
+  sni: n2.gladns.com
   type: trojan
   udp: true
-- name: 🇸🇬_SG_新加坡_6@24
-  network: tcp
-  password: 16bcc187-a1a0-4b8a-8b69-627f38b7cc0d
-  port: 80
-  server: 15.235.197.4
-  skip-cert-verify: true
-  sni: 15.235.197.4
-  type: trojan
-  udp: true
-- name: 🇰🇷_KR_韩国_3_6@25
-  network: tcp
-  password: a0043275-5033-4923-9f22-b2f466a8794a
-  port: 64123
-  server: ko2.lianpi.xyz
-  skip-cert-verify: true
-  sni: apple.com
-  type: trojan
-  udp: true
-- name: 🇫🇷_FR_法国_6@27
-  network: tcp
-  password: eadf99d1-a4ab-4574-8e43-1a1050675bd3
-  port: 443
-  server: 51.38.99.96
-  skip-cert-verify: true
-  sni: sourceforge.net
-  type: trojan
-  udp: true
+  ws-opts:
+    headers:
+      host: n2.gladns.com
+    path: /gateway/connect
 - cipher: chacha20-ietf-poly1305
   name: 🇨🇳中国-安徽-合肥-ss-s400l.ddns1.pw:26001_7@4
   password: dc49f295-653a-4f3c-84d5-8626d6b3efde
@@ -13516,19 +13556,6 @@ proxies:
     path: /clientarea
 - alterId: 0
   cipher: auto
-  name: 🇺🇲 美国【付费推荐：https://tt.vg/vip】1_9@5
-  network: ws
-  port: 80
-  server: 172.67.6.189
-  tls: false
-  type: vmess
-  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
-  ws-opts:
-    headers:
-      Host: ca.ilovescp.com
-    path: /shirker
-- alterId: 0
-  cipher: auto
   name: 🇺🇲 美国【付费推荐：https://tt.vg/vip】106_9@15
   network: ws
   port: 80
@@ -13546,12 +13573,6 @@ proxies:
   port: 54455
   server: free.node.kk-proxy.pro
   type: ss
-- name: 🇨🇳 中国【付费推荐：https://tt.vg/vip】98_9@18
-  password: LYaOvuNXdQGTZNonhlRUKqOJcKVihzKY
-  port: 29989
-  server: rpete-1096-tr-3.r-kcd-e.iote.bond
-  sni: cdn.cjhh.lol
-  type: trojan
 - alterId: 0
   cipher: auto
   name: 🇺🇲 美国【付费推荐：https://tt.vg/vip】18_9@20
@@ -13591,12 +13612,6 @@ proxies:
     headers:
       Host: edge.cjhh.mom
     path: /je5x3pBN1vez3NQudNkB
-- cipher: chacha20-ietf-poly1305
-  name: 🇨🇳 中国【付费推荐：https://tt.vg/vip】102_9@31
-  password: 6b95fbcf-2e3e-472e-b3ad-b7ff33b7afce
-  port: 24961
-  server: free.node.kk-proxy.pro
-  type: ss
 - cipher: chacha20-ietf-poly1305
   name: 🇨🇳 中国【付费推荐：https://tt.vg/vip】104_9@32
   password: 2a23c437-de2c-47e3-b779-fb1d2289578f
@@ -14203,19 +14218,22 @@ proxy-groups:
   - 印度(油管:破解资源君2.0) 2_4@138
   - 英国(油管:破解资源君2.0)_4@139
   - 英国(油管:破解资源君2.0) 2_4@140
-  - 🇨🇳_CN_中国->🇯🇵_JP_日本_1_6@2
-  - 🇨🇳_CN_中国->🇯🇵_JP_日本_2_6@3
-  - 🇰🇷_KR_韩国_1_6@4
-  - 🇨🇳_CN_中国->🇱🇺_LU_卢森堡_6@11
-  - 🇬🇧_GB_英国_1_6@13
-  - 🇬🇧_GB_英国_2_6@14
-  - 🇨🇳_CN_中国->🇫🇷_FR_法国_6@17
-  - 🇰🇷_KR_韩国_2_6@20
-  - 🇨🇳_CN_中国->🇺🇸_US_美国_2_6@21
-  - 🇭🇰_HK_香港->🇸🇬_SG_新加坡_6@23
-  - 🇸🇬_SG_新加坡_6@24
-  - 🇰🇷_KR_韩国_3_6@25
-  - 🇫🇷_FR_法国_6@27
+  - 🇨🇳_CN_中国->🇭🇰_HK_香港_1_6@1
+  - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_1_6@2
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_1_6@3
+  - 🇺🇸_US_美国->🇫🇷_FR_法国_2_6@6
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_2_6@7
+  - 🇨🇳_CN_中国->🇬🇧_GB_英国_6@8
+  - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_2_6@9
+  - 🇯🇵_JP_日本_1_6@10
+  - 🇨🇳_CN_中国->🇭🇰_HK_香港_2_6@11
+  - 🇯🇵_JP_日本_2_6@12
+  - 🇨🇳_CN_中国->🇯🇵_JP_日本_1_6@13
+  - 🇺🇸_US_美国->🇳🇱_NL_荷兰_1_6@17
+  - 🇺🇸_US_美国->🇨🇳_CN_中国_2_6@18
+  - 🇨🇳_CN_中国->🇭🇰_HK_香港_3_6@19
+  - 🇯🇵_JP_日本_3_6@24
+  - 🇨🇳_CN_中国->🇯🇵_JP_日本_2_6@27
   - 🇨🇳中国-安徽-合肥-ss-s400l.ddns1.pw:26001_7@4
   - 🇺🇸美国-0-0-v2ray-51.158.98.130:443_7@9
   - 🇺🇸美国-0-0-v2ray-jp1.quickerlink.xyz:443_7@10
@@ -14848,14 +14866,11 @@ proxy-groups:
   - 🇺🇸_US_美国_15_24@40_8@630
   - 🇺🇸_US_美国_16_24@41_8@631
   - 🇨🇦_CA_加拿大_3_24@42_8@632
-  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】1_9@5
   - 🇺🇲 美国【付费推荐：https://tt.vg/vip】106_9@15
   - 🇨🇳 中国【付费推荐：https://tt.vg/vip】132_9@17
-  - 🇨🇳 中国【付费推荐：https://tt.vg/vip】98_9@18
   - 🇺🇲 美国【付费推荐：https://tt.vg/vip】18_9@20
   - 🇺🇲 美国【付费推荐：https://tt.vg/vip】3_9@21
   - 🇨🇳 中国【付费推荐：https://tt.vg/vip】75_9@24
-  - 🇨🇳 中国【付费推荐：https://tt.vg/vip】102_9@31
   - 🇨🇳 中国【付费推荐：https://tt.vg/vip】104_9@32
   type: select
 - interval: 300
@@ -15456,19 +15471,22 @@ proxy-groups:
   - 印度(油管:破解资源君2.0) 2_4@138
   - 英国(油管:破解资源君2.0)_4@139
   - 英国(油管:破解资源君2.0) 2_4@140
-  - 🇨🇳_CN_中国->🇯🇵_JP_日本_1_6@2
-  - 🇨🇳_CN_中国->🇯🇵_JP_日本_2_6@3
-  - 🇰🇷_KR_韩国_1_6@4
-  - 🇨🇳_CN_中国->🇱🇺_LU_卢森堡_6@11
-  - 🇬🇧_GB_英国_1_6@13
-  - 🇬🇧_GB_英国_2_6@14
-  - 🇨🇳_CN_中国->🇫🇷_FR_法国_6@17
-  - 🇰🇷_KR_韩国_2_6@20
-  - 🇨🇳_CN_中国->🇺🇸_US_美国_2_6@21
-  - 🇭🇰_HK_香港->🇸🇬_SG_新加坡_6@23
-  - 🇸🇬_SG_新加坡_6@24
-  - 🇰🇷_KR_韩国_3_6@25
-  - 🇫🇷_FR_法国_6@27
+  - 🇨🇳_CN_中国->🇭🇰_HK_香港_1_6@1
+  - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_1_6@2
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_1_6@3
+  - 🇺🇸_US_美国->🇫🇷_FR_法国_2_6@6
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_2_6@7
+  - 🇨🇳_CN_中国->🇬🇧_GB_英国_6@8
+  - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_2_6@9
+  - 🇯🇵_JP_日本_1_6@10
+  - 🇨🇳_CN_中国->🇭🇰_HK_香港_2_6@11
+  - 🇯🇵_JP_日本_2_6@12
+  - 🇨🇳_CN_中国->🇯🇵_JP_日本_1_6@13
+  - 🇺🇸_US_美国->🇳🇱_NL_荷兰_1_6@17
+  - 🇺🇸_US_美国->🇨🇳_CN_中国_2_6@18
+  - 🇨🇳_CN_中国->🇭🇰_HK_香港_3_6@19
+  - 🇯🇵_JP_日本_3_6@24
+  - 🇨🇳_CN_中国->🇯🇵_JP_日本_2_6@27
   - 🇨🇳中国-安徽-合肥-ss-s400l.ddns1.pw:26001_7@4
   - 🇺🇸美国-0-0-v2ray-51.158.98.130:443_7@9
   - 🇺🇸美国-0-0-v2ray-jp1.quickerlink.xyz:443_7@10
@@ -16101,14 +16119,11 @@ proxy-groups:
   - 🇺🇸_US_美国_15_24@40_8@630
   - 🇺🇸_US_美国_16_24@41_8@631
   - 🇨🇦_CA_加拿大_3_24@42_8@632
-  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】1_9@5
   - 🇺🇲 美国【付费推荐：https://tt.vg/vip】106_9@15
   - 🇨🇳 中国【付费推荐：https://tt.vg/vip】132_9@17
-  - 🇨🇳 中国【付费推荐：https://tt.vg/vip】98_9@18
   - 🇺🇲 美国【付费推荐：https://tt.vg/vip】18_9@20
   - 🇺🇲 美国【付费推荐：https://tt.vg/vip】3_9@21
   - 🇨🇳 中国【付费推荐：https://tt.vg/vip】75_9@24
-  - 🇨🇳 中国【付费推荐：https://tt.vg/vip】102_9@31
   - 🇨🇳 中国【付费推荐：https://tt.vg/vip】104_9@32
   tolerance: 50
   type: url-test
@@ -16713,19 +16728,22 @@ proxy-groups:
   - 印度(油管:破解资源君2.0) 2_4@138
   - 英国(油管:破解资源君2.0)_4@139
   - 英国(油管:破解资源君2.0) 2_4@140
-  - 🇨🇳_CN_中国->🇯🇵_JP_日本_1_6@2
-  - 🇨🇳_CN_中国->🇯🇵_JP_日本_2_6@3
-  - 🇰🇷_KR_韩国_1_6@4
-  - 🇨🇳_CN_中国->🇱🇺_LU_卢森堡_6@11
-  - 🇬🇧_GB_英国_1_6@13
-  - 🇬🇧_GB_英国_2_6@14
-  - 🇨🇳_CN_中国->🇫🇷_FR_法国_6@17
-  - 🇰🇷_KR_韩国_2_6@20
-  - 🇨🇳_CN_中国->🇺🇸_US_美国_2_6@21
-  - 🇭🇰_HK_香港->🇸🇬_SG_新加坡_6@23
-  - 🇸🇬_SG_新加坡_6@24
-  - 🇰🇷_KR_韩国_3_6@25
-  - 🇫🇷_FR_法国_6@27
+  - 🇨🇳_CN_中国->🇭🇰_HK_香港_1_6@1
+  - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_1_6@2
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_1_6@3
+  - 🇺🇸_US_美国->🇫🇷_FR_法国_2_6@6
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_2_6@7
+  - 🇨🇳_CN_中国->🇬🇧_GB_英国_6@8
+  - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_2_6@9
+  - 🇯🇵_JP_日本_1_6@10
+  - 🇨🇳_CN_中国->🇭🇰_HK_香港_2_6@11
+  - 🇯🇵_JP_日本_2_6@12
+  - 🇨🇳_CN_中国->🇯🇵_JP_日本_1_6@13
+  - 🇺🇸_US_美国->🇳🇱_NL_荷兰_1_6@17
+  - 🇺🇸_US_美国->🇨🇳_CN_中国_2_6@18
+  - 🇨🇳_CN_中国->🇭🇰_HK_香港_3_6@19
+  - 🇯🇵_JP_日本_3_6@24
+  - 🇨🇳_CN_中国->🇯🇵_JP_日本_2_6@27
   - 🇨🇳中国-安徽-合肥-ss-s400l.ddns1.pw:26001_7@4
   - 🇺🇸美国-0-0-v2ray-51.158.98.130:443_7@9
   - 🇺🇸美国-0-0-v2ray-jp1.quickerlink.xyz:443_7@10
@@ -17358,14 +17376,11 @@ proxy-groups:
   - 🇺🇸_US_美国_15_24@40_8@630
   - 🇺🇸_US_美国_16_24@41_8@631
   - 🇨🇦_CA_加拿大_3_24@42_8@632
-  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】1_9@5
   - 🇺🇲 美国【付费推荐：https://tt.vg/vip】106_9@15
   - 🇨🇳 中国【付费推荐：https://tt.vg/vip】132_9@17
-  - 🇨🇳 中国【付费推荐：https://tt.vg/vip】98_9@18
   - 🇺🇲 美国【付费推荐：https://tt.vg/vip】18_9@20
   - 🇺🇲 美国【付费推荐：https://tt.vg/vip】3_9@21
   - 🇨🇳 中国【付费推荐：https://tt.vg/vip】75_9@24
-  - 🇨🇳 中国【付费推荐：https://tt.vg/vip】102_9@31
   - 🇨🇳 中国【付费推荐：https://tt.vg/vip】104_9@32
   type: select
 - name: 📲 电报信息
@@ -17967,19 +17982,22 @@ proxy-groups:
   - 印度(油管:破解资源君2.0) 2_4@138
   - 英国(油管:破解资源君2.0)_4@139
   - 英国(油管:破解资源君2.0) 2_4@140
-  - 🇨🇳_CN_中国->🇯🇵_JP_日本_1_6@2
-  - 🇨🇳_CN_中国->🇯🇵_JP_日本_2_6@3
-  - 🇰🇷_KR_韩国_1_6@4
-  - 🇨🇳_CN_中国->🇱🇺_LU_卢森堡_6@11
-  - 🇬🇧_GB_英国_1_6@13
-  - 🇬🇧_GB_英国_2_6@14
-  - 🇨🇳_CN_中国->🇫🇷_FR_法国_6@17
-  - 🇰🇷_KR_韩国_2_6@20
-  - 🇨🇳_CN_中国->🇺🇸_US_美国_2_6@21
-  - 🇭🇰_HK_香港->🇸🇬_SG_新加坡_6@23
-  - 🇸🇬_SG_新加坡_6@24
-  - 🇰🇷_KR_韩国_3_6@25
-  - 🇫🇷_FR_法国_6@27
+  - 🇨🇳_CN_中国->🇭🇰_HK_香港_1_6@1
+  - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_1_6@2
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_1_6@3
+  - 🇺🇸_US_美国->🇫🇷_FR_法国_2_6@6
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_2_6@7
+  - 🇨🇳_CN_中国->🇬🇧_GB_英国_6@8
+  - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_2_6@9
+  - 🇯🇵_JP_日本_1_6@10
+  - 🇨🇳_CN_中国->🇭🇰_HK_香港_2_6@11
+  - 🇯🇵_JP_日本_2_6@12
+  - 🇨🇳_CN_中国->🇯🇵_JP_日本_1_6@13
+  - 🇺🇸_US_美国->🇳🇱_NL_荷兰_1_6@17
+  - 🇺🇸_US_美国->🇨🇳_CN_中国_2_6@18
+  - 🇨🇳_CN_中国->🇭🇰_HK_香港_3_6@19
+  - 🇯🇵_JP_日本_3_6@24
+  - 🇨🇳_CN_中国->🇯🇵_JP_日本_2_6@27
   - 🇨🇳中国-安徽-合肥-ss-s400l.ddns1.pw:26001_7@4
   - 🇺🇸美国-0-0-v2ray-51.158.98.130:443_7@9
   - 🇺🇸美国-0-0-v2ray-jp1.quickerlink.xyz:443_7@10
@@ -18612,14 +18630,11 @@ proxy-groups:
   - 🇺🇸_US_美国_15_24@40_8@630
   - 🇺🇸_US_美国_16_24@41_8@631
   - 🇨🇦_CA_加拿大_3_24@42_8@632
-  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】1_9@5
   - 🇺🇲 美国【付费推荐：https://tt.vg/vip】106_9@15
   - 🇨🇳 中国【付费推荐：https://tt.vg/vip】132_9@17
-  - 🇨🇳 中国【付费推荐：https://tt.vg/vip】98_9@18
   - 🇺🇲 美国【付费推荐：https://tt.vg/vip】18_9@20
   - 🇺🇲 美国【付费推荐：https://tt.vg/vip】3_9@21
   - 🇨🇳 中国【付费推荐：https://tt.vg/vip】75_9@24
-  - 🇨🇳 中国【付费推荐：https://tt.vg/vip】102_9@31
   - 🇨🇳 中国【付费推荐：https://tt.vg/vip】104_9@32
   type: select
 - name: Ⓜ️ 微软服务
@@ -19221,19 +19236,22 @@ proxy-groups:
   - 印度(油管:破解资源君2.0) 2_4@138
   - 英国(油管:破解资源君2.0)_4@139
   - 英国(油管:破解资源君2.0) 2_4@140
-  - 🇨🇳_CN_中国->🇯🇵_JP_日本_1_6@2
-  - 🇨🇳_CN_中国->🇯🇵_JP_日本_2_6@3
-  - 🇰🇷_KR_韩国_1_6@4
-  - 🇨🇳_CN_中国->🇱🇺_LU_卢森堡_6@11
-  - 🇬🇧_GB_英国_1_6@13
-  - 🇬🇧_GB_英国_2_6@14
-  - 🇨🇳_CN_中国->🇫🇷_FR_法国_6@17
-  - 🇰🇷_KR_韩国_2_6@20
-  - 🇨🇳_CN_中国->🇺🇸_US_美国_2_6@21
-  - 🇭🇰_HK_香港->🇸🇬_SG_新加坡_6@23
-  - 🇸🇬_SG_新加坡_6@24
-  - 🇰🇷_KR_韩国_3_6@25
-  - 🇫🇷_FR_法国_6@27
+  - 🇨🇳_CN_中国->🇭🇰_HK_香港_1_6@1
+  - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_1_6@2
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_1_6@3
+  - 🇺🇸_US_美国->🇫🇷_FR_法国_2_6@6
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_2_6@7
+  - 🇨🇳_CN_中国->🇬🇧_GB_英国_6@8
+  - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_2_6@9
+  - 🇯🇵_JP_日本_1_6@10
+  - 🇨🇳_CN_中国->🇭🇰_HK_香港_2_6@11
+  - 🇯🇵_JP_日本_2_6@12
+  - 🇨🇳_CN_中国->🇯🇵_JP_日本_1_6@13
+  - 🇺🇸_US_美国->🇳🇱_NL_荷兰_1_6@17
+  - 🇺🇸_US_美国->🇨🇳_CN_中国_2_6@18
+  - 🇨🇳_CN_中国->🇭🇰_HK_香港_3_6@19
+  - 🇯🇵_JP_日本_3_6@24
+  - 🇨🇳_CN_中国->🇯🇵_JP_日本_2_6@27
   - 🇨🇳中国-安徽-合肥-ss-s400l.ddns1.pw:26001_7@4
   - 🇺🇸美国-0-0-v2ray-51.158.98.130:443_7@9
   - 🇺🇸美国-0-0-v2ray-jp1.quickerlink.xyz:443_7@10
@@ -19866,14 +19884,11 @@ proxy-groups:
   - 🇺🇸_US_美国_15_24@40_8@630
   - 🇺🇸_US_美国_16_24@41_8@631
   - 🇨🇦_CA_加拿大_3_24@42_8@632
-  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】1_9@5
   - 🇺🇲 美国【付费推荐：https://tt.vg/vip】106_9@15
   - 🇨🇳 中国【付费推荐：https://tt.vg/vip】132_9@17
-  - 🇨🇳 中国【付费推荐：https://tt.vg/vip】98_9@18
   - 🇺🇲 美国【付费推荐：https://tt.vg/vip】18_9@20
   - 🇺🇲 美国【付费推荐：https://tt.vg/vip】3_9@21
   - 🇨🇳 中国【付费推荐：https://tt.vg/vip】75_9@24
-  - 🇨🇳 中国【付费推荐：https://tt.vg/vip】102_9@31
   - 🇨🇳 中国【付费推荐：https://tt.vg/vip】104_9@32
   type: select
 - name: 🍎 苹果服务
@@ -20475,19 +20490,22 @@ proxy-groups:
   - 印度(油管:破解资源君2.0) 2_4@138
   - 英国(油管:破解资源君2.0)_4@139
   - 英国(油管:破解资源君2.0) 2_4@140
-  - 🇨🇳_CN_中国->🇯🇵_JP_日本_1_6@2
-  - 🇨🇳_CN_中国->🇯🇵_JP_日本_2_6@3
-  - 🇰🇷_KR_韩国_1_6@4
-  - 🇨🇳_CN_中国->🇱🇺_LU_卢森堡_6@11
-  - 🇬🇧_GB_英国_1_6@13
-  - 🇬🇧_GB_英国_2_6@14
-  - 🇨🇳_CN_中国->🇫🇷_FR_法国_6@17
-  - 🇰🇷_KR_韩国_2_6@20
-  - 🇨🇳_CN_中国->🇺🇸_US_美国_2_6@21
-  - 🇭🇰_HK_香港->🇸🇬_SG_新加坡_6@23
-  - 🇸🇬_SG_新加坡_6@24
-  - 🇰🇷_KR_韩国_3_6@25
-  - 🇫🇷_FR_法国_6@27
+  - 🇨🇳_CN_中国->🇭🇰_HK_香港_1_6@1
+  - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_1_6@2
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_1_6@3
+  - 🇺🇸_US_美国->🇫🇷_FR_法国_2_6@6
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_2_6@7
+  - 🇨🇳_CN_中国->🇬🇧_GB_英国_6@8
+  - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_2_6@9
+  - 🇯🇵_JP_日本_1_6@10
+  - 🇨🇳_CN_中国->🇭🇰_HK_香港_2_6@11
+  - 🇯🇵_JP_日本_2_6@12
+  - 🇨🇳_CN_中国->🇯🇵_JP_日本_1_6@13
+  - 🇺🇸_US_美国->🇳🇱_NL_荷兰_1_6@17
+  - 🇺🇸_US_美国->🇨🇳_CN_中国_2_6@18
+  - 🇨🇳_CN_中国->🇭🇰_HK_香港_3_6@19
+  - 🇯🇵_JP_日本_3_6@24
+  - 🇨🇳_CN_中国->🇯🇵_JP_日本_2_6@27
   - 🇨🇳中国-安徽-合肥-ss-s400l.ddns1.pw:26001_7@4
   - 🇺🇸美国-0-0-v2ray-51.158.98.130:443_7@9
   - 🇺🇸美国-0-0-v2ray-jp1.quickerlink.xyz:443_7@10
@@ -21120,14 +21138,11 @@ proxy-groups:
   - 🇺🇸_US_美国_15_24@40_8@630
   - 🇺🇸_US_美国_16_24@41_8@631
   - 🇨🇦_CA_加拿大_3_24@42_8@632
-  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】1_9@5
   - 🇺🇲 美国【付费推荐：https://tt.vg/vip】106_9@15
   - 🇨🇳 中国【付费推荐：https://tt.vg/vip】132_9@17
-  - 🇨🇳 中国【付费推荐：https://tt.vg/vip】98_9@18
   - 🇺🇲 美国【付费推荐：https://tt.vg/vip】18_9@20
   - 🇺🇲 美国【付费推荐：https://tt.vg/vip】3_9@21
   - 🇨🇳 中国【付费推荐：https://tt.vg/vip】75_9@24
-  - 🇨🇳 中国【付费推荐：https://tt.vg/vip】102_9@31
   - 🇨🇳 中国【付费推荐：https://tt.vg/vip】104_9@32
   type: select
 - name: 🎯 全球直连
@@ -21746,19 +21761,22 @@ proxy-groups:
   - 印度(油管:破解资源君2.0) 2_4@138
   - 英国(油管:破解资源君2.0)_4@139
   - 英国(油管:破解资源君2.0) 2_4@140
-  - 🇨🇳_CN_中国->🇯🇵_JP_日本_1_6@2
-  - 🇨🇳_CN_中国->🇯🇵_JP_日本_2_6@3
-  - 🇰🇷_KR_韩国_1_6@4
-  - 🇨🇳_CN_中国->🇱🇺_LU_卢森堡_6@11
-  - 🇬🇧_GB_英国_1_6@13
-  - 🇬🇧_GB_英国_2_6@14
-  - 🇨🇳_CN_中国->🇫🇷_FR_法国_6@17
-  - 🇰🇷_KR_韩国_2_6@20
-  - 🇨🇳_CN_中国->🇺🇸_US_美国_2_6@21
-  - 🇭🇰_HK_香港->🇸🇬_SG_新加坡_6@23
-  - 🇸🇬_SG_新加坡_6@24
-  - 🇰🇷_KR_韩国_3_6@25
-  - 🇫🇷_FR_法国_6@27
+  - 🇨🇳_CN_中国->🇭🇰_HK_香港_1_6@1
+  - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_1_6@2
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_1_6@3
+  - 🇺🇸_US_美国->🇫🇷_FR_法国_2_6@6
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_2_6@7
+  - 🇨🇳_CN_中国->🇬🇧_GB_英国_6@8
+  - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_2_6@9
+  - 🇯🇵_JP_日本_1_6@10
+  - 🇨🇳_CN_中国->🇭🇰_HK_香港_2_6@11
+  - 🇯🇵_JP_日本_2_6@12
+  - 🇨🇳_CN_中国->🇯🇵_JP_日本_1_6@13
+  - 🇺🇸_US_美国->🇳🇱_NL_荷兰_1_6@17
+  - 🇺🇸_US_美国->🇨🇳_CN_中国_2_6@18
+  - 🇨🇳_CN_中国->🇭🇰_HK_香港_3_6@19
+  - 🇯🇵_JP_日本_3_6@24
+  - 🇨🇳_CN_中国->🇯🇵_JP_日本_2_6@27
   - 🇨🇳中国-安徽-合肥-ss-s400l.ddns1.pw:26001_7@4
   - 🇺🇸美国-0-0-v2ray-51.158.98.130:443_7@9
   - 🇺🇸美国-0-0-v2ray-jp1.quickerlink.xyz:443_7@10
@@ -22391,14 +22409,11 @@ proxy-groups:
   - 🇺🇸_US_美国_15_24@40_8@630
   - 🇺🇸_US_美国_16_24@41_8@631
   - 🇨🇦_CA_加拿大_3_24@42_8@632
-  - 🇺🇲 美国【付费推荐：https://tt.vg/vip】1_9@5
   - 🇺🇲 美国【付费推荐：https://tt.vg/vip】106_9@15
   - 🇨🇳 中国【付费推荐：https://tt.vg/vip】132_9@17
-  - 🇨🇳 中国【付费推荐：https://tt.vg/vip】98_9@18
   - 🇺🇲 美国【付费推荐：https://tt.vg/vip】18_9@20
   - 🇺🇲 美国【付费推荐：https://tt.vg/vip】3_9@21
   - 🇨🇳 中国【付费推荐：https://tt.vg/vip】75_9@24
-  - 🇨🇳 中国【付费推荐：https://tt.vg/vip】102_9@31
   - 🇨🇳 中国【付费推荐：https://tt.vg/vip】104_9@32
   type: select
 rules:

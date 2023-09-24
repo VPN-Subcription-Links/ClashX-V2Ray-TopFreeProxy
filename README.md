@@ -33,7 +33,7 @@ For a tutorial in Chinese, see [中文版教程](https://github.com/WilliamStar0
 ## Subscription Links
 <!-- **Modify the date (if any) in the links to the current date!!** -->
 
-* NodeFree: https://nodefree.org/dy/2023/09/20230923.yaml ★
+* NodeFree: https://nodefree.org/dy/2023/09/20230924.yaml ★
 * ClashNode: https://clashnode.com/wp-content/uploads/2023/09/20230923.yaml ★
 * NiceVPN: https://sub.nicevpn.top/Clash.yaml ★
 * Mfuu: https://raw.githubusercontent.com/mfuu/v2ray/master/clash.yaml

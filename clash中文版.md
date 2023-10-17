@@ -41,7 +41,7 @@
 * Xrayfree: https://tt.vg/freeclash
 
 **免费节点池**
-* Zu1k: https://github.com/zu1k/proxypool ★
+* Zu1k: https://github.com/zu1k/proxypool/releases ★
 
 ## 设置
 **详细设置信息请参阅：https://github.com/githubvpn007/ClashX**
@@ -68,6 +68,7 @@ https://user-images.githubusercontent.com/89805831/179545223-69177f8e-5f2d-4bd3-
 * Vveg26 (https://github.com/vveg26/getProxy)
 * OpenRunner (https://github.com/openRunner/clash-freenode)
 * Xrayfree (https://github.com/xrayfree/free-ssr-ss-v2ray-vpn-clash)
+* Zu1k (https://github.com/zu1k/proxypool)
 * Githubvpn007 (https://github.com/githubvpn007/ClashX)
 
 <!-- Archived Reference:

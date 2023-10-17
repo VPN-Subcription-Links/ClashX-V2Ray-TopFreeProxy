@@ -29,7 +29,6 @@
 
 * NodeFree: https://nodefree.org/dy/2023/10/20231016.yaml ★
 * ClashNode: https://clashnode.com/wp-content/uploads/2023/10/20231016.yaml ★
-* NiceVPN: https://sub.nicevpn.top/Clash.yaml ★
 * Mfuu: https://raw.githubusercontent.com/mfuu/v2ray/master/clash.yaml
 * Anaer: https://raw.githubusercontent.com/anaer/Sub/main/clash.yaml ★
 * Pojiezhiyuanjun: https://raw.githubusercontent.com/pojiezhiyuanjun/2023/master/1013clash.yml
@@ -59,7 +58,6 @@ https://user-images.githubusercontent.com/89805831/179545223-69177f8e-5f2d-4bd3-
 ## 致谢
 * NodeFree (https://nodefree.org)
 * ClashNode (https://clashnode.com)
-* NiceVPN (https://github.com/NiceVPN123/NiceVPN)
 * Mfuu (https://github.com/mfuu/v2ray)
 * Anaer (https://github.com/anaer/Sub)
 * Pojiezhiyuanjun (https://github.com/pojiezhiyuanjun/2023)
@@ -76,7 +74,8 @@ https://user-images.githubusercontent.com/89805831/179545223-69177f8e-5f2d-4bd3-
 https://github.com/gooooooooooooogle/Clash-Config 
 https://proxies.bihai.cf 
 https://fq.lonxin.net 
-https://github.com/kxswa/k -->
+https://github.com/kxswa/k 
+https://github.com/NiceVPN123/NiceVPN -->
 
 ## 免责声明
 * 本项目全部链接来自网络，仅供个人或学习交流使用，严禁用于商业用途

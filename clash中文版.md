@@ -9,7 +9,7 @@
 欢迎大家对这个项目提出 [Issues](https://github.com/WilliamStar007/ClashX-TopFreeProxy/issues) 或 [Pull Requests](https://github.com/WilliamStar007/ClashX-TopFreeProxy/pulls)  
 如使用 [V2Ray](https://www.v2ray.com)，可见 [V2Ray 教程](https://github.com/WilliamStar007/ClashX-TopFreeProxy/blob/main/v2ray%E4%B8%AD%E6%96%87%E7%89%88.md)
 
-**Clash已删仓**
+**Clash源代码已删仓**
 
 # 目录
 * [安装](#安装)

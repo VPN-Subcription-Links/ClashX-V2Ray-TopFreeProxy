@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img src="https://github.com/Dreamacro/clash/raw/master/docs/logo.png" alt="Clash" width="200">
+  <img src="https://i.postimg.cc/nLxMfDg8/clash.png" alt="Clash" width="200">
   <br>
   ClashX Setup Tutorial
   <br>

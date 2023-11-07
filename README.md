@@ -12,7 +12,9 @@
 Tutorial for setting up a [ClashX](https://github.com/yichengchen/clashX) proxy with free subscription links.  
 Feel free to submit an [Issue](https://github.com/WilliamStar007/ClashX-TopFreeProxy/issues) or make a [Pull Request](https://github.com/WilliamStar007/ClashX-TopFreeProxy/pulls)!  
 For V2Ray users, see [V2Ray Setup Tutorial](https://github.com/WilliamStar007/ClashX-TopFreeProxy/blob/main/v2ray.md).  
-For a tutorial in Chinese, see [中文版教程](https://github.com/WilliamStar007/ClashX-TopFreeProxy/blob/main/clash%E4%B8%AD%E6%96%87%E7%89%88.md).
+For a tutorial in Chinese, see [中文版教程](https://github.com/WilliamStar007/ClashX-TopFreeProxy/blob/main/clash%E4%B8%AD%E6%96%87%E7%89%88.md).  
+
+**The original Clash repo has been deleted.**
 
 # Table of Contents
 * [Installation](#installation)

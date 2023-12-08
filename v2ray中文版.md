@@ -26,7 +26,7 @@
 ## 订阅链接
 **使用前请修改链接中的日期（如果有的话）至目前日期**
 
-* NodeFree: https://nodefree.org/dy/2023/12/20231207.txt ★
+* NodeFree: https://nodefree.org/dy/2023/12/20231208.txt ★
 * ClashNode: https://clashnode.com/wp-content/uploads/2023/12/20231208.txt ★
 * Mfuu: https://raw.githubusercontent.com/mfuu/v2ray/master/v2ray
 * Freefq: https://raw.fastgit.org/freefq/free/master/v2 ★

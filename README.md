@@ -33,7 +33,7 @@ For a tutorial in Chinese, see [中文版教程](https://github.com/WilliamStar0
 <!-- **Modify the date (if any) in the links to the current date!!** -->
 
 * NodeFree: https://nodefree.org/dy/2023/12/20231228.yaml ★
-* ClashNode: https://clashnode.com/wp-content/uploads/2023/12/20231228.yaml ★
+* ClashNode: https://clashnode.com/wp-content/uploads/2023/12/20231229.yaml ★
 * Mfuu: https://raw.githubusercontent.com/mfuu/v2ray/master/clash.yaml
 * Anaer: https://raw.githubusercontent.com/anaer/Sub/main/clash.yaml ★
 * Pojiezhiyuanjun: https://raw.githubusercontent.com/pojiezhiyuanjun/2023/master/1225clash.yml

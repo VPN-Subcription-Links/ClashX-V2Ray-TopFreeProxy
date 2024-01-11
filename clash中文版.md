@@ -30,7 +30,7 @@
 <!-- **使用前请修改链接中的日期（如果有的话）至目前日期** -->
 
 * NodeFree: https://nodefree.org/dy/2024/01/20240110.yaml ★
-* ClashNode: https://clashnode.com/wp-content/uploads/2024/01/20240110.yaml ★
+* ClashNode: https://clashnode.com/wp-content/uploads/2024/01/20240111.yaml ★
 * Mfuu: https://raw.githubusercontent.com/mfuu/v2ray/master/clash.yaml
 * Anaer: https://raw.githubusercontent.com/anaer/Sub/main/clash.yaml ★
 * Pojiezhiyuanjun: https://raw.githubusercontent.com/pojiezhiyuanjun/2023/master/1225clash.yml

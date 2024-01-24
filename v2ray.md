@@ -31,7 +31,6 @@ For a tutorial in Chinese, see [中文版教程](https://github.com/WilliamStar0
 * ClashNode: https://clashnode.com/wp-content/uploads/2024/01/20240124.txt ★
 * Mfuu: https://raw.githubusercontent.com/mfuu/v2ray/master/v2ray
 * Freefq: https://raw.fastgit.org/freefq/free/master/v2 ★
-* Pojiezhiyuanjun: https://raw.githubusercontent.com/pojiezhiyuanjun/2023/master/1225.txt
 * Ermaozi: https://raw.githubusercontent.com/ermaozi/get_subscribe/main/subscribe/v2ray.txt ★
 * Aiboboxx: https://raw.githubusercontent.com/aiboboxx/v2rayfree/main/v2
 * Learnhard-cn: https://raw.githubusercontent.com/learnhard-cn/free_proxy_ss/main/free ★
@@ -49,7 +48,6 @@ For a tutorial in Chinese, see [中文版教程](https://github.com/WilliamStar0
 * ClashNode (https://clashnode.com)
 * Mfuu (https://github.com/mfuu/v2ray)
 * Freefq (https://github.com/freefq/free)
-* Pojiezhiyuanjun (https://github.com/pojiezhiyuanjun/2023)
 * Ermaozi (https://github.com/ermaozi/get_subscribe)
 * Aiboboxx (https://github.com/aiboboxx/v2rayfree)
 * Learnhard-cn (https://github.com/learnhard-cn/free_proxy_ss)
@@ -63,7 +61,8 @@ For a tutorial in Chinese, see [中文版教程](https://github.com/WilliamStar0
 
 <!-- Archived Reference: 
 https://github.com/aiirobyte/TopFreeProxies 
-https://github.com/xiyaowong/freeFQ -->
+https://github.com/xiyaowong/freeFQ 
+https://github.com/pojiezhiyuanjun/2023 -->
 
 ## Disclaimer
 * This project is meant for personal and educational uses only.

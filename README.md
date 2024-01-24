@@ -36,7 +36,6 @@ For a tutorial in Chinese, see [中文版教程](https://github.com/WilliamStar0
 * ClashNode: https://clashnode.com/wp-content/uploads/2024/01/20240124.yaml ★
 * Mfuu: https://raw.githubusercontent.com/mfuu/v2ray/master/clash.yaml
 * Anaer: https://raw.githubusercontent.com/anaer/Sub/main/clash.yaml ★
-* Pojiezhiyuanjun: https://raw.githubusercontent.com/pojiezhiyuanjun/2023/master/1225clash.yml
 * Oslook: https://raw.githubusercontent.com/oslook/clash-freenode/main/clash.yaml
 * Ermaozi: https://raw.githubusercontent.com/ermaozi/get_subscribe/main/subscribe/clash.yml ★
 * Learnhard-cn: https://cdn.jsdelivr.net/gh/learnhard-cn/free_proxy_ss@main/clash/clash.provider.yaml
@@ -65,7 +64,6 @@ https://user-images.githubusercontent.com/89805831/179545223-69177f8e-5f2d-4bd3-
 * ClashNode (https://clashnode.com)
 * Mfuu (https://github.com/mfuu/v2ray)
 * Anaer (https://github.com/anaer/Sub)
-* Pojiezhiyuanjun (https://github.com/pojiezhiyuanjun/2023)
 * Oslook (https://github.com/oslook/clash-freenode)
 * Ermaozi (https://github.com/ermaozi/get_subscribe)
 * Learnhard-cn (https://github.com/learnhard-cn/free_proxy_ss)
@@ -81,7 +79,8 @@ https://github.com/gooooooooooooogle/Clash-Config
 https://proxies.bihai.cf 
 https://fq.lonxin.net 
 https://github.com/kxswa/k 
-https://github.com/NiceVPN123/NiceVPN  -->
+https://github.com/NiceVPN123/NiceVPN
+https://github.com/pojiezhiyuanjun/2023 -->
 
 ## Disclaimer
 * This project is meant for personal and educational uses only.

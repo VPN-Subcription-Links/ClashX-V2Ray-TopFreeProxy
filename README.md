@@ -32,8 +32,8 @@ For a tutorial in Chinese, see [中文版教程](https://github.com/WilliamStar0
 ## Subscription Links
 <!-- **Modify the date (if any) in the links to the current date!!** -->
 
-* NodeFree: https://nodefree.org/dy/2024/03/20240301.yaml ★
-* ClashNode: https://clashnode.com/wp-content/uploads/2024/03/20240301.yaml ★
+* NodeFree: https://nodefree.org/dy/2024/03/20240302.yaml ★
+* ClashNode: https://clashnode.com/wp-content/uploads/2024/03/20240302.yaml ★
 * Mfuu: https://raw.githubusercontent.com/mfuu/v2ray/master/clash.yaml
 * Anaer: https://raw.githubusercontent.com/anaer/Sub/main/clash.yaml ★
 * Oslook: https://raw.githubusercontent.com/oslook/clash-freenode/main/clash.yaml

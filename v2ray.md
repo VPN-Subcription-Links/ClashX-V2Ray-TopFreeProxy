@@ -27,8 +27,8 @@ For a tutorial in Chinese, see [中文版教程](https://github.com/WilliamStar0
 ## Subscription Links
 <!-- **Modify the date (if any) in the links to the current date!!** -->
 
-* NodeFree: https://nodefree.org/dy/2024/03/20240313.txt ★
-* ClashNode: https://clashnode.com/wp-content/uploads/2024/03/20240313.txt ★
+* NodeFree: https://nodefree.org/dy/2024/03/20240314.txt ★
+* ClashNode: https://clashnode.com/wp-content/uploads/2024/03/20240314.txt ★
 * Mfuu: https://raw.githubusercontent.com/mfuu/v2ray/master/v2ray
 * Freefq: https://raw.fastgit.org/freefq/free/master/v2 ★
 * Ermaozi: https://raw.githubusercontent.com/ermaozi/get_subscribe/main/subscribe/v2ray.txt ★

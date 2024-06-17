@@ -1,0 +1,26 @@
+# Squash Bot Commits
+name: Squash
+
+on:
+  # Manual squash only
+  workflow_dispatch:
+
+jobs:
+  squash:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          # Fetch all history
+          fetch-depth: 0
+
+      - name: Squash Bot Commits
+        run: |
+          git config --global user.name "WilliamStar"
+          git config --global user.email "89805831+WilliamStar007@users.noreply.github.com"
+
+          git reset --soft HEAD~300
+          git commit -m "squash"
+          git push -f origin main
+          

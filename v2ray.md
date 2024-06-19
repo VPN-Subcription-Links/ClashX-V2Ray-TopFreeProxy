@@ -27,7 +27,7 @@ For a tutorial in Chinese, see [中文版教程](https://github.com/WilliamStar0
 ## Subscription Links
 <!-- **Modify the date (if any) in the links to the current date!!** -->
 
-* NodeFree: https://nodefree.org/dy/2024/06/20240618.txt ★
+* NodeFree: https://nodefree.org/dy/2024/06/20240619.txt ★
 * Mfuu: https://raw.githubusercontent.com/mfuu/v2ray/master/v2ray
 * Freefq: https://raw.fastgit.org/freefq/free/master/v2 ★
 * Ermaozi: https://raw.githubusercontent.com/ermaozi/get_subscribe/main/subscribe/v2ray.txt ★

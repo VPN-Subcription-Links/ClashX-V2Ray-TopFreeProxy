@@ -32,7 +32,7 @@ For a tutorial in Chinese, see [中文版教程](https://github.com/WilliamStar0
 ## Subscription Links
 <!-- **Modify the date (if any) in the links to the current date!!** -->
 
-* NodeFree: https://nodefree.org/dy/2024/06/20240620.yaml ★
+* NodeFree: https://nodefree.org/dy/2024/06/20240621.yaml ★
 * Mfuu: https://raw.githubusercontent.com/mfuu/v2ray/master/clash.yaml
 * Anaer: https://raw.githubusercontent.com/anaer/Sub/main/clash.yaml ★
 * Ermaozi: https://raw.githubusercontent.com/ermaozi/get_subscribe/main/subscribe/clash.yml ★

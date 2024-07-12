@@ -29,7 +29,7 @@
 ## 订阅链接
 <!-- **使用前请修改链接中的日期（如果有的话）至目前日期** -->
 
-* NodeFree: https://nodefree.org/dy/2024/07/20240711.yaml ★
+* NodeFree: https://nodefree.org/dy/2024/07/20240712.yaml ★
 * Mfuu: https://raw.githubusercontent.com/mfuu/v2ray/master/clash.yaml
 * Anaer: https://raw.githubusercontent.com/anaer/Sub/main/clash.yaml ★
 * Ermaozi: https://raw.githubusercontent.com/ermaozi/get_subscribe/main/subscribe/clash.yml ★

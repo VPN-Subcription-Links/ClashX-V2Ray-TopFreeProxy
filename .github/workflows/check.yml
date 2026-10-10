@@ -1,0 +1,24 @@
+name: Checks
+on:
+  push:
+    branches: [main]
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  test:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v7.0.1
+      - uses: actions/setup-python@v7.0.0
+        with:
+          python-version: '3.11'
+          cache: pip
+      - run: python -m pip install -r requirements.txt
+      - run: python -m unittest discover -s combine/tests -v
+      - run: python -m combine.sources --check
+      - run: python -m compileall -q combine .github/workflows/update.py
+      - name: Install pinned validation engine
+        run: python -m combine.install_engine --output "$RUNNER_TEMP/mihomo"
+      - name: Validate published Clash configuration
+        run: python -m combine.engine combine/clash.config.yaml --mihomo "$RUNNER_TEMP/mihomo"

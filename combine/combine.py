@@ -1,104 +1,154 @@
-import requests
-import urllib3
-import yaml
+"""Fetch and validate subscriptions before replacing published outputs."""
+import base64
+import copy
+import hashlib
+import json
 import os
+from pathlib import Path
+import tempfile
+import unicodedata
 
-from typing import Any, Dict, List, Optional
+import yaml
 
-# Change the current working directory to the directory where this script resides
-os.chdir(os.path.dirname(os.path.abspath(__file__)))
+if __package__ in (None, ''):
+    import sys
+    sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
+from combine.validation import valid_proxy, valid_uri
 
-# ignore InsecureRequestWarning
-urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
-
-# initiate file names
-clash_output_tpl: str = './clash.config.template.yaml'
-clash_output_file: str = './clash.config.yaml'
-v2ray_output_file: str = './v2ray.config.txt'
-
-# clash links
-clash_url_list: List[str] = list()
-file = open('./clashsub.txt', 'r')
-links: List[str] = file.readlines()
-[clash_url_list.append(l.strip()) for l in links]
-file.close()
-
-# v2ray links
-v2ray_url_list: List[str] = list()
-file = open('./v2raysub.txt', 'r')
-links: List[str] = file.readlines()
-[v2ray_url_list.append(l.strip()) for l in links]
-file.close()
-
-# blacklist
-blacklist: List[str] = list(map(lambda l: l.strip().split(':'), open('./blacklists.txt').readlines()))
+ROOT = Path(__file__).resolve().parent
+SCHEMES = ('vmess://', 'vless://', 'ss://', 'ssr://', 'trojan://', 'hysteria://', 'hysteria2://', 'hy2://', 'tuic://')
 
 
-# get content of a html
-def fetch_html(url: str):
+def read_links(path):
+    return [line.strip() for line in path.read_text().splitlines()
+            if line.strip() and not line.lstrip().startswith('#')]
+
+
+def fetch_html(url):
+    # Legacy callers receive text; the refresh pipeline keeps the full diagnostics.
+    if __package__ in (None, ''):
+        import sys
+        sys.path.insert(0, str(ROOT.parent))
+    from combine.download import fetch_subscription
+    return fetch_subscription(url).content
+
+
+def load_proxies(content, validate_protocols=True):
+    if not content:
+        return []
     try:
-        resp: requests.Response = requests.get(url, verify=False, timeout=10)
-        resp.encoding = 'utf-8'
-        if resp.status_code != 200:
-            print(f'[!] Got HTTP Status Code {resp.status_code}')
-            return None
-        return resp.text
-    except Exception as expt:
-        print(url)
-        print(expt)
-        return None
-
-
-# merge clash config files
-def merge_clash(configs: List[str]) -> str:
-    config_template: Dict[str, Any] = yaml.safe_load(open(clash_output_tpl).read())
-    proxies: List[Dict[str, Any]] = []
-    for i in range(len(configs)):
-        try:
-            tmp_config: Dict[str, Any] = yaml.safe_load(configs[i])
-        except Exception:
-            print(f'[!] Failed to Load a YAML')
+        config = yaml.safe_load(content)
+    except yaml.YAMLError:
+        return []
+    if not isinstance(config, dict) or not isinstance(config.get('proxies'), list):
+        return []
+    result = []
+    for proxy in config['proxies']:
+        if not isinstance(proxy, dict):
             continue
+        if not all(isinstance(proxy.get(key), str) and proxy[key].strip()
+                   for key in ('name', 'type', 'server')):
+            continue
+        port = proxy.get('port')
+        if isinstance(port, bool) or not str(port).isdigit() or not 1 <= int(port) <= 65535:
+            continue
+        proxy = copy.deepcopy(proxy)
+        proxy['port'] = int(port)
+        if validate_protocols and not valid_proxy(proxy):
+            continue
+        try:
+            json.dumps(proxy, sort_keys=True, allow_nan=False, ensure_ascii=False).encode('utf-8')
+        except (TypeError, ValueError, UnicodeError):
+            continue
+        result.append(proxy)
+    return result
 
-        if 'proxies' not in tmp_config: continue
-        for j in range(len(tmp_config['proxies'])):
-            proxy: Dict[str, Any] = tmp_config['proxies'][j]
-            if any(filter(lambda p: p[0] == proxy['server'] and str(p[1]) == str(proxy['port']), blacklist)): continue
-            if any(filter(lambda p: p['server'] == proxy['server'] and p['port'] == proxy['port'], proxies)): continue
-            proxy['name'] = proxy['name'] + f'_{i}@{j}'
-            proxies.append(proxy)
-    node_names: List[str] = list(map(lambda n: n['name'], proxies))
-    config_template['proxies'] = proxies
-    for grp in config_template['proxy-groups']:
-        if 'xxx' in grp['proxies']:
-            grp['proxies'].remove('xxx')
-            grp['proxies'].extend(node_names)
 
-    return yaml.safe_dump(config_template, indent=1, allow_unicode=True)
+def merge_clash(configs, template=None, blacklist=None):
+    if template is None:
+        template = yaml.safe_load((ROOT / 'clash.config.template.yaml').read_text())
+    template = copy.deepcopy(template)
+    blocked = set(blacklist or [])
+    entries = {}
+    for content in configs:
+        for proxy in load_proxies(content):
+            if (proxy['server'], proxy['port']) in blocked:
+                continue
+            identity = {key: value for key, value in proxy.items() if key != 'name'}
+            canonical = json.dumps(identity, sort_keys=True, ensure_ascii=False)
+            label = ' '.join(proxy['name'].split())
+            label = ''.join(char for char in label if unicodedata.category(char) != 'Cc')[:64] or 'node'
+            entries.setdefault(canonical, set()).add(label)
+    if not entries:
+        raise ValueError('No valid Clash proxies; preserving previous output')
+    proxies, names = [], set()
+    for canonical in sorted(entries):
+        digest = hashlib.sha256(canonical.encode()).hexdigest()
+        label = min(entries[canonical])
+        length = 16
+        name = f'{label} [{digest[:length]}]'
+        while name in names and length < len(digest):
+            length += 8
+            name = f'{label} [{digest[:length]}]'
+        if name in names:
+            raise ValueError('Proxy name collision; preserving previous output')
+        names.add(name)
+        proxy = json.loads(canonical)
+        proxy['name'] = name
+        proxies.append(proxy)
+    proxies.sort(key=lambda proxy: proxy['name'])
+    template['proxies'] = proxies
+    for group in template['proxy-groups']:
+        if 'xxx' in group['proxies']:
+            group['proxies'] = [name for name in group['proxies'] if name != 'xxx']
+            group['proxies'].extend(proxy['name'] for proxy in proxies)
+    return yaml.safe_dump(template, allow_unicode=True, sort_keys=False)
 
 
-# merge v2ray config files
-def merge_v2ray(configs: List[Optional[str]]) -> str:
-    return '\n'.join(filter(None, configs))
+def load_v2ray(content, validate_protocols=True):
+    if not content:
+        return []
+    content = content.strip()
+    if not content.startswith(SCHEMES):
+        try:
+            encoded = ''.join(content.split()).encode('ascii')
+            content = base64.b64decode(encoded + b'=' * (-len(encoded) % 4),
+                                       altchars=b'-_', validate=True).decode('utf-8')
+        except (ValueError, UnicodeError):
+            return []
+    return [line.strip() for line in content.splitlines()
+            if line.strip().startswith(SCHEMES)
+            and (valid_uri(line.strip()) if validate_protocols else
+                 bool(line.strip().split('://', 1)[1]) and not any(c.isspace() for c in line.strip()))]
+
+
+def merge_v2ray(configs):
+    nodes = sorted({node for content in configs for node in load_v2ray(content)})
+    if not nodes:
+        raise ValueError('No recognized V2Ray URIs; preserving previous output')
+    return base64.b64encode(('\n'.join(nodes) + '\n').encode()).decode() + '\n'
+
+
+def atomic_write(path, content):
+    path = Path(path)
+    with tempfile.NamedTemporaryFile(mode='w', encoding='utf-8', dir=path.parent,
+                                     delete=False) as file:
+        temporary = Path(file.name)
+        file.write(content)
+    try:
+        os.replace(temporary, path)
+    finally:
+        temporary.unlink(missing_ok=True)
 
 
 def main():
-    print(f'[+] Got {len(clash_url_list)} Clash URLs, {len(v2ray_url_list)} V2Ray URLs')
-
-    # store html associated with each link
-    clash_configs: List[str] = list(map(lambda u: fetch_html(u), clash_url_list))
-    v2ray_configs: List[str] = list(map(lambda u: fetch_html(u), v2ray_url_list))
-
-    # merge clash / v2ray configs
-    clash_merged: str = merge_clash(clash_configs)
-    v2ray_merged: str = merge_v2ray(v2ray_configs)
-
-    # write output files
-    with open(clash_output_file, 'w') as f:
-        f.write(clash_merged)
-    with open(v2ray_output_file, 'w') as f:
-        f.write(v2ray_merged)
+    # Keep the original script command working while using the shared refresh pipeline.
+    if __package__ in (None, ''):
+        import sys
+        sys.path.insert(0, str(ROOT.parent))
+    from combine.refresh import main as refresh_main
+    return refresh_main()
 
 
 if __name__ == '__main__':
-    main()
+    raise SystemExit(main())

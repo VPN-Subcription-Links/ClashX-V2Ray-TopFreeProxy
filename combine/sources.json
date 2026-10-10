@@ -1,0 +1,251 @@
+[
+  {
+    "id": "nodefree",
+    "name": "NodeFree",
+    "enabled": false,
+    "formats": {
+      "clash": {
+        "url": "https://nodefree.org/dy/2024/07/20240725.yaml",
+        "date_pattern": "https://nodefree.org/dy/{year}/{month}/{date}.yaml",
+        "enabled": false,
+        "notes": "2026-10-10 UTC: fetch_failed in two live checks; no parsed entries. Re-enable after verifying the feed."
+      },
+      "v2ray": {
+        "url": "https://nodefree.org/dy/2024/07/20240725.txt",
+        "date_pattern": "https://nodefree.org/dy/{year}/{month}/{date}.txt",
+        "enabled": false,
+        "notes": "2026-10-10 UTC: fetch_failed in two live checks; no parsed entries. Re-enable after verifying the feed."
+      }
+    },
+    "notes": "2026-10-10 UTC: no usable formats in two live checks. URLs retained for manual verification; this does not establish permanent unavailability."
+  },
+  {
+    "id": "mfuu",
+    "name": "Mfuu",
+    "enabled": true,
+    "formats": {
+      "clash": {
+        "url": "https://raw.githubusercontent.com/mfuu/FreeProxies/master/sub.yaml",
+        "enabled": false,
+        "notes": "2026-10-10 UTC: replacement endpoint from provider documentation; HTTP 200, 0 parsed entries. Node connectivity not tested. Invalid YAML: unescaped quotes in a node name; retained disabled."
+      },
+      "v2ray": {
+        "url": "https://raw.githubusercontent.com/mfuu/FreeProxies/master/sub",
+        "enabled": true,
+        "notes": "2026-10-10 UTC: replacement endpoint from provider documentation; HTTP 200, 463 parsed entries. Node connectivity not tested."
+      }
+    },
+    "homepage": "https://github.com/mfuu/FreeProxies"
+  },
+  {
+    "id": "anaer",
+    "name": "Anaer",
+    "enabled": true,
+    "formats": {
+      "clash": {
+        "url": "https://raw.githubusercontent.com/anaer/Sub/main/clash.yaml"
+      }
+    }
+  },
+  {
+    "id": "pojiezhiyuanjun",
+    "name": "Pojiezhiyuanjun",
+    "enabled": true,
+    "formats": {
+      "clash": {
+        "url": "https://raw.githubusercontent.com/pojiezhiyuanjun/freev2/master/1225clash.yml",
+        "enabled": false,
+        "notes": "2026-10-10 UTC: unusable in two live checks; no parsed entries. Re-enable after verifying the feed."
+      },
+      "v2ray": {
+        "url": "https://raw.githubusercontent.com/pojiezhiyuanjun/freev2/master/1225.txt"
+      }
+    },
+    "homepage": "https://github.com/pojiezhiyuanjun/freev2"
+  },
+  {
+    "id": "oslook",
+    "name": "Oslook",
+    "enabled": false,
+    "formats": {
+      "clash": {
+        "url": "https://raw.githubusercontent.com/oslook/clash-freenode/main/clash.yaml",
+        "enabled": false,
+        "notes": "2026-10-10 UTC: fetch_failed in two live checks; no parsed entries. Re-enable after verifying the feed."
+      }
+    },
+    "notes": "Repository redirects to OpenRunner/clash-freenode; current endpoints are represented by openrunner. Historical URL retained."
+  },
+  {
+    "id": "ermaozi",
+    "name": "Ermaozi",
+    "enabled": true,
+    "formats": {
+      "clash": {
+        "url": "https://raw.githubusercontent.com/ermaozi/get_subscribe/main/subscribe/clash.yml"
+      },
+      "v2ray": {
+        "url": "https://raw.githubusercontent.com/ermaozi/get_subscribe/main/subscribe/v2ray.txt"
+      }
+    }
+  },
+  {
+    "id": "learnhard-cn",
+    "name": "Learnhard-cn",
+    "enabled": true,
+    "formats": {
+      "clash": {
+        "url": "https://raw.githubusercontent.com/vxiaov/free_proxies/main/clash/clash.provider.yaml",
+        "enabled": true,
+        "notes": "2026-10-10 UTC: replacement endpoint from provider documentation; HTTP 200, 28 parsed entries. Node connectivity not tested."
+      },
+      "v2ray": {
+        "url": "https://raw.githubusercontent.com/learnhard-cn/free_proxy_ss/main/free"
+      }
+    },
+    "homepage": "https://github.com/vxiaov/free_proxies"
+  },
+  {
+    "id": "vveg26",
+    "name": "Vveg26",
+    "enabled": false,
+    "formats": {
+      "clash": {
+        "url": "https://raw.githubusercontent.com/vveg26/get_proxy/main/dist/clash.config.yaml",
+        "enabled": false,
+        "notes": "2026-10-10 UTC: fetch_failed in two live checks; no parsed entries. Re-enable after verifying the feed."
+      },
+      "v2ray": {
+        "url": "https://raw.githubusercontent.com/vveg26/get_proxy/main/dist/v2ray.config.txt",
+        "enabled": false,
+        "notes": "2026-10-10 UTC: fetch_failed in two live checks; no parsed entries. Re-enable after verifying the feed."
+      }
+    },
+    "notes": "2026-10-10 UTC: no usable formats in two live checks. URLs retained for manual verification; this does not establish permanent unavailability."
+  },
+  {
+    "id": "aiboboxx",
+    "name": "Aiboboxx",
+    "enabled": false,
+    "formats": {
+      "v2ray": {
+        "url": "https://raw.githubusercontent.com/aiboboxx/v2rayfree/main/v2",
+        "enabled": false,
+        "notes": "2026-10-10 UTC: fetch_failed in two live checks; no parsed entries. Re-enable after verifying the feed."
+      }
+    },
+    "notes": "Repository redirects to free-nodes/v2rayfree; current endpoint is represented by free-nodes. Historical URL retained."
+  },
+  {
+    "id": "openrunner",
+    "name": "OpenRunner",
+    "enabled": true,
+    "formats": {
+      "clash": {
+        "url": "https://free.datiya.com/uploads/20261010-clash.yaml",
+        "enabled": true,
+        "notes": "2026-10-10 UTC: replacement endpoint from provider documentation; HTTP 200, 14 parsed entries. Node connectivity not tested.",
+        "date_pattern": "https://free.datiya.com/uploads/{date}-clash.yaml"
+      },
+      "v2ray": {
+        "url": "https://free.datiya.com/uploads/20261010-v2ray.txt",
+        "enabled": false,
+        "notes": "2026-10-10 UTC: replacement endpoint from provider documentation; HTTP 200, 0 parsed entries. Node connectivity not tested.",
+        "date_pattern": "https://free.datiya.com/uploads/{date}-v2ray.txt"
+      }
+    },
+    "homepage": "https://github.com/OpenRunner/clash-freenode"
+  },
+  {
+    "id": "xrayfree",
+    "name": "Xrayfree",
+    "enabled": true,
+    "formats": {
+      "clash": {
+        "url": "https://www.xrayvip.com/free.yaml",
+        "enabled": true,
+        "notes": "2026-10-10 UTC: replacement endpoint from provider documentation; HTTP 200, 56 parsed entries. Node connectivity not tested."
+      },
+      "v2ray": {
+        "url": "https://www.xrayvip.com/free.txt",
+        "enabled": true,
+        "notes": "2026-10-10 UTC: replacement endpoint from provider documentation; HTTP 200, 56 parsed entries. Node connectivity not tested."
+      }
+    },
+    "homepage": "https://github.com/xrayfree/free-ssr-ss-v2ray-vpn-clash"
+  },
+  {
+    "id": "freefq",
+    "name": "Freefq",
+    "enabled": false,
+    "formats": {
+      "v2ray": {
+        "url": "https://bulinkbulink.com/freefq/free/master/v2",
+        "enabled": false,
+        "notes": "2026-10-10 UTC: replacement endpoint from provider documentation; HTTP 410, 0 parsed entries. Node connectivity not tested."
+      }
+    }
+  },
+  {
+    "id": "v2rayshare",
+    "name": "V2RayShare",
+    "enabled": false,
+    "homepage": "https://github.com/firefoxmmx2/v2rayshare_subcription",
+    "formats": {
+      "clash": {
+        "url": "https://raw.githubusercontent.com/firefoxmmx2/v2rayshare_subcription/main/subscription/clash_sub.yaml",
+        "notes": "2026-10-10 UTC: HTTP 200 and 21 parsed entries; feed last committed 2026-09-23T08:48:30Z. Node connectivity not tested. Held inactive because the feed has not been updated since September 23; verify freshness before enabling.",
+        "enabled": false
+      },
+      "v2ray": {
+        "url": "https://raw.githubusercontent.com/firefoxmmx2/v2rayshare_subcription/main/subscription/vray_sub.txt",
+        "notes": "2026-10-10 UTC: HTTP 200 and 22 parsed entries; feed last committed 2026-09-23T08:48:30Z. Node connectivity not tested. Held inactive because the feed has not been updated since September 23; verify freshness before enabling.",
+        "enabled": false
+      }
+    }
+  },
+  {
+    "id": "zhuhaiuk",
+    "name": "Zhuhai Free Nodes",
+    "enabled": true,
+    "homepage": "https://github.com/zhuhaiuk/free-nodes",
+    "formats": {
+      "clash": {
+        "url": "https://raw.githubusercontent.com/zhuhaiuk/free-nodes/main/clash_config.yaml",
+        "notes": "2026-10-10 UTC: HTTP 200 and 32 parsed entries; feed last committed 2026-10-10T05:42:50Z. Node connectivity not tested."
+      },
+      "v2ray": {
+        "url": "https://raw.githubusercontent.com/zhuhaiuk/free-nodes/main/nodes.txt",
+        "notes": "2026-10-10 UTC: HTTP 200 and 4 parsed entries; feed last committed 2026-10-10T05:42:50Z. Node connectivity not tested."
+      }
+    }
+  },
+  {
+    "id": "free18",
+    "name": "Free18",
+    "enabled": true,
+    "homepage": "https://github.com/free18/v2ray",
+    "formats": {
+      "clash": {
+        "url": "https://raw.githubusercontent.com/free18/v2ray/main/c.yaml",
+        "notes": "2026-10-10 UTC: HTTP 200 and 203 parsed entries; feed last committed 2026-10-10T04:38:19Z. Node connectivity not tested."
+      },
+      "v2ray": {
+        "url": "https://raw.githubusercontent.com/free18/v2ray/main/v.txt",
+        "notes": "2026-10-10 UTC: HTTP 200 and 215 parsed entries; feed last committed 2026-10-10T04:37:58Z. Node connectivity not tested."
+      }
+    }
+  },
+  {
+    "id": "free-nodes",
+    "name": "Free Nodes",
+    "enabled": true,
+    "homepage": "https://github.com/free-nodes/v2rayfree",
+    "formats": {
+      "v2ray": {
+        "url": "https://raw.githubusercontent.com/free-nodes/v2rayfree/main/sub",
+        "notes": "2026-10-10 UTC: HTTP 200 and 578 parsed entries; feed last committed 2026-10-10T05:08:08Z. Node connectivity not tested."
+      }
+    }
+  }
+]

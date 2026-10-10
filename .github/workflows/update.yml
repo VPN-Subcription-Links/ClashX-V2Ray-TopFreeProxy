@@ -1,32 +1,56 @@
-# Update subscription links
-name: Daily Update
-
+name: Subscription Update
 on:
-  # Runs every 8 hours
   schedule:
     - cron: '0 */8 * * *'
-
-  # Manual updates
   workflow_dispatch:
-
+permissions:
+  contents: write
+concurrency:
+  group: subscription-update
+  cancel-in-progress: false
 jobs:
   update:
-    runs-on: ubuntu-latest
+    if: github.event_name == 'workflow_dispatch' || github.repository == 'VPN-Subcription-Links/ClashX-V2Ray-TopFreeProxy'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
     steps:
-      # Checks out the repository under $GITHUB_WORKSPACE
-      - uses: actions/checkout@v3
-      - name: Update Links & Combine Configs
-        # Condition to prevent unintended automatic workflow
-        # Change or comment out this line for automatic workflow on forks
-        if: github.repository == 'williamstar007/clashx-v2ray-topfreeproxy'
-        run: |          
-          echo "$(date '+%Y-%m-%d %H:%M:%S')" > combine/.timestamp
-          python .github/workflows/update.py
-          # python combine/combine.py
-          
-          git config --global user.name "GitHub Action"
-          git config --global user.email "action@github.com"
-          git add .
-          git commit -m "updates"
-          git push
-          
+      - uses: actions/checkout@v7.0.1
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v7.0.0
+        with:
+          python-version: '3.11'
+          cache: pip
+      - run: python -m pip install -r requirements.txt
+      - run: python -m unittest discover -s combine/tests -v
+      - name: Install pinned validation engine
+        run: python -m combine.install_engine --output "$RUNNER_TEMP/mihomo"
+      - name: Refresh subscriptions and source health
+        id: refresh
+        continue-on-error: true
+        run: python -m combine.refresh --mihomo "$RUNNER_TEMP/mihomo"
+      - name: Save source health report
+        if: always()
+        uses: actions/upload-artifact@v7.0.2
+        with:
+          name: subscription-health
+          path: |
+            combine/health.json
+            combine/health.md
+          if-no-files-found: ignore
+      - name: Publish outputs and health
+        if: steps.refresh.outcome == 'success' || steps.refresh.outcome == 'failure'
+        run: |
+          git config user.name "GitHub Action"
+          git config user.email "action@github.com"
+          git add README.md v2ray.md clash中文版.md v2ray中文版.md combine/clashsub.txt combine/v2raysub.txt combine/clash.config.yaml combine/v2ray.config.txt combine/.timestamp
+          if [ -f combine/health.json ]; then
+            git add combine/health.json combine/health.md
+          fi
+          if ! git diff --cached --quiet; then
+            git commit -m "updates"
+            bash .github/workflows/publish.sh
+          fi
+      - name: Report unsuccessful refresh
+        if: steps.refresh.outcome == 'failure'
+        run: exit 1

@@ -1,42 +1,42 @@
 # Subscription source status / 订阅来源状态
 
-Checked (UTC): 2026-10-13T06:27:03Z
+Checked (UTC): 2026-10-13T15:48:13Z
 
 Published this run: yes
 
-Last successful publication (UTC): 2026-10-13T06:27:03Z
+Last successful publication (UTC): 2026-10-13T15:48:13Z
 
 Status describes fetching and parsing only. Node connectivity has not been tested.
 状态仅表示获取与解析结果，不代表节点可连接。
 
 | Source | Format | Status | Parsed entries | HTTP | Detail | Requests |
 | --- | --- | --- | ---: | ---: | --- | ---: |
-| Mfuu | v2ray | parsed | 464 | 200 | — | 1 |
+| Mfuu | v2ray | parsed | 461 | 200 | — | 1 |
 | Anaer | clash | parsed | 1647 | 200 | — | 1 |
 | Pojiezhiyuanjun | v2ray | parsed | 149 | 200 | — | 1 |
-| Ermaozi | clash | parsed | 627 | 200 | — | 1 |
-| Ermaozi | v2ray | parsed | 499 | 200 | — | 1 |
+| Ermaozi | clash | parsed | 532 | 200 | — | 1 |
+| Ermaozi | v2ray | parsed | 60 | 200 | — | 1 |
 | Learnhard-cn | clash | parsed | 28 | 200 | — | 1 |
 | Learnhard-cn | v2ray | parsed | 8 | 200 | — | 1 |
 | OpenRunner | clash | parsed | 14 | 200 | — | 1 |
 | Xrayfree | clash | parsed | 30 | 200 | — | 1 |
 | Xrayfree | v2ray | parsed | 30 | 200 | — | 1 |
-| Zhuhai Free Nodes | clash | parsed | 36 | 200 | — | 1 |
-| Zhuhai Free Nodes | v2ray | parsed | 2 | 200 | — | 1 |
+| Zhuhai Free Nodes | clash | parsed | 34 | 200 | — | 1 |
+| Zhuhai Free Nodes | v2ray | parsed | 5 | 200 | — | 1 |
 | Free18 | clash | parsed | 431 | 200 | — | 1 |
 | Free18 | v2ray | parsed | 431 | 200 | — | 1 |
-| Free Nodes | v2ray | parsed | 600 | 200 | — | 1 |
+| Free Nodes | v2ray | parsed | 613 | 200 | — | 1 |
 
 Detailed fetch attempts and last usable URLs: [health.json](health.json).
 
 The merged totals exclude duplicate entries and blacklisted Clash endpoints.
 
-Merged Clash entries: 2706; V2Ray entries: 2127.
+Merged Clash entries: 2622; V2Ray entries: 1673.
 
 | Format | Previously published entries | This attempt |
 | --- | ---: | ---: |
-| clash | 2437 | 2706 |
-| v2ray | 1926 | 2127 |
+| clash | 2706 | 2622 |
+| v2ray | 2127 | 1673 |
 
 Minimum retained ratio: 0.5.
 

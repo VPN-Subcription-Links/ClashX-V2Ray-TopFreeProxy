@@ -1,6 +1,6 @@
 # Subscription source status / 订阅来源状态
 
-Checked (UTC): 2026-10-25T13:06:25Z
+Checked (UTC): 2026-10-25T18:50:30Z
 
 Published this run: no; previous outputs retained
 
@@ -11,8 +11,8 @@ Status describes fetching and parsing only. Node connectivity has not been teste
 
 | Source | Format | Status | Parsed entries | HTTP | Detail | Requests |
 | --- | --- | --- | ---: | ---: | --- | ---: |
-| Mfuu | v2ray | parsed | 101 | 200 | — | 1 |
-| Anaer | clash | parsed | 1491 | 200 | — | 1 |
+| Mfuu | v2ray | parsed | 124 | 200 | — | 1 |
+| Anaer | clash | parsed | 1487 | 200 | — | 1 |
 | Pojiezhiyuanjun | v2ray | parsed | 149 | 200 | — | 1 |
 | Ermaozi | clash | parsed | 409 | 200 | — | 1 |
 | Ermaozi | v2ray | parsed | 510 | 200 | — | 1 |
@@ -21,8 +21,8 @@ Status describes fetching and parsing only. Node connectivity has not been teste
 | OpenRunner | clash | parsed | 14 | 200 | — | 1 |
 | Xrayfree | clash | parsed | 126 | 200 | — | 1 |
 | Xrayfree | v2ray | parsed | 126 | 200 | — | 1 |
-| Zhuhai Free Nodes | clash | parsed | 30 | 200 | — | 1 |
-| Zhuhai Free Nodes | v2ray | parsed | 7 | 200 | — | 1 |
+| Zhuhai Free Nodes | clash | parsed | 26 | 200 | — | 1 |
+| Zhuhai Free Nodes | v2ray | parsed | 3 | 200 | — | 1 |
 | Free18 | clash | parsed | 453 | 200 | — | 1 |
 | Free18 | v2ray | parsed | 453 | 200 | — | 1 |
 | Free Nodes | v2ray | parsed | 81 | 200 | — | 1 |
@@ -31,12 +31,12 @@ Detailed fetch attempts and last usable URLs: [health.json](health.json).
 
 The merged totals exclude duplicate entries and blacklisted Clash endpoints.
 
-Merged Clash entries: 2481; V2Ray entries: 1433.
+Merged Clash entries: 2445; V2Ray entries: 1447.
 
 | Format | Previously published entries | This attempt |
 | --- | ---: | ---: |
-| clash | 2616 | 2481 |
-| v2ray | 1511 | 1433 |
+| clash | 2616 | 2445 |
+| v2ray | 1511 | 1447 |
 
 Minimum retained ratio: 0.5.
 

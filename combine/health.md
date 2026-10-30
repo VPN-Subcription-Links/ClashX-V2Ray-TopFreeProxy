@@ -1,10 +1,10 @@
 # Subscription source status / 订阅来源状态
 
-Checked (UTC): 2026-10-29T20:58:12Z
+Checked (UTC): 2026-10-30T05:20:06Z
 
 Published this run: yes
 
-Last successful publication (UTC): 2026-10-29T20:58:12Z
+Last successful publication (UTC): 2026-10-30T05:20:06Z
 
 Status describes fetching and parsing only. Node connectivity has not been tested.
 状态仅表示获取与解析结果，不代表节点可连接。
@@ -14,29 +14,29 @@ Status describes fetching and parsing only. Node connectivity has not been teste
 | Mfuu | v2ray | parsed | 112 | 200 | — | 1 |
 | Anaer | clash | parsed | 1948 | 200 | — | 1 |
 | Pojiezhiyuanjun | v2ray | parsed | 149 | 200 | — | 1 |
-| Ermaozi | clash | parsed | 373 | 200 | — | 1 |
-| Ermaozi | v2ray | parsed | 484 | 200 | — | 1 |
+| Ermaozi | clash | parsed | 384 | 200 | — | 1 |
+| Ermaozi | v2ray | parsed | 489 | 200 | — | 1 |
 | Learnhard-cn | clash | parsed | 28 | 200 | — | 1 |
 | Learnhard-cn | v2ray | parsed | 8 | 200 | — | 1 |
 | OpenRunner | clash | parsed | 14 | 200 | — | 1 |
 | Xrayfree | clash | parsed | 126 | 200 | — | 1 |
 | Xrayfree | v2ray | parsed | 126 | 200 | — | 1 |
-| Zhuhai Free Nodes | clash | parsed | 25 | 200 | — | 1 |
-| Zhuhai Free Nodes | v2ray | parsed | 4 | 200 | — | 1 |
-| Free18 | clash | parsed | 82 | 200 | — | 1 |
-| Free18 | v2ray | parsed | 82 | 200 | — | 1 |
+| Zhuhai Free Nodes | clash | parsed | 31 | 200 | — | 1 |
+| Zhuhai Free Nodes | v2ray | parsed | 1 | 200 | — | 1 |
+| Free18 | clash | parsed | 387 | 200 | — | 1 |
+| Free18 | v2ray | parsed | 387 | 200 | — | 1 |
 | Free Nodes | v2ray | parsed | 81 | 200 | — | 1 |
 
 Detailed fetch attempts and last usable URLs: [health.json](health.json).
 
 The merged totals exclude duplicate entries and blacklisted Clash endpoints.
 
-Merged Clash entries: 2471; V2Ray entries: 1043.
+Merged Clash entries: 2828; V2Ray entries: 1350.
 
 | Format | Previously published entries | This attempt |
 | --- | ---: | ---: |
-| clash | 2376 | 2471 |
-| v2ray | 1046 | 1043 |
+| clash | 2471 | 2828 |
+| v2ray | 1043 | 1350 |
 
 Minimum retained ratio: 0.5.
 

@@ -1,42 +1,42 @@
 # Subscription source status / 订阅来源状态
 
-Checked (UTC): 2026-11-05T06:08:19Z
+Checked (UTC): 2026-11-05T16:20:07Z
 
 Published this run: yes
 
-Last successful publication (UTC): 2026-11-05T06:08:19Z
+Last successful publication (UTC): 2026-11-05T16:20:07Z
 
 Status describes fetching and parsing only. Node connectivity has not been tested.
 状态仅表示获取与解析结果，不代表节点可连接。
 
 | Source | Format | Status | Parsed entries | HTTP | Detail | Requests |
 | --- | --- | --- | ---: | ---: | --- | ---: |
-| Mfuu | v2ray | parsed | 142 | 200 | — | 1 |
+| Mfuu | v2ray | parsed | 139 | 200 | — | 1 |
 | Anaer | clash | parsed | 2233 | 200 | — | 1 |
 | Pojiezhiyuanjun | v2ray | parsed | 149 | 200 | — | 1 |
-| Ermaozi | clash | parsed | 350 | 200 | — | 1 |
-| Ermaozi | v2ray | parsed | 530 | 200 | — | 1 |
+| Ermaozi | clash | parsed | 370 | 200 | — | 1 |
+| Ermaozi | v2ray | parsed | 521 | 200 | — | 1 |
 | Learnhard-cn | clash | parsed | 28 | 200 | — | 1 |
 | Learnhard-cn | v2ray | parsed | 8 | 200 | — | 1 |
 | OpenRunner | clash | parsed | 14 | 200 | — | 4 |
 | Xrayfree | clash | parsed | 20 | 200 | — | 1 |
 | Xrayfree | v2ray | parsed | 20 | 200 | — | 1 |
-| Zhuhai Free Nodes | clash | parsed | 32 | 200 | — | 1 |
-| Zhuhai Free Nodes | v2ray | parsed | 5 | 200 | — | 1 |
-| Free18 | clash | parsed | 223 | 200 | — | 1 |
-| Free18 | v2ray | parsed | 223 | 200 | — | 1 |
+| Zhuhai Free Nodes | clash | parsed | 30 | 200 | — | 1 |
+| Zhuhai Free Nodes | v2ray | parsed | 1 | 200 | — | 1 |
+| Free18 | clash | parsed | 158 | 200 | — | 1 |
+| Free18 | v2ray | parsed | 158 | 200 | — | 1 |
 | Free Nodes | v2ray | parsed | 100 | 200 | — | 1 |
 
 Detailed fetch attempts and last usable URLs: [health.json](health.json).
 
 The merged totals exclude duplicate entries and blacklisted Clash endpoints.
 
-Merged Clash entries: 2827; V2Ray entries: 1164.
+Merged Clash entries: 2810; V2Ray entries: 1083.
 
 | Format | Previously published entries | This attempt |
 | --- | ---: | ---: |
-| clash | 2469 | 2827 |
-| v2ray | 775 | 1164 |
+| clash | 2827 | 2810 |
+| v2ray | 1164 | 1083 |
 
 Minimum retained ratio: 0.5.
 

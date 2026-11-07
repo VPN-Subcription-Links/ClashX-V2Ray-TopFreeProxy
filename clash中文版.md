@@ -37,7 +37,7 @@
 * Anaer: https://raw.githubusercontent.com/anaer/Sub/main/clash.yaml
 * Ermaozi: https://raw.githubusercontent.com/ermaozi/get_subscribe/main/subscribe/clash.yml
 * Learnhard-cn: https://raw.githubusercontent.com/vxiaov/free_proxies/main/clash/clash.provider.yaml
-* OpenRunner: https://free.datiya.com/uploads/20261102-clash.yaml
+* OpenRunner: https://free.datiya.com/uploads/20261107-clash.yaml
 * Xrayfree: https://www.xrayvip.com/free.yaml
 * Zhuhai Free Nodes: https://raw.githubusercontent.com/zhuhaiuk/free-nodes/main/clash_config.yaml
 * Free18: https://raw.githubusercontent.com/free18/v2ray/main/c.yaml
@@ -122,6 +122,7 @@ https://free.datiya.com/uploads/20261029-clash.yaml
 https://free.datiya.com/uploads/20261030-clash.yaml
 https://free.datiya.com/uploads/20261031-clash.yaml
 https://free.datiya.com/uploads/20261101-clash.yaml
+https://free.datiya.com/uploads/20261102-clash.yaml
 -->
 
 ## 免责声明

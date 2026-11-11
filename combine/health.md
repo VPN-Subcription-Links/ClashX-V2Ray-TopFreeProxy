@@ -1,42 +1,42 @@
 # Subscription source status / 订阅来源状态
 
-Checked (UTC): 2026-11-10T16:18:41Z
+Checked (UTC): 2026-11-11T05:42:56Z
 
 Published this run: yes
 
-Last successful publication (UTC): 2026-11-10T16:18:41Z
+Last successful publication (UTC): 2026-11-11T05:42:56Z
 
 Status describes fetching and parsing only. Node connectivity has not been tested.
 状态仅表示获取与解析结果，不代表节点可连接。
 
 | Source | Format | Status | Parsed entries | HTTP | Detail | Requests |
 | --- | --- | --- | ---: | ---: | --- | ---: |
-| Mfuu | v2ray | parsed | 136 | 200 | — | 1 |
-| Anaer | clash | parsed | 2172 | 200 | — | 1 |
+| Mfuu | v2ray | parsed | 140 | 200 | — | 1 |
+| Anaer | clash | parsed | 1777 | 200 | — | 1 |
 | Pojiezhiyuanjun | v2ray | parsed | 149 | 200 | — | 1 |
-| Ermaozi | clash | parsed | 491 | 200 | — | 1 |
-| Ermaozi | v2ray | parsed | 539 | 200 | — | 1 |
+| Ermaozi | clash | parsed | 487 | 200 | — | 1 |
+| Ermaozi | v2ray | parsed | 508 | 200 | — | 1 |
 | Learnhard-cn | clash | parsed | 28 | 200 | — | 1 |
 | Learnhard-cn | v2ray | parsed | 8 | 200 | — | 1 |
 | OpenRunner | clash | parsed | 20 | 200 | — | 1 |
-| Xrayfree | clash | parsed | 19 | 200 | — | 1 |
-| Xrayfree | v2ray | parsed | 19 | 200 | — | 1 |
-| Zhuhai Free Nodes | clash | parsed | 35 | 200 | — | 1 |
+| Xrayfree | clash | parsed | 15 | 200 | — | 1 |
+| Xrayfree | v2ray | parsed | 15 | 200 | — | 1 |
+| Zhuhai Free Nodes | clash | parsed | 36 | 200 | — | 1 |
 | Zhuhai Free Nodes | v2ray | parsed | 3 | 200 | — | 1 |
-| Free18 | clash | parsed | 300 | 200 | — | 1 |
-| Free18 | v2ray | parsed | 300 | 200 | — | 1 |
-| Free Nodes | v2ray | parsed | 16 | 200 | — | 1 |
+| Free18 | clash | parsed | 458 | 200 | — | 1 |
+| Free18 | v2ray | parsed | 458 | 200 | — | 1 |
+| Free Nodes | v2ray | parsed | 29 | 200 | — | 1 |
 
 Detailed fetch attempts and last usable URLs: [health.json](health.json).
 
 The merged totals exclude duplicate entries and blacklisted Clash endpoints.
 
-Merged Clash entries: 2986; V2Ray entries: 1151.
+Merged Clash entries: 2785; V2Ray entries: 1289.
 
 | Format | Previously published entries | This attempt |
 | --- | ---: | ---: |
-| clash | 2966 | 2986 |
-| v2ray | 1117 | 1151 |
+| clash | 2986 | 2785 |
+| v2ray | 1151 | 1289 |
 
 Minimum retained ratio: 0.5.
 

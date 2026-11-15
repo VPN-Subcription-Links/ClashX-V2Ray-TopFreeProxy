@@ -1,42 +1,42 @@
 # Subscription source status / 订阅来源状态
 
-Checked (UTC): 2026-11-15T05:54:41Z
+Checked (UTC): 2026-11-15T15:31:26Z
 
 Published this run: yes
 
-Last successful publication (UTC): 2026-11-15T05:54:41Z
+Last successful publication (UTC): 2026-11-15T15:31:26Z
 
 Status describes fetching and parsing only. Node connectivity has not been tested.
 状态仅表示获取与解析结果，不代表节点可连接。
 
 | Source | Format | Status | Parsed entries | HTTP | Detail | Requests |
 | --- | --- | --- | ---: | ---: | --- | ---: |
-| Mfuu | v2ray | parsed | 86 | 200 | — | 1 |
+| Mfuu | v2ray | parsed | 89 | 200 | — | 1 |
 | Anaer | clash | parsed | 2092 | 200 | — | 1 |
 | Pojiezhiyuanjun | v2ray | parsed | 149 | 200 | — | 1 |
-| Ermaozi | clash | parsed | 432 | 200 | — | 1 |
-| Ermaozi | v2ray | parsed | 522 | 200 | — | 1 |
+| Ermaozi | clash | parsed | 388 | 200 | — | 1 |
+| Ermaozi | v2ray | parsed | 516 | 200 | — | 1 |
 | Learnhard-cn | clash | parsed | 28 | 200 | — | 1 |
 | Learnhard-cn | v2ray | parsed | 8 | 200 | — | 1 |
 | OpenRunner | clash | parsed | 20 | 200 | — | 1 |
 | Xrayfree | clash | parsed | 24 | 200 | — | 1 |
 | Xrayfree | v2ray | parsed | 24 | 200 | — | 1 |
-| Zhuhai Free Nodes | clash | parsed | 33 | 200 | — | 1 |
-| Zhuhai Free Nodes | v2ray | parsed | 2 | 200 | — | 1 |
+| Zhuhai Free Nodes | clash | parsed | 35 | 200 | — | 1 |
+| Zhuhai Free Nodes | v2ray | parsed | 7 | 200 | — | 1 |
 | Free18 | clash | parsed | 151 | 200 | — | 1 |
 | Free18 | v2ray | parsed | 151 | 200 | — | 1 |
-| Free Nodes | v2ray | parsed | 37 | 200 | — | 1 |
+| Free Nodes | v2ray | parsed | 16 | 200 | — | 1 |
 
 Detailed fetch attempts and last usable URLs: [health.json](health.json).
 
 The merged totals exclude duplicate entries and blacklisted Clash endpoints.
 
-Merged Clash entries: 2711; V2Ray entries: 952.
+Merged Clash entries: 2676; V2Ray entries: 933.
 
 | Format | Previously published entries | This attempt |
 | --- | ---: | ---: |
-| clash | 2848 | 2711 |
-| v2ray | 1083 | 952 |
+| clash | 2711 | 2676 |
+| v2ray | 952 | 933 |
 
 Minimum retained ratio: 0.5.
 

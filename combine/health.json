@@ -1,20 +1,23 @@
 {
-  "checked_at": "2026-11-23T20:00:15Z",
-  "published": true,
+  "checked_at": "2026-11-24T09:27:45Z",
+  "published": false,
   "last_successful_publication": "2026-11-23T20:00:15Z",
   "connectivity_tested": false,
-  "errors": [],
+  "errors": [
+    "v2ray entries dropped from 1124 to 401; minimum retained ratio is 0.5. Preserving both subscriptions; verify source failures or use --min-retained-ratio 0 for an intentional reduction.",
+    "Mihomo configuration test failed (exit 1); previous subscriptions retained"
+  ],
   "engine_validation": {
     "engine": "mihomo",
-    "status": "passed"
+    "status": "failed"
   },
   "merged_entries": {
-    "clash": 2932,
-    "v2ray": 1124
+    "clash": 2727,
+    "v2ray": 401
   },
   "previous_entries": {
-    "clash": 3023,
-    "v2ray": 1135
+    "clash": 2932,
+    "v2ray": 1124
   },
   "min_retained_ratio": 0.5,
   "sources": [
@@ -25,12 +28,12 @@
       "configured_url": "https://raw.githubusercontent.com/mfuu/FreeProxies/master/sub",
       "url": "https://raw.githubusercontent.com/mfuu/FreeProxies/master/sub",
       "status": "parsed",
-      "parsed_entries": 126,
+      "parsed_entries": 13,
       "attempts": [
         {
           "url": "https://raw.githubusercontent.com/mfuu/FreeProxies/master/sub",
           "status": "parsed",
-          "parsed_entries": 126,
+          "parsed_entries": 13,
           "http_status": 200,
           "error": null,
           "requests": [
@@ -38,13 +41,13 @@
               "attempt": 1,
               "http_status": 200,
               "error": null,
-              "received_bytes": 34968
+              "received_bytes": 3764
             }
           ]
         }
       ],
       "last_valid_url": "https://raw.githubusercontent.com/mfuu/FreeProxies/master/sub",
-      "last_successful_fetch": "2026-11-23T20:00:15Z"
+      "last_successful_fetch": "2026-11-24T09:27:45Z"
     },
     {
       "id": "anaer",
@@ -66,13 +69,13 @@
               "attempt": 1,
               "http_status": 200,
               "error": null,
-              "received_bytes": 611926
+              "received_bytes": 609523
             }
           ]
         }
       ],
       "last_valid_url": "https://raw.githubusercontent.com/anaer/Sub/main/clash.yaml",
-      "last_successful_fetch": "2026-11-23T20:00:15Z"
+      "last_successful_fetch": "2026-11-24T09:27:45Z"
     },
     {
       "id": "pojiezhiyuanjun",
@@ -100,7 +103,7 @@
         }
       ],
       "last_valid_url": "https://raw.githubusercontent.com/pojiezhiyuanjun/freev2/master/1225.txt",
-      "last_successful_fetch": "2026-11-23T20:00:15Z"
+      "last_successful_fetch": "2026-11-24T09:27:45Z"
     },
     {
       "id": "ermaozi",
@@ -109,12 +112,12 @@
       "configured_url": "https://raw.githubusercontent.com/ermaozi/get_subscribe/main/subscribe/clash.yml",
       "url": "https://raw.githubusercontent.com/ermaozi/get_subscribe/main/subscribe/clash.yml",
       "status": "parsed",
-      "parsed_entries": 326,
+      "parsed_entries": 390,
       "attempts": [
         {
           "url": "https://raw.githubusercontent.com/ermaozi/get_subscribe/main/subscribe/clash.yml",
           "status": "parsed",
-          "parsed_entries": 326,
+          "parsed_entries": 390,
           "http_status": 200,
           "error": null,
           "requests": [
@@ -122,13 +125,13 @@
               "attempt": 1,
               "http_status": 200,
               "error": null,
-              "received_bytes": 164863
+              "received_bytes": 187072
             }
           ]
         }
       ],
       "last_valid_url": "https://raw.githubusercontent.com/ermaozi/get_subscribe/main/subscribe/clash.yml",
-      "last_successful_fetch": "2026-11-23T20:00:15Z"
+      "last_successful_fetch": "2026-11-24T09:27:45Z"
     },
     {
       "id": "ermaozi",
@@ -136,13 +139,13 @@
       "format": "v2ray",
       "configured_url": "https://raw.githubusercontent.com/ermaozi/get_subscribe/main/subscribe/v2ray.txt",
       "url": "https://raw.githubusercontent.com/ermaozi/get_subscribe/main/subscribe/v2ray.txt",
-      "status": "parsed",
-      "parsed_entries": 385,
+      "status": "unusable",
+      "parsed_entries": 0,
       "attempts": [
         {
           "url": "https://raw.githubusercontent.com/ermaozi/get_subscribe/main/subscribe/v2ray.txt",
-          "status": "parsed",
-          "parsed_entries": 385,
+          "status": "unusable",
+          "parsed_entries": 0,
           "http_status": 200,
           "error": null,
           "requests": [
@@ -150,7 +153,7 @@
               "attempt": 1,
               "http_status": 200,
               "error": null,
-              "received_bytes": 78976
+              "received_bytes": 79332
             }
           ]
         }
@@ -184,7 +187,7 @@
         }
       ],
       "last_valid_url": "https://raw.githubusercontent.com/vxiaov/free_proxies/main/clash/clash.provider.yaml",
-      "last_successful_fetch": "2026-11-23T20:00:15Z"
+      "last_successful_fetch": "2026-11-24T09:27:45Z"
     },
     {
       "id": "learnhard-cn",
@@ -212,21 +215,21 @@
         }
       ],
       "last_valid_url": "https://raw.githubusercontent.com/learnhard-cn/free_proxy_ss/main/free",
-      "last_successful_fetch": "2026-11-23T20:00:15Z"
+      "last_successful_fetch": "2026-11-24T09:27:45Z"
     },
     {
       "id": "openrunner",
       "name": "OpenRunner",
       "format": "clash",
       "configured_url": "https://free.datiya.com/uploads/20261010-clash.yaml",
-      "url": "https://free.datiya.com/uploads/20261123-clash.yaml",
+      "url": "https://free.datiya.com/uploads/20261124-clash.yaml",
       "status": "parsed",
-      "parsed_entries": 19,
+      "parsed_entries": 24,
       "attempts": [
         {
-          "url": "https://free.datiya.com/uploads/20261123-clash.yaml",
+          "url": "https://free.datiya.com/uploads/20261124-clash.yaml",
           "status": "parsed",
-          "parsed_entries": 19,
+          "parsed_entries": 24,
           "http_status": 200,
           "error": null,
           "requests": [
@@ -234,13 +237,13 @@
               "attempt": 1,
               "http_status": 200,
               "error": null,
-              "received_bytes": 192692
+              "received_bytes": 194799
             }
           ]
         }
       ],
-      "last_valid_url": "https://free.datiya.com/uploads/20261123-clash.yaml",
-      "last_successful_fetch": "2026-11-23T20:00:15Z"
+      "last_valid_url": "https://free.datiya.com/uploads/20261124-clash.yaml",
+      "last_successful_fetch": "2026-11-24T09:27:45Z"
     },
     {
       "id": "xrayfree",
@@ -249,12 +252,12 @@
       "configured_url": "https://www.xrayvip.com/free.yaml",
       "url": "https://www.xrayvip.com/free.yaml",
       "status": "parsed",
-      "parsed_entries": 44,
+      "parsed_entries": 35,
       "attempts": [
         {
           "url": "https://www.xrayvip.com/free.yaml",
           "status": "parsed",
-          "parsed_entries": 44,
+          "parsed_entries": 35,
           "http_status": 200,
           "error": null,
           "requests": [
@@ -262,13 +265,13 @@
               "attempt": 1,
               "http_status": 200,
               "error": null,
-              "received_bytes": 19762
+              "received_bytes": 15425
             }
           ]
         }
       ],
       "last_valid_url": "https://www.xrayvip.com/free.yaml",
-      "last_successful_fetch": "2026-11-23T20:00:15Z"
+      "last_successful_fetch": "2026-11-24T09:27:45Z"
     },
     {
       "id": "xrayfree",
@@ -277,12 +280,12 @@
       "configured_url": "https://www.xrayvip.com/free.txt",
       "url": "https://www.xrayvip.com/free.txt",
       "status": "parsed",
-      "parsed_entries": 44,
+      "parsed_entries": 35,
       "attempts": [
         {
           "url": "https://www.xrayvip.com/free.txt",
           "status": "parsed",
-          "parsed_entries": 44,
+          "parsed_entries": 35,
           "http_status": 200,
           "error": null,
           "requests": [
@@ -290,13 +293,13 @@
               "attempt": 1,
               "http_status": 200,
               "error": null,
-              "received_bytes": 18448
+              "received_bytes": 13392
             }
           ]
         }
       ],
       "last_valid_url": "https://www.xrayvip.com/free.txt",
-      "last_successful_fetch": "2026-11-23T20:00:15Z"
+      "last_successful_fetch": "2026-11-24T09:27:45Z"
     },
     {
       "id": "zhuhaiuk",
@@ -305,12 +308,12 @@
       "configured_url": "https://raw.githubusercontent.com/zhuhaiuk/free-nodes/main/clash_config.yaml",
       "url": "https://raw.githubusercontent.com/zhuhaiuk/free-nodes/main/clash_config.yaml",
       "status": "parsed",
-      "parsed_entries": 26,
+      "parsed_entries": 33,
       "attempts": [
         {
           "url": "https://raw.githubusercontent.com/zhuhaiuk/free-nodes/main/clash_config.yaml",
           "status": "parsed",
-          "parsed_entries": 26,
+          "parsed_entries": 33,
           "http_status": 200,
           "error": null,
           "requests": [
@@ -318,13 +321,13 @@
               "attempt": 1,
               "http_status": 200,
               "error": null,
-              "received_bytes": 4529
+              "received_bytes": 6586
             }
           ]
         }
       ],
       "last_valid_url": "https://raw.githubusercontent.com/zhuhaiuk/free-nodes/main/clash_config.yaml",
-      "last_successful_fetch": "2026-11-23T20:00:15Z"
+      "last_successful_fetch": "2026-11-24T09:27:45Z"
     },
     {
       "id": "zhuhaiuk",
@@ -333,12 +336,12 @@
       "configured_url": "https://raw.githubusercontent.com/zhuhaiuk/free-nodes/main/nodes.txt",
       "url": "https://raw.githubusercontent.com/zhuhaiuk/free-nodes/main/nodes.txt",
       "status": "parsed",
-      "parsed_entries": 2,
+      "parsed_entries": 9,
       "attempts": [
         {
           "url": "https://raw.githubusercontent.com/zhuhaiuk/free-nodes/main/nodes.txt",
           "status": "parsed",
-          "parsed_entries": 2,
+          "parsed_entries": 9,
           "http_status": 200,
           "error": null,
           "requests": [
@@ -346,13 +349,13 @@
               "attempt": 1,
               "http_status": 200,
               "error": null,
-              "received_bytes": 2732
+              "received_bytes": 4476
             }
           ]
         }
       ],
       "last_valid_url": "https://raw.githubusercontent.com/zhuhaiuk/free-nodes/main/nodes.txt",
-      "last_successful_fetch": "2026-11-23T20:00:15Z"
+      "last_successful_fetch": "2026-11-24T09:27:45Z"
     },
     {
       "id": "free18",
@@ -361,12 +364,12 @@
       "configured_url": "https://raw.githubusercontent.com/free18/v2ray/main/c.yaml",
       "url": "https://raw.githubusercontent.com/free18/v2ray/main/c.yaml",
       "status": "parsed",
-      "parsed_entries": 423,
+      "parsed_entries": 166,
       "attempts": [
         {
           "url": "https://raw.githubusercontent.com/free18/v2ray/main/c.yaml",
           "status": "parsed",
-          "parsed_entries": 423,
+          "parsed_entries": 166,
           "http_status": 200,
           "error": null,
           "requests": [
@@ -374,13 +377,13 @@
               "attempt": 1,
               "http_status": 200,
               "error": null,
-              "received_bytes": 208356
+              "received_bytes": 102272
             }
           ]
         }
       ],
       "last_valid_url": "https://raw.githubusercontent.com/free18/v2ray/main/c.yaml",
-      "last_successful_fetch": "2026-11-23T20:00:15Z"
+      "last_successful_fetch": "2026-11-24T09:27:45Z"
     },
     {
       "id": "free18",
@@ -389,12 +392,12 @@
       "configured_url": "https://raw.githubusercontent.com/free18/v2ray/main/v.txt",
       "url": "https://raw.githubusercontent.com/free18/v2ray/main/v.txt",
       "status": "parsed",
-      "parsed_entries": 433,
+      "parsed_entries": 166,
       "attempts": [
         {
           "url": "https://raw.githubusercontent.com/free18/v2ray/main/v.txt",
           "status": "parsed",
-          "parsed_entries": 433,
+          "parsed_entries": 166,
           "http_status": 200,
           "error": null,
           "requests": [
@@ -402,13 +405,13 @@
               "attempt": 1,
               "http_status": 200,
               "error": null,
-              "received_bytes": 132405
+              "received_bytes": 62605
             }
           ]
         }
       ],
       "last_valid_url": "https://raw.githubusercontent.com/free18/v2ray/main/v.txt",
-      "last_successful_fetch": "2026-11-23T20:00:15Z"
+      "last_successful_fetch": "2026-11-24T09:27:45Z"
     },
     {
       "id": "free-nodes",
@@ -417,12 +420,12 @@
       "configured_url": "https://raw.githubusercontent.com/free-nodes/v2rayfree/main/sub",
       "url": "https://raw.githubusercontent.com/free-nodes/v2rayfree/main/sub",
       "status": "parsed",
-      "parsed_entries": 20,
+      "parsed_entries": 21,
       "attempts": [
         {
           "url": "https://raw.githubusercontent.com/free-nodes/v2rayfree/main/sub",
           "status": "parsed",
-          "parsed_entries": 20,
+          "parsed_entries": 21,
           "http_status": 200,
           "error": null,
           "requests": [
@@ -430,13 +433,13 @@
               "attempt": 1,
               "http_status": 200,
               "error": null,
-              "received_bytes": 5616
+              "received_bytes": 5060
             }
           ]
         }
       ],
       "last_valid_url": "https://raw.githubusercontent.com/free-nodes/v2rayfree/main/sub",
-      "last_successful_fetch": "2026-11-23T20:00:15Z"
+      "last_successful_fetch": "2026-11-24T09:27:45Z"
     }
   ],
   "disabled_sources": [

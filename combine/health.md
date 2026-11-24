@@ -1,8 +1,8 @@
 # Subscription source status / 订阅来源状态
 
-Checked (UTC): 2026-11-23T20:00:15Z
+Checked (UTC): 2026-11-24T09:27:45Z
 
-Published this run: yes
+Published this run: no; previous outputs retained
 
 Last successful publication (UTC): 2026-11-23T20:00:15Z
 
@@ -11,36 +11,41 @@ Status describes fetching and parsing only. Node connectivity has not been teste
 
 | Source | Format | Status | Parsed entries | HTTP | Detail | Requests |
 | --- | --- | --- | ---: | ---: | --- | ---: |
-| Mfuu | v2ray | parsed | 126 | 200 | — | 1 |
+| Mfuu | v2ray | parsed | 13 | 200 | — | 1 |
 | Anaer | clash | parsed | 2115 | 200 | — | 1 |
 | Pojiezhiyuanjun | v2ray | parsed | 149 | 200 | — | 1 |
-| Ermaozi | clash | parsed | 326 | 200 | — | 1 |
-| Ermaozi | v2ray | parsed | 385 | 200 | — | 1 |
+| Ermaozi | clash | parsed | 390 | 200 | — | 1 |
+| Ermaozi | v2ray | unusable | 0 | 200 | no_recognized_entries | 1 |
 | Learnhard-cn | clash | parsed | 28 | 200 | — | 1 |
 | Learnhard-cn | v2ray | parsed | 8 | 200 | — | 1 |
-| OpenRunner | clash | parsed | 19 | 200 | — | 1 |
-| Xrayfree | clash | parsed | 44 | 200 | — | 1 |
-| Xrayfree | v2ray | parsed | 44 | 200 | — | 1 |
-| Zhuhai Free Nodes | clash | parsed | 26 | 200 | — | 1 |
-| Zhuhai Free Nodes | v2ray | parsed | 2 | 200 | — | 1 |
-| Free18 | clash | parsed | 423 | 200 | — | 1 |
-| Free18 | v2ray | parsed | 433 | 200 | — | 1 |
-| Free Nodes | v2ray | parsed | 20 | 200 | — | 1 |
+| OpenRunner | clash | parsed | 24 | 200 | — | 1 |
+| Xrayfree | clash | parsed | 35 | 200 | — | 1 |
+| Xrayfree | v2ray | parsed | 35 | 200 | — | 1 |
+| Zhuhai Free Nodes | clash | parsed | 33 | 200 | — | 1 |
+| Zhuhai Free Nodes | v2ray | parsed | 9 | 200 | — | 1 |
+| Free18 | clash | parsed | 166 | 200 | — | 1 |
+| Free18 | v2ray | parsed | 166 | 200 | — | 1 |
+| Free Nodes | v2ray | parsed | 21 | 200 | — | 1 |
 
 Detailed fetch attempts and last usable URLs: [health.json](health.json).
 
 The merged totals exclude duplicate entries and blacklisted Clash endpoints.
 
-Merged Clash entries: 2932; V2Ray entries: 1124.
+Merged Clash entries: 2727; V2Ray entries: 401.
 
 | Format | Previously published entries | This attempt |
 | --- | ---: | ---: |
-| clash | 3023 | 2932 |
-| v2ray | 1135 | 1124 |
+| clash | 2932 | 2727 |
+| v2ray | 1124 | 401 |
 
 Minimum retained ratio: 0.5.
 
-Mihomo configuration validation: passed.
+## Refresh errors / 刷新错误
+
+* v2ray entries dropped from 1124 to 401; minimum retained ratio is 0.5. Preserving both subscriptions; verify source failures or use --min-retained-ratio 0 for an intentional reduction.
+* Mihomo configuration test failed (exit 1); previous subscriptions retained
+
+Mihomo configuration validation: failed.
 
 Engine validation checks configuration compatibility, not node connectivity.
 

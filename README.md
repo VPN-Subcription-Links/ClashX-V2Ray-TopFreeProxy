@@ -40,7 +40,7 @@ Combined subscription: [Clash YAML](https://raw.githubusercontent.com/VPN-Subcri
 * Anaer: https://raw.githubusercontent.com/anaer/Sub/main/clash.yaml
 * Ermaozi: https://raw.githubusercontent.com/ermaozi/get_subscribe/main/subscribe/clash.yml
 * Learnhard-cn: https://raw.githubusercontent.com/vxiaov/free_proxies/main/clash/clash.provider.yaml
-* OpenRunner: https://free.datiya.com/uploads/20261126-clash.yaml
+* OpenRunner: https://free.datiya.com/uploads/20261127-clash.yaml
 * Xrayfree: https://www.xrayvip.com/free.yaml
 * Zhuhai Free Nodes: https://raw.githubusercontent.com/zhuhaiuk/free-nodes/main/clash_config.yaml
 * Free18: https://raw.githubusercontent.com/free18/v2ray/main/c.yaml
@@ -144,6 +144,7 @@ https://free.datiya.com/uploads/20261122-clash.yaml
 https://free.datiya.com/uploads/20261123-clash.yaml
 https://free.datiya.com/uploads/20261124-clash.yaml
 https://free.datiya.com/uploads/20261125-clash.yaml
+https://free.datiya.com/uploads/20261126-clash.yaml
 -->
 
 ## Disclaimer
